@@ -29,6 +29,8 @@
   * [2.6 用车](2apijie-ru/26-yong-che.md)
     * [2.6.1 用车列表](2apijie-ru/26-yong-che/261-yong-che-lie-biao.md)
     * [2.6.2 用车订单详情](2apijie-ru/26-yong-che/262-yong-che-ding-dan-xiang-qing.md)
+  * [2.7 火车](2apijie-ru/27-huo-che.md)
+    * [2.7.1 订单列表](2apijie-ru/27-huo-che/271-ding-dan-lie-biao.md)
 * [3.H5接入](3h5jie-ru.md)
   * [3.1 接入说明](3h5jie-ru/31-jie-ru-shuo-ming.md)
   * [3.2 鉴权接口，颁发Token](3h5jie-ru/32-jian-quan-jie-kou-ff0c-ban-fa-token.md)
