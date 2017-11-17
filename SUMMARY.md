@@ -40,4 +40,6 @@
   * [3.1 接入说明](3h5jie-ru/31-jie-ru-shuo-ming.md)
   * [3.2 鉴权接口，颁发Token](3h5jie-ru/32-jian-quan-jie-kou-ff0c-ban-fa-token.md)
 * [4.状态码](4zhuang-tai-ma.md)
+  * [4.1 机票状态码](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma.md)
+    * [4.1.1 机票订单状态码表](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma/411-ji-piao-ding-dan-zhuang-tai-ma-biao.md)
 
