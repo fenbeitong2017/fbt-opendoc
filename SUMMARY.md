@@ -19,5 +19,6 @@
 * [3.H5接入](3h5jie-ru.md)
 * [2.2 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
   * [2.2.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
+  * [2.2.2消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222xiao-xi-hui-diao-shuo-ming.md)
 * [4.状态码](4zhuang-tai-ma.md)
 
