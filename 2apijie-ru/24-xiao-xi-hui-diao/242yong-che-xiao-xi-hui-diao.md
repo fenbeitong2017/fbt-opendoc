@@ -15,13 +15,13 @@ company_name | 公司名称|String|Y|分贝通
 
 ```
 {
-	"orderId":"hksf83ho93lsbvnos145",
-	"totalPrice": 344.33,
-	"typeName":"用车",
+	"order_id":"hksf83ho93lsbvnos145",
+	"total_price": 344.33,
+	"type_name":"用车",
 	"type":2,
 	"status":400,
-	"companyId":"5747fbc10f0e60e0709d8d89",
-	"companyName":"分贝通"
+	"company_id":"5747fbc10f0e60e0709d8d89",
+	"company_name":"分贝通"
 	
 
 }
