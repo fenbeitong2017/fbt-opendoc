@@ -51,4 +51,6 @@
     * [4.3.3 火车票状态码表](4zhuang-tai-ma/43-huo-che-zhuang-tai-ma/433-huo-che-piao-zhuang-tai-ma-biao.md)
   * [4.4 酒店状态码](4zhuang-tai-ma/44-jiu-dian-zhuang-tai-ma.md)
     * [4.4.1 酒店订单状态码表](4zhuang-tai-ma/44-jiu-dian-zhuang-tai-ma/441-jiu-dian-ding-dan-zhuang-tai-ma-biao.md)
+  * [4.5 保险状态码](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma.md)
+    * [4.5.1 保单订单状态码表](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma/451-bao-dan-ding-dan-zhuang-tai-ma-biao.md)
 
