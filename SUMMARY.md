@@ -17,5 +17,7 @@
     * [2.1.8 查询员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
     * [2.1.9 删除员工\(不支持批量删\)](2apijie-ru/21zu-zhi-jia-gou/219-shan-chu-yuan-5de528-bu-zhi-chi-pi-liang-522029.md)
 * [3.H5接入](3h5jie-ru.md)
+* [2.2 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
+  * [2.2.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
 * [4.状态码](4zhuang-tai-ma.md)
 
