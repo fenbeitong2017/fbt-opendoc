@@ -10,6 +10,7 @@
     * [2.1.1 添加第三方员工（暂不支持批量添加）](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
     * [2.1.2 查询部门](2apijie-ru/21zu-zhi-jia-gou/212-cha-xun-bu-men.md)
     * [2.1.3 添加部门](2apijie-ru/21zu-zhi-jia-gou/213-tian-jia-bu-men.md)
+    * [2.1.4 修改部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
 * [3.H5接入](3h5jie-ru.md)
 * [4.状态码](4zhuang-tai-ma.md)
 
