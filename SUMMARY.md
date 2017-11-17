@@ -11,6 +11,8 @@
     * [2.1.2 查询部门](2apijie-ru/21zu-zhi-jia-gou/212-cha-xun-bu-men.md)
     * [2.1.3 添加部门](2apijie-ru/21zu-zhi-jia-gou/213-tian-jia-bu-men.md)
     * [2.1.4 修改部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
+    * 2.1.6 添加员工
+    * [2.1.5 删除部门\(支持批量删除\)](2apijie-ru/21zu-zhi-jia-gou/215-shan-chu-bu-95e828-zhi-chi-pi-liang-shan-966429.md)
   * [2.1.5 删除部门\(支持批量删除\)](2apijie-ru/215-shan-chu-bu-95e828-zhi-chi-pi-liang-shan-966429.md)
 * [3.H5接入](3h5jie-ru.md)
 * [4.状态码](4zhuang-tai-ma.md)
