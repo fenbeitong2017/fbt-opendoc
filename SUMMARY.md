@@ -14,6 +14,7 @@
     * [2.1.5 删除部门\(支持批量删除\)](2apijie-ru/21zu-zhi-jia-gou/215-shan-chu-bu-95e828-zhi-chi-pi-liang-shan-966429.md)
     * [2.1.6 添加员工](2apijie-ru/21zu-zhi-jia-gou/216-tian-jia-yuan-gong.md)
     * [2.1.7 修改员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
+    * [2.1.8 查询员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
 * [3.H5接入](3h5jie-ru.md)
 * [4.状态码](4zhuang-tai-ma.md)
 
