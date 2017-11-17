@@ -31,7 +31,7 @@
     * [2.6.2 用车订单详情](2apijie-ru/26-yong-che/262-yong-che-ding-dan-xiang-qing.md)
   * [2.7 火车](2apijie-ru/27-huo-che.md)
     * [2.7.1 订单列表](2apijie-ru/27-huo-che/271-ding-dan-lie-biao.md)
-  * 2.8 酒店
+  * [2.8 酒店](2apijie-ru/28-jiu-dian.md)
   * [2.9 公用](2apijie-ru/29-gong-yong.md)
     * [2.9.1 根据城市获取机票机场列表和火车站列表](2apijie-ru/29-gong-yong/291-gen-ju-cheng-shi-huo-qu-ji-piao-ji-chang-lie-biao-he-huo-che-zhan-lie-biao.md)
   * [2.10 审批单](2apijie-ru/210-shen-pi-dan.md)
