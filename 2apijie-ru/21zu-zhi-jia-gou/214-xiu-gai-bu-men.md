@@ -15,7 +15,7 @@ data |请求数据| jsonstring |Y|
 data.org\_unit\_id|部门ID |string|Y|部门ID
 data.org\_unit\_name|部门名称| string |Y|部门名称
 data.parent\_id| 父部门 id|string |Y|父部门 id
-data.manager\_list||array|N|
+data.manager\_list||array|N|列表
 
 请求示例
 ```
