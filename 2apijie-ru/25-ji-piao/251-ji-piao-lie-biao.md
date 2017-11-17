@@ -44,3 +44,17 @@ data.page\_size|每页显示条数| Integer |N| 10(默认值)
 
 
 ```
+
+
+
+响应结果：
+
+```
+
+
+{  "code": 0,  "msg": "success",  "data": {    "results": [      {        "order_id": "58e74c125d88db6664226ac8",        "remote_order_id": "112017040184019946",        "create_time": "2017-05-04 13:28:57",        "total_price": -1948,        "passenger_list": [          "汪远"        ],        "status": 1811,        "status_info": "退票成功",        "segment_info": {          "flight_no": "CA1835",          "airline_name": "中国国航",          "starting_code": "PEK",          "starting_city": "北京",          "destination_code": "PVG",          "destination_city": "上海",          "departure_timestamp": 0,          "arrived_timestamp": 0        },        "can_process": false      },      {        "order_id": "58deb1975d88db0e98febc28",        "remote_order_id": "112017040184019935",        "create_time": 1490989482042,        "total_price": 2160,        "passenger_list": [          "刘维中",          "汪远"        ],        "status": 1211,        "status_info": "已取消",        "segment_info": {          "flight_no": "MF8518",          "airline_name": "厦门航空",          "starting_code": "SHA",          "starting_city": "上海",          "destination_code": "XMN",          "destination_city": "厦门",          "departure_timestamp": 0,          "arrived_timestamp": 0        },        "can_process": false      }    ],    "total_count": 16  }}
+
+
+```
+
+
