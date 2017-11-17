@@ -16,8 +16,8 @@ app_type|类型|String|N|预留字段
 
 ```
 {
-	"appId":"5747fbc10f0e60e0709d8d722",
-	"appKey":"59b74c1323445f2d54dd07922"
+	"app_id":"5747fbc10f0e60e0709d8d722",
+	"app_key":"59b74c1323445f2d54dd07922"
 }
 ```
 返回结果：
