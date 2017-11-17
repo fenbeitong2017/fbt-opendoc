@@ -21,5 +21,6 @@
     * [2.2.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
   * [2.3 鉴权接口，颁发Token](2apijie-ru/23-jian-quan-jie-kou-ff0c-ban-fa-token.md)
 * [3.H5接入](3h5jie-ru.md)
+  * [3.1 接入说明](3h5jie-ru/31-jie-ru-shuo-ming.md)
 * [4.状态码](4zhuang-tai-ma.md)
 
