@@ -39,3 +39,23 @@ data.employee\_list.third\_employee\_id |员工信息 | string |Y|
 {   "request_id": "LaZNvBntsBD20nJ7ekgn",   "code": 0,   "msg": "success",   "data": {           }}
 ```
 
+```
+{
+    "request_id": "MzWkSvZ3sVC2FYg9bCLt",
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "companyId": "59ce56d02798633485e206a9",
+                "phone": "17080151661",
+                "name": "塞外-dev",
+                "thirdEmployeeId": "fangtianxia-dev-A",
+                "errorMsg": "第三方用户ID已经被绑定"
+            }
+        ]
+    }
+}
+
+```
+
