@@ -50,7 +50,7 @@ data.employee\_list.third\_employee\_id |员工信息 | string |Y|
             {
                 "companyId": "59ce56d02798633485e206a9",
                 "phone": "17080151661",
-                "name": "塞外-dev",
+                "name": "塞外-test",
                 "thirdEmployeeId": "ddd-dev-A",
                 "errorMsg": "第三方用户ID已经被绑定"
             }
