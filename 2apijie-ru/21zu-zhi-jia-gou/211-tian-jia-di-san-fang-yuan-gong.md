@@ -14,7 +14,7 @@
 |  | data.employee\_list | 员工信息 | array | Y |
 |  | data.employee\_list.name | 员工姓名 | string | Y |
 |  | data.employee\_list.phone | 员工手机号 | string | Y |
-|  | data.employee\_list.org\_unit\_id | 员工组织ID | string | Y |
+|  | data.employee\_list.org\_unit\_id | 员工组织ID，需要与公司ID一样 | string | Y |
 |  | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |
 
 请求示例
