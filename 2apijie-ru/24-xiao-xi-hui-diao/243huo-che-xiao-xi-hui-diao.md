@@ -23,15 +23,38 @@ use_phone|使用人手机号|String|Y|
 use_dep|使用人部门|String|Y|
 total_price |订单金额 | Double| Y |302
 train_code|车次|String|Y|
-from_station|出发站|String|Y|
-to_station|到达站|String|Y|
-train_start_time|火车出发时间|String |Y|
+from_station|出发站|String|Y|北京站
+to_station|到达站|String|Y|上海站
+train_start_time|火车出发时间|String |Y|2018-01-01
 trin_end_time|火车到达时间|String|Y|
-premium|保险费|Integer|Y|
-refund_amount|退票费|Integer|Y|
+premium|保险费|Integer|Y|单位：分
+refund_amount|退票费|Integer|Y|单位：分
 refund_fee|手续费|Integer|Y|单位：分
-change_fee|改签费|Integer|Y|
+change_fee|改签费|Integer|Y|单位：分
 change_ticket_fee|改签差价手续费|Integer|Y|
+endorse_price|改签价格|Integer|Y|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
