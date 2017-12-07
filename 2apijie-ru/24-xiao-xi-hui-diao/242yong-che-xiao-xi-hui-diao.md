@@ -8,6 +8,22 @@ type |订单类型| Integer | Y |用车:2
 status |订单状态|Integer| Y |已完成:700
 company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|String|Y|分贝通
+use_name |使用人姓名|String| Y |张三
+use_phone |使用人手机号|String| Y | 13080899009
+use_dep |使用人部门|String|Y|研发部
+begin_charge_time |开始计费时间|String|Y|2018-01-01：10：10：10
+finish_charge_time|结束计费时间|String |Y|2018-01-01：11：10：10
+premium |保险费|Integer| Y |50 单位：分
+
+
+
+
+
+
+
+
+
+
 
 
 数据格式:
