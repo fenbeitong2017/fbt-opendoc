@@ -14,21 +14,16 @@ data |请求数据|jsonstring|Y|
 data.apply |申请单内容| jsonstring |Y|
 data.apply.type| 申请单业务类型| String |Y|1.差旅 2.用车 3.采购
 data.apply.flow_type| 审批类型|Integer|Y|固定为4
-data.apply.third_id |三方申请单id|String|Y|
-
-
+data.apply.third_id |申请单id|String|Y|第三方审批单id
 data.apply.third_remark |第三方备注| String |Y|
-data.apply.apply\_reason\_desc |事由描述|String|N|
-data.trip\_list| 行程列表| array |Y|
-data.trip\_list.type| 业务类型|String|Y|
-data.trip\_list.start\_city\_id| 出发城市ID| String |Y|
-data.trip\_list.start\_time|出发时间 |String|Y|
-data.trip\_list.arrival\_city\_id| 目的地城市|String|Y|
-data.trip\_list.end\_time|结束时间|String|N|
-data.guest\_list| array |同行人|N|
-data.guest\_list.is\_employee|是否来自组织架构  |String|N|
-data.guest\_list.name |同行人姓名 | String | N |
-data.guest\_list.phone |同行人手机号 |String| N |
+data.trip\_list| 行程列表| array |Y|行程列表
+data.trip\_list.type| 业务类型|Integer|Y|行程类型 7.机票 11.酒店 15.火车 3.用车
+data.trip\_list.start\_city\_id| 出发城市ID| String |Y|出发城市ID 
+data.trip\_list.start\_time|出发时间 |String|Y|行程开始日期
+data.trip\_list.arrival\_city\_id| 目的地城市|String|Y|行程到达城市ID
+data.trip\_list.end\_time|结束时间|String|Y|行程结束日期
+data.trip\_list.estimated\_amount|结束时间|Integer|Y|100,单位分
+
 
 
 
@@ -44,33 +39,24 @@ data.guest\_list.phone |同行人手机号 |String| N |
 	"sign":"oihfnlyeofdh98",
 	"employee_id":"59b74c1323445f2d54dd07922",
 	"employee_type":1,
-	"data":{
-				{
-		  "apply":{
-		           "id":"58baa2866819481560f013ac",
-		           "type":1,
-		           "state":1,
-		           "apply_reason":"因公出差",
-		           "apply_reason_desc":"不是出去玩"
-		            },
-		   "trip_list":[{
-		           "type":1,  
-		             "start_city_id":"1000001",        
-		           "start_time":"2017-2-27",
-		           "arrival_city_id":"2000002",
-		            "end_time":"2017-02-28"
-		            }],
-		  "guest_list":[
-		         {
-		            "is_employee": false,
-		           "name": "韩美美",
-		           "phone": "18518270668"
-		           }
-		      ]
-		}
-		
-
-	}
+	"data":{			
+           "apply":{
+               "type":1,
+              "flow_type":4, 
+               "budget":1,
+             "third_id":"59dc7fe62798635263b8414a",
+              "third_remark":"approve-openapi-test2"
+             },
+         "trip_list":[{
+               "type":7,  
+               "start_city_id":"2000002",        
+              "start_time":"2017-12-13",
+              "arrival_city_id":"1000001",
+              "end_time":"2017-12-13",
+             "estimated_amount":1
+             }]	
+ 
+ 	}
 }
 
 
