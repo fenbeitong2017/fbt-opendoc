@@ -21,7 +21,7 @@ third_remark|出差事由备注|String|Y|出差
 use_name|使用人姓名|String|Y|李四
 use_phone|使用人手机号|String|Y|
 use_dep|使用人部门|String|Y|
-total_price |订单金额 | Double| Y |302
+total_price |订单金额 | Integer| Y |302
 train_code|车次|String|Y|
 from_station|出发站|String|Y|北京站
 to_station|到达站|String|Y|上海站

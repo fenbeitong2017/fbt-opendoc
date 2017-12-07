@@ -2,7 +2,7 @@
 字段|名称|类型|必填|详情
 ----|----|---|---|---
 order_id|订单id|String| Y | hksf83ho93lsbvnos145
-total_price|订单金额 | Double| Y |344.33
+total_price|订单金额 | Integer| Y |344.33
 type_pame|订单类型名称 |String| Y |机票
 type |订单类型| Integer | Y |机票:1
 status |订单状态|Integer| Y |出票中:1700，出票成功:1800

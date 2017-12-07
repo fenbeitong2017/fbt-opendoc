@@ -2,7 +2,7 @@
 字段|名称|类型|必填|详情
 ----|----|---|---|---
 order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Double| Y |777.88
+total_price |订单金额 | Integer| Y |777.88
 type_pame |订单类型名称 |String| Y |用车
 type |订单类型| Integer | Y |用车:2
 status |订单状态|Integer| Y |已完成:700
