@@ -12,6 +12,86 @@ apply_name|申请人姓名|String |Y|张三
 
 contact_phone|联系电话|String|Y|
 dept_name|部门名称|String |Y|事业部
+total_day|出差天数|String |Y|3（单位:天）
+begin_day|开始时间|String |Y|
+end_day|开始时间|String |
+budget_money|预估费用总计|Integer |单位：分
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
