@@ -16,6 +16,94 @@ total_day|出差天数|String |Y|3（单位:天）
 begin_day|开始时间|String |Y|
 end_day|开始时间|String |
 budget_money|预估费用总计|Integer |单位：分
+monetary_unit|货币单位|String |人民币
+estimated_amount|预估费用|Integer |单位：分
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
