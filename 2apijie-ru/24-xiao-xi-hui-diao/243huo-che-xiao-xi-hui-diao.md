@@ -7,6 +7,14 @@ type |订单类型| Integer | Y |用车:3
 status |订单状态|Integer| Y |已完成:3202
 company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|String|Y|分贝通
+apply_id|申请单ID|String|Y|
+apply_name|申请人姓名|String |Y|张三
+
+contact_phone|联系电话|String|Y|
+dept_name|部门名称|String |Y|事业部
+
+
+
 
 
 数据格式:
