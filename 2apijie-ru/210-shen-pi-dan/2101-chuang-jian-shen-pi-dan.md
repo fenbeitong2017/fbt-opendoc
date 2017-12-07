@@ -12,10 +12,12 @@ employee\_id|用户ID|String|Y|分贝用户id或者第三方用户id
 employee\_type|用户类型 |String|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据|jsonstring|Y|
 data.apply |申请单内容| jsonstring |Y|
-data.apply.third_id |申请单id|String|Y|
-data.apply.type| 申请单业务类型| String |Y|
-data.apply.state| 审批状态|String|N|保留字段
-data.apply.apply\_reason |申请单申请事由| String |Y|
+data.apply.type| 申请单业务类型| String |Y|1.差旅 2.用车 3.采购
+data.apply.flow_type| 审批类型|Integer|Y|固定为4
+data.apply.third_id |三方申请单id|String|Y|
+
+
+data.apply.third_remark |第三方备注| String |Y|
 data.apply.apply\_reason\_desc |事由描述|String|N|
 data.trip\_list| 行程列表| array |Y|
 data.trip\_list.type| 业务类型|String|Y|
