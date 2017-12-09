@@ -1,7 +1,7 @@
 字段|名称|类型|必填|详情
 ----|----|---|---|---
 order_id |订单id|String| Y |9884hhkhfsk
-type_pame |订单类型名称 |String| Y |火车
+type_name |订单类型名称 |String| Y |火车
 type |订单类型| Integer | Y |火车:3
 status |订单状态|Integer| Y |已完成:3202
 company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
