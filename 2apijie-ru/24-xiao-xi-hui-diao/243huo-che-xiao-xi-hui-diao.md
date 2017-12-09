@@ -16,7 +16,6 @@ end_day|结束时间|String |Y|
 budget_money|预估费用总计|Integer |Y|单位：分
 monetary_unit|货币单位|String |Y|人民币
 estimated_amount|预估费用|Integer |Y|单位：分
-third_remark|出差事由备注|String|Y|
 third_remark|出差事由备注|String|Y|出差
 use_name|使用人姓名|String|Y|李四
 use_phone|使用人手机号|String|Y|
@@ -40,41 +39,6 @@ endorse_price|改签价格|Integer|Y|
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 数据格式:
 
 
@@ -87,6 +51,38 @@ endorse_price|改签价格|Integer|Y|
 "status":3202,
 "company_id":"5747fbc10f0e60e0709d8d89",
 "company_name":"分贝通"
+
+"apply_id":"hksf83ho93lsbvnos145",
+"apply_name":"李四",
+"contact_phone":"567689752",
+"dept_name":"人力部",
+"total_day":3,
+"begin_day":"2018-01-01",
+"end_day":""
+
+"budget_money":787,
+"monetary_unit":人民币,
+"estimated_amount"8887:,
+"third_remark":"搜索",
+"use_name":"网三",
+"use_phone":"125764837980549",
+"total_price"565:
+
+"train_code":"1024",
+"from_station": "北京",
+"to_station":"上海",
+"train_start_time":"2018-01-01",
+"trin_end_time":"2018-01-01",
+"premium":32,
+"refund_amount":333,
+
+"refund_fee":33,
+"change_fee": 302,
+"change_ticket_fee":343,
+"endorse_price":30
+
+
+
 
 }
 

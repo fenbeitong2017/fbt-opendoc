@@ -22,7 +22,7 @@ data.trip\_list.start\_city\_id| 出发城市ID| String |Y|出发城市ID
 data.trip\_list.start\_time|出发时间 |String|Y|行程开始日期
 data.trip\_list.arrival\_city\_id| 目的地城市|String|Y|行程到达城市ID
 data.trip\_list.end\_time|结束时间|String|Y|行程结束日期
-data.trip\_list.estimated\_amount|结束时间|Integer|Y|100,单位分
+data.trip\_list.estimated\_amount|预估价格|Integer|Y|100,单位分
 
 
 

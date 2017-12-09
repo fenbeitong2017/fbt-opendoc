@@ -2,7 +2,7 @@
 字段|名称|类型|必填|详情
 ----|----|---|---|---
 order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Integer| Y |777.88
+total_price |订单金额 | Integer| Y |777
 type_pame |订单类型名称 |String| Y |用车
 type |订单类型| Integer | Y |用车:2
 status |订单状态|Integer| Y |已完成:700
@@ -38,6 +38,23 @@ premium |保险费|Integer| Y |50 单位：分
 	"status":400,
 	"company_id":"5747fbc10f0e60e0709d8d89",
 	"company_name":"分贝通"
+	"use_name":"张三",
+       "use_phone":"2343555554",
+       "use_dep":"人事部",
+       "begin_charge_time":"2018-01-01 10:10:10",
+       "finish_charge_time":"2018-01-01 11:10:10",
+       "premium":50
+
+
+
+
+
+
+
+
+
+
+
 	
 
 }
