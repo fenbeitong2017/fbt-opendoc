@@ -14,7 +14,6 @@ total_day|出差天数|String |Y|3（单位:天）
 budget_money|预估费用总计|Integer |Y|单位：分
 monetary_unit|货币单位|String |Y|人民币
 estimated_amount|预估费用|Integer |Y|单位：分
-third_remark|出差事由备注|String|Y|
 third_remark|出差事由备注|String|Y|出差
 use_name|使用人姓名|String|Y|李四
 use_phone|使用人手机号|String|Y|
