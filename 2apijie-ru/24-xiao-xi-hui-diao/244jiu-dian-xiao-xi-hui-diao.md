@@ -20,7 +20,7 @@ use_phone|使用人手机号|String|Y|
 use_dep|使用人部门|String|Y|人力部
 total_price |总价 | Integer| Y |388
 actual_price|原始价格|Integer|Y|不带手续费的价格
-refund_amount|退票费|Integer|Y|供应商退给我们的钱
+refund_amount| 金额|Integer|Y|供应商退给我们的钱
 refund_fee|手续费|Integer|Y|退票产生的手续费
 checkin_date|入住时间|String|Y|2018-01-01
 checkout_date|离店时间|String|Y|2018-01-06
