@@ -9,7 +9,7 @@
 | timestamp | 时间戳 | long | Y | 13位时间戳 |
 |  | sign | 签名 | string | Y |
 | access\_token | token | string | Y | 登录 token |
-| employee\_id | 操作人id | string | Y | 操作人id,调用接口人 id |
+| employee\_id | 操作人id | string | N| 操作人id,调用接口人 id |
 |  | data | 请求数据 | jsonstring | Y |
 |  | data.employee\_list | 员工信息 | array | Y |
 |  | data.employee\_list.name | 员工姓名 | string | Y |
