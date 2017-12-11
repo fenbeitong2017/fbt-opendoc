@@ -36,6 +36,7 @@
   * [2.8 酒店接口接入](2apijie-ru/28-jiu-dian.md)
   * [2.9 公用接口](2apijie-ru/29-gong-yong.md)
     * [2.9.1 根据城市获取机票机场列表和火车站列表](2apijie-ru/29-gong-yong/291-gen-ju-cheng-shi-huo-qu-ji-piao-ji-chang-lie-biao-he-huo-che-zhan-lie-biao.md)
+    * [2.9.2获取城市相应的编码](2apijie-ru/29-gong-yong/292.md)
   * [2.10 审批单接口](2apijie-ru/210-shen-pi-dan.md)
     * [2.10.1 创建审批单](2apijie-ru/210-shen-pi-dan/2101-chuang-jian-shen-pi-dan.md)
 * [3.H5接口接入](3h5jie-ru.md)
