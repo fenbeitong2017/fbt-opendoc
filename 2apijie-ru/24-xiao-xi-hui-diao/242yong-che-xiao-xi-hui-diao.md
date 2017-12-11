@@ -42,18 +42,7 @@ finish_charge_time|结束计费时间|String |Y|2018-01-01：11：10：10
        "use_dep":"人事部",
        "begin_charge_time":"2018-01-01 10:10:10",
        "finish_charge_time":"2018-01-01 11:10:10",
-       "premium":50
-
-
-
-
-
-
-
-
-
-
-
+    
 	
 
 }
