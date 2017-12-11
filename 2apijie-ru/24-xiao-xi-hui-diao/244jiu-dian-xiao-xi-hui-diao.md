@@ -11,17 +11,17 @@ apply_name|申请人姓名|String |Y|张三
 contact_phone|联系电话|String|Y|
 dept_name|部门名称|String |Y|事业部
 total_day|出差天数|String |Y|3（单位:天）
-budget_money|预估费用总计|Integer |Y|单位：分
+budget_money|预估费用总计|double |Y|单位：分
 monetary_unit|货币单位|String |Y|人民币
-estimated_amount|预估费用|Integer |Y|单位：分
+estimated_amount|预估费用|double |Y|单位：分
 third_remark|出差事由备注|String|Y|出差
 use_name|使用人姓名|String|Y|李四
 use_phone|使用人手机号|String|Y|
 use_dep|使用人部门|String|Y|人力部
-total_price |总价 | Integer| Y |388
-actual_price|原始价格|Integer|Y|不带手续费的价格
-refund_amount| 金额|Integer|Y|供应商退给我们的钱
-refund_fee|手续费|Integer|Y|退票产生的手续费
+total_price |总价 | double| Y |388
+actual_price|原始价格|double|Y|不带手续费的价格
+refund_amount| 金额|double|Y|供应商退给我们的钱
+refund_fee|手续费|double|Y|退票产生的手续费
 checkin_date|入住时间|String|Y|2018-01-01
 checkout_date|离店时间|String|Y|2018-01-06
 
