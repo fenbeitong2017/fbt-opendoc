@@ -21,7 +21,6 @@
 ```
 { "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "sign": "jifejfwojelajflejf",
   "data":
   {  
     "employeeList":[
