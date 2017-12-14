@@ -1,3 +1,5 @@
+/open/api/auth/v1/dispense
+
 术语|是否必填|说明
 ----|---|---
 app_id|Y|申请时分配的app_id|
