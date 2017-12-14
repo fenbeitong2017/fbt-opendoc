@@ -1,3 +1,4 @@
+获取access_token地址
 /open/api/auth/v1/dispense
 
 术语|是否必填|说明
