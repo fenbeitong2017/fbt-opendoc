@@ -1,6 +1,7 @@
 术语|说明
 ----|---
-app_id|申请时分配的app_id,app_key|申请时分配的app_key，与app_id一起用于认证授权
+app_id|申请时分配的app_id
+app_key|申请时分配的app_key，与app_id一起用于认证授权
 sign_key|申请时分配的sign_key，用于接口签名
 
 
