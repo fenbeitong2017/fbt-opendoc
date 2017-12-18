@@ -37,43 +37,30 @@ third_approve_id|申请单ID|String|Y|
 
 ```
 {
-"order_id":"hksf83ho93lsbvnos145",
-"total_price": 302,
+"company_id":"5747fbc10f0e60e0709d8d89",
+"company_name":"分贝通",
 "type_name":"火车",
 "type":3,
 "status":3202,
-"company_id":"5747fbc10f0e60e0709d8d89",
-"company_name":"分贝通"
-
-"apply_id":"hksf83ho93lsbvnos145",
 "apply_name":"李四",
 "contact_phone":"567689752",
-"dept_name":"人力部",
-"total_day":3,
-"begin_day":"2018-01-01",
-"end_day":""
-
-"budget_money":787,
+"dept_name":"人力部
 "monetary_unit":人民币,
-"estimated_amount"8887:,
 "third_remark":"搜索",
-"use_name":"网三",
-"use_phone":"125764837980549",
-"total_price"565:
-
+"order_id":"hksf83ho93lsbvnos145",
+"total_price": 302,
+"budget_money":787.80,
 "train_code":"1024",
-"from_station": "北京",
-"to_station":"上海",
-"train_start_time":"2018-01-01",
-"trin_end_time":"2018-01-01",
-"premium":32,
-"refund_amount":333,
-
-"refund_fee":33,
-"change_fee": 302,
-"change_ticket_fee":343,
-"endorse_price":30
-
+"departure_place": "北京",
+"destination_place":"上海",
+"begin_time":"2018-01-01",
+"end_time":"2018-01-01",
+"premium":32.80,
+"refund_amount":333.80,
+"refund_fee":33.80,
+"change_fee": 302.80,
+"change_ticket_fee":343.80,
+"third_approve_id":"hksf83ho93lsbvnos145",
 
 
 
