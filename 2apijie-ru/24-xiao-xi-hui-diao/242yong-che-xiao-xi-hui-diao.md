@@ -12,6 +12,8 @@ company_name | 公司名称|String|Y|分贝通
 apply_name |使用人姓名|String| Y |张三
 contact_phone |使用人手机号|String| Y | 13080899009
 dept_name |使用人部门|String|Y|研发部
+monetary_unit |货币单位|String| Y | 人民币
+dept_name |使用人部门|String|Y|研发部
 begin_time |开始计费时间|String|Y|2018-01-01：10：10：10
 end_time|结束计费时间|String |Y|2018-01-01：11：10：10
 departure_place |出发地|String|Y|中关村
