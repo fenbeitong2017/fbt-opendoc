@@ -2,7 +2,7 @@
 ----|----|---|---|---
 company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|String|Y|分贝通
-type_pame |订单类型名称 |String| Y |火车
+type_pame |订单类型名称 |String| Y |酒店
 type |订单类型| Integer | Y |酒店:4
 status |订单状态|Integer| Y |订房成功:2501
 apply_name|申请人姓名|String |Y|张三
@@ -76,6 +76,39 @@ third_approve_id|申请单ID|String|Y|
 "company_name":"分贝通"
 
 }
+
+
+
+{
+"company_id":"5747fbc10f0e60e0709d8d89",
+"company_name":"分贝通",
+"type_name":"酒店",
+"type":4,
+"status":2501
+,
+"apply_name":"李四",
+"contact_phone":"567689752",
+"dept_name":"人力部
+"monetary_unit":人民币,
+"third_remark":"搜索",
+"order_id":"hksf83ho93lsbvnos145",
+"total_price": 302,
+"budget_money":787.80,
+"departure_place": "北京",
+"destination_place":"上海",
+"begin_time":"2018-01-01",
+"end_time":"2018-01-01",
+"premium":32.80,
+"refund_amount":333.80,
+"refund_fee":33.80,
+"third_approve_id":"hksf83ho93lsbvnos145",
+
+
+
+}
+
+
+
 
 
 ```
