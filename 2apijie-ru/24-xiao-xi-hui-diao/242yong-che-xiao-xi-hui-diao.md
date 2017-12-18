@@ -28,19 +28,29 @@ third_approve_id|审批单ID|String |Y|98898hjhkdh546kb
 
 ```
 {
-	"order_id":"hksf83ho93lsbvnos145",
-	"total_price": 344.33,
+	"company_id":"5747fbc10f0e60e0709d8d89",
+	"company_name":"分贝通"
 	"type_name":"用车",
 	"type":2,
 	"status":400,
-	"company_id":"5747fbc10f0e60e0709d8d89",
-	"company_name":"分贝通"
-	"use_name":"张三",
-       "use_phone":"2343555554",
-       "use_dep":"人事部",
-       "begin_charge_time":"2018-01-01 10:10:10",
-       "finish_charge_time":"2018-01-01 11:10:10",
-    
+	"apply_name":"张三",
+       "contact_phone":"2343555554",
+       "dept_name":"人事部",
+	"monetary_unit":人民币,
+	"third_remark":"搜索",
+	"order_id":"hksf83ho93lsbvnos145",
+	"total_price": 302,
+	"budget_money":787.80,
+	"departure_place": "北京",
+	"destination_place":"上海",
+	"begin_time":"2018-01-01",
+	"end_time":"2018-01-01",
+	"third_approve_id":"hksf83ho93lsbvnos145",
+
+
+
+
+      
 	
 
 }
