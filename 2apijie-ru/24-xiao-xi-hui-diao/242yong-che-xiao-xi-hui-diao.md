@@ -13,16 +13,8 @@ use_phone |使用人手机号|String| Y | 13080899009
 use_dep |使用人部门|String|Y|研发部
 begin_time |开始计费时间|String|Y|2018-01-01：10：10：10
 end_time|结束计费时间|String |Y|2018-01-01：11：10：10
-
-
-
-
-
-
-
-
-
-
+departure_place |出发地|String|Y|中关村
+destination_place|目的地|String |Y|北土城地铁站
 
 
 数据格式:
