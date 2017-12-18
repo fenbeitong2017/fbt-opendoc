@@ -10,21 +10,21 @@ contact_phone|联系电话|String|Y|
 dept_name|部门名称|String |Y|事业部
 monetary_unit|货币单位|String |Y|人民币
 third_remark |三方备注|String|Y|需要进行备注的信息，可以当备用字段
-budget_money|预估费用总计|double |Y|单位：分
-estimated_amount|预估费用|double |Y|单位：分
+budget_money|预估费用总计|Double |Y|单位：分
+estimated_amount|预估费用|Double |Y|单位：分
 third_remark|出差事由备注|String|Y|出差
 order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | double| Y |302
+total_price |订单金额 | Double| Y |302
 train_code|车次|String|Y|
 departure_place|出发站|String|Y|北京站
 destination_place|到达站|String|Y|上海站
 begin_time|火车出发时间|String |Y|2018-01-01
 end_time|火车到达时间|String|Y|
-premium|保险费|double|Y| 
-refund_amount|退票费|double|Y| 
-refund_fee|手续费|double|Y|
-change_fee|改签费|double|Y|
-change_ticket_fee|改签差价手续费|double|Y|
+premium|保险费|Double|Y| 
+refund_amount|退票费|Double|Y| 
+refund_fee|手续费|Double|Y|
+change_fee|改签费|Double|Y|
+change_ticket_fee|改签差价手续费|Double|Y|
 third_approve_id|申请单ID|String|Y|
 
 
