@@ -67,19 +67,6 @@ third_approve_id|申请单ID|String|Y|
 
 ```
 {
-"order_id":"hksf83ho93lsbvnos145",
-"total_price": 302,
-"type_name":"火车",
-"type":3,
-"status":3202,
-"company_id":"5747fbc10f0e60e0709d8d89",
-"company_name":"分贝通"
-
-}
-
-
-
-{
 "company_id":"5747fbc10f0e60e0709d8d89",
 "company_name":"分贝通",
 "type_name":"酒店",
@@ -93,8 +80,6 @@ third_approve_id|申请单ID|String|Y|
 "order_id":"hksf83ho93lsbvnos145",
 "total_price": 302,
 "budget_money":787.80,
-"departure_place": "北京",
-"destination_place":"上海",
 "begin_time":"2018-01-01",
 "end_time":"2018-01-01",
 "premium":32.80,
