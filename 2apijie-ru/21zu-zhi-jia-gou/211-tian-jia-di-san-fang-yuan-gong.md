@@ -2,6 +2,8 @@
 | --- | --- |
 | POST | /open/api/auth/third/user/create |
 
+请求参数，以application/json传递：
+
 请求参数
 
 | 字段 | 名称 | 类型 | 必填 | 描述 |
