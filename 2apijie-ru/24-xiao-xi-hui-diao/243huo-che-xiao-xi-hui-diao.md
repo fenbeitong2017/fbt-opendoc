@@ -2,8 +2,6 @@
 ----|----|---|---|---
 company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|String|Y|分贝通
-
-
 type_name |订单类型名称 |String| Y |火车
 type |订单类型| Integer | Y |火车:3
 status |订单状态|Integer| Y |已完成:3202
