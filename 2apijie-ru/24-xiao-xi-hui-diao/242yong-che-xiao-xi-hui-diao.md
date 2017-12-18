@@ -12,7 +12,7 @@ dept_name |使用人部门|String|Y|研发部
 monetary_unit |货币单位|String| Y | 人民币
 third_remark |三方备注|String|Y|需要进行备注的信息，可以当备用字段
 order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Integer| Y |777
+total_price |订单金额 | double| Y |77.3
 begin_time |开始计费时间|String|Y|2018-01-01：10：10：10
 end_time|结束计费时间|String |Y|2018-01-01：11：10：10
 departure_place |出发地|String|Y|中关村
