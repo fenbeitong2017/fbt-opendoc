@@ -11,8 +11,8 @@ company_name | 公司名称|String|Y|分贝通
 use_name |使用人姓名|String| Y |张三
 use_phone |使用人手机号|String| Y | 13080899009
 use_dep |使用人部门|String|Y|研发部
-begin_charge_time |开始计费时间|String|Y|2018-01-01：10：10：10
-finish_charge_time|结束计费时间|String |Y|2018-01-01：11：10：10
+begin_time |开始计费时间|String|Y|2018-01-01：10：10：10
+end_time|结束计费时间|String |Y|2018-01-01：11：10：10
 
 
 
