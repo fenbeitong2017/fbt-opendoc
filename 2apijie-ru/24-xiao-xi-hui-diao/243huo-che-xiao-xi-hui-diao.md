@@ -12,7 +12,6 @@ monetary_unit|货币单位|String |Y|人民币
 third_remark |三方备注|String|Y|需要进行备注的信息，可以当备用字段
 budget_money|预估费用总计|Double |Y|单位：分
 estimated_amount|预估费用|Double |Y|单位：分
-third_remark|出差事由备注|String|Y|出差
 order_id |订单id|String| Y |9884hhkhfsk
 total_price |订单金额 | Double| Y |302
 train_code|车次|String|Y|
