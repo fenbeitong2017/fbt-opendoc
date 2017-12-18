@@ -84,8 +84,7 @@ third_approve_id|申请单ID|String|Y|
 "company_name":"分贝通",
 "type_name":"酒店",
 "type":4,
-"status":2501
-,
+"status":2501,
 "apply_name":"李四",
 "contact_phone":"567689752",
 "dept_name":"人力部
