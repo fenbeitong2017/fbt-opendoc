@@ -13,7 +13,7 @@ third_remark |三方备注|String|Y|需要进行备注的信息，可以当备�
 budget_money|预估费用总计|Double |Y|单位：分
 estimated_amount|预估费用|Double |Y|单位：分
 order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Double| Y |302.
+total_price |订单金额 | Double| Y |302.90
 train_code|车次|String|Y|
 departure_place|出发站|String|Y|北京站
 destination_place|到达站|String|Y|上海站
