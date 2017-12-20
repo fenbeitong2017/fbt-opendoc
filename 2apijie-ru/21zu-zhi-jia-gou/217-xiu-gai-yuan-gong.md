@@ -21,7 +21,7 @@ data.employee_id| 三方员工id|string|Y| 三方员工id
  data.employee. gender| | string | Y| 性别 1 
  data.employee. birth_date| | string | Y| 生日yyyymmdd
  data.employee. employee_id| | string | Y| 员工 id
- data.org_ unit_ids| string| |Y|  所属部门
+ data.org_ unit_ids| | string|Y|  所属部门
 data.cert_list|| array|Y| 证件 
  data.cert\_list. cert_type| | string |Y| 证件类型
  data.cert\_list. cert_no| | string |Y| 证件号2211239012r28351
