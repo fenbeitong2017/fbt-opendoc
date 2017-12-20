@@ -7,7 +7,8 @@
     * [1.1.2 接入前准备](1fen-bei-tong-jie-kou-shuo-ming/11-jie-ru-shuo-ming/112-jie-ru-qian-zhun-bei.md)
 * [2.API接口对接（调整中）](2apijie-ru.md)
   * [2.1组织架构](2apijie-ru/21zu-zhi-jia-gou.md)
-    * [2.1.1 添加第三方员工（暂不支持批量添加）](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
+    * [2.1.1 添加第三方员工（暂时停用）](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
+    * [2.1.1.1.添加第三方员工（批量添加到公司根目录下）](2apijie-ru/21zu-zhi-jia-gou/2111tian-jia-di-san-fang-yuan-gong-ff08-pi-liang-tian-jia-ff09.md)
     * [2.1.2 查询部门](2apijie-ru/21zu-zhi-jia-gou/212-cha-xun-bu-men.md)
     * [2.1.3 添加部门](2apijie-ru/21zu-zhi-jia-gou/213-tian-jia-bu-men.md)
     * [2.1.4 修改部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
@@ -15,7 +16,7 @@
     * [2.1.6 添加员工](2apijie-ru/21zu-zhi-jia-gou/216-tian-jia-yuan-gong.md)
     * [2.1.7 修改员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
     * [2.1.8 查询员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
-    * [2.1.9 删除员工\(不支持批量删\)](2apijie-ru/21zu-zhi-jia-gou/219-shan-chu-yuan-5de528-bu-zhi-chi-pi-liang-522029.md)
+    * 2.1.1.1.添加第三方员工（批量添加）
   * [2.2 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.2.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
     * [2.2.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
