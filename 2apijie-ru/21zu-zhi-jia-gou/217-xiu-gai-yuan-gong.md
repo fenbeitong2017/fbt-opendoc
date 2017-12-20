@@ -38,7 +38,7 @@ data.biz\_ trip\_policy. rule_id| |boolean|Y|差旅规则
 data.biz\_ trip\_policy. exceed\_buy\_flag| |boolean|Y| 允许超标
 data. car_policy| | jsonstring|N|
 data. car_policy.exceed\_ buy\_flag| | boolean|N|
- data. mall_policy | Object|N|
+ data. mall_policy | |Object|N|
  data. mall_policy.mall\_ priv\_flag| | boolean |N|
  
  
