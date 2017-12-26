@@ -2,7 +2,7 @@
 | --- | --- |
 | POST | /open/api/auth/third/user/create |
 
-请求参数，以application/json传递：
+请求参数，以application/x-www-form-urlencoded传递：
 
 请求参数
 
