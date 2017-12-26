@@ -16,7 +16,6 @@
     * [2.1.6 添加员工](2apijie-ru/21zu-zhi-jia-gou/216-tian-jia-yuan-gong.md)
     * [2.1.7 修改员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
     * [2.1.8 查询员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
-    * 2.1.1.1.添加第三方员工（批量添加）
   * [2.2 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.2.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
     * [2.2.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
