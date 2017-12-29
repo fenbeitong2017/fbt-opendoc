@@ -1,5 +1,12 @@
-获取access_token地址
-/open/api/auth/v1/dispense
+1.1.2 获取access_token:
+
+ 请求方式 | 请求地址 
+ --- | --- 
+ POST | /open/api/auth/v1/dispense
+
+请求参数，以application/x-www-form-urlencoded传递：
+
+
 
 术语|是否必填|说明
 ----|---|---
