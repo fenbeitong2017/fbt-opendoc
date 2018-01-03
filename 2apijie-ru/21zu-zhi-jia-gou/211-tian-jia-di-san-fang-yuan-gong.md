@@ -1,6 +1,6 @@
 | 请求方式 | 请求地址 |
 | --- | --- |
-| POST | /open/api/auth/third/user/create |
+| POST | /open/api/auth/third/user/batch/org-save |
 
 请求参数，以application/x-www-form-urlencoded传递：
 
@@ -15,7 +15,7 @@
 |  | data.employee\_list | 员工信息 | array | Y |
 |  | data.employee\_list.name | 员工姓名 | string | Y |
 |  | data.employee\_list.phone | 员工手机号 | string | Y |
-|  | data.employee\_list.org\_unit\_id | 员工组织ID，需要与公司ID一样 | string | Y |
+|  | data.employee\_list.org\_unit\_name | 部门名称| string | Y |员工部门名称，分贝通科技有限公司/研发部/后端服务
 |  | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |
 
 请求示例
@@ -29,7 +29,7 @@
       {
         "name":"张5s",
         "phone":"13718432812",
-        "org_unit_id":"5747fbc10f0e60e0709d8d7d",
+        "org_unit_name":"分贝通科技有限公司/研发部/后端服务",
        "third_employee_id":"57ab054c2528226a805bd5e1"
       }
     ]  
@@ -52,21 +52,20 @@
 
 ```
 {
-    "request_id": "MzWkSvZ3sVC2FYg9bCLt",
-    "code": 0,
-    "msg": "success",
-    "data": {
+"request_id": "LaZNvBntsBD20nJ7ekgn",
+  "code": 0,
+  "msg": "Success",
+  "data": {
         "result": [
             {
-                "companyId": "59ce56d02798633485e206a9",
-                "phone": "17080151661",
-                "name": "塞外-test",
-                "thirdEmployeeId": "ddd-test-A",
-                "errorMsg": "第三方用户ID已经被绑定"
+                "name": "张三(姓名)",
+                "phone": "13718432817（手机号）",
+                "companyId": "57ab054c2528226a805bd5e1(公司id)",
+                "thirdEmployeeId": "57ab054c2528226a805bd5e1(第三方用户id)",
+                "errorMsg": "手机号已存在"
             }
         ]
-    }
-}
+    }}
 ```
 
 
