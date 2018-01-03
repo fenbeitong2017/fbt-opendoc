@@ -1,7 +1,7 @@
 根据企业ID修改员工信息
 请求方式|请求地址
 ----|---
-POST|/open/api/third/org/employees(同添加员工)
+POST|/open/api/third/org/employees/delete(同添加员工)
 
 
 请求参数：
