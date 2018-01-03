@@ -1,4 +1,4 @@
-根据企业ID和员工ID查询员工信息
+
 请求方式|请求地址
 ----|---
 POST|/open/api/org/employees/detail
@@ -20,5 +20,16 @@ data. employee\_id|操作人id | String |Y|
 ```
 
 返回结果```
-{    "request_id": "LaZNvBntsBD20nJ7ekgn",    "code": 0,    "msg": "success",    "data": {            }}
+{
+    "request_id": "Htsv6gkEaewQ3Kk7L3el",
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "user_role": 3,
+        "user_email": "",
+        "user_id": "59bf74f423445f31bd64bc5c",
+        "user_name": "张三",
+        "user_phone": "17080151667"
+    }
+}
 ```
