@@ -7,7 +7,7 @@
     * [1.1.2 接入前准备](1fen-bei-tong-jie-kou-shuo-ming/11-jie-ru-shuo-ming/112-jie-ru-qian-zhun-bei.md)
 * [2.API接口对接（调整中）](2apijie-ru.md)
   * [2.1 鉴权接口，颁发Token](2apijie-ru/23-jian-quan-jie-kou-ff0c-ban-fa-token.md)
-  * [2.2组织架构](2apijie-ru/21zu-zhi-jia-gou.md)
+  * [2.2 组织架构](2apijie-ru/21zu-zhi-jia-gou.md)
     * [2.1.1 添加第三方员工（暂时停用）](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
     * [2.1.1.1.添加第三方员工（批量添加到公司根目录下）](2apijie-ru/21zu-zhi-jia-gou/2111tian-jia-di-san-fang-yuan-gong-ff08-pi-liang-tian-jia-ff09.md)
     * [2.1.2 查询部门](2apijie-ru/21zu-zhi-jia-gou/212-cha-xun-bu-men.md)
