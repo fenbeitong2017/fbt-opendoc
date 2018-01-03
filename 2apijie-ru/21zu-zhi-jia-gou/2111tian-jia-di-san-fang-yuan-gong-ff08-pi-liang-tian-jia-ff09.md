@@ -1,8 +1,7 @@
 
 | 请求方式 | 请求地址 |
 | --- | --- |
-| POST | /open/api/auth/third/user/batch/save(保存用户信息到公司目录下
-) |
+| POST | /open/api/auth/third/user/batch/save(保存用户信息到公司目录下) |
 
 请求参数，以application/x-www-form-urlencoded传递：
 
