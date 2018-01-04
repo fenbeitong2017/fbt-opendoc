@@ -16,6 +16,7 @@ data.apply.type| 申请单业务类型| String |Y|1.差旅 2.用车 3.采购
 data.apply.flow_type| 审批类型|Integer|Y|固定为4
 data.apply.third_id |申请单id|String|Y|第三方审批单id
 data.apply.third_remark |第三方备注| String |Y|
+data.apply.budget |申请单预算| Integer |Y|预算总额
 data.trip\_list| 行程列表| array |Y|行程列表
 data.trip\_list.type| 业务类型|Integer|Y|行程类型 7.机票 11.酒店 15.火车 3.用车
 data.trip\_list.start\_city\_id| 出发城市ID| String |Y|出发城市ID 
