@@ -1,4 +1,4 @@
-根据企业app_id/app_key等参数请求鉴权接口，返回请求Token
+- # 请求参数，统一以application/x-www-form-urlencoded传递
 
 请求方式|请求地址
 ----|---
