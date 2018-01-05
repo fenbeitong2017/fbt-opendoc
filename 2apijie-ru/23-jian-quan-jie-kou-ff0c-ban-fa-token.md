@@ -4,8 +4,6 @@
 ----|---
 POST|/open/api/auth/v1/dispense
 
-请求参数，以application/x-www-form-urlencoded传递：
-
 字段|名称|类型|必填|描述
 ----|----|---|---|---
 app_id|企业ID|String|Y|

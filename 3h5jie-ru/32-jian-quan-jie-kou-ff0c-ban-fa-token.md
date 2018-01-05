@@ -1,10 +1,13 @@
+##请求参数，以application/json传递
+
+
 根据企业app_id/app_key等参数请求鉴权接口，返回请求token
 
 请求方式|请求地址
 ----|---
 POST|/open/web/auth/v1/dispense
 
-请求参数，以application/json传递：
+
 
 字段|名称|类型|必填|描述
 --|----|---|---|---
