@@ -1,5 +1,5 @@
 #2.2 组织架构
-- # 请求参数，以application/x-www-form-urlencoded传递
+- # 请求参数，统一以application/x-www-form-urlencoded传递
 
 - ##  2.2.1 添加第三方员工（如果存在部门概念，保存到部门下面）
 - ## 2.2.1.1.添加第三方员工（批量添加到公司根目录下）
