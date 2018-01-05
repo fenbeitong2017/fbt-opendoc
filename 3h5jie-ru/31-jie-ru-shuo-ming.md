@@ -1,6 +1,6 @@
 
 ```
-1.生成企业app_key和app_id，请联系相关人员进行操作，参数包括：
+>1.生成企业app_key和app_id，请联系相关人员进行操作，参数包括：
 
 	1）app_id/app_key/sign_key 企业标识，请存储；
 	
