@@ -1,7 +1,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/org/employees/delete
+POST|/open/api/third/employees/delete
 
 
 请求参数：
