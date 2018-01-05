@@ -4,7 +4,7 @@
 | --- | --- |
 | POST | /open/api/auth/third/user/batch/save |
 
-请求参数，以application/x-www-form-urlencoded传递：
+
 
 请求参数
 
