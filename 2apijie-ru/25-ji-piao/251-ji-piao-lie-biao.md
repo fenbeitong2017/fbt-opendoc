@@ -2,7 +2,6 @@
 ----|---
 POST|/open/api/flight/order/list
 
-请求参数，以application/x-www-form-urlencoded传递：
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
