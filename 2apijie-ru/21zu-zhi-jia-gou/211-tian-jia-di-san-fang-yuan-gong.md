@@ -1,3 +1,5 @@
+2.2.1 添加第三方员工（如果存在部门概念，保存到部门下面）
+
 | 请求方式 | 请求地址 |
 | --- | --- |
 | POST | /open/api/auth/third/user/batch/org-save |
