@@ -1,3 +1,5 @@
 #公用接口
+- ## 请求参数，统一以application/x-www-form-urlencoded传递
+
 
 - ###2.9.1 根据城市获取机票机场列表和火车站列表
