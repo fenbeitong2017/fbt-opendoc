@@ -1,5 +1,7 @@
 
-请求方式|请求地址
+2.2.9 删除员工（支持批量删除）
+
+请求方式|请求地址
 ----|---
 POST|/open/api/third/employees/delete
 
