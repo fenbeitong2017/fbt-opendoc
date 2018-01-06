@@ -11,7 +11,7 @@ sign|签名 |string |Y|
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 data |请求数据| jsonstring |Y|请求
-data.org\_ unit\_ids| 部门id|array |Y|部门id
+data.org\_ unit\_ids| 部门id|jsonarray |Y|部门id
  
  请求示例
 ```

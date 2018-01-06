@@ -7,9 +7,9 @@ POST|/open/api/auth/v1/dispense
 
 字段|名称|类型|必填|描述
 ----|----|---|---|---
-app_id|企业ID|String|Y|
-app_key|企业key |String|Y|
-app_type|类型|String|N|预留字段
+app_id|企业ID|string|Y|
+app_key|企业key |string|Y|
+app_type|类型|string|N|预留字段
 
 请求示例：
 
