@@ -2,8 +2,6 @@
 ----|---
 POST|/open/api/car/order/list
 
-请求参数，以application/x-www-form-urlencoded传递：
-
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
 timestamp|时间戳 |long |Y|13位时间戳
