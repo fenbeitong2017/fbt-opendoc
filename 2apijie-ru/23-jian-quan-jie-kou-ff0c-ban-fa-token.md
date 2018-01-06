@@ -1,4 +1,5 @@
-- # 请求参数，统一以application/x-www-form-urlencoded传递
+#2.1 API 鉴权接口，颁发Token
+- ## 请求参数，统一以application/x-www-form-urlencoded传递
 
 请求方式|请求地址
 ----|---
