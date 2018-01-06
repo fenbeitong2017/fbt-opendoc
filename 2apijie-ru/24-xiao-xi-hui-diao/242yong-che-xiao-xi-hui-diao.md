@@ -1,23 +1,23 @@
 
 字段|名称|类型|必填|详情
 ----|----|---|---|---
-company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
-company_name | 公司名称|String|Y|分贝通
-type_pame |订单类型名称 |String| Y |用车
-type |订单类型| Integer | Y |用车:2
-status |订单状态|Integer| Y |已完成:700
-apply_name |使用人姓名|String| Y |张三
-contact_phone |使用人手机号|String| Y | 13080899009
-dept_name |使用人部门|String|Y|研发部
-monetary_unit |货币单位|String| Y | 人民币
-third_remark |三方备注|String|Y|需要进行备注的信息，可以当备用字段
-order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Double| Y |77.30
-begin_time |开始计费时间|String|Y|2018-01-01：10：10：10
-end_time|结束计费时间|String |Y|2018-01-01：11：10：10
-departure_place |出发地|String|Y|中关村
-destination_place|目的地|String |Y|北土城地铁站
-third_approve_id|审批单ID|String |Y|98898hjhkdh546kb
+company_id |公司id|string| Y | 5747fbc10f0e60e0709d8d89
+company_name | 公司名称|string|Y|分贝通
+type_pame |订单类型名称 |string| Y |用车
+type |订单类型| integer | Y |用车:2
+status |订单状态|integer| Y |已完成:700
+apply_name |使用人姓名|string| Y |张三
+contact_phone |使用人手机号|string| Y | 13080899009
+dept_name |使用人部门|string|Y|研发部
+monetary_unit |货币单位|string| Y | 人民币
+third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
+order_id |订单id|string| Y |9884hhkhfsk
+total_price |订单金额 | double| Y |77.30
+begin_time |开始计费时间|string|Y|2018-01-01：10：10：10
+end_time|结束计费时间|string |Y|2018-01-01：11：10：10
+departure_place |出发地|string|Y|中关村
+destination_place|目的地|string |Y|北土城地铁站
+third_approve_id|审批单ID|string |Y|98898hjhkdh546kb
 
 
 

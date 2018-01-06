@@ -1,30 +1,30 @@
 字段|名称|类型|必填|详情
 ----|----|---|---|---
-company_id |公司id|String| Y | 5747fbc10f0e60e0709d8d89
-company_name | 公司名称|String|Y|分贝通
-type_name |订单类型名称 |String| Y |火车
-type |订单类型| Integer | Y |火车:3
-status |订单状态|Integer| Y |已完成:3202
-apply_name|申请人姓名|String |Y|张三
-contact_phone|联系电话|String|Y|
-dept_name|部门名称|String |Y|事业部
-monetary_unit|货币单位|String |Y|人民币
-third_remark |三方备注|String|Y|需要进行备注的信息，可以当备用字段
-budget_money|预估费用总计|Double |Y|单位：分
-estimated_amount|预估费用|Double |Y|单位：分
-order_id |订单id|String| Y |9884hhkhfsk
-total_price |订单金额 | Double| Y |302.90
-train_code|车次|String|Y|
-departure_place|出发站|String|Y|北京站
-destination_place|到达站|String|Y|上海站
-begin_time|火车出发时间|String |Y|2018-01-01
-end_time|火车到达时间|String|Y|
-premium|保险费|Double|Y| 
-refund_amount|退票费|Double|Y| 
-refund_fee|手续费|Double|Y|
-change_fee|改签费|Double|Y|
-change_ticket_fee|改签差价手续费|Double|Y|
-third_approve_id|申请单ID|String|Y|
+company_id |公司id|string| Y | 5747fbc10f0e60e0709d8d89
+company_name | 公司名称|string|Y|分贝通
+type_name |订单类型名称 |string| Y |火车
+type |订单类型| integer | Y |火车:3
+status |订单状态|integer| Y |已完成:3202
+apply_name|申请人姓名|string |Y|张三
+contact_phone|联系电话|string|Y|
+dept_name|部门名称|string |Y|事业部
+monetary_unit|货币单位|string |Y|人民币
+third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
+budget_money|预估费用总计|double |Y|单位：分
+estimated_amount|预估费用|double |Y|单位：分
+order_id |订单id|string| Y |9884hhkhfsk
+total_price |订单金额 | double| Y |302.90
+train_code|车次|string|Y|
+departure_place|出发站|string|Y|北京站|
+destination_place|到达站|string|Y|上海站|
+begin_time|火车出发时间|string |Y|2018-01-01|
+end_time|火车到达时间|string|Y||
+premium|保险费|double|Y| |
+refund_amount|退票费|double|Y| |
+refund_fee|手续费|double|Y||
+change_fee|改签费|double|Y||
+change_ticket_fee|改签差价手续费|double|Y||
+third_approve_id|申请单ID|string|Y||
 
 
 
