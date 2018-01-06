@@ -26,7 +26,7 @@
     * [2.4.3火车消息回调](2apijie-ru/24-xiao-xi-hui-diao/243huo-che-xiao-xi-hui-diao.md)
     * [2.4.4酒店消息回调](2apijie-ru/24-xiao-xi-hui-diao/244jiu-dian-xiao-xi-hui-diao.md)
   * [2.5 机票接口接入](2apijie-ru/25-ji-piao.md)
-    * [2.5.1 机票列表](2apijie-ru/25-ji-piao/251-ji-piao-lie-biao.md)
+    * [2.5.1 机票订单列表](2apijie-ru/25-ji-piao/251-ji-piao-lie-biao.md)
     * [2.5.2 机票订单详情](2apijie-ru/25-ji-piao/252-ji-piao-ding-dan-xiang-qing.md)
   * [2.6 用车接口接入](2apijie-ru/26-yong-che.md)
     * [2.6.1 用车订单列表](2apijie-ru/26-yong-che/261-yong-che-lie-biao.md)
