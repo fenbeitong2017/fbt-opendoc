@@ -11,7 +11,7 @@ POST|/open/api/common/city-list
 access_token|api鉴权Token|String|Y|
 sign|签名|String|Y|
 timestamp|时间戳 |long|Y|13位时间戳
-employee\_id| 用户ID|String|Y|分贝用户id或者第三方用户id
+employee\_id| 用户ID|String|Y|第三方用户id
 employee\_type| 用户类型|String|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据|jsonstring|Y|
 data.type|业务类型 | String |Y|1.火车，2，机票
