@@ -11,9 +11,9 @@ timestamp|时间戳 |long |Y|13位时间戳
 sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
-employee_type| |string|Y|类型，0为分贝用户，1为第三方用户
+employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data || jsonstring |Y|
-data.order_id |机票订单id|String|Y|
+data.order_id |机票订单id|string|Y|
 
 请求示例：
 
