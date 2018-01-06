@@ -13,7 +13,7 @@
 | access\_token | token | string | Y | 登录 token |
 | employee\_id | 操作人id | string | N | 操作人id,调用接口人 id |
 | data | 请求数据 | jsonstring | Y ||
-| data.employee\_list | 员工信息 | array | Y ||
+| data.employee\_list | 员工信息 | jsonarray | Y ||
 | data.employee\_list.name | 员工姓名 | string | Y ||
 | data.employee\_list.phone | 员工手机号 | string | Y ||
 | data.employee\_list.org\_unit\_id | 员工组织ID，需要与公司ID一样 | string | Y ||
