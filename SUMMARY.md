@@ -15,7 +15,7 @@
     * [2.2.4 修改部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
     * [2.2.5 删除部门\(支持批量删除\)](2apijie-ru/21zu-zhi-jia-gou/215-shan-chu-bu-95e828-zhi-chi-pi-liang-shan-966429.md)
     * [2.2.6 添加员工](2apijie-ru/21zu-zhi-jia-gou/216-tian-jia-yuan-gong.md)
-    * [2.2.7 修改员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
+    * [2.2.7 更新第三方员工（支持批量更新）](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
     * [2.2.8 查询员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
     * [2.2.9 删除员工（支持批量删除）](2apijie-ru/21zu-zhi-jia-gou/229-shan-chu-yuan-gong.md)
   * [2.3 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
