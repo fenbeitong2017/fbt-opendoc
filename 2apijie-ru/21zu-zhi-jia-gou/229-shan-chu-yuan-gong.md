@@ -10,10 +10,11 @@ POST|/open/api/third/employees/delete
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-timestamp|时间戳 |long |Y|13位时间戳
-sign|签名 |string |Y|
-access_token|token | string |Y|登录 token
-employee_id| 操作人id|string |Y|操作人id,调用接口人 id
+access_token|api鉴权Token|string|Y|
+sign|签名|string|Y||
+timestamp|时间戳 |long|Y|13位时间戳
+employee\_id| 用户ID|string|Y|第三方用户id
+employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data || jsonstring |Y|
 data.employee_ids| 三方员工id|jsonarray|Y| 三方员工id 
  

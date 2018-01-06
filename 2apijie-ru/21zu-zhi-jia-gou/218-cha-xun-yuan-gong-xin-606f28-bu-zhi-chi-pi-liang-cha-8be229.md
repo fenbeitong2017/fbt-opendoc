@@ -7,10 +7,11 @@ POST|/open/api/third/employees/info
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-timestamp|时间戳 |long |Y|1位时间戳
-sign|签名 |string |Y||
-access\_token|token | string |Y|登录 token
-employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
+access_token|api鉴权Token|string|Y|
+sign|签名|string|Y||
+timestamp|时间戳 |long|Y|13位时间戳
+employee\_id| 用户ID|string|Y|第三方用户id
+employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring|Y||
 data. employee\_id|需要查询人的id | string |Y|需要查询人员对应的ID|
 
