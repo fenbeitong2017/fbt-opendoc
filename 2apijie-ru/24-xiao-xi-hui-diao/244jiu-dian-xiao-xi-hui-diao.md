@@ -18,7 +18,7 @@ refund_amount| 金额|double|Y|供应商退给我们的钱
 refund_fee|手续费|double|Y|退票产生的手续费
 begin_time|入住时间|string|Y|2018-01-01
 end_time|离店时间|string|Y|2018-01-06
-third_approve_id|申请单ID|string|Y|
+third_approve_id|申请单ID|string|Y||
 
 
 

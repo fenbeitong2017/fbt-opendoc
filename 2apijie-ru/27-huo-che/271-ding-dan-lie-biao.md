@@ -11,16 +11,16 @@ timestamp|时间戳 |long |Y|13位时间戳
 sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
-employee_type| 用户类型|String|Y|类型，0为分贝用户，1为第三方用户
+employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data || jsonstring |Y|
-data.state| 查询状态|Integer |Y|0全部，1正处理，2已完成
+data.state| 查询状态|integer |Y|0全部，1正处理，2已完成
 data.name\_or\_phone|乘客/下单人姓名/手机号 |string |N|
 data.name\_or\_phone\_type|乘客/下单人姓名/手机号类型 |string | N |
-data.search\_category |搜索维度| Integer | N |
+data.search\_category |搜索维度| integer | N |
 data.order\_date\_begin |下单开始日期|string | N |yyyy-MM-dd
 data.order\_date\_end|下单结束日期 |string | N |yyyy-MM-dd
-data.page\_index |页码| Integer |  N |1(默认值)
-data.page\_size|每页显示条数| Integer|  N |10(默认值)
+data.page\_index |页码| integer |  N |1(默认值)
+data.page\_size|每页显示条数| integer|  N |10(默认值)
 
 
 请求示例：

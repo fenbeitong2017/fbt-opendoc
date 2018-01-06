@@ -8,14 +8,14 @@ POST|/open/api/common/city-list
 
 字段|名称|类型|必填|描述
 ----|----|---|---|---
-access_token|api鉴权Token|String|Y|
-sign|签名|String|Y|
+access_token|api鉴权Token|string|Y|
+sign|签名|string|Y|
 timestamp|时间戳 |long|Y|13位时间戳
-employee\_id| 用户ID|String|Y|第三方用户id
-employee\_type| 用户类型|String|Y|类型，0为分贝用户，1为第三方用户
+employee\_id| 用户ID|string|Y|第三方用户id
+employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据|jsonstring|Y|
-data.type|业务类型 | String |Y|1.火车，2，机票
-data.city\_key|城市关键字 |String|Y|北京
+data.type|业务类型 | string |Y|1.火车，2，机票
+data.city\_key|城市关键字 |string|Y|北京
 请求示例：
 
 ```

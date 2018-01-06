@@ -13,12 +13,12 @@ employee\_type| 用户类型|String|Y|0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|
 data.name\_or\_phone|乘机人/下单人姓名/手机|string|N| 如 老王/13800
 data.name\_or\_phone\_type|乘机人/下单人姓名/手机号类型|string| N | （0:全部(默认值) 1:乘机人 2:下单人）
-data.search\_category|搜索维度| Integer | N | 1:企业 2:个人
-data.state|查询状态|Integer|N|  0:全部(默认值) 1:处理中 2:已完成
+data.search\_category|搜索维度| integer | N | 1:企业 2:个人
+data.state|查询状态|integer|N|  0:全部(默认值) 1:处理中 2:已完成
 data.order\_date\_begin|下单开始日期|string| N |格式为 yyyy-MM-dd  2017-01-01
 data.order\_date\_end|下单结束日期|string|N|格式为 yyyy-MM-dd 2017-05-01
-data.page\_index|页码| Integer | N | 1(默认值)
-data.page\_size|每页显示条数| Integer |N| 10(默认值)
+data.page\_index|页码| integer | N | 1(默认值)
+data.page\_size|每页显示条数| integer |N| 10(默认值)
 请求示例：
 
 

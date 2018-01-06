@@ -11,10 +11,10 @@ POST|/open/web/auth/v1/dispense
 
 字段|名称|类型|必填|描述
 --|----|---|---|---
-app\_id|企业ID|String|Y|企业ID
-app\_key |企业key|String|Y|企业key
-tp_user_id|第三方用户ID |String|Y|第三方系统中用户唯一身份标识（必填）, 是第三方本地用户信息的唯一标识，可以理解为第三方用户信息数据库表的id。此id为在同步组织架构信息中的third_employee_id字段
-tp_mobile |手机号码|String|Y|18080179901
+app\_id|企业ID|string|Y|企业ID
+app\_key |企业key|string|Y|企业key
+tp_user_id|第三方用户ID |string|Y|第三方系统中用户唯一身份标识（必填）, 是第三方本地用户信息的唯一标识，可以理解为第三方用户信息数据库表的id。此id为在同步组织架构信息中的third_employee_id字段
+tp_mobile |手机号码|string|Y|18080179901
 
 请求示例：
 

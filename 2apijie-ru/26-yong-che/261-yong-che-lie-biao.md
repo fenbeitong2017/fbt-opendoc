@@ -8,14 +8,14 @@ timestamp|时间戳 |long |Y|13位时间戳
 sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
-employee\_type| 用户类型|String|Y|0为分贝用户，1为第三方用户
+employee\_type| 用户类型|string|Y|0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|
-data.search\_category|搜索维度| Integer | N | 1:企业 2:个人
-data.state|查询状态|Integer|N|  0:全部(默认值) 1:处理中 2:已完成
+data.search\_category|搜索维度| integer | N | 1:企业 2:个人
+data.state|查询状态|integer|N|  0:全部(默认值) 1:处理中 2:已完成
 data.order\_date\_begin|下单开始日期|string| N |格式为 yyyy-MM-dd  2017-01-01
 data.order\_date\_end|下单结束日期|string|N|格式为 yyyy-MM-dd 2017-05-01
-data.page\_index|页码| Integer | N | 1(默认值)
-data.page\_size|每页显示条数| Integer |N| 10(默认值)
+data.page\_index|页码| integer | N | 1(默认值)
+data.page\_size|每页显示条数| integer |N| 10(默认值)
 请求示例：
 
 
