@@ -1,10 +1,10 @@
 # Summary
 
 * [introduction](README.md)
-* [1.分贝通接口说明](1fen-bei-tong-jie-kou-shuo-ming.md)
-  * [1.1 接入说明](1fen-bei-tong-jie-kou-shuo-ming/11-jie-ru-shuo-ming.md)
-    * [1.1.1 接入方需要提供以下数据](1fen-bei-tong-jie-kou-shuo-ming/11-jie-ru-shuo-ming/111-jie-ru-fang-xu-yao-ti-gong-yi-xia-shu-ju.md)
-    * [1.1.2 接入前准备](1fen-bei-tong-jie-kou-shuo-ming/11-jie-ru-shuo-ming/112-jie-ru-qian-zhun-bei.md)
+* [1.分贝通接口说明](1fenbeitong-introduction.md)
+  * [1.1 接入说明](1fenbeitong-introduction/join-introduction.md)
+    * [1.1.1 接入方需要提供以下数据](fenbeitong-introduction/join-introduction/provide-data.md)
+    * [1.1.2 接入前准备](fenbeitong-introduction/join-introduction/prepare.md)
 * [2.API接口对接（调整中）](2apijie-ru.md)
   * [2.1API 鉴权接口，颁发Token](2apijie-ru/23-jian-quan-jie-kou-ff0c-ban-fa-token.md)
   * [2.2 组织架构](2apijie-ru/21zu-zhi-jia-gou.md)
