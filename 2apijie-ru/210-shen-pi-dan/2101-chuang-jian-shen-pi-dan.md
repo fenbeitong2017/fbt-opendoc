@@ -16,7 +16,7 @@ data.apply.type| 申请单业务类型| integer |Y|1.差旅(对应trip_list下�
 data.apply.flow_type| 审批类型|integer|Y|固定为4
 data.apply.third_id |申请单id|string|Y|第三方审批单id
 data.apply.third_remark |第三方备注| string |Y|
-data.apply.budget |申请单预算| integer |Y|预算总额
+data.apply.budget |申请单预算| integer |Y|预算总额(为trip_list中estimated_amount的总和 )
 data.trip\_list| 行程列表| jsonarray |Y|行程列表
 data.trip\_list.type| 业务类型|integer|Y|行程类型 7.机票 11.酒店 15.火车 3.用车
 data.trip\_list.start\_city\_id| 出发城市ID| string |Y|出发城市ID 
