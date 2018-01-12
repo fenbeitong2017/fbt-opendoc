@@ -12,7 +12,7 @@ employee\_id|用户ID|string|Y|分贝用户id或者第三方用户id
 employee\_type|用户类型 |string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据|jsonstring|Y|
 data.apply |申请单内容| jsonstring |Y|
-data.apply.type| 申请单业务类型| integer |Y|1.差旅 2.用车 3.采购
+data.apply.type| 申请单业务类型| integer |Y|1.差旅(对应trip_list下的type值为7、11、15) 2.用车(对应trip_list下的type值为3) 3.采购
 data.apply.flow_type| 审批类型|integer|Y|固定为4
 data.apply.third_id |申请单id|string|Y|第三方审批单id
 data.apply.third_remark |第三方备注| string |Y|
