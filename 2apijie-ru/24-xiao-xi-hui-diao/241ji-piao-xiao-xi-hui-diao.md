@@ -18,9 +18,7 @@
 | estimated\_amount | 预估费用 | double | Y | 单位：分 |
 | refund\_amount | 金额 | double | Y | 供应商退给我们的钱 |
 | refund\_fee | 手续费 | double | Y | 退票产生的手续费 |
-| begin\_time | 入住时间 | string | Y | 2018-01-01 |
-| end\_time | 离店时间 | string | Y | 2018-01-06 |
-|  | third\_approve\_id | 申请单ID | string | Y |
+| third\_approve\_id | 申请单ID | string | Y ||
 
 数据格式:
 
