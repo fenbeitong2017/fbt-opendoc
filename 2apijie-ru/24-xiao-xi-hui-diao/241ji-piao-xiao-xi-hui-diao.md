@@ -12,8 +12,8 @@
 | third\_remark | 出差事由备注 | string | Y | 出差 |
 | order\_id | 订单id | string | Y | 9884hhkhfsk |
 | total\_price | 总价 | double | Y | 388.00 |
-begin_time|航班起飞时间|string |Y|2018-01-01 10:04:30|
-end_time|航班到达时间|string|Y|2018-01-01 10:55:30|
+|begin_time|航班起飞时间|string |Y|2018-01-01 10:04:30|
+|end_time|航班到达时间|string|Y|2018-01-01 10:55:30|
 | budget\_money | 预估费用总计 | double | Y | 单位：分 |
 | estimated\_amount | 预估费用 | double | Y | 单位：分 |
 | refund\_amount | 金额 | double | Y | 供应商退给我们的钱 |
