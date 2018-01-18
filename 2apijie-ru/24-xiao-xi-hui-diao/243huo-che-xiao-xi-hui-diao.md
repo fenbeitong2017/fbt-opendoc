@@ -17,8 +17,8 @@ total_price |订单金额 | double| Y |302.90
 train_code|车次|string|Y|
 departure_place|出发站|string|Y|北京站|
 destination_place|到达站|string|Y|上海站|
-begin_time|火车出发时间|string |Y|2018-01-01|
-end_time|火车到达时间|string|Y||
+begin_time|火车出发时间|string |Y|2018-01-01 10:04:30|
+end_time|火车到达时间|string|Y|2018-01-01 10:04:30|
 premium|保险费|double|Y| |
 refund_amount|退票费|double|Y| |
 refund_fee|手续费|double|Y||

@@ -13,8 +13,8 @@ monetary_unit |货币单位|string| Y | 人民币
 third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
 order_id |订单id|string| Y |9884hhkhfsk
 total_price |订单金额 | double| Y |77.30
-begin_time |开始计费时间|string|Y|2018-01-01：10：10：10
-end_time|结束计费时间|string |Y|2018-01-01：11：10：10
+begin_time |开始计费时间|string|Y|2018-01-01 10:10:10
+end_time|结束计费时间|string |Y|2018-01-01 11:10:10
 departure_place |出发地|string|Y|中关村
 destination_place|目的地|string |Y|北土城地铁站
 third_approve_id|审批单ID|string |Y|98898hjhkdh546kb
