@@ -6,7 +6,7 @@ type_name |订单类型名称 |string| Y |火车
 type |订单类型| integer | Y |火车:3
 status |订单状态|integer| Y |已完成:3202
 apply_name|申请人姓名|string |Y|张三
-contact_phone|联系电话|string|Y|
+contact_phone|申请人联系电话|string|Y|
 contact_name|联系人姓名|string |Y|李四（申请人和联系人和使用人可以是同一人，也可以是不同的人）
 phone|联系人电话|string|Y|18090180901
 use_name|使用人姓名|string |Y|王五
