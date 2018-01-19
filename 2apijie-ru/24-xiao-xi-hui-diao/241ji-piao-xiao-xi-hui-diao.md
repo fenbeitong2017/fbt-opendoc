@@ -7,6 +7,10 @@
 | status | 订单状态 | integer | Y | 出票中:1700，出票成功:1800 |
 | apply\_name | 申请人姓名 | string | Y | 张三 |
 | contact\_phone | 联系电话 | string | Y |
+|contact_name|联系人姓名|string |Y|李四（申请人和联系人和使用人可以是同一人，也可以是不同的人）
+|phone|联系人电话|string|Y|18090180901
+|use_name|使用人姓名|string |Y|王五
+|use_phone|使用人联系电话|string|Y|18767909349
 | dept\_name | 部门名称 | string | Y | 事业部 |
 | monetary\_unit | 货币单位 | string | Y | 人民币 |
 | third\_remark | 出差事由备注 | string | Y | 出差 |
