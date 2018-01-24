@@ -11,6 +11,7 @@
 |phone|联系人电话|string|Y|18090180901
 |use_name|使用人姓名|string |Y|王五
 |use_phone|使用人联系电话|string|Y|18767909349
+|use_depname|使用人部门名称|string|Y|人事部
 | dept\_name | 部门名称 | string | Y | 事业部 |
 | monetary\_unit | 货币单位 | string | Y | 人民币 |
 | third\_remark | 出差事由备注 | string | Y | 出差 |

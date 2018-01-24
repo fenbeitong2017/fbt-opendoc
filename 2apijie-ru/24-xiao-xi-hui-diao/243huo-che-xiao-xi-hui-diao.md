@@ -11,7 +11,8 @@ contact_name|联系人姓名|string |Y|李四（申请人和联系人和使用�
 phone|联系人电话|string|Y|18090180901
 use_name|使用人姓名|string |Y|王五
 use_phone|使用人联系电话|string|Y|18767909349
-dept_name|部门名称|string |Y|事业部
+|use_depname|使用人部门名称|string|Y|人事部
+dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
 third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
 budget_money|预估费用总计|double |Y|单位：分
