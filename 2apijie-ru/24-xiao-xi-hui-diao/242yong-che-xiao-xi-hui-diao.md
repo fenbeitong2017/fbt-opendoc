@@ -6,8 +6,8 @@ company_name | 公司名称|string|Y|分贝通
 type_pame |订单类型名称 |string| Y |用车
 type |订单类型| integer | Y |用车:2
 status |订单状态|integer| Y |已完成:700
-use_name |使用人姓名|string| Y |张三(用车无需审批，因此申请人字段代表的是实际使用人信息)
-use_phone |使用人手机号|string| Y | 13080899009(用车无需审批，因此申请人字段代表的是实际使用人信息)
+use_name |使用人姓名|string| Y |张三(用车无需审批)
+use_phone |使用人手机号|string| Y | 13080899009(用车无需审批)
 use_deptname |使用人部门|string|Y|研发部
 monetary_unit |货币单位|string| Y | 人民币
 third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
