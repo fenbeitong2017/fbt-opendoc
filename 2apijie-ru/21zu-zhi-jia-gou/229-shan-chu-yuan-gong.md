@@ -36,5 +36,12 @@ data.employee_ids| 三方员工id|jsonarray|Y| 三方员工id
 
 返回结果
 ```
-{    "request_id": "LaZNvBntsBD20nJ7ekgn",    "code": 0,    "msg": "success",    "data": {            }}
+{  
+ "request_id": "LaZNvBntsBD20nJ7ekgn", 
+  "code": 0,   
+  "msg": "success",  
+  "data": {   
+     }
+}
+
 ```
