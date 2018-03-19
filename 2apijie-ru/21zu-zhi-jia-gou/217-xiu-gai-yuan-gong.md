@@ -42,13 +42,35 @@ employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方�
 
 返回结果
 
+
 ```
 {
 "request_id": "LaZNvBntsBD20nJ7ekgn",
 "code": 0,
 "msg": "success",
 "data": {
+   }
+}
 
+
+
+
+{
+"request_id": "LaZNvBntsBD20nJ7ekgn",
+"code": 0,
+"msg": "success",
+"data": {
+"result": [
+            {
+                "name": "张三(姓名)",
+                "phone": "13718432817（手机号）",
+                "companyId": "57ab054c2528226a805bd5e1(公司id)",
+                "thirdEmployeeId": "57ab054c2528226a805bd5e1(第三方用户id)",
+                "errorMsg": "手机号已存在"
+            }
+        ]
+   }
 }
-}
+
+
 ```
