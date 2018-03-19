@@ -12,11 +12,11 @@ sign|签名 |string |Y|
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 data || jsonstring |Y|请求数据
-data.company_id|部门名称|string|Y|部门名称信息
-data.org_unit_name| 父部门 id|string |Y|父部门id
-data.third_parent_id|部门 id| string |Y|第三方直属部门ID
-data.third_org_id|部门 id| string |Y|第三方机构部门ID
-data.operator_id|部门 id| string |Y|57ab054c2528226a805bd523
+data.company\_id|公司ID|string|Y|分贝通
+data.org\_unit\_name|部门名称|string |Y|审计部
+data.third\_parent\_id|直属部门id| string |Y|第三方直属部门ID
+data.third\_org\_id|部门id| string |Y|第三方机构部门ID
+
 
 
  
