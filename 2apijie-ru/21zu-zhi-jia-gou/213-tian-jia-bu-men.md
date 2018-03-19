@@ -1,6 +1,6 @@
 请求方式|请求地址
 ----|---
-POST|/open/api/org/departments/create
+POST|/open/api/third/departments/add
 
 
 请求参数:
@@ -12,9 +12,20 @@ sign|签名 |string |Y|
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 data || jsonstring |Y|请求数据
-data.org\_unit\_name|部门名称|string|Y|部门名称
-data.parent\_id| 父部门 id|string |Y|父部门id
-data.org\_unit\_id|部门 id| string |Y|部门 id
+data.companyId|部门名称|string|Y|部门名称
+data.orgUnitName| 父部门 id|string |Y|父部门id
+data.thirdParentId|部门 id| string |Y|部门 id
+data.thirdParentId|部门 id| string |Y|部门 id
+data.thirdParentId|部门 id| string |Y|部门 id
+
+
+{
+  "companyId": "公司ID",
+  "orgUnitName": "部门名称信息",
+  "thirdParentId": "第三方直属部门ID",
+  "thirdOrgId": "第三方机构部门ID",
+  "operatorId": "57ab054c2528226a805bd523(当前用户id)"
+}
  
  请求示例:
  ```
