@@ -1,6 +1,6 @@
 根据企业ID删除部门请求方式|请求地址
 ----|---
-POST|/open/api/org/departments/delete
+POST|/open/api/third/departments/delete
 
 请求参数：
 

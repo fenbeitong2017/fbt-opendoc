@@ -1,7 +1,7 @@
 修改企业部门
 请求方式|请求地址
 ----|---
-POST|/open/api/org/departments/update
+POST|/open/api/third/departments/update
 
 请求参数
 
