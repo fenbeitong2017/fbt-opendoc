@@ -12,24 +12,25 @@ sign|签名 |string |Y|
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 data || jsonstring |Y|请求数据
-data.companyId|部门名称|string|Y|部门名称
-data.orgUnitName| 父部门 id|string |Y|父部门id
-data.thirdParentId|部门 id| string |Y|部门 id
-data.thirdParentId|部门 id| string |Y|部门 id
-data.thirdParentId|部门 id| string |Y|部门 id
+data.company_id|部门名称|string|Y|部门名称信息
+data.org_unit_name| 父部门 id|string |Y|父部门id
+data.third_parent_id|部门 id| string |Y|第三方直属部门ID
+data.third_org_id|部门 id| string |Y|第三方机构部门ID
+data.operator_id|部门 id| string |Y|57ab054c2528226a805bd523
 
 
-{
-  "companyId": "公司ID",
-  "orgUnitName": "部门名称信息",
-  "thirdParentId": "第三方直属部门ID",
-  "thirdOrgId": "第三方机构部门ID",
-  "operatorId": "57ab054c2528226a805bd523(当前用户id)"
-}
  
  请求示例:
+ 
  ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": {   "org_unit_name":"综合部",   "org_unit_id":"xxxx",   "parent_id":"xxxxx" }
+{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": {
+  "company_id": "07ab0579u252456ya805bd567",
+  "org_unit_name": "审计部",
+  "third_parent_id": "第三方直属部门ID",
+  "third_org_id": "第三方机构部门ID",
+  "operator_id": "57ab054c2528226a805bd523(当前用户id)"
+}
+
 }
 ```
 
@@ -37,5 +38,19 @@ data.thirdParentId|部门 id| string |Y|部门 id
 
 ```
 
-{    "request_id": "LaZNvBntsBD20nJ7ekgn",    "code": 0,    "msg": "success",    "data": {            }}
+
+{"request_id": "LaZNvBntsBD20nJ7ekgn",  
+ "code": 0,   
+ "msg": "success",   
+ "data": {      
+      }
+}
+
+
+{"request_id":"JBf1zsdKYCjUoEuQMEKN",
+"code":200002,
+"msg":"当前第三方部门ID已经存在"
+}
+
+
 ```
