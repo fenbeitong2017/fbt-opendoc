@@ -51,10 +51,7 @@
 {
    "request_id": "LaZNvBntsBD20nJ7ekgn",
    "code": 0,
-   "msg": "success",
-   "data": {
-
-   }
+   "msg": "success"
 }
 ```
 
