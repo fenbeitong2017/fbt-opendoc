@@ -72,6 +72,35 @@
         ]
     }
 }
+
+```
+
+
+```
+{
+    "request_id": "zgubWmjt4y9c5AWcOwgs",
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "companyId": "59df06662798635263b8414c",
+                "phone": "25777059211",
+                "name": "IDG-has888",
+                "thirdEmployeeId": "IDG-888s0lll",
+                "errorMsg": "手机号已经存在，请使用其他手机号"
+            },
+            {
+                "companyId": "59df06662798635263b8414c",
+                "phone": "18777198765",
+                "name": "IDG-h999009",
+                "thirdEmployeeId": "IDG-h99k4lll",
+                "errorMsg": "手机号已经存在，请使用其他手机号"
+            }
+        ]
+    }
+}
+
 ```
 
 
