@@ -30,13 +30,13 @@
       {
         "name":"张5s",
         "phone":"13718432812",
-        "org_unit_name":"5747fbc10f0e60e0709d8d7d",
+        "org_unit_id":"5747fbc10f0e60e0709d8d7d",
        "third_employee_id":"57ab054c2528226a805bd5e1"
       },
       {
         "name":"张5",
         "phone":"13718432992",
-        "org_unit_name":"5747fbc10f0e60e0709d8d7d",
+        "org_unit_id":"5747fbc10f0e60e0709d8d7d",
        "third_employee_id":"57ab054c2528226a805bd500"
       }
 
