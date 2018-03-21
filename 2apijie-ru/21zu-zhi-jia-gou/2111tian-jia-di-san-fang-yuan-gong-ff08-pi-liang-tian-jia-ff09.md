@@ -39,7 +39,6 @@
         "org_unit_id":"5747fbc10f0e60e0709d8d7d",
        "third_employee_id":"57ab054c2528226a805bd500"
       }
-
     ]  
  }
 }
