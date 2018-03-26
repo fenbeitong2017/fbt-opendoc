@@ -221,6 +221,7 @@ exceed_info": {
                 "desc_link": "平安航延险说明链接",
                 "unit_price": 30,//
                 "insurant_list": [
+
                     {
                         "premium": 30,//保险金额
                         "insurant_name": "李四",
