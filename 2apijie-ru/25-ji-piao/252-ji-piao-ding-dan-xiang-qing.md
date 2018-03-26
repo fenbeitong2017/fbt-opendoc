@@ -132,13 +132,12 @@ exceed_info": {
                     "refund_fee_msg": "退票处理中"
                 },
                 "change_info": {
-                    "upgrade_price": 300,
+                    "upgrade_price": 300,//升舱费
                     "upgrade_price_msg": "改签处理中",
-                    "change_fee": 200,
+                    "change_fee": 200,//改签费
                     [
                         4
-                    ]//改签费"agency_fee": 10,
-                    //改签手续费"change_fee_msg": "改签处理中"
+                    ]"agency_fee": 10,//改签手续费"change_fee_msg": "改签处理中"
                 },
                 "ticket_tips": "" // 票状态说明
             }
@@ -173,11 +172,11 @@ exceed_info": {
         },
         "price_info": {
             "settle_price": 329.8,
-            "discount": 3,
+            "discount": 3,//优惠券
             "par_price": 3720,
-            "fuel_tax": 0,
-            "airport_tax": 50,
-            "coupon_amount": 20
+            "fuel_tax": 0,//燃油费
+            "airport_tax": 50,//机建费
+            "coupon_amount": 20//优惠券
         },
         "policy_info": {
             "policy_id": "111402007"
