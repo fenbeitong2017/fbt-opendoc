@@ -68,8 +68,14 @@ segment_info.destination_city|目的地城市名称| string |Y|上海市|
 segment_info.departure_timestamp|出发时间  |integer|Y|1522580110000|
 segment_info.arrived_timestamp|到达时间 | integer | Y |1522587319000|
 can_process|是否可以查看订单详情| boolean |Y| 分为企业订单和个人名单，个人不能查看企业订单详情|
-is_external_order|是否外采订单| integer |Y||0,非外采
-total_price_str|订单金额字符串| string |Y||"￥660.00"
+is_external_order|是否外采订单| integer |Y|0:非外采,1:外采
+|
+total_price_str|订单金额字符串| string |Y|"￥660.00"
+
+
+
+
+|
 
 
 
