@@ -28,11 +28,15 @@ data.third\_org\_id| 部门id|string |Y|第三方机构部门ID
 
 
 
-返回结果```
-{    "request_id": "LaZNvBntsBD20nJ7ekgn",  
-  "code": 0,   
- "msg": "success", 
-   "data": {     
-       }
+返回结果
+
+```
+
+{
+    "request_id": "RmmGs2VZPkXBDwRIUofO",
+    "code": 0,
+    "msg": "success"
 }
+
+
 ```
