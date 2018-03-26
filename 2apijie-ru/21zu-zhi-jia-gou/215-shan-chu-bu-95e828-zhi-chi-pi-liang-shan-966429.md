@@ -10,6 +10,7 @@ timestamp|时间戳 |long |Y|13位时间戳
 sign|签名 |string |Y|
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
+employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求
 data.company\_id| 部门id|string |Y|公司ID
 data.third\_org\_id| 部门id|string |Y|第三方机构部门ID

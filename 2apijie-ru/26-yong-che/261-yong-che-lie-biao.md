@@ -36,6 +36,46 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 响应结果示例：
 
 
+ 
+data.results.order_id	订单id	String	 	是	 
+data.results.can_process	是否有查看权限	Boolean	判断当前登录用户是否有查看权限	是	 
+data.results.vorder_id	供应商id	String	注意：供应商id，不是供应商类型id	是	 
+data.results.departure_name	出发地名称	String	 	是	 
+data.results.departure_lng	出发地经度	Double	 	
+是
+
+ 
+data.results.departure_lat	出发地纬度	Double	 	是	 
+data.results.status	订单状态	Integer	 	是	 
+data.results.status_info	订单状态描述	String	显示订单状态最好使用此字段，避免增加状态类型等不兼容问题	是	 
+data.results.price	金额	Double	 	是	 
+data.results.order_time	下单时间	String	格式：yyyy-MM-dd HH:mm:ss	是	 
+data.results.schedule_time	用车时间	String	格式：yyyy-MM-dd HH:mm:ss	是	 
+data.results.spec	用车类型信息	Object	 	是	 
+data.results.spec.id	用车类型id	Integer	100:舒适型；400：七座商务；200：豪华型；600:快车	是	 
+data.results.spec.name	用车类型名称	String	舒适型、七座商务、豪华型、快车	是	 
+data.results.vendor_id	供应商id	Integer	1：滴滴；2：神州（注意：供应商类型id，不要与vorder_id弄混）	是	1.8.1
+data.results.vendor_name	供应商名	String	展示供应商名字的地方使用此字段	是	1.8.1
+data.results.type	用车类型	Integer	0：实时；1：预约；2：接机；3：送机	是	 
+data.results.type_name	用车类型名	String	实时、预约、接机、送机（展示时使用此字段）	是	1.8.1
+data.results.arrival_name	目的地信息	Object	 	是	 
+data.results.arrival_lng	目的地经度	Double	 	是	1.8.1
+data.results.arrival_lat	目的地纬度	Double	 	是	1.8.1
+data.results.driver_info	司机信息	Object	可能是空对象{}	否	1.8.1
+data.results.driver_info.driver_order_count	司机接单数	Integer	神州没有该数据，注意兼容	否	1.8.1
+data.results.driver_info.driver_phone	司机电话	String	 	否	1.8.1
+data.results.driver_info.driver_level	司机评分	Double	 	否	1.8.1
+data.results.driver_info.driver_car_type	车型号	String	 	否	1.8.1
+data.results.driver_info.driver_car_color	车辆颜色	String	可能为空（神州没有、滴滴老数据也没有）注意兼容	否	1.8.1
+data.results.driver_info.driver_card	车牌	String	 	否	1.8.1
+data.results.driver_info.driver_name	司机称呼	String	 	否	1.8.1
+data.results.driver_info.driver_avatar	司机头像	String	神州专车没有司机头像，注意兼容	否	1.8.1
+data.results.driver_info.driver_car_color	车辆颜色	String	可能为空，注意兼容	否	1.8.1
+data.results.wait_duration	等待时长	Integer	根据叫车时间与系统当前时间比较的时间差，单位秒（客户端列表跳转到叫车界面使用）	是	1.8.2
+data.results.total_price_str	订单金额字符串	String	 	是	1.9.4
+
+
+
 ```
 
 {
@@ -44,26 +84,26 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
     "data": {
         "results": [
             {
-                "order_id": "596dcb622798634dbc16768b",
+                "order_id": "596dcb622798634dbc16768b",//订单id
                 "vorder_id": "1125899951260423",
-                "departure_name": "世贸国际公寓",
-                "departure_lat": 39.914876,
-                "departure_lng": 116.451379,
-                "arrival_name": "物资学院路[地铁站]",
-                "spec": {
-                    "id": 600,
-                    "name": "快车"
+                "departure_name": "世贸国际公寓",//出发地名称
+                "departure_lat": 39.914876,//出发地纬度
+                "departure_lng": 116.451379,//出发地经度
+                "arrival_name": "物资学院路[地铁站]",//
+                "spec": {//
+                    "id": 600,//
+                    "name": "快车"//
                 },
-                "type": 0,
-                "status": 610,
-                "status_info": "已取消",
+                "type": 0,//
+                "status": 610,//订单状态
+                "status_info": "已取消",订单状态描述
                 "price": 0,
                 "order_time": "2017-07-18 16:48:34",
                 "schedule_time": "2017-07-18 16:48:34",
                 "can_process": true,
-                "vendor_id": 1,
-                "vendor_name": "滴滴",
-                "type_name": "实时",
+                "vendor_id": 1,//供应商id
+                "vendor_name": "滴滴",供应商名
+                "type_name": "实时",//用车类型名  0：实时；1：预约；2：接机；3：送机
                 "arrival_lat": 39.926776,
                 "arrival_lng": 116.639717,
                 "spec_name": "快车",
@@ -86,7 +126,7 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
                 "price": 0,
                 "order_time": "2017-07-17 17:27:41",
                 "schedule_time": "2017-07-18 23:00:00",
-                "can_process": true,
+                "can_process": true,//是否有查看权限	Boolean	判断当前登录用户是否有查看权限
                 "vendor_id": 1,
                 "vendor_name": "滴滴",
                 "type_name": "预约",
