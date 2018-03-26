@@ -1,5 +1,5 @@
 需参与鉴权的参数定义:
-1.分贝通颁发的sign\_key需要作为参数参与签名,且不参与传递;，加密数据包括时间戳和data数据。
+1.分贝通颁发的sign\_key需要作为参数参与签名,且不参与传递;,加密数据包括时间戳和data数据。
 2.sign=md5(timestamp=xxxx&data="xxxx"&sign\_key="xxx)转小写,注意顺序;
 3.MD5采用org.apache.commons下DigestUtils.md5Hex(param)加密；
 ```

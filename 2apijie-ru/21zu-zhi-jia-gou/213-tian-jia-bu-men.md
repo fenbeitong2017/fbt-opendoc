@@ -40,17 +40,16 @@ data.third\_org\_id|部门id| string |Y|第三方机构部门ID
 ```
 
 
-{"request_id": "LaZNvBntsBD20nJ7ekgn",  
- "code": 0,   
- "msg": "success",   
- "data": {      
-      }
+{
+    "request_id": "QvvES5ZqPXkIHMRAVHGI",
+    "code": 0,
+    "msg": "success"
 }
 
-
-{"request_id":"JBf1zsdKYCjUoEuQMEKN",
-"code":200002,
-"msg":"当前第三方部门ID已经存在"
+{
+    "request_id": "JOI8njN23AMukbv4iy6r",
+    "code": 200002,
+    "msg": "当前第三方部门ID已经存在"
 }
 
 
