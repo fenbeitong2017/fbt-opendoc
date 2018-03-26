@@ -54,11 +54,11 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 order_id|订单ID   |string |Y|5aaa513d279863768e83ff3b|
 create_time|创建时间 |string |Y|2018-04-01 00:00:00|
 total_price|订单价格 | integer |Y|负数为退票状态，退票返回金额|
-passenger_list| 乘客信息|string |Y||
-status| 订单状态信息|string|Y||
+passenger_list| 乘客信息|jsonarray |Y||
+status| 订单状态信息|jsonobject|Y||
 status.key| 订单状态|integer|Y|详情参照状态码|
 status.value| 订单详细信息|string|Y|订单详细信息|
-segment_info||string| Y | |
+segment_info|航班信息|jsonobject| Y | |
 segment_info.flight_no|航班号| string | Y |MU5126 |
 segment_info.airline_name|航班名称|string|Y|上海航空| 
 segment_info.starting_code|出发城市编码 |string| Y |PEK|
