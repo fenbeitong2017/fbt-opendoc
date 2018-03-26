@@ -225,8 +225,8 @@ exceed_info": {
                         "premium": 30,//保险金额
                         "insurant_name": "李四",
                         "status": {//保险状态
-                            "key": 5101,
-                            "value": "已投保"
+                            "key": 5,
+                            "value": "投保成功"
                         },
                         "policy_number": "1000191573",
                         "start_date": "2017-03-20",
