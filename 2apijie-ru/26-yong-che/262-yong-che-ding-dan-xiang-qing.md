@@ -51,14 +51,14 @@ driver\_car_type |品牌车型| string |Y|别克
 driver_level |司机评分| string | Y |5.0
 driver\_order_count|接单数| string|Y|3
 tel |用车人手机号| string | Y |例：15070713088
-begin\_charge_time |出发时间	| string | Y |
-finish\_charge_time |到达时间| array|Y|
-category_code |保险险种| Integer | Y |
-policy_number | 保单编号| string|Y|
-status |保单状态	| string | Y |
-insurant_name |被保人姓名|string|Y|
-insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
-premium |保险保费| Double |Y|
+begin\_charge_time |出发时间| string | Y ||
+finish\_charge_time |到达时间| array|Y||
+category_code |保险险种| Integer | Y ||
+policy_number | 保单编号| string|Y||
+status |保单状态	| string | Y ||
+insurant_name |被保人姓名|string|Y||
+insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段|
+premium |保险保费| Double |Y||
 
 
 

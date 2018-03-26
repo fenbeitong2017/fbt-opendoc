@@ -48,6 +48,37 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 
 响应结果：
 
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+order_id|时间戳 |long |Y|13位时间戳
+create_time|签名 |string |Y|
+total_price|token | string |Y|登录 token
+passenger_list| 操作人id|string |Y|操作人id,调用接口人 id
+status| 用户类型|string|Y|0为分贝用户，1为第三方用户
+status_info|乘机人/下单人姓名/手机|string|N| 如 老王/13800
+segment_info|乘机人/下单人姓名/手机号类型|string| N | （0:全部(默认值) 1:乘机人 2:下单人）
+segment_info.flight_no|搜索维度| integer | N | 1:企业 2:个人
+segment_info.airline_name|查询状态|integer|N| 0:全部(默认值) 1:处理中 2:已完成
+segment_info.starting_code|下单开始日期|string| N |格式为 yyyy-MM-dd 2017-01-01
+segment_info.starting_city|下单结束日期|string|N|格式为 yyyy-MM-dd 2017-05-01
+segment_info.destination_code|页码| integer | N | 1(默认值)
+segment_info.destination_city|每页显示条数| integer |N| 10(默认值)
+segment_info.departure_timestamp|下单结束日期|string|N|格式为 yyyy-MM-dd 2017-05-01
+segment_info.arrived_timestamp|页码| integer | N | 1(默认值)
+can_process|每页显示条数| integer |N| 10(默认值)
+is_external_order|每页显示条数| integer |N| 10(默认值)
+total_price_str|每页显示条数| integer |N| 10(默认值)
+
+
+
+
+
+
+
+
+
+
 ```
 
 
