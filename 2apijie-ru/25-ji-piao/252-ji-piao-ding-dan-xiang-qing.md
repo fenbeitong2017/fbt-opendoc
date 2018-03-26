@@ -113,22 +113,22 @@ exceed_info": {
             3
         ]"passenger_list": [
             {
-                "passenger_info": {
-                    "identity_type": "1",
+                "passenger_info": {//乘客信息
+                    "identity_type": "1",//身份类型
                     "identity_no": "410183198603180012",
                     "name": "王超",
-                    "type": 0
+                    "type": 0//乘客类型，0:成年,1:儿童
                 },
                 "ticket_no": "xxxxxxxxx",
-                "status": {
-                    //机票状态"key": 1800,
+                "status": {//机票状态，详细信息参照机票状态码
+"key": 1800,
                     "value": "出票成功"
                 },
                 "product_id": "5774c54f7a3170af796ba290",
-                "refund_info": {
-                    "refund_amount": 700,
+                "refund_info": {//退票信息
+                    "refund_amount": 700,//退票金额
                     "refund_amount_msg": "退票处理中",
-                    "refund_fee": 300,
+                    "refund_fee": 300,//退票手续费
                     "refund_fee_msg": "退票处理中"
                 },
                 "change_info": {
@@ -156,7 +156,7 @@ exceed_info": {
             "seat_msg": "头等舱",
             "starting_code": "PEK",
             "departure_time": "0730",
-            "is_middle_stop": "false",
+            "is_middle_stop": "false",//是否经停
             "flight_no": "CA1831",
             "departure_date": "2016-10-20",
             "departure_timestamp": 1476919800000,
@@ -173,7 +173,7 @@ exceed_info": {
         "price_info": {
             "settle_price": 329.8,
             "discount": 3,//优惠券
-            "par_price": 3720,
+            "par_price": 3720,//票面价
             "fuel_tax": 0,//燃油费
             "airport_tax": 50,//机建费
             "coupon_amount": 20//优惠券
@@ -182,15 +182,16 @@ exceed_info": {
             "policy_id": "111402007"
         },
         "stipulate_info": {
-            "cabin": "F",
-            "par_price": 3720,
+            "cabin": "F",//舱位
+            "par_price": 3720,//票面价
+
             "modify_stipulate": "可以改签;",
             "comment": "",
-            "refund_stipulate": "取消座位时间计算手续费;按照当前舱位票面价收取退票费;起飞前免收退票费,起飞后收取当前舱位票面价的10.0%退票费;",
-            "change_stipulate": "按照当前舱位票面价收取变更费;起飞前免收改期费,起飞后收取当前舱位票面价的5.0%改期费;"
+            "refund_stipulate": "取消座位时间计算手续费;按照当前舱位票面价收取退票费;起飞前免收退票费,起飞后收取当前舱位票面价的10.0%退票费;",//退票规则
+            "change_stipulate": "按照当前舱位票面价收取变更费;起飞前免收改期费,起飞后收取当前舱位票面价的5.0%改期费;"//改签规则
         },
-        "contact_name": "王超",
-        "contact_phone": "18610297769",
+        "contact_name": "王超",//联系人
+        "contact_phone": "18610297769",//联系人手机号
         "order_owner": {
             "id": "57613c435eac323d0c174216",
             "name": "汪识瀚",
@@ -199,11 +200,11 @@ exceed_info": {
                 "providerID": "credentials",
                 "providerKey": "13717505875"
             },
-            "role": {
+            "role": {//权限信息
                 "key": 3,
                 "value": "普通员工"
             },
-            "status": {
+            "status": {//员工状态
                 "key": 1,
                 "value": "启用"
             }
@@ -213,16 +214,17 @@ exceed_info": {
         "comment": "",
         "insurance_info": [
             //保险字段{
-                "category_code": 1,
-                "category_name": "航意险",
+                "category_code": 1,//保险类别编码
+
+                "category_name": "航意险",//保险类别名称
                 "desc": "最高保额10000元，让关心你的人更放心",
                 "desc_link": "平安航延险说明链接",
-                "unit_price": 30,
+                "unit_price": 30,//
                 "insurant_list": [
                     {
-                        "premium": 30,
+                        "premium": 30,//保险金额
                         "insurant_name": "李四",
-                        "status": {
+                        "status": {//保险状态
                             "key": 5101,
                             "value": "已投保"
                         },
@@ -249,8 +251,8 @@ exceed_info": {
                         "premium": 30,
                         "insurant_name": "张三",
                         "status": {
-                            "key": 5101,
-                            "value": "投保中"
+                            "key": 5,
+                            "value": "投保成功"
                         },
                         "policy_number": "1000191573",
                         "start_date": "2017-03-20",
@@ -262,7 +264,7 @@ exceed_info": {
                 ]
             },
             {
-                "category_code": 2,
+                "category_code": 2,//保险类型
                 "category_name": "航延险",
                 "unit_price": 30,
                 "desc": "最高保额10000元，让关心你的人更放心",
@@ -272,8 +274,8 @@ exceed_info": {
                         "premium": 30,
                         "insurant_name": "李四",
                         "status": {
-                            "key": 5101,
-                            "value": "投保中"
+                            "key": 5,
+                            "value": "投保成功"
                         },
                         "policy_number": "1000191573",
                         "start_date": "2017-03-20",
@@ -304,17 +306,17 @@ exceed_info": {
                 "operate_auth": 0,
                 //审批类型（1.弹性审批流2.固定审批流3.分条件审批流）"flow_type": 1
             },
-            "guest_list": [
+            "guest_list": [//同行人列表
                 {
-                    "id": "58c22ee16819488a81120b21",
+                    "id": "58c22ee16819488a81120b21",//用户ID
                     "name": "佩奇",
                     "id_number": "34242583458346536",
                     "id_type": {
                         "key": 1,
                         "value": "身份证"
                     },
-                    "gender": {
-                        "key": 1,
+                    "gender": {//性别
+                        "key": 1,//1:男,2:女 
                         "value": "男"
                     },
                     "birth_date": "2016-12-28",
