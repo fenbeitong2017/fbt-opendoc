@@ -51,27 +51,25 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-order_id|订单ID   |string |Y|
-create_time|创建时间 |string |Y|
-total_price|订单价格 | string |Y|负数为退票状态，退票返回金额
-passenger_list| 乘客信息|string |Y|
-status| 订单状态信息|string|Y|详情参照状态码
-status.key| 订单状态|integer|Y|详情参照状态码
-status.value| 订单详细信息
-|string|Y|  订单详细信息
-status_info|状态信息|string|Y| 
-segment_info||string| Y | 
-segment_info.flight_no|航班号| string | Y | 1:企业 2:个人
-segment_info.airline_name|航班名称|string|Y| 
-segment_info.starting_code|出发城市编码 |string| Y |
-segment_info.starting_city|出发城市名称|string|Y| 
-segment_info.destination_code|目的地城市编码 | string | Y |
-segment_info.destination_city|目的地城市名称| string |Y| 
-segment_info.departure_timestamp|出发时间  |string|Y|
-segment_info.arrived_timestamp|到达时间 | string | Y |
-can_process|是否可以查看订单详情| boolean |Y| 分为企业订单和个人名单，个人不能查看企业订单详情
-is_external_order|是否外采订单| integer |Y|  )
-total_price_str|订单金额字符串| string |Y|  
+order_id|订单ID   |string |Y|5aaa513d279863768e83ff3b|
+create_time|创建时间 |string |Y|2018-04-01 00:00:00|
+total_price|订单价格 | integer |Y|负数为退票状态，退票返回金额|
+passenger_list| 乘客信息|string |Y||
+status| 订单状态信息|string|Y||
+status.key| 订单状态|integer|Y|详情参照状态码|
+status.value| 订单详细信息|string|Y|订单详细信息|
+segment_info||string| Y | |
+segment_info.flight_no|航班号| string | Y |MU5126 |
+segment_info.airline_name|航班名称|string|Y|上海航空| 
+segment_info.starting_code|出发城市编码 |string| Y |PEK|
+segment_info.starting_city|出发城市名称|string|Y|北京市| 
+segment_info.destination_code|目的地城市编码 | string | Y |PVG|
+segment_info.destination_city|目的地城市名称| string |Y|上海市| 
+segment_info.departure_timestamp|出发时间  |integer|Y|1522580110000|
+segment_info.arrived_timestamp|到达时间 | integer | Y |1522587319000|
+can_process|是否可以查看订单详情| boolean |Y| 分为企业订单和个人名单，个人不能查看企业订单详情|
+is_external_order|是否外采订单| integer |Y||0,非外采
+total_price_str|订单金额字符串| string |Y||"￥660.00"
 
 
 
