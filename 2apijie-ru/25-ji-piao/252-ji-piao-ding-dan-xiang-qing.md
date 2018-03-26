@@ -84,137 +84,286 @@ employee_remark|用户备注| string |Y|
     "code": 0,
     "msg": "success",
     "data": {
-    "order_id": "5ab368b127986333d6839cfc",
-		"remote_order_id": "124018274918279242",
-		"create_time": "2018-03-22 16:26:29",
-		"can_process": false,
-		"cost_attribution": "嘟嘟搞测试",
-		"total_price": 56,
-		"passenger_list": [{
-			"passenger_info": {
-				"id": "5aab2d3423445f6ebb39d88e",
-				"name": "韩美美",
-				"type": 0,
-				"identity_type": "1",
-				"identity_type_name": {
-					"key": 1,
-					"value": "身份证"
-				},
-				"identity_no": "230203198512240032",
-				"phone": "18310480640"
-			},
-			"ticket_no": "99999999998387374",
-			"status": {
-				"key": 1811,
-				"value": "退票成功"
-			},
-			"product_id": "5ab368b527986333d6839d00",
-			"ticket_tips": "退票成功",
-			"refund_info": {
-				"refund_amount": 56,
-				"refund_amount_msg": "退票处理中",
-				"refund_fee": 20,
-				"refund_fee_msg": "退票处理中"
-			}
-		}],
-		"status": {
-			"key": 1900,
-			"value": "有退改签"
-		},
-		"segment_info": {
-			"arrived_time": "0910",
-			"arrived_timestamp": 1523495400000,
-			"cabin": "F",
-			"departure_date": "2018-04-12",
-			"departure_time": "0650",
-			"departure_timestamp": 1523487000000,
-			"destination_code": "SHA",
-			"destination_terminal": "T2",
-			"flight_no": "HO1252",
-			"is_middle_stop": false,
-			"plane_type": "",
-			"seat_msg": "头等舱/商务舱",
-			"starting_code": "PEK",
-			"starting_terminal": "T3",
-			"starting_city": "北京",
-			"starting_airport": "首都国际机场",
-			"destination_city": "上海",
-			"destination_airport": "虹桥国际机场",
-			"airline_name": "吉祥航空",
-			"code_share": 0,
-			"share_airline_name": "",
-			"share_num": "",
-			"is_official": false
-		},
-		"price_info": {
-			"add_price": 0,
-			"airport_tax": 50,
-			"discount": 2.76,
-			"fuel_tax": 0,
-			"par_price": 1,
-			"price": 0,
-			"sale_price": 1,
-			"settle_price": 1,
-			"coupon_amount": 0
-		},
-		"policy_info": {
-			"policy_id": "HS"
-		},
-		"stipulate_info": {
-			"cabin": "F",
-			"change_stipulate": "改期：起飞前2小时前，收取费用： 0%\n起飞前2小时后，收取费用： 5%\n升舱：不允许\n此规定仅供参考，最终以航空公司规定为准",
-			"comment": "以航空公司规定为准",
-			"modify_stipulate": "不允许\n此规定仅供参考，最终以航空公司规定为准",
-			"par_price": 3420,
-			"refund_stipulate": "起飞前2小时前，收取费用： 0%\n起飞前2小时后，收取费用： 5%\n此规定仅供参考，最终以航空公司规定为准",
-			"stipulate_name": "退改签规则"
-		},
-		"contact_name": "强仔",
-		"contact_phone": "18310480640",
-		"is_manual": true,
-		"order_owner": {
-			"user_id": "59dc3c3323445f71ddcf56a8",
-			"phone": "18310480640",
-			"name": "强仔",
-			"idType": {
-				"key": 1,
-				"value": "身份证"
-			},
-			"idNumber": "230203198512240032",
-			"avatar_url": "",
-			"role": {
-				"key": 2,
-				"value": "普通管理员"
-			},
-			"status": {
-				"key": 1,
-				"value": "启用"
-			},
-			"email": "",
-			"fixed_phone": ""
-		},
-		"remark_reason": "开发市场",
-		"remark_detail": null,
-		"comment": "",
-		"insurance_info": [],
-		"check_info": [],
-		"is_external_order": 0,
-		"employee_remark": null,
-		"price_detail": [{
-			"key": "票价",
-			"price": "1.00",
-			"amount_desc": "1人",
-			"dc": 1
-		}, {
-			"key": "机建",
-			"price": "50.00",
-			"amount_desc": "1人",
-			"dc": 1
-		}],
-		"total_price_str": "￥56.00",
-		"refund_price_info": null,
-		"endorse_price_info": null,
-		"exceeded": false  
+   "order_id": "576b917bdec24c7c091d2f72",
+        "remote_order_id": "102016062360137545",
+        "create_time": 1466667402270,
+        "can_process[1] ": false,
+        "cost_attribution[2] ": "",
+        "total_price": 7540,
+        "apply_id": ”23423sdrefds”,//审批单ID
+"exceeded": false,//是否已超标"
+exceed_info": {
+            "reason": "就是要超",//超标理
+"comment": "超标补充说明"
+        },
+        "check_info": [
+            {
+                "title": "未选择最低价格理由",
+                "reason": "陪客户出行",
+                "comment": "额外补充"
+            },
+            {
+                "title": "未提前3天预订机票",
+                "reason": "陪领导出差",
+                "comment": "额外补充"
+            },
+             
+        ],
+        [
+            3
+        ]"passenger_list": [
+            {
+                "passenger_info": {
+                    "identity_type": "1",
+                    "identity_no": "410183198603180012",
+                    "name": "王超",
+                    "type": 0
+                },
+                "ticket_no": "xxxxxxxxx",
+                "status": {
+                    //机票状态"key": 1800,
+                    "value": "出票成功"
+                },
+                "product_id": "5774c54f7a3170af796ba290",
+                "refund_info": {
+                    "refund_amount": 700,
+                    "refund_amount_msg": "退票处理中",
+                    "refund_fee": 300,
+                    "refund_fee_msg": "退票处理中"
+                },
+                "change_info": {
+                    "upgrade_price": 300,
+                    "upgrade_price_msg": "改签处理中",
+                    "change_fee": 200,
+                    [
+                        4
+                    ]//改签费"agency_fee": 10,
+                    //改签手续费"change_fee_msg": "改签处理中"
+                },
+                "ticket_tips": "" // 票状态说明
+            }
+        ],
+        "status": {
+            //订单状态"key": 1800,
+            "value": "出票成功"
+        },
+        "segment_info": {
+            "starting_terminal": "T3",
+            "cabin": "F",
+            "plane_type": "787",
+            "arrived_time": "0940",
+            "destination_terminal": "T2",
+            "destination_code": "SHA",
+            "seat_msg": "头等舱",
+            "starting_code": "PEK",
+            "departure_time": "0730",
+            "is_middle_stop": "false",
+            "flight_no": "CA1831",
+            "departure_date": "2016-10-20",
+            "departure_timestamp": 1476919800000,
+            "arrived_timestamp": 1476927600000,
+            "starting_city": "北京",
+            "starting_airport": "首都国际机场",
+            "destination_city": "上海",
+            "destination_airport": "虹桥国际机场",
+            "airline_name": "中国国际航空",
+            "code_share": false,
+            "share_airline_name": "",
+            "share_num": ""
+        },
+        "price_info": {
+            "settle_price": 329.8,
+            "discount": 3,
+            "par_price": 3720,
+            "fuel_tax": 0,
+            "airport_tax": 50,
+            "coupon_amount": 20
+        },
+        "policy_info": {
+            "policy_id": "111402007"
+        },
+        "stipulate_info": {
+            "cabin": "F",
+            "par_price": 3720,
+            "modify_stipulate": "可以改签;",
+            "comment": "",
+            "refund_stipulate": "取消座位时间计算手续费;按照当前舱位票面价收取退票费;起飞前免收退票费,起飞后收取当前舱位票面价的10.0%退票费;",
+            "change_stipulate": "按照当前舱位票面价收取变更费;起飞前免收改期费,起飞后收取当前舱位票面价的5.0%改期费;"
+        },
+        "contact_name": "王超",
+        "contact_phone": "18610297769",
+        "order_owner": {
+            "id": "57613c435eac323d0c174216",
+            "name": "汪识瀚",
+            "phoneNum": "13717505875",
+            "loginInfo": {
+                "providerID": "credentials",
+                "providerKey": "13717505875"
+            },
+            "role": {
+                "key": 3,
+                "value": "普通员工"
+            },
+            "status": {
+                "key": 1,
+                "value": "启用"
+            }
+        },
+        "remark_reson": "remark_reson",
+        "remark_detail": "remark_detail",
+        "comment": "",
+        "insurance_info": [
+            //保险字段{
+                "category_code": 1,
+                "category_name": "航意险",
+                "desc": "最高保额10000元，让关心你的人更放心",
+                "desc_link": "平安航延险说明链接",
+                "unit_price": 30,
+                "insurant_list": [
+                    {
+                        "premium": 30,
+                        "insurant_name": "李四",
+                        "status": {
+                            "key": 5101,
+                            "value": "已投保"
+                        },
+                        "policy_number": "1000191573",
+                        "start_date": "2017-03-20",
+                        "end_date": "2017-03-21",
+                        "insurance_link": {
+                            [
+                                5
+                            ]"url": "http://15607.corp.51zxtx.com/177474/polices/{policyNumber}",
+                            "headers": [
+                                {
+                                    "name": "Content-Type",
+                                    "value": "application/pdf"
+                                },
+                                {
+                                    "name": "X-Zxtx-Sign",
+                                    "value": "5A492D6F67169DDA7F83611FCAD5B30C"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "premium": 30,
+                        "insurant_name": "张三",
+                        "status": {
+                            "key": 5101,
+                            "value": "投保中"
+                        },
+                        "policy_number": "1000191573",
+                        "start_date": "2017-03-20",
+                        "end_date": "2017-03-21",
+                        "insurance_link": {
+                             
+                        }
+                    }
+                ]
+            },
+            {
+                "category_code": 2,
+                "category_name": "航延险",
+                "unit_price": 30,
+                "desc": "最高保额10000元，让关心你的人更放心",
+                "desc_link": "平安航延险说明链接",
+                "insurant_list": [
+                    {
+                        "premium": 30,
+                        "insurant_name": "李四",
+                        "status": {
+                            "key": 5101,
+                            "value": "投保中"
+                        },
+                        "policy_number": "1000191573",
+                        "start_date": "2017-03-20",
+                        "end_date": "2017-03-21",
+                        "insurance_link": {
+                             
+                        }
+                    }
+                ]
+            }
+        ],
+        "during_apply_info": {
+            "apply": {
+                "apply_order_type": 1,
+                //1.行程审批单2.事中审批单"exceed_buy_desc": "机票小于7折",
+                //超规说明"repulse_desc": "驳回理由",
+                //驳回理由"apply_reason": "因公出差",
+                "budget": 14,
+                "company_id": "5747fbc10f0e60e0709d8d7d",
+                "create_time": "2017-03-10 12:43:09",
+                //当前时间戳"current_time": "2017-03-10 12:53:09""employee_id": "57613bac5eac323cad473d28",
+                "user_name": "申请者",
+                "user_dept": "申请者所在部门",
+                "id": "58c22edd6819488a81120b1f",
+                //审批单id//状态（1.草稿2.待审核4.已审核16.已驳回32.转交64.撤销256.审批超时）"state": 2,
+                //申请单类型1.差旅2.用车3.采购"type": 1,
+                //最后更新时间"update_time": "2017-03-10 12:43:09",
+                "operate_auth": 0,
+                //审批类型（1.弹性审批流2.固定审批流3.分条件审批流）"flow_type": 1
+            },
+            "guest_list": [
+                {
+                    "id": "58c22ee16819488a81120b21",
+                    "name": "佩奇",
+                    "id_number": "34242583458346536",
+                    "id_type": {
+                        "key": 1,
+                        "value": "身份证"
+                    },
+                    "gender": {
+                        "key": 1,
+                        "value": "男"
+                    },
+                    "birth_date": "2016-12-28",
+                    "phone": "18610482862",
+                    "desc": "运营部;市场部",
+                    "is_employee": true,
+                    //该联系人当前是否还存在"exist": true,
+                     
+                },
+                 
+            ],
+            "trip_list": [
+                {
+                    "start_time": "2017-03-10 12:43:09",
+                    "end_time": "2017-03-10 12:43:09",
+                    //行程类型7.机票11.酒店15.火车3.用车"type": 7,
+                    "estimated_amount": 1000,
+                    //金额"start_city_name": "北京",
+                    "arrival_city_name": "上海",
+                    "title": "中国国航CA1501",
+                    //飞机的航班信息/火车的车次/酒店的名称"content": "北京市昌平区龙水路1304号",
+                    //酒店的地址"status": 1801,
+                    "status_name": "出票失败"
+                }
+            ]
+        },
+        "is_external_order": 0, // 是否外采订单
+        "employee_remark": "", // 用户备注
+        "refund_price_info":{ // 可能为空，为空不展示
+            "refund_price": 600,  // 退订金额（票价）
+            "refund_cost": 80, // 退订费（扣除的钱）
+            "refund_total_price": 520, // 退款总额（到手的钱）
+        },
+        "endorse_price_info":{ // 可能为空，为空不展示
+            "endorse_price": 600,  // 改签差价（差价）
+            "endorse_cost": 80, // 改签费（改签费）
+            "endorse_total_price": 520, // 改签总额（改签总花费即差价+改签费）
+        },
+        "price_detail":[
+            {
+                "key":"", // 费用明细key，如“票价”
+                "price":"1500", // 费用明细金额
+                "amount_desc":"2人", // 数量描述，如2人
+                "dc":1 // 正负，如票价是正（1）、优惠券是负（-1）
+            },
+            ...
+        ],
+        "total_price_str": "-$120" 
         }
 }
 ```
