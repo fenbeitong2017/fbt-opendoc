@@ -59,7 +59,8 @@ starting_airport |出发机场| string|Y|中英文  首都国际机场
 starting_code |出发航程三字码| string | Y |PEK
 starting_terminal |起飞航站楼| string |Y|首都T3
 departure_timestamp |起飞时间| string | Y|1507079400000
-destination_city|到达城市| string|Y| 上海destination_airport |到达机场| string|Y|虹桥国际机场
+destination_city|到达城市| string|Y| 上海
+destination_airport |到达机场| string|Y|虹桥国际机场
 destination_code|到达航程三字码|string|Y|SHA
 destination_terminal |到达航站楼| string |Y|T4
 arrived_timestamp |到达时间|Integer | Y | 1537099400000
@@ -74,7 +75,7 @@ insurant_name |被保人| string |Y|张胜男
 insurant_amount |数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
 unit_price|保费| Integer |Y|
 type |乘客类型| Integer |Y|0:成人,1:婴儿
-employee_remark|用户备注| string |Y|
+employee_remark|用户备注| string |Y||
 
 
 
