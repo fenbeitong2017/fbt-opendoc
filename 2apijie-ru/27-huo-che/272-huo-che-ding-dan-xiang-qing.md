@@ -11,7 +11,7 @@ sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data || jsonstring |Y||
+data || jsonstring |Y|
 data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f
 
 请求示例：
@@ -44,19 +44,18 @@ data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
 order\_id| 订单ID|string |Y|5aab90ac279863130a86296f
-create\_time|订单创建时间 |integer |Y||
-employee\_name| 下单人姓名|string | Y ||
-total\_price |总价| double | Y ||
-order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码|
-comment| |string | Y ||
-use\_customer12306\_account |是否使用12306账号| jsonarray | Y ||
-exceeded|| boolean|  Y ||
-is\_grab\_order|是否抢票订单 |boolean | Y ||
-is\_external\_order |是否外采订单| integer |  Y ||
-employee\_remark|用户备注| string|  Y ||
+create\_time|订单创建时间 |integer |Y|
+employee\_name| 下单人姓名|string | Y |
+total\_price |总价| double | Y |
+order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码
+use\_customer12306\_account |是否使用12306账号| jsonarray | Y |
+exceeded|| boolean|  Y |
+is\_grab\_order|是否抢票订单 |boolean | Y |
+is\_external\_order |是否外采订单| integer |  Y |
+employee\_remark|用户备注| string|  Y |
 total\_price\_str |价格字符串| string |  Y |订单金额字符串
-passengers\_info|乘客信息数组 |jsonarray |  Y | 
-passenger\_info|乘客信息 |jsonobject | Y ||
+passengers\_info|乘客信息数组 |jsonarray |  Y |
+passenger\_info|乘客信息 |jsonobject | Y |
 passenger\_id |乘客id| string | Y |4567988645345|
 name|姓名| string|  Y |张三|
 mobile\_no|手机号码 |string | Y |17080187999|
@@ -69,21 +68,21 @@ seat\_location|坐席位置 |string | Y |08车厢,10B座
 ticket\_no |票号| string |  Y |E931804546
 can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
 ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码|
-refund\_info |退票信息| jsonarray | Y ||
-refund\_money|退票金额| double|  Y ||
-refund\_fee|退票费 |double | Y ||
-reason |退票原因| string |  Y ||
-endorse\_info|改签信息| boolean|  Y ||
+refund\_info |退票信息| jsonarray | Y |
+refund\_money|退票金额| double|  Y |
+refund\_fee|退票费 |double | Y |
+reason |退票原因| string |  Y |
+endorse\_info|改签信息| boolean|  Y |
 supplementary\_payment |改签生成新单的价格| double |  Y |  
 diff\_price|改签差价| double| Y ||
 endorse\_fee |改签手续费| double | Y | 
 reason|改签原因| string| Y ||
 ticket\_tips |票状态说明| string | Y | 
-insurance\_info|保险信息 |jsonarray | Y ||
-can\_process |是否可查看企业订单| boolean |  Y ||
-cost\_attribution|费用归属| string|  Y ||
-contact\_info |联系人信息| jsonobject |  Y |  
-contact\_name|联系人姓名| string| Y ||
+insurance\_info|保险信息 |jsonarray | Y |
+can\_process |是否可查看企业订单| boolean |  Y |
+cost\_attribution|费用归属| string|  Y |
+contact\_info |联系人信息| jsonobject | Y|  
+contact\_name|联系人姓名| string| Y |
 contact\_phone |联系人手机号| string | Y |
 refund\_price\_info|退票信息| jsonobject|N|可能为空，为空不展示
 refund\_price |退订金额（票价单价)|double|N| 退订金额（票价）
@@ -94,11 +93,11 @@ endorse\_price|改签差价（差价）| double|  N |改签差价（差价）
 endorse\_cost |改签手续费| double |  N | 改签费（改签费）
 endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即差价+改签费)
 price\_detail |价格信息| jsonobject | N | 
-key|费用明细key| string| N ||
-price |费用明细金额| string | N| |
-amount\_desc |费用明细金额|string|N|  
-dc| 正负|integer |N|如票价是正（1）、优惠券是负（-1|
-grab\_info|抢票信息|jsonobject|N||
+key|费用明细key| string| N |
+price |费用明细金额| string | N| 
+amount\_desc |费用明细金额|string|N
+dc| 正负|integer |N|如票价是正（1）、优惠券是负（-1
+grab\_info|抢票信息|jsonobject|N|
 
 
 
