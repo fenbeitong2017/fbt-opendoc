@@ -68,16 +68,15 @@ seat\_type |席座类型| string | Y ||
 ticket\_price|票价| double|  Y ||
 seat\_location|坐席位置 |string | Y ||
 ticket\_no |票号| string |  Y ||
-product\_id|| string|  Y ||
-can\_group_change || boolean |  Y |  
-ticket\_status|订单状态|jsonobject | Y ||
+can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
+ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码|
 refund\_info |退票信息| jsonarray | Y ||
 refund\_money|退票金额| double|  Y ||
 refund\_fee|退票费 |double | Y ||
 reason |退票原因| string |  Y ||
 endorse\_info|改签信息| boolean|  Y ||
-supplementary\_payment || integer |  Y |  
-diff\_price|| boolean| Y ||
+supplementary\_payment |改签生成新单的价格| double |  Y |  
+diff\_price|改签差价| double| Y ||
 endorse\_fee |改签手续费| double | Y | 
 reason|改签原因| string| Y ||
 ticket\_tips |票状态说明| string | Y | 
@@ -88,16 +87,16 @@ contact\_info |联系人信息| jsonobject |  Y |
 contact\_name|联系人姓名| string| Y ||
 contact\_phone |联系人手机号| string | Y |
 refund\_price\_info|退票信息| jsonobject|N|可能为空，为空不展示|
-refund\_price |退订金额（票价单价)|integer|N| 退订金额（票价）
-refund\_cost |退票手续费| integer |N|退订费（扣除的钱）
-refund\_total\_price|退票总价 |string |N|退款总额（到手的钱）|
+refund\_price |退订金额（票价单价)|double|N| 退订金额（票价）
+refund\_cost |退票手续费| double |N|退订费（扣除的钱）
+refund\_total\_price|退票总价 |double |N|退款总额（到手的钱）|
 endorse\_price\_info |改签信息| jsonobject | N |可能为空，为空不展示
-endorse\_price|改签差价（差价）| double|  N ||
-endorse\_cost |改签手续费| double |  N | 
-endorse\_total\_price|改签总价| double| N ||
+endorse\_price|改签差价（差价）| double|  N |改签差价（差价）|
+endorse\_cost |改签手续费| double |  N | 改签费（改签费）
+endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即差价+改签费)|
 price\_detail |价格信息| jsonobject | N | 
 key|费用明细key| string| N ||
-price |费用明细金额| string | N| 
+price |费用明细金额| string | N| |
 amount\_desc |费用明细金额|string|N|  
 dc| 正负|integer |N|如票价是正（1）、优惠券是负（-1|
 grab\_info|抢票信息|jsonobject|N||
