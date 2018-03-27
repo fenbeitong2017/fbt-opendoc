@@ -35,6 +35,8 @@
     * [2.7.1 火车订单列表](2apijie-ru/27-huo-che/271-ding-dan-lie-biao.md)
     * [2.7.2 火车订单详情](2apijie-ru/27-huo-che/272-huo-che-ding-dan-xiang-qing.md)
   * [2.8 酒店接口接入](2apijie-ru/28-jiu-dian.md)
+    * [2.8.1 酒店订单列表](2apijie-ru/28-jiu-dian/281-jiu-dian-ding-dan-lie-biao.md)
+    * [2.8.2酒店订单详情](2apijie-ru/28-jiu-dian/282jiu-dian-ding-dan-xiang-qing.md)
   * [2.9 公用接口](2apijie-ru/29-gong-yong.md)
     * [2.9.1 根据城市获取机票机场列表和火车站列表](2apijie-ru/29-gong-yong/291-gen-ju-cheng-shi-huo-qu-ji-piao-ji-chang-lie-biao-he-huo-che-zhan-lie-biao.md)
     * [2.9.2获取城市相应的编码](2apijie-ru/29-gong-yong/292.md)
