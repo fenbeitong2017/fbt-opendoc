@@ -5,7 +5,7 @@ POST|/open/api/train/order/detail
 
 
 字段|名称|类型|必填|描述
------|-----|----|----|----
+-----|-----|----|----|----|
 timestamp|时间戳 |long |Y|13位时间戳
 sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
