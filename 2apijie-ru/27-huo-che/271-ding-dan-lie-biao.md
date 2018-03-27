@@ -1,4 +1,3 @@
-根据企业app_id/app_key等参数请求鉴权接口，返回请求Token
 
 请求方式|请求地址
 ----|---
@@ -57,7 +56,7 @@ passenger_names |乘客信息| jsonarray | Y ||
 from_station_name|出发站名称| string|  Y ||
 to_station_name|到达站名称 |string | Y ||
 total_price |总价| integer |  Y ||
-can_process|| boolean|  Y ||
+can_process|是否可以查看订单详情| boolean|  Y ||
 is_external_order |是否外采订单| integer |  Y |  1:是,0:否 
 total_price_str|订单金额字符串 |string |  Y |订单金额字符串 
 
