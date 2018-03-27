@@ -76,7 +76,7 @@ endorse\_info|改签信息| boolean|  Y |
 supplementary\_payment |改签生成新单的价格| double |  Y |  
 diff\_price|改签差价| double| Y |
 endorse\_fee |改签手续费| double | Y | 
-reason|改签原因| string| Y ||
+reason|改签原因| string| Y |
 ticket\_tips |票状态说明| string | Y | 
 insurance\_info|保险信息 |jsonarray | Y |
 can\_process |是否可查看企业订单| boolean |  Y |
