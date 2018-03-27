@@ -56,25 +56,25 @@ employee\_remark|用户备注| string|  Y |
 total\_price\_str |价格字符串| string |  Y |订单金额字符串
 passengers\_info|乘客信息数组 |jsonarray |  Y |
 passenger\_info|乘客信息 |jsonobject | Y |
-passenger\_id |乘客id| string | Y |4567988645345|
-name|姓名| string|  Y |张三|
-mobile\_no|手机号码 |string | Y |17080187999|
-identity\_no |身份号码| string |  Y |23456789098765|
-identity\_type|身份证件类型| jsonobject|  Y |身份证|
+passenger\_id |乘客id| string | Y |4567988645345
+name|姓名| string|  Y |张三
+mobile\_no|手机号码 |string | Y |17080187999
+identity\_no |身份号码| string |  Y |23456789098765
+identity\_type|身份证件类型| jsonobject|  Y |身份证
 ticket\_info |票信息| jsonobject |  Y |  
 seat\_type |席座类型| string | Y |二等座
 ticket\_price|票价| double|  Y |100
 seat\_location|坐席位置 |string | Y |08车厢,10B座
 ticket\_no |票号| string |  Y |E931804546
 can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
-ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码|
+ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码
 refund\_info |退票信息| jsonarray | Y |
 refund\_money|退票金额| double|  Y |
 refund\_fee|退票费 |double | Y |
 reason |退票原因| string |  Y |
 endorse\_info|改签信息| boolean|  Y |
 supplementary\_payment |改签生成新单的价格| double |  Y |  
-diff\_price|改签差价| double| Y ||
+diff\_price|改签差价| double| Y |
 endorse\_fee |改签手续费| double | Y | 
 reason|改签原因| string| Y ||
 ticket\_tips |票状态说明| string | Y | 
