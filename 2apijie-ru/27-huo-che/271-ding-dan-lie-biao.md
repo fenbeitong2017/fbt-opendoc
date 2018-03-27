@@ -48,7 +48,7 @@ data.page\_size|每页显示条数| integer|  N |10(默认值)
 -----|-----|----|----|----
 order_id| 订单ID|string |Y||
 is\_grab\_order|是否抢票订单 |boolean |Y||
-status|乘客/下单人姓名/手机号类型 |jsonobject | Y ||
+status| 订单状态|jsonobject | Y ||
 departure\_time |出发时间| integer | Y ||
 arrival\_time |到达时间|integer | Y ||
 train\_code|火车车次 |string | Y ||
