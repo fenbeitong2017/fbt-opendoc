@@ -49,38 +49,61 @@ data.page\_size|每页显示条数| integer|  N |10(默认值)
 
 ```
 
-
 {
-    "request_id": "IOCCucbNYCDEkCOOakDP",
+    "request_id": "WvhdVHK5vl4PbWtje0wW",
     "code": 0,
     "msg": "success",
     "data": {
         "results": [
             {
-                "order_id": "59e456cd2798636090cdf339",
+                "order_id": "5aab90ac279863130a86296f",
+                "is_grab_order": false,
                 "status": {
                     "key": 3101,
                     "value": "已取消"
                 },
-                "departure_time": 1509686700000,
-                "arrival_time": 1509691260000,
-                "train_code": "6026",
+                "departure_time": 1523227380000,
+                "arrival_time": 1523248740000,
+                "train_code": "G101",
                 "passenger_names": [
-                    "韩树起"
+                    "滚滚滚"
                 ],
-                "from_station_name": "九江",
-                "to_station_name": "武穴",
-                "total_price": 3,
-                "can_process": true
+                "from_station_name": "北京南",
+                "to_station_name": "上海虹桥",
+                "total_price": 563,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥563.00"
             },
             {
-                "order_id": "59e4526b2798636090cdf30c",
+                "order_id": "5aab7b852798637d05ff3695",
+                "is_grab_order": false,
                 "status": {
-                    "key": 3203,
-                    "value": "出票失败"
+                    "key": 3102,
+                    "value": "已关闭"
                 },
-                "departure_time": 1509686700000,
-                "arrival_time": 1509691260000,
+                "departure_time": 1522191180000,
+                "arrival_time": 1522207440000,
+                "train_code": "G89",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "北京西",
+                "to_station_name": "西安北",
+                "total_price": 515.5,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥515.50"
+            },
+            {
+                "order_id": "5aa88e332798634316002512",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1522128300000,
+                "arrival_time": 1522132860000,
                 "train_code": "6026",
                 "passenger_names": [
                     "韩梅梅"
@@ -88,27 +111,152 @@ data.page\_size|每页显示条数| integer|  N |10(默认值)
                 "from_station_name": "九江",
                 "to_station_name": "武穴",
                 "total_price": 3,
-                "can_process": true
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥3.00"
             },
-                       {
-                "order_id": "59df44392798637cf9d5913a",
+            {
+                "order_id": "5aa889ee27986343160024d9",
+                "is_grab_order": false,
                 "status": {
-                    "key": 3400,
-                    "value": "有退改纪录"
+                    "key": 3102,
+                    "value": "已关闭"
                 },
-                "departure_time": 1510205100000,
-                "arrival_time": 1510209660000,
+                "departure_time": 1521586380000,
+                "arrival_time": 1521602640000,
+                "train_code": "G89",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "北京西",
+                "to_station_name": "西安北",
+                "total_price": 1627.5,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥1627.50"
+            },
+            {
+                "order_id": "5aa8859527986343160024a7",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1522128300000,
+                "arrival_time": 1522132860000,
                 "train_code": "6026",
                 "passenger_names": [
-                    "韩树起"
+                    "韩梅梅"
                 ],
                 "from_station_name": "九江",
                 "to_station_name": "武穴",
                 "total_price": 3,
-                "can_process": true
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥3.00"
+            },
+            {
+                "order_id": "5aa7be342798634316002483",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1522128300000,
+                "arrival_time": 1522132860000,
+                "train_code": "6026",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "九江",
+                "to_station_name": "武穴",
+                "total_price": 3,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥3.00"
+            },
+            {
+                "order_id": "5aa7bbd7279863431600247d",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1520944800000,
+                "arrival_time": 1520987460000,
+                "train_code": "Z19",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "北京西",
+                "to_station_name": "西安",
+                "total_price": 765.5,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥765.50"
+            },
+            {
+                "order_id": "5aa78ee52798633851e1e4a1",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1522128300000,
+                "arrival_time": 1522132860000,
+                "train_code": "6026",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "九江",
+                "to_station_name": "武穴",
+                "total_price": 3,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥3.00"
+            },
+            {
+                "order_id": "5aa78a2a2798633851e1e45c",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1522191180000,
+                "arrival_time": 1522207440000,
+                "train_code": "G89",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "北京西",
+                "to_station_name": "西安北",
+                "total_price": 515.5,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥515.50"
+            },
+            {
+                "order_id": "5aa37c1927986357fd851324",
+                "is_grab_order": false,
+                "status": {
+                    "key": 3102,
+                    "value": "已关闭"
+                },
+                "departure_time": 1521619200000,
+                "arrival_time": 1521640200000,
+                "train_code": "G665",
+                "passenger_names": [
+                    "韩梅梅"
+                ],
+                "from_station_name": "北京西",
+                "to_station_name": "西安北",
+                "total_price": 1627.5,
+                "can_process": true,
+                "is_external_order": 0,
+                "total_price_str": "￥1627.50"
             }
         ],
-        "total_count": 6
+        "total_count": 47
     }
 }
 
