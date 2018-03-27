@@ -47,45 +47,19 @@ data.page\_size|每页显示条数| integer|  N |10(默认值)
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-order_id| 查询状态|string |Y|0全部，1正处理，2已完成
-is_grab_order|乘客/下单人姓名/手机号 |boolean |N|
-status|乘客/下单人姓名/手机号类型 |jsonobject | N |
-departure_time |搜索维度| integer | N |
-arrival_time |下单开始日期|integer | N |yyyy-MM-dd
-train_code|下单结束日期 |string | N |yyyy-MM-dd
-passenger_names |页码| jsonarray |  N |1(默认值)
-from_station_name|每页显示条数| string|  N |10(默认值)
-to_station_name|下单结束日期 |string | N |yyyy-MM-dd
-total_price |页码| integer |  N |1(默认值)
-can_process|每页显示条数| integer|  N |10(默认值)
-
-is_external_order |页码| integer |  N |1(默认值)
-total_price_str|每页显示条数| integer|  N |10(默认值)
-to_station_name|下单结束日期 |string | N |yyyy-MM-dd
-total_price |页码| integer |  N |1(默认值)
-can_process|每页显示条数| integer|  N |10(默认值)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- is_external_order 是否外采订单 1：是；0：否   total_price_str 订单金额字符串
- //是否抢票订单
+order_id| 订单ID|string |Y|
+is_grab_order|是否抢票订单 |boolean |Y||
+status|乘客/下单人姓名/手机号类型 |jsonobject | Y ||
+departure_time |出发时间| integer | Y ||
+arrival_time |到达时间|integer | Y ||
+train_code|火车车次 |string | Y ||
+passenger_names |乘客信息| jsonarray | Y ||
+from_station_name|出发站名称| string|  Y ||
+to_station_name|到达站名称 |string | Y ||
+total_price |总价| integer |  Y ||
+can_process|| boolean|  Y ||
+is_external_order |是否外采订单| integer |  Y |  1:是,0:否 
+total_price_str|订单金额字符串 |string |  Y |订单金额字符串 
 
 
 
