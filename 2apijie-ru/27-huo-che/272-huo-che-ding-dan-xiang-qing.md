@@ -43,7 +43,7 @@ data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-order\_id| 订单ID|string |Y||
+order\_id| 订单ID|string |Y|5aab90ac279863130a86296f
 create\_time|订单创建时间 |integer |Y||
 employee\_name| 下单人姓名|string | Y ||
 total\_price |总价| double | Y ||
@@ -55,19 +55,18 @@ is\_grab\_order|是否抢票订单 |boolean | Y ||
 is\_external\_order |是否外采订单| integer |  Y ||
 employee\_remark|用户备注| string|  Y ||
 total\_price\_str |价格字符串| string |  Y |订单金额字符串
-passengers\_info|乘客信息 |jsonarray |  Y | 
+passengers\_info|乘客信息数组 |jsonarray |  Y | 
 passenger\_info|乘客信息 |jsonobject | Y ||
-passenger\_id |乘客id| string | Y ||
-name|姓名| string|  Y ||
-mobile\_no|手机号码 |string | Y ||
-identity\_no |身份号码| string |  Y ||
-identity\_type|身份证件类型| jsonobject|  Y ||
+passenger\_id |乘客id| string | Y |4567988645345|
+name|姓名| string|  Y |张三|
+mobile\_no|手机号码 |string | Y |17080187999|
+identity\_no |身份号码| string |  Y |23456789098765|
+identity\_type|身份证件类型| jsonobject|  Y |身份证|
 ticket\_info |票信息| jsonobject |  Y |  
-seat\_no|火车车次 |string | Y ||
-seat\_type |席座类型| string | Y ||
-ticket\_price|票价| double|  Y ||
-seat\_location|坐席位置 |string | Y ||
-ticket\_no |票号| string |  Y ||
+seat\_type |席座类型| string | Y |二等座
+ticket\_price|票价| double|  Y |100
+seat\_location|坐席位置 |string | Y |08车厢,10B座
+ticket\_no |票号| string |  Y |E931804546
 can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
 ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码|
 refund\_info |退票信息| jsonarray | Y ||
@@ -86,14 +85,14 @@ cost\_attribution|费用归属| string|  Y ||
 contact\_info |联系人信息| jsonobject |  Y |  
 contact\_name|联系人姓名| string| Y ||
 contact\_phone |联系人手机号| string | Y |
-refund\_price\_info|退票信息| jsonobject|N|可能为空，为空不展示|
+refund\_price\_info|退票信息| jsonobject|N|可能为空，为空不展示
 refund\_price |退订金额（票价单价)|double|N| 退订金额（票价）
 refund\_cost |退票手续费| double |N|退订费（扣除的钱）
-refund\_total\_price|退票总价 |double |N|退款总额（到手的钱）|
+refund\_total\_price|退票总价 |double |N|退款总额（到手的钱）
 endorse\_price\_info |改签信息| jsonobject | N |可能为空，为空不展示
-endorse\_price|改签差价（差价）| double|  N |改签差价（差价）|
+endorse\_price|改签差价（差价）| double|  N |改签差价（差价）
 endorse\_cost |改签手续费| double |  N | 改签费（改签费）
-endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即差价+改签费)|
+endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即差价+改签费)
 price\_detail |价格信息| jsonobject | N | 
 key|费用明细key| string| N ||
 price |费用明细金额| string | N| |
