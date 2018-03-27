@@ -44,7 +44,7 @@ data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f|
 -----|-----|----|----|----
 order_id| 订单ID|string |Y||
 is\_grab\_order|是否抢票订单 |boolean |Y||
-status|乘客/下单人姓名/手机号类型 |jsonobject | Y ||
+status| |jsonobject | Y ||
 departure\_time |出发时间| integer | Y ||
 arrival\_time |到达时间|integer | Y ||
 train\_code|火车车次 |string | Y ||
@@ -122,7 +122,7 @@ total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串
                     "endorse_fee": 0,
                     "reason": ""
                 },
-                "ticket_tips": "" // 票状态说明
+                "ticket_tips": ""// 票状态说明
             },
             {
                 "passenger_info": {
@@ -159,7 +159,7 @@ total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串
                     "endorse_fee": 0,
                     "reason": ""
                 },
-                "ticket_tips": "" // 票状态说明
+                "ticket_tips": ""// 票状态说明
             }
         ],
         "contact_info": {
@@ -215,7 +215,7 @@ total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串
             },
             ...
         ],
-        "grab_info": {            //抢票信息    “待支付”“抢票中”“出票失败”“已取消”状态的抢票订单存在该信息
+        "grab_info": {//抢票信息“待支付”“抢票中”“出票失败”“已取消”状态的抢票订单存在该信息
             "train_code": "D379,D325",
             "from_station_name": "上海虹桥",
             "to_station_name": "金山北",
