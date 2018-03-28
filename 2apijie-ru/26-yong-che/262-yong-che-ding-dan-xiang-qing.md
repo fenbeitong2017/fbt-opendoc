@@ -34,17 +34,44 @@ data.order_id| 用车订单id|string|Y|
 
 字段|名称|类型|必填|描述
 ----|---|---|---|---
-total_price |订单金额| Integer | Y |88
-status.key|订单状态| Integer |Y|99
+
+
 departure_place.name |出发地| string|Y|例：北京
 arrival_place.name |目的地| string | Y |例：上海
-em_name | 下单人| string | Y |例：韩冰
-em_tel |下单人手机号| string |Y|例：15070713001
 order_time |下单时间| string | Y |2017-09-11 11:08:58
 cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
-type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
+
 spec.id |车辆类型	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
 vendor.key |供应商| Integer |Y|2：神州
+driver_name|司机姓名| string|Y|王师傅，dave han
+driver_card |车牌号	| string | Y |英文字符,数字
+driver\_car_type |品牌车型| string |Y|别克
+driver_level |司机评分| string | Y |5.0
+driver\_order_count|接单数| string|Y|3
+begin\_charge_time |出发时间| string | Y ||
+finish\_charge_time |到达时间| array|Y||
+category_code |保险险种| Integer | Y ||
+policy_number | 保单编号| string|Y||
+status |保单状态	| string | Y ||
+insurant_name |被保人姓名|string|Y||
+insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段|
+premium |保险保费| Double |Y||
+
+order_id |订单id| String | Y |23456y6uy
+vorder_id|供应商订单id| String |Y
+can_process |是否可查看订单| Boolean|Y|例：北京
+cost_attribution |费用归属信息| string | Y |例：上海
+em_name | 下单人| string | Y |例：韩冰
+em_tel |下单人手机号| string |Y|例：15070713001
+tel |用车人手机号| string | Y |例：15070713088
+status|订单状态| Integer |Y|700
+status_info |订单状态名| string | Y 
+city |城市编码| Integer |Y| 
+city_name |城市名| string | Y |0：实时；1：预约；2：接机；3：送机
+type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
+total_price |订单金额| Double | Y |88
+coupon_amount |优惠券金额|Double|Y| 
+distance |行驶距离| Double |Y|
 driver_name|司机姓名| string|Y|王师傅，dave han
 driver_card |车牌号	| string | Y |英文字符,数字
 driver\_car_type |品牌车型| string |Y|别克
@@ -59,6 +86,9 @@ status |保单状态	| string | Y ||
 insurant_name |被保人姓名|string|Y||
 insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段|
 premium |保险保费| Double |Y||
+
+
+
 
 
 
