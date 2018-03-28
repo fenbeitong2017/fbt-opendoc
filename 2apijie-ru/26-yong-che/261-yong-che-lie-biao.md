@@ -49,7 +49,7 @@ data.results.status_info|订单状态描述|string|Y|	显示订单状态最好�
 data.results.price|金额	|double	 |Y|45.99	 
 data.results.order_time|下单时间|string	|Y| 格式：yyyy-MM-dd HH:mm:ss
 data.results.schedule_time|用车时间|string|Y| 格式：yyyy-MM-dd HH:mm:ss
-data.results.spec|用车类型信息|	jsonobject| Y	 
+data.results.spec|用车类型信息|	jsonobject| Y|	 
 data.results.spec.id|用车类型id|integer|Y| 100:舒适型；400：七座商务；200：豪华型；600:快车
 data.results.spec.name	|用车类型名称|string|Y| 舒适型、七座商务、豪华型、快车|	 
 data.results.vendor_id	|供应商类型id|integer|Y | 1：滴滴；2：神州（注意：供应商类型id，不要与vorder_id弄混）
