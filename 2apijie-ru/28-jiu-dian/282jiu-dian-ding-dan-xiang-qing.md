@@ -48,16 +48,16 @@ data.order_id|订单号|string|Y|
         "create_time": 1519975963862,
         "can_process": true,
         "cost_attribution": "北京分贝金服科技有限公司",
-        "order_person": "韩树起",
-        "order_person_phone": "17080151667",
-        "checkin_date": 1522080000000,
-        "checkout_date": 1522166400000,
-        "city_code": "904",
-        "hotel_name": "汉庭南京六合长江路酒店",
-        "hotel_lng": "118.837468",
-        "hotel_lat": "32.345671",
-        "hotel_address": "江苏省南京市六合区雄州街道棠城西路179号",
-        "hotel_code": "5a41ed51979d9663f8b4c5de",
+        "order_person": "韩冰",
+        "order_person_phone": "17080151888",
+        "checkin_date": 1522080000000,//入住时间
+        "checkout_date": 1522166400000,//离店时间
+        "city_code": "904",//城市编码
+        "hotel_name": "汉庭南京六合长江路酒店",//酒店名称
+        "hotel_lng": "118.837468",//酒店经度
+        "hotel_lat": "32.345671",//酒店维度
+        "hotel_address": "江苏省南京市六合区雄州街道棠城西路179号",//酒店地址
+        "hotel_code": "5a41ed51979d9663f8b4c5de",//酒店code
         "city_name": "南京市",
         "policy_code": "1",
         "hotel_phone": "025-57508988",
@@ -74,9 +74,9 @@ data.order_id|订单号|string|Y|
         "price_rule": "订单确认后，如在北京时间2018-03-26 23:00:00 （含）点前取消，可全额退款！其它时间不可取消，不可变更。如未入住扣除全额房费。",
         "plan_name": "大床房",
         "price_rule_tag": "取消规则",
-        "price": 150,
-        "contact_name": "韩树起",
-        "contact_phone_no": "17080151667",
+        "price": 150,//价格
+        "contact_name": "韩树起",//联系人姓名
+        "contact_phone_no": "17080151667",//联系人手机号
         "guest_type": 0,
         "guests": [
             {
