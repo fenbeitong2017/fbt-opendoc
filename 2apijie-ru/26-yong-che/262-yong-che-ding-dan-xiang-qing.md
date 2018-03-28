@@ -1,5 +1,3 @@
-根据企业appId/appKey等参数请求鉴权接口，返回请求Token
-
 请求方式|请求地址
 ----|---
 POST|/open/api/car/order/detail
