@@ -39,7 +39,7 @@ em_name | 下单人| string | Y |例：韩冰
 em_tel |下单人手机号| string |Y|例：15070713001
 tel |用车人手机号| string | Y |例：15070713088
 status|订单状态| Integer |Y|700
-status_info |订单状态名| string | Y 
+status_info |订单状态名| string | Y |
 city |城市编码| Integer |Y|
 city_name |城市名| string | Y |0：实时；1：预约；2：接机；3：送机
 type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
@@ -56,12 +56,12 @@ exceed_info |超标信息| jsonobject | N
 exceed_info.reason |超标原因| string|N|没有原因
 exceed_info.comment |超标补充说明|string|N |超标
 cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
-spec |用车类型信息|jsonobject|Y
+spec |用车类型信息|jsonobject|Y|类型信息
 spec.id |车辆类型id	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
 spec.name|用车类型名称| String |Y 
 price_detail | 费用明细| jsonarray|Y|可能是空数组
-price_detail.name |费用名称| string | Y 
-price_detail.amount |费用金额|Double|Y
+price_detail.name |费用名称| string | Y |加班
+price_detail.amount |费用金额|Double|Y|44.22
 price_detail.type|费用类型| String | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
 driver_info|司机信息| jsonobject |N|可能为空数据
 driver_info.driver_name|司机姓名| string|N|王师傅，dave han
