@@ -41,8 +41,8 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 data.results.order_id|	订单id|string|Y	 
 data.results.can_process|否有查看权限|boolean|Y|判断当前登录用户是否有查看权限	 
 data.results.vorder_id	|供应商id|string	|Y |注意：供应商id，不是供应商类型id		 
-data.results.departure_name|出发地名称|string|Y	 
-data.results.departure_lng|出发地经度|double| Y
+data.results.departure_name|出发地名称|string|Y	| 
+data.results.departure_lng|出发地经度|double| Y|
 data.results.departure_lat|出发地纬度|double |Y	 
 data.results.status|订单状态|integer |Y	 
 data.results.status_info|订单状态描述|string|Y|	显示订单状态最好使用此字段，避免增加状态类型等不兼容问题 
