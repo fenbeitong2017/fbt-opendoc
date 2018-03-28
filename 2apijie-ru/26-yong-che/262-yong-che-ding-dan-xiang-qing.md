@@ -44,17 +44,17 @@ city |城市编码| Integer |Y|
 city_name |城市名| string | Y |0：实时；1：预约；2：接机；3：送机
 type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
 total_price |订单金额| Double | Y |88
-coupon_amount |优惠券金额|Double|Y 
-distance |行驶距离| Double |Y
-is_complaint|是否已投诉| boolean|Y
-comment |评论信息| string | N |
-comment.score |评分| Integer |N  
-comment.content |评价信息| string | N   
+coupon_amount |优惠券金额|Double|Y|99.00 
+distance |行驶距离| Double |Y|99.22
+is_complaint|是否已投诉| boolean|Y|true
+comment |评论信息| jsonobject | N |
+comment.score |评分| Integer |N  |1
+comment.content |评价信息| string | N |太差  
 remark_reason|备注| string|N|35rdfdf
-exceeded |是否超标| Boolean | N 
+exceeded |是否超标| Boolean | N |false
 exceed_info |超标信息| jsonobject | N 
-exceed_info.reason |超标原因| string|N
-exceed_info.comment |超标补充说明|N 
+exceed_info.reason |超标原因| string|N|没有原因
+exceed_info.comment |超标补充说明|string|N |超标
 cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
 spec |用车类型信息|jsonobject|Y
 spec.id |车辆类型id	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
@@ -70,37 +70,37 @@ driver_info.driver\_car_type |品牌车型| string |N|别克
 driver_info.driver_level |司机评分| string | N |5.0
 driver_info.driver\_order_count|接单数| string|N|3
 departure_place|出发地信息| jsonobject | Y 
-departure_place.name |出发地名称| String|Y
-departure_place.address |出发地详细地址| String | Y 
-departure_place.dlng | 出发地经度| Double|Y
-departure_place.dlat|出发地纬度| Double | Y 
+departure_place.name |出发地名称| String|Y|国贸
+departure_place.address |出发地详细地址| String | Y|国贸大楼 
+departure_place.dlng | 出发地经度| Double|Y|12.22
+departure_place.dlat|出发地纬度| Double | Y |55.22
 arrival_place |目的地信息|jsonobject|Y
-arrival_place.name |目的地名称| String | Y 
-arrival_place.address |目的地详细地址| String |Y
-arrival_place.tlng | 目的地经度| Double|Y
-arrival_place.tlat|目的地纬度| Double | Y 
+arrival_place.name |目的地名称| String | Y |东大桥
+arrival_place.address |目的地详细地址| String |Y|东大桥地铁站
+arrival_place.tlng | 目的地经度| Double|Y|77.22
+arrival_place.tlat|目的地纬度| Double | Y |22.22
 insurance_info |保险信息	| jsonarray | N 
 insurance_info.category_code |保险类型id|Integer|N
 insurance_info.category_name |保险类型名| String | N 
-insurance_info.unit_price |单价| Double |N
+insurance_info.unit_price |单价| Double |N|8.22
 insurance_info.insurant_list |被保人信息列表	| jsonarray | N 
-insurance_info.insurant_list.insurant_name |被保人姓名|String|N
-insurance_info.insurant_list.premium |投保金额| String | N 
-insurance_info.unit_price |单价| Double |N
+insurance_info.insurant_list.insurant_name |被保人姓名|String|N|张三
+insurance_info.insurant_list.premium |投保金额| String | N |7.2
+insurance_info.unit_price |单价| Double |N|2.4
 vendor|出发地信息| jsonobject | Y 
 vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
 vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
 customer_service_phone | 客服电话| String|Y
 is_call_customer_service|是否拨打客服电话| Boolean | Y |（神州司机电话为虚拟号码，订单结束后无法联系司机，需要拨打客服电话）
-can_complaint|是否可投诉|Boolean|Y| 
-can_comment |是否可评价| Boolean | Y 
-passenger_name |乘车人姓名| String |Y
-personal_pay_price | 个人支付金额| Double|Y
-company_pay_price|企业支付金额|Double|Y| 
+can_complaint|是否可投诉|Boolean|Y|false 
+can_comment |是否可评价| Boolean | Y |false
+passenger_name |乘车人姓名| String |Y|王柳
+personal_pay_price | 个人支付金额| Double|Y|8.2
+company_pay_price|企业支付金额|Double|Y| 60.22
 need_personal |是否需要个人支付| Integer | Y |0：否；1：是
 is_personal_paied |是否个人已支付| Integer |Y|0：否；1：是
 total_price_str | 订单金额字符串| String|Y
-status_description | 金额描述| String|Y
+status_description | 金额描述| String|Y|金额描述
 
 
 ```
