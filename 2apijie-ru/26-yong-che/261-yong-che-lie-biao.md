@@ -41,32 +41,32 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 data.results.order_id|	订单id|string|Y	 
 data.results.can_process|否有查看权限|boolean|Y|判断当前登录用户是否有查看权限	 
 data.results.vorder_id	|供应商id|string	|Y |注意：供应商id，不是供应商类型id		 
-data.results.departure_name|出发地名称|string|Y| 
-data.results.departure_lng|出发地经度|double| Y|
-data.results.departure_lat|出发地纬度|double |Y	 
-data.results.status|订单状态|integer |Y	 
+data.results.departure_name|出发地名称|string|Y| 国贸
+data.results.departure_lng|出发地经度|double| Y|123.99
+data.results.departure_lat|出发地纬度|double |Y	|56.00 
+data.results.status|订单状态|integer |Y|700
 data.results.status_info|订单状态描述|string|Y|	显示订单状态最好使用此字段，避免增加状态类型等不兼容问题 
-data.results.price|金额	|double	 |Y	 
+data.results.price|金额	|double	 |Y|45.99	 
 data.results.order_time|下单时间|string	|Y| 格式：yyyy-MM-dd HH:mm:ss
 data.results.schedule_time|用车时间|string|Y| 格式：yyyy-MM-dd HH:mm:ss
-data.results.spec|用车类型信息|	jsonobject|	 Y	 
+data.results.spec|用车类型信息|	jsonobject| Y	 
 data.results.spec.id|用车类型id|integer|Y| 100:舒适型；400：七座商务；200：豪华型；600:快车
 data.results.spec.name	|用车类型名称|string|Y| 舒适型、七座商务、豪华型、快车|	 
 data.results.vendor_id	|供应商类型id|integer|Y | 1：滴滴；2：神州（注意：供应商类型id，不要与vorder_id弄混）
 data.results.vendor_name|供应商名|string|Y|   展示供应商名字的地方使用此字段
-data.results.type|	用车类型	|Integer|Y|  0：实时；1：预约；2：接机；3：送机		 
+data.results.type|用车类型|Integer|Y|  0：实时；1：预约；2：接机；3：送机		 
 data.results.type_name|用车类型名|String|Y  |实时、预约、接机、送机（展示时使用此字段）		
-data.results.arrival_name|目的地信息|string| Y	 
-data.results.arrival_lng|目的地经度|double| Y
-data.results.arrival_lat|目的地纬度|double|Y
+data.results.arrival_name|目的地信息|string| Y|	 
+data.results.arrival_lng|目的地经度|double| Y|123.99
+data.results.arrival_lat|目的地纬度|double|Y|10.99
 data.results.driver_info|司机信息|jsonobject|N|可能是空对象{}
 data.results.driver_info.driver_order_count|司机接单数|integer|N | 神州没有该数据，注意兼容	
-data.results.driver_info.driver_phone|司机电话|string|N
-data.results.driver_info.driver_level|司机评分|double |	N
-data.results.driver_info.driver_car_type|车型号|string| N
+data.results.driver_info.driver_phone|司机电话|string|N|17909890878
+data.results.driver_info.driver_level|司机评分|string |	N|1
+data.results.driver_info.driver_car_type|车型号|string| N|
 data.results.driver_info.driver_car_color|车辆颜色|string|N  |可能为空（神州没有、滴滴老数据也没有）注意兼容
-data.results.driver_info.driver_card|	车牌|string |N
-data.results.driver_info.driver_name|	司机称呼	|string	 |N
+data.results.driver_info.driver_card|	车牌|string |N|京Q34567
+data.results.driver_info.driver_name|	司机姓名	|string	 |N|张三
 data.results.driver_info.driver_avatar	|司机头像|string	|N  |神州专车没有司机头像，注意兼容
 data.results.driver_info.driver_car_color|车辆颜色|string|N | 可能为空，注意兼容	
 data.results.wait_duration|等待时长|integer | Y | 根据叫车时间与系统当前时间比较的时间差，单位秒（客户端列表跳转到叫车界面使用）	
