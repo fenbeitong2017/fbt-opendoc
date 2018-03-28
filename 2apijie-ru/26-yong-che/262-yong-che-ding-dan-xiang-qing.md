@@ -69,28 +69,28 @@ driver_info.driver_card |车牌号	| string | N |英文字符,数字
 driver_info.driver\_car_type |品牌车型| string |N|别克
 driver_info.driver_level |司机评分| string | N |5.0
 driver_info.driver\_order_count|接单数| string|N|3
-departure_place|出发地信息| jsonobject | Y 
+departure_place|出发地信息| jsonobject | Y |出发地信息
 departure_place.name |出发地名称| String|Y|国贸
 departure_place.address |出发地详细地址| String | Y|国贸大楼 
 departure_place.dlng | 出发地经度| Double|Y|12.22
 departure_place.dlat|出发地纬度| Double | Y |55.22
-arrival_place |目的地信息|jsonobject|Y
+arrival_place |目的地信息|jsonobject|Y|目的地信息
 arrival_place.name |目的地名称| String | Y |东大桥
 arrival_place.address |目的地详细地址| String |Y|东大桥地铁站
 arrival_place.tlng | 目的地经度| Double|Y|77.22
 arrival_place.tlat|目的地纬度| Double | Y |22.22
-insurance_info |保险信息	| jsonarray | N 
-insurance_info.category_code |保险类型id|Integer|N
-insurance_info.category_name |保险类型名| String | N 
+insurance_info |保险信息	| jsonarray | N |
+insurance_info.category_code |保险类型id|Integer|N|
+insurance_info.category_name |保险类型名| String | N |
 insurance_info.unit_price |单价| Double |N|8.22
-insurance_info.insurant_list |被保人信息列表	| jsonarray | N 
+insurance_info.insurant_list |被保人信息列表	| jsonarray | N |列表信息
 insurance_info.insurant_list.insurant_name |被保人姓名|String|N|张三
 insurance_info.insurant_list.premium |投保金额| String | N |7.2
 insurance_info.unit_price |单价| Double |N|2.4
 vendor|出发地信息| jsonobject | Y 
 vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
 vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
-customer_service_phone | 客服电话| String|Y
+customer_service_phone | 客服电话| String|Y|4008009090
 is_call_customer_service|是否拨打客服电话| Boolean | Y |（神州司机电话为虚拟号码，订单结束后无法联系司机，需要拨打客服电话）
 can_complaint|是否可投诉|Boolean|Y|false 
 can_comment |是否可评价| Boolean | Y |false
