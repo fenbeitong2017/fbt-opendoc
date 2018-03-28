@@ -81,14 +81,14 @@ arrival_place.name |目的地名称| String | Y
 arrival_place.address |目的地详细地址| String |Y
 arrival_place.tlng | 目的地经度| Double|Y
 arrival_place.tlat|目的地纬度| Double | Y 
-insurance_info |保险信息	| jsonarray | Y 
-insurance_info.category_code |保险类型id|Integer|Y
-insurance_info.category_name |保险类型名| String | Y 
-insurance_info.unit_price |单价| Double |Y
-insurance_info.insurant_list |被保人信息列表	| jsonarray | Y 
-insurance_info.insurant_list.insurant_name |被保人姓名|String|Y
-insurance_info.insurant_list.premium |投保金额| String | Y 
-insurance_info.unit_price |单价| Double |Y
+insurance_info |保险信息	| jsonarray | N 
+insurance_info.category_code |保险类型id|Integer|N
+insurance_info.category_name |保险类型名| String | N 
+insurance_info.unit_price |单价| Double |N
+insurance_info.insurant_list |被保人信息列表	| jsonarray | N 
+insurance_info.insurant_list.insurant_name |被保人姓名|String|N
+insurance_info.insurant_list.premium |投保金额| String | N 
+insurance_info.unit_price |单价| Double |N
 vendor|出发地信息| jsonobject | Y 
 vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
 vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
