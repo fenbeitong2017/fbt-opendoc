@@ -49,7 +49,7 @@ employee\_name| 下单人姓名|string | Y |
 total\_price |总价| double | Y |
 order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码
 use\_customer12306\_account |是否使用12306账号| jsonarray | Y |
-exceeded|| boolean|  Y |
+exceeded|是否超标| boolean|  Y |
 is\_grab\_order|是否抢票订单 |boolean | Y |
 is\_external\_order |是否外采订单| integer |  Y |
 employee\_remark|用户备注| string|  Y |

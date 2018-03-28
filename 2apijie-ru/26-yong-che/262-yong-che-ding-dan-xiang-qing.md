@@ -34,63 +34,75 @@ data.order_id| 用车订单id|string|Y|
 
 字段|名称|类型|必填|描述
 ----|---|---|---|---
-
-
-departure_place.name |出发地| string|Y|例：北京
-arrival_place.name |目的地| string | Y |例：上海
-order_time |下单时间| string | Y |2017-09-11 11:08:58
-cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
-
-spec.id |车辆类型	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
-vendor.key |供应商| Integer |Y|2：神州
-driver_name|司机姓名| string|Y|王师傅，dave han
-driver_card |车牌号	| string | Y |英文字符,数字
-driver\_car_type |品牌车型| string |Y|别克
-driver_level |司机评分| string | Y |5.0
-driver\_order_count|接单数| string|Y|3
-begin\_charge_time |出发时间| string | Y ||
-finish\_charge_time |到达时间| array|Y||
-category_code |保险险种| Integer | Y ||
-policy_number | 保单编号| string|Y||
-status |保单状态	| string | Y ||
-insurant_name |被保人姓名|string|Y||
-insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段|
-premium |保险保费| Double |Y||
-
 order_id |订单id| String | Y |23456y6uy
 vorder_id|供应商订单id| String |Y
 can_process |是否可查看订单| Boolean|Y|例：北京
-cost_attribution |费用归属信息| string | Y |例：上海
 em_name | 下单人| string | Y |例：韩冰
 em_tel |下单人手机号| string |Y|例：15070713001
 tel |用车人手机号| string | Y |例：15070713088
 status|订单状态| Integer |Y|700
 status_info |订单状态名| string | Y 
-city |城市编码| Integer |Y| 
+city |城市编码| Integer |Y|
 city_name |城市名| string | Y |0：实时；1：预约；2：接机；3：送机
 type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
 total_price |订单金额| Double | Y |88
-coupon_amount |优惠券金额|Double|Y| 
-distance |行驶距离| Double |Y|
-driver_name|司机姓名| string|Y|王师傅，dave han
-driver_card |车牌号	| string | Y |英文字符,数字
-driver\_car_type |品牌车型| string |Y|别克
-driver_level |司机评分| string | Y |5.0
-driver\_order_count|接单数| string|Y|3
-tel |用车人手机号| string | Y |例：15070713088
-begin\_charge_time |出发时间| string | Y ||
-finish\_charge_time |到达时间| array|Y||
-category_code |保险险种| Integer | Y ||
-policy_number | 保单编号| string|Y||
-status |保单状态	| string | Y ||
-insurant_name |被保人姓名|string|Y||
-insurant_amount |保险数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段|
-premium |保险保费| Double |Y||
-
-
-
-
-
+coupon_amount |优惠券金额|Double|Y 
+distance |行驶距离| Double |Y
+is_complaint|是否已投诉| boolean|Y
+comment |评论信息| string | N |
+comment.score |评分| Integer |N  
+comment.content |评价信息| string | N   
+remark_reason|备注| string|N|35rdfdf
+exceeded |是否超标| Boolean | N 
+exceed_info |超标信息| jsonobject | N 
+exceed_info.reason |超标原因| string|N
+exceed_info.comment |超标补充说明|N 
+cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
+spec |用车类型信息|jsonobject|Y
+spec.id |车辆类型id	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
+spec.name|用车类型名称| String |Y 
+price_detail | 费用明细| jsonarray|Y|可能是空数组
+price_detail.name |费用名称| string | Y 
+price_detail.amount |费用金额|Double|Y
+price_detail.type|费用类型| String | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
+driver_info|司机信息| jsonobject |N|可能为空数据
+driver_info.driver_name|司机姓名| string|N|王师傅，dave han
+driver_info.driver_card |车牌号	| string | N |英文字符,数字
+driver_info.driver\_car_type |品牌车型| string |N|别克
+driver_info.driver_level |司机评分| string | N |5.0
+driver_info.driver\_order_count|接单数| string|N|3
+departure_place|出发地信息| jsonobject | Y 
+departure_place.name |出发地名称| String|Y
+departure_place.address |出发地详细地址| String | Y 
+departure_place.dlng | 出发地经度| Double|Y
+departure_place.dlat|出发地纬度| Double | Y 
+arrival_place |目的地信息|jsonobject|Y
+arrival_place.name |目的地名称| String | Y 
+arrival_place.address |目的地详细地址| String |Y
+arrival_place.tlng | 目的地经度| Double|Y
+arrival_place.tlat|目的地纬度| Double | Y 
+insurance_info |保险信息	| jsonarray | Y 
+insurance_info.category_code |保险类型id|Integer|Y
+insurance_info.category_name |保险类型名| String | Y 
+insurance_info.unit_price |单价| Double |Y
+insurance_info.insurant_list |被保人信息列表	| jsonarray | Y 
+insurance_info.insurant_list.insurant_name |被保人姓名|String|Y
+insurance_info.insurant_list.premium |投保金额| String | Y 
+insurance_info.unit_price |单价| Double |Y
+vendor|出发地信息| jsonobject | Y 
+vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
+vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
+customer_service_phone | 客服电话| String|Y
+is_call_customer_service|是否拨打客服电话| Boolean | Y |（神州司机电话为虚拟号码，订单结束后无法联系司机，需要拨打客服电话）
+can_complaint|是否可投诉|Boolean|Y| 
+can_comment |是否可评价| Boolean | Y 
+passenger_name |乘车人姓名| String |Y
+personal_pay_price | 个人支付金额| Double|Y
+company_pay_price|企业支付金额|Double|Y| 
+need_personal |是否需要个人支付| Integer | Y |0：否；1：是
+is_personal_paied |是否个人已支付| Integer |Y|0：否；1：是
+total_price_str | 订单金额字符串| String|Y
+status_description | 金额描述| String|Y
 
 
 ```
