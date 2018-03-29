@@ -82,7 +82,8 @@ total_price_str|订单金额字符串| string |Y|"￥660.00"
 ```
 
 
-{  "code": 0, 
+{"request_id": "Ml4VL4moJ6VtKbG2vE83", 
+ "code": 0, 
    "msg": "success", 
   "data": { 
   
