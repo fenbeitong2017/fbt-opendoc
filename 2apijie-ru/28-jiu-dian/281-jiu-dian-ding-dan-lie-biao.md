@@ -57,7 +57,7 @@ hotel_phone|酒店电话| string | N |010-53767110
 guests|入住人信息| jsonobject |N| 
 guests.name|入住人姓名| string |N| 刘维中
 guests.phone_no|入住人手机号| string |N| 18601016943
-is_external_order|是否外采订单| Integer |N| 0
+is_external_order|是否外采订单| Integer |N| 0  1:是,0:否 
 total_price_str|价格字符串| string |N|￥41.00
 
 
