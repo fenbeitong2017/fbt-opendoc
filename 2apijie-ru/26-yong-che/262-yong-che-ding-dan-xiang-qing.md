@@ -89,20 +89,28 @@ arrival_place.tlng | 目的地经度| Double|Y|77.22
 arrival_place.tlat|目的地纬度| Double | Y |22.22
 insurance_info |保险信息	| jsonarray | N |可能是空Array
 insurance_info.category_code |保险类型id|Integer|N|
-insurance_info.category_name |保险类型名| String | N |
+insurance_info.category_name |保险类型名| String | N |意外险
+insurance_info.desc |保险描述信息|String|N|
+insurance_info.desc_link |保险说明连接| String | N |url跳转
 insurance_info.unit_price |单价| Double |N|8.22
 insurance_info.insurant_list |被保人信息列表	| jsonarray | N |列表信息
 insurance_info.insurant_list.insurant_name |被保人姓名|String|N|张三
 insurance_info.insurant_list.premium |投保金额| String | N |7.2
 insurance_info.unit_price |单价| Double |N|2.4
-vendor|出发地信息| jsonobject | Y 
+insurance_info.insurant_list.policy_number |供应商保单号|String|N|
+insurance_info.insurant_list.start_date |起保时间| String | N |2017-06-27
+insurance_info.insurant_list.end_date |终止时间| String | N |2017-06-29
+insurance_info.insurant_list.status |状态信息| jsonobject | N |
+insurance_info.insurant_list.status.key |状态码| integer | N |
+insurance_info.insurant_list.status.value |状态名| String | N |投保中
+vendor|供应商信息| jsonobject | Y 
 vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
 vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
 customer_service_phone | 客服电话| String|Y|4008009090
 is_call_customer_service|是否拨打客服电话| Boolean | Y |（神州司机电话为虚拟号码，订单结束后无法联系司机，需要拨打客服电话）
 can_complaint|是否可投诉|Boolean|Y|false 
 can_comment |是否可评价| Boolean | Y |false
-passenger_name |乘车人姓名| String |Y|王柳
+passenger_name |乘车人姓名| String |Y|王柳   可能为空
 personal_pay_price | 个人支付金额| Double|Y|8.2
 company_pay_price|企业支付金额|Double|Y| 60.22
 need_personal |是否需要个人支付| Integer | Y |0：否；1：是
