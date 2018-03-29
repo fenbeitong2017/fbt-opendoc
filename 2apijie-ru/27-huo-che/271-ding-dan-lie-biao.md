@@ -11,7 +11,7 @@ sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data || jsonstring |Y|
+data || jsonobject |Y|
 data.state| 查询状态|integer |Y|0全部，1正处理，2已完成
 data.name\_or\_phone|乘客/下单人姓名/手机号 |string |N|
 data.name\_or\_phone\_type|乘客/下单人姓名/手机号类型 |string | N |

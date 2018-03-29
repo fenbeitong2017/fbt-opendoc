@@ -11,7 +11,7 @@ sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|String|Y|0为分贝用户，1为第三方用户
-data |请求数据| jsonstring |Y|
+data |请求数据| jsonobject |Y|
 data.order_id|订单号|string|Y|
 
 请求示例：
