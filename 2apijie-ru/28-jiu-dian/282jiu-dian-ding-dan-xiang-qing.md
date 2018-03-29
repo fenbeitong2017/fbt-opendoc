@@ -11,8 +11,8 @@ sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|String|Y|0为分贝用户，1为第三方用户
-data |请求数据| jsonobject |Y|
-data.order_id|订单号|string|Y|
+data |请求数据| jsonobject |Y|请求数据
+data.order_id|订单号|string|Y|订单ID
 
 请求示例：
 
@@ -76,17 +76,17 @@ guests.name|使用人姓名| string |Y| 66
 guests.phone_no|使用人手机号| string |Y|18601016943
 total_price_str|价格字符串| string |Y|￥41.00
 is_external_order|是否外采订单| integer |Y|0
-check_info|| jsonarray |Y|
+check_info|订票提醒信息| jsonarray |Y|
 employee_remark|备注| String |Y|
 has_enterprise_price|是否企业协议价| boolean |Y| false
 other_refund_desc|退票信息描述| string |Y|无
-is_can_apply_refund|| boolean |Y| false
+is_can_apply_refund|判断是否可取消| boolean |Y| false
 refund_info|退票信息| jsonobject |Y|
 is_has_refund|是否有退票| boolean |Y|false
-remark_reason|| String |Y|其他
+remark_reason|备注| String |Y|其他
 exceeded|是否超标| boolean |Y|false
 insurance_info|保险信息| jsonarray |N|
-comment|| String |Y|其他
+comment|评论| String |Y|其他
 
 
 
