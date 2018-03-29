@@ -62,13 +62,12 @@ data.results.arrival_lat|目的地纬度|double|Y|10.99
 data.results.driver_info|司机信息|jsonobject|N|可能是空对象{}
 data.results.driver_info.driver_order_count|司机接单数|integer|N | 神州没有该数据，注意兼容	
 data.results.driver_info.driver_phone|司机电话|string|N|17909890878
-data.results.driver_info.driver_level|司机评分|string |	N|1
+data.results.driver_info.driver_level|司机评分|Double |	N|
 data.results.driver_info.driver_car_type|车型号|string| N|
 data.results.driver_info.driver_car_color|车辆颜色|string|N  |可能为空（神州没有、滴滴老数据也没有）注意兼容
 data.results.driver_info.driver_card|	车牌|string |N|京Q34567
-data.results.driver_info.driver_name|	司机姓名	|string	 |N|张三
+data.results.driver_info.driver_name|		司机称呼	|string	 |N|张师傅
 data.results.driver_info.driver_avatar	|司机头像|string	|N  |神州专车没有司机头像，注意兼容
-data.results.driver_info.driver_car_color|车辆颜色|string|N | 可能为空，注意兼容	
 data.results.wait_duration|等待时长|integer | Y | 根据叫车时间与系统当前时间比较的时间差，单位秒（客户端列表跳转到叫车界面使用）	
 data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
 
