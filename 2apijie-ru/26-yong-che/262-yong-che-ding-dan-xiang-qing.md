@@ -36,23 +36,26 @@ data.order_id| 用车订单id|string|Y|
 ----|---|---|---|---
 order_id |订单id| String | Y |23456y6uy
 vorder_id|供应商订单id| String |Y
-can_process |是否可查看订单| Boolean|Y|例：北京
+can_process |是否可查看订单| Boolean|Y|true,false
 em_name | 下单人| string | Y |例：韩冰
 em_tel |下单人手机号| string |Y|例：15070713001
 tel |用车人手机号| string | Y |例：15070713088
 status|订单状态| Integer |Y|700
 status_info |订单状态名| string | Y |
-city |城市编码| Integer |Y|
-city_name |城市名| string | Y |0：实时；1：预约；2：接机；3：送机
+city |城市编码| Integer |Y|1000001:北京
+city_name |城市名| string | Y |北京
 type |用车类型| string | Y |0：实时；1：预约；2：接机；3：送机
-total_price |订单金额| Double | Y |88
+total_price |订单金额| Double | Y |88.99
 coupon_amount |优惠券金额|Double|Y|99.00 
 distance |行驶距离| Double |Y|99.22
 is_complaint|是否已投诉| boolean|Y|true
 comment |评论信息| jsonobject | N |
 comment.score |评分| Integer |N  |1
-comment.content |评价信息| string | N |太差  
-remark_reason|备注| string|N|35rdfdf
+comment.content |评价信息| string | N |太差 
+order_time|下单时间| String|Y|格式：yyyy-MM-dd HH:mm:ss
+schedule_time |用车时间| String | Y |yyyy-MM-dd HH:mm:ss
+remark_reason|备注| string|N|出差使用
+remark_detail|备注明细| string|N|北京出差使用
 exceeded |是否超标| Boolean | N |false
 exceed_info |超标信息| jsonobject | N 
 exceed_info.reason |超标原因| string|N|没有原因
