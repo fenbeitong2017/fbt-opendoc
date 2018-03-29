@@ -73,7 +73,7 @@ data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
 
 ```
 
-{
+{  "request_id": "IOCCucbNYCDEkCOOakDP",
     "code": 0,
     "msg": "Success",
     "data": {

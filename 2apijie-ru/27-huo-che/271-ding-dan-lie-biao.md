@@ -48,17 +48,24 @@ data.page\_size|每页显示条数| integer|  N |10(默认值)
 -----|-----|----|----|----
 order_id| 订单ID|string |Y|订单ID
 is\_grab\_order|是否抢票订单 |boolean |Y|false,true
-status| 订单状态|jsonobject | Y |
-departure\_time |出发时间| integer | Y 
-arrival\_time |到达时间|integer | Y |
-train\_code|火车车次 |string | Y |T269
-passenger\_names |乘客信息| jsonarray | Y |
+passenger\_names |乘客信息| jsonarray | Y |所有乘客姓名数组
 from\_station\_name|出发站名称| string|  Y |
 to\_station\_name|到达站名称 |string | Y |张三
-total\_price |总价| double |  Y |
-can\_process|是否可以查看订单详情| boolean|  Y |
+total\_price |总价| double |  Y |3.0
+can\_process|是否可以查看订单详情| boolean|  Y |true
 is\_external\_order |是否外采订单| integer |  Y |  1:是,0:否 
 total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串 
+status|订单状态 |jsonobject | Y |订单状态信息
+status.key|状态码| integer | Y |3101
+status.value|订单状态名称| string|  Y |已取消
+departure_time|出发时间 |integer | Y |1509686700000
+arrival_time |到达时间| integer |  Y |1509691260000
+train_code|火车车次| String|  Y |6026
+is\_external\_order |是否外采订单| integer |  Y |  1:是,0:否 
+total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串 
+
+
+
 
 
 
