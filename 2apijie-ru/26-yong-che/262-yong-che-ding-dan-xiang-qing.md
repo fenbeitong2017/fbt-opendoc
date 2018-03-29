@@ -69,11 +69,13 @@ price_detail.name |费用名称| string | Y |加班
 price_detail.amount |费用金额|Double|Y|44.22
 price_detail.type|费用类型| String | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
 driver_info|司机信息| jsonobject |N|可能为空数据
-driver_info.driver_name|司机姓名| string|N|王师傅，dave han
-driver_info.driver_card |车牌号	| string | N |英文字符,数字
-driver_info.driver\_car_type |品牌车型| string |N|别克
-driver_info.driver_level |司机评分| string | N |5.0
-driver_info.driver\_order_count|接单数| string|N|3
+driver_info.driver_name|司机姓名| string|N|王师傅
+driver_info.driver_card |车牌号	| string | N |京Q87899
+driver_info.driver\_car_type |车型号| string |N
+driver_info.driver_level |司机评分| Double | N |5.0
+driver_info.driver\_order_count|接单数| Integer|N|3
+driver_info.driver_car_color|车辆颜色| string|N|红色
+driver_info.driver_avatar|司机头像| string | N |可能为空（神州没有），注意兼容
 departure_place|出发地信息| jsonobject | Y |出发地信息
 departure_place.name |出发地名称| String|Y|国贸
 departure_place.address |出发地详细地址| String | Y|国贸大楼 
