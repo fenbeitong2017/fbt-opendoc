@@ -37,44 +37,66 @@ data.order_id |机票订单id|string|Y||
 
 字段|名称|类型|必填|描述
 ----|---|---|---|---
-total_price |订单金额| Inreger|Y| 453
-status. key |订单状态	| string | Y |1900:有退改签
+total_price |订单金额| double|Y| 453
+status |订单状态	| jsonobject | Y |
+status. key |订单状态	| integer | Y |1900:有退改签
+status. value |订单状态名称	| string | Y |1900:有退改签
 order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
-order_owner.name |预定人| string|Y| "name": "辛植"
+order_owner  |预定人信息| jsonobject|Y| 
+order_owner.name |预定人姓名| string|Y| "name": "辛植"
+order_owner.user_id |用户ID| string|Y| 59dc3c3323445f71ddcf56a8
+order_owner.phone |预定人手机号| string|Y| 18310480640
+order_owner.idType |身份类型| jsonobject|Y| 
+order_owner.idType.key |类型ID| integer|Y| 0.未知 1:身份证  2.护照 3.回乡证 4.台胞
+order_owner.idType.value |身份类型名称| string|Y| 身份证
+order_owner.idNumber |身份证件号码| string|Y| 230203198512240032
 create_time|订单创建时间|string|Y|2017-09-11 11:08:58
-ticket_no |票号| string | Y | 784-2310286513
 cost_attribution |费用归属| string|Y|例：研发部
-airline_name |航空公司| string|Y|例：吉祥航空
-flight_no |航班号	|string| Y |HO1252
-passenger_info .name |乘机人姓名| string |Y| name:"辛植"
-identity\_type_name.key |证件类型|string|Y|0.未知 1:身份证  2.护照 3.回乡证 4.台胞证
-phone |乘机人手机号| string|Y|16676823457
-identity_no |乘机人证件号| string | Y |数字，英文字母
-status.key |机票状态| string|Y| 1811:退票成功 
+passenger_list |乘机人信息数组| jsonoarray |Y| 
+passenger_list.passenger_info |乘机人信息| jsonobject |Y| 
+passenger_list.ticket_no |票号| string | Y | 784-2310286513
+passenger_list.status|乘机人信息| jsonobject |Y| 
+passenger_list.status.key|状态码| integer |Y| 详情参见状态码
+passenger_list.status.value|状态码信息| String |Y|详情参见状态码 
+passenger_list.passenger_info.name |乘机人姓名| String |Y| 强仔
+passenger_list.passenger_info.id |乘机人姓名| String |Y| 59dd8df023445f08c579db7d
+passenger_list.passenger_info.type |乘机人类型| integer |Y| 0  0:成人,1:婴儿
+passenger_list.passenger_info.identity_type |身份类型| string  |Y|1 
+passenger_list.passenger_info.identity\_type_name |乘机人信息| jsonobject |Y| 
+passenger_list.passenger_info.identity\_type_name.key |乘机人证件类型ID| integer |Y| 
+passenger_list.passenger_info.identity\_type_name.value |乘机人证件类型名称| string |Y| 身份证
+passenger_list.passenger_info.identity_no |乘机人身份证号| String |Y| 230203198512240032
+passenger_list.passenger_info.phone |乘机人手机号| String |Y| 18310480640
+price_info.par_price|机票单价| Integer |Y|3370
+price_info.airport_tax |机建| Integer | Y |50
+price_info.fuel_tax |燃油| Integer| Y |44 
+price_info.coupon_amount|订单优惠券| Integer |Y|例：20
 refund_amount |退款金额| Integer |Y|  1600
 refund_fee |手续费| Integer | Y |100
-seat_msg |舱位| string |Y|头等舱/商务舱
-starting_city |出发城市| string | Y |北京
-starting_airport |出发机场| string|Y|中英文  首都国际机场
-starting_code |出发航程三字码| string | Y |PEK
-starting_terminal |起飞航站楼| string |Y|首都T3
-departure_timestamp |起飞时间| string | Y|1507079400000
-destination_city|到达城市| string|Y| 上海
-destination_airport |到达机场| string|Y|虹桥国际机场
-destination_code|到达航程三字码|string|Y|SHA
-destination_terminal |到达航站楼| string |Y|T4
-arrived_timestamp |到达时间|Integer | Y | 1537099400000
-par_price|机票单价| Integer |Y|3370
-airport_tax |机建| Integer | Y |50
-fuel_tax |燃油| Integer| Y |44
-coupon_amount|订单优惠券	| Integer |Y|例：20
-category_code|险种| string|Y| 1:航意险，2：航延险
-policy_number |保单编号| string|Y|10450061900247380997
-status.key |保单状态| Integer |Y|8:退保成功
-insurant_name |被保人| string |Y|张胜男
+segment_info.seat_msg |舱位| string |Y|头等舱/商务舱
+segment_info.starting_city |出发城市| string | Y |北京
+segment_info.starting_airport |出发机场| string|Y|中英文  首都国际机场
+segment_info.starting_code |出发航程三字码| string | Y |PEK
+segment_info.starting_terminal |起飞航站楼| string |Y|首都T3
+segment_info.departure_timestamp |起飞时间| Integer | Y|1507079400000
+segment_info.destination_city|到达城市| string|Y| 上海
+segment_info.destination_airport |到达机场| string|Y|虹桥国际机场
+segment_info.destination_code|到达航程三字码|string|Y|SHA
+segment_info.destination_terminal |到达航站楼| string |Y|T4
+segment_info.arrived_timestamp |到达时间|Integer | Y | 1537099400000
+segment_info.airline_name |航空公司| string|Y|例：吉祥航空
+segment_info.flight_no |航班号	|string| Y |HO1252
+segment_info.cabin |仓位|string| Y |F
+segment_info.departure_date |出发日期|string| Y |2018-03-27
+segment_info.departure_time |出发时间|string| Y |2012
+segment_info.arrived_date |到达日期|string| Y |2018-03-27
+segment_info.arrived_time |到达时间|string| Y |2312
+insurance_info.category_code|险种| string|Y| 1:航意险，2：航延险
+insurance_info.unit_price|保费| Integer |Y|
+insurant_list.policy_number |保单编号| string|Y|10450061900247380997
+insurant_list.status.key |保单状态| Integer |Y|8:退保成功
+insurant_list.insurant_name |被保人| string |Y|张胜男
 insurant_amount |数量| Integer | Y |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
-unit_price|保费| Integer |Y|
-type |乘客类型| Integer |Y|0:成人,1:婴儿
 employee_remark|用户备注| string |Y||
 
 
