@@ -60,7 +60,7 @@ exceeded |是否超标| Boolean | N |false
 exceed_info |超标信息| jsonobject | N 
 exceed_info.reason |超标原因| string|N|没有原因
 exceed_info.comment |超标补充说明|string|N |超标
-cost_attribution |费用归属| string |Y|乘机人1/乘机人2/
+cost_attribution |费用归属| string |Y|北京分贝通科技有限公司
 spec |用车类型信息|jsonobject|Y|类型信息
 spec.id |车辆类型id	|Integer|Y| 100:舒适；400：七座商务；200：豪华型；600:快车
 spec.name|用车类型名称| String |Y 
