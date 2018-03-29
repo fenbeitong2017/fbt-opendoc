@@ -39,11 +39,161 @@ data.page\_size|每页显示条数| Integer |N| 10(默认值)
 
 
 
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+order_id|订单ID |String |Y|5abc5eff27986354622e6b94
+status|订单状态 |integer |Y|2501
+status_name|订单状态名称 | string |Y|订房成功
+checkin_date| 入住日期|integer |Y|1524499200000
+checkout_date| 离店日期|integer|Y|1524585600000
+hotel_address |酒店地址| string |Y|金钟路896号
+hotel_code|酒店code|string|Y| 5abb0028979d961a343a12fb
+hotel_name|酒店名称|string|N| 如家酒店
+hotel_lat|酒店经度|string| N | 11.993970
+hotel_lng|酒店维度| string | N |11.993538
+price|价格|double| N |41
+can_process|是否可以查看订单|boolean|N|false
+hotel_phone|酒店电话| string | N |010-53767110
+guests|入住人信息| jsonobject |N| 
+guests.name|入住人姓名| string |N| 刘维中
+guests.phone_no|入住人手机号| string |N| 18601016943
+is_external_order|是否外采订单| Integer |N| 0
+total_price_str|价格字符串| string |N|￥41.00
+
+
+
+
+
+
 响应数据：
 
 ```
 
-{ "request_id": "IOCCucbNYCDEkCOOakDP",  "code": 0,  "msg": "Success",  "data": {    "results": [      {        "order_id": "58eaf3285d88db107e2fc0da",        "status": 2700,        "status_name": "已关闭",        "checkin_date": 1492012800000,        "checkout_date": 1492185600000,        "hotel_address": "北京朝阳区弘善家园414号楼",        "hotel_code": "204_91725321",        "hotel_name": "北京市柠檬树家庭旅馆十里河店",        "hotel_lat": "0.000000",        "hotel_lng": "0.000000",        "hotel_phone": "18911949793",        "price": 466,        "can_process": false      },      {        "order_id": "58e761235d88db6828665237",        "status": 2800,        "status_name": "退订成功",        "checkin_date": 1493136000000,        "checkout_date": 1493222400000,        "hotel_address": "海淀区西二旗大街与西二旗东一路交界,G6八		 达岭高速西侧,龙兴园南区北面",        "hotel_code": "204_10101487",        "hotel_name": "格林豪泰(北京西三旗桥商务酒店)",        "hotel_lat": "0.000000",        "hotel_lng": "0.000000",        "hotel_phone": "62920998",        "price": -207,        "can_process": false      }    ],    "total_count": 26  }}
+{ "request_id": "IOCCucbNYCDEkCOOakDP",  "code": 0,  "msg": "Success",  "data": {   
+results": [{
+			"order_id": "5abc5eff27986354622e6b94",
+			"status": 2501,
+			"status_name": "订房成功",
+			"checkin_date": 1524499200000,
+			"checkout_date": 1524585600000,
+			"hotel_address": "金钟路896号携程",
+			"hotel_code": "5abb0028979d961a343a12fb",
+			"hotel_name": "两大分销商对接ceshi酒店（请勿修改）",
+			"hotel_lat": "11.993970",
+			"hotel_lng": "11.993538",
+			"hotel_phone": "010-53767110",
+			"city_name": "北京市",
+			"price": 41,
+			"can_process": false,
+			"guests": [{
+				"name": "刘维中",
+				"phone_no": "18601016943"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥41.00"
+		}, {
+			"order_id": "5abc5e9027986354622e6b8e",
+			"status": 2700,
+			"status_name": "已关闭",
+			"checkin_date": 1524499200000,
+			"checkout_date": 1524585600000,
+			"hotel_address": "金钟路896号携程",
+			"hotel_code": "5abb0028979d961a343a12fb",
+			"hotel_name": "两大分销商对接ceshi酒店（请勿修改）",
+			"hotel_lat": "11.993970",
+			"hotel_lng": "11.993538",
+			"hotel_phone": "010-53767110",
+			"city_name": "北京市",
+			"price": 41,
+			"can_process": false,
+			"guests": [{
+				"name": "施伟",
+				"phone_no": "18511371609"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥41.00"
+		}, {
+			"order_id": "5abb8e7227986354622e6b71",
+			"status": 2700,
+			"status_name": "已关闭",
+			"checkin_date": 1523462400000,
+			"checkout_date": 1523548800000,
+			"hotel_address": "西城区大栅栏西路56号",
+			"hotel_code": "5a41ea09979d9663f8b065b4",
+			"hotel_name": "格林豪泰酒店(北京天安门大栅栏店)",
+			"hotel_phone": "010-63156115",
+			"city_name": "北京市",
+			"price": 343,
+			"can_process": false,
+			"guests": [{
+				"name": "强仔",
+				"phone_no": "18310480640"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥343.00"
+		}, {
+			"order_id": "5abb614d27986354622e6b4b",
+			"status": 2700,
+			"status_name": "已关闭",
+			"checkin_date": 1523462400000,
+			"checkout_date": 1523548800000,
+			"hotel_address": "西城区大栅栏西路56号",
+			"hotel_code": "5a41ea09979d9663f8b065b4",
+			"hotel_name": "格林豪泰酒店(北京天安门大栅栏店)",
+			"hotel_phone": "010-63156115",
+			"city_name": "北京市",
+			"price": 343,
+			"can_process": false,
+			"guests": [{
+				"name": "强仔",
+				"phone_no": "18310480640"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥343.00"
+		} ,{
+			"order_id": "5abb392e2798633477a6a06c",
+			"status": 2502,
+			"status_name": "订房失败",
+			"checkin_date": 1524585600000,
+			"checkout_date": 1524672000000,
+			"hotel_address": "金钟路896号携程",
+			"hotel_code": "5abb0028979d961a343a12fb",
+			"hotel_name": "两大分销商对接ceshi酒店（请勿修改）",
+			"hotel_lat": "11.993970",
+			"hotel_lng": "11.993538",
+			"hotel_phone": "010-53767110",
+			"city_name": "北京市",
+			"price": 41,
+			"can_process": false,
+			"guests": [{
+				"name": "刘维中",
+				"phone_no": "18601016943"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥41.00"
+		}, {
+			"order_id": "5abb162b27986345c41944c9",
+			"status": 2700,
+			"status_name": "已关闭",
+			"checkin_date": 1523894400000,
+			"checkout_date": 1523980800000,
+			"hotel_address": "金钟路896号携程",
+			"hotel_code": "5abb0028979d961a343a12fb",
+			"hotel_name": "两大分销商对接ceshi酒店（请勿修改）",
+			"hotel_lat": "11.993970",
+			"hotel_lng": "11.993538",
+			"hotel_phone": "010-53767110",
+			"city_name": "北京市",
+			"price": 41,
+			"can_process": false,
+			"guests": [{
+				"name": "施伟",
+				"phone_no": "18511371609"
+			}],
+			"is_external_order": 0,
+			"total_price_str": "￥41.00"
+		}],
+		"total_count": 1130}}
 
 
 ```
