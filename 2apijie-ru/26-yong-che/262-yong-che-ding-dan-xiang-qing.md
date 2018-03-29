@@ -87,7 +87,7 @@ arrival_place.name |目的地名称| String | Y |东大桥
 arrival_place.address |目的地详细地址| String |Y|东大桥地铁站
 arrival_place.tlng | 目的地经度| Double|Y|77.22
 arrival_place.tlat|目的地纬度| Double | Y |22.22
-insurance_info |保险信息	| jsonarray | N |
+insurance_info |保险信息	| jsonarray | N |可能是空Array
 insurance_info.category_code |保险类型id|Integer|N|
 insurance_info.category_name |保险类型名| String | N |
 insurance_info.unit_price |单价| Double |N|8.22
