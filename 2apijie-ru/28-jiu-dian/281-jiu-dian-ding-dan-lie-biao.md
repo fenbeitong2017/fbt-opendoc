@@ -48,17 +48,17 @@ checkin_date| 入住日期|integer |Y|1524499200000
 checkout_date| 离店日期|integer|Y|1524585600000
 hotel_address |酒店地址| string |Y|金钟路896号
 hotel_code|酒店code|string|Y| 5abb0028979d961a343a12fb
-hotel_name|酒店名称|string|N| 如家酒店
-hotel_lat|酒店经度|string| N | 11.993970
-hotel_lng|酒店维度| string | N |11.993538
-price|价格|double| N |41
-can_process|是否可以查看订单|boolean|N|false
-hotel_phone|酒店电话| string | N |010-53767110
-guests|入住人信息| jsonobject |N| 
-guests.name|入住人姓名| string |N| 刘维中
-guests.phone_no|入住人手机号| string |N| 18601016943
-is_external_order|是否外采订单| Integer |N| 0  1:是,0:否 
-total_price_str|价格字符串| string |N|￥41.00
+hotel_name|酒店名称|string|Y| 如家酒店
+hotel_lat|酒店经度|string| Y | 11.993970
+hotel_lng|酒店维度| string | Y |11.993538
+price|价格|double| Y |41
+can_process|是否可以查看订单|boolean|Y|false
+hotel_phone|酒店电话| string | Y |010-53767110
+guests|入住人信息| jsonobject |Y| 
+guests.name|入住人姓名| string |Y| 刘维中
+guests.phone_no|入住人手机号| string |Y| 18601016943
+is_external_order|是否外采订单| Integer |Y| 0  1:是,0:否 
+total_price_str|价格字符串| string |Y|￥41.00
 
 
 

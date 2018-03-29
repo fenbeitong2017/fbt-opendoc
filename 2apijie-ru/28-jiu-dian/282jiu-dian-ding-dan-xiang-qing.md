@@ -33,6 +33,77 @@ data.order_id|订单号|string|Y|
 
 
 
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
+order_id|订单ID |String |Y|5abc5eff27986354622e6b94
+status|订单状态 |integer |Y|2501
+status_name|订单状态名称 | string |Y|订房成功
+checkin_date| 入住日期|integer |Y|1524499200000
+checkout_date| 离店日期|integer|Y|1524585600000
+create_time|创建时间|integer|Y|1522294527444
+can_process|是否可以查看订单|boolean|Y|false
+cost_attribution|费用归属| string | Y |X部门
+order_person|下单人姓名| string |Y| 刘维中
+order_person_phone|下单人手机号| string |Y| 18601016943
+city_code|城市编码| String |Y| 0 1:是,0:否
+hotel_address |酒店地址| string |Y|金钟路896号
+hotel_code|酒店code|string|Y| 5abb0028979d961a343a12fb
+hotel_name|酒店名称|string|Y| 如家酒店
+hotel_lat|酒店经度|string| Y | 11.993970
+hotel_lng|酒店维度| string | Y |11.993538
+hotel_phone|酒店电话| string | Y |010-53767110
+bed_type |床类型| string |Y|
+room_code|房间code|string|Y| DR
+room_name|房间房型|string|Y| 大床房
+room_count|房间数量|integer| Y | 1
+plan_code|价格计划code| string | Y |573273659|6647611164||51661617
+per_room_night_prices|每间房每晚价格| double | Y |150
+bed_type |床类型| string |Y|
+room_code|房间code|string|Y| DR
+room_name|房间房型|string|Y| 大床房
+room_count|房间数量|integer| Y | 1
+plan_code|价格计划code| string | Y |573273659|6647611164||51661617
+per_room_night_prices|每间房每晚价格| double | Y |150
+price_rule|价格|string| Y |订单确认后，如在北京时间2018-03-26 23:00:00 （含）点前取消，可全额退款！其它时间不可取消，不可变更。如未入住扣除全额房费
+plan_name|计划名称| string |Y|大床房
+price_rule_tag|取消规则| string |Y|取消规则
+price|价格| double |Y| 66
+contact_name|联系人姓名| string |Y|王强
+contact_phone_no|联系人手机号| string |Y|18601016943
+guest_type|使用人身份类型| integer |Y|0
+guests|使用人信息| jsonarray |Y|使用人信息
+guests.name|使用人姓名| string |Y| 66
+guests.phone_no|使用人手机号| string |Y|18601016943
+total_price_str|价格字符串| string |Y|￥41.00
+is_external_order|是否外采订单| integer |Y|0
+check_info|| jsonarray |Y|
+employee_remark|备注| String |Y|
+has_enterprise_price|是否企业协议价| boolean |Y| false
+other_refund_desc|退票信息描述| string |Y|无
+is_can_apply_refund|| boolean |Y| false
+refund_info|退票信息| jsonobject |Y|
+is_has_refund|是否有退票| boolean |Y|false
+remark_reason|| String |Y|其他
+exceeded|是否超标| boolean |Y|false
+insurance_info|保险信息| jsonarray |N|
+comment|| String |Y|其他
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
