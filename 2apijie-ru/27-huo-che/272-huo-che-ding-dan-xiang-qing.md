@@ -43,47 +43,54 @@ data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-order\_id| 订单ID|string |Y|5aab90ac279863130a86296f
-create\_time|订单创建时间 |integer |Y|
-employee\_name| 下单人姓名|string | Y |
-total\_price |总价| double | Y |
-order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码
-use\_customer12306\_account |是否使用12306账号| jsonarray | Y |
+order_basic_info.order\_id| 订单ID|string |Y|5aab90ac279863130a86296f
+order_basic_info.create\_time|订单创建时间 |integer |Y|
+order_basic_info.employee\_name| 下单人姓名|string | Y |
+order_basic_info.total\_price |总价| double | Y |
+order_basic_info.order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码
+order_basic_info.order\_status.key |订单状态ID| integer | Y |3400
+order_basic_info.order\_status.value |订单状态名称| String | Y |有退改记录
+comment |评论| String | Y |
+use\_customer12306\_account |是否使用12306账号| boolean | Y |
 exceeded|是否超标| boolean|  Y |
 is\_grab\_order|是否抢票订单 |boolean | Y |
 is\_external\_order |是否外采订单| integer |  Y |
 employee\_remark|用户备注| string|  Y |
 total\_price\_str |价格字符串| string |  Y |订单金额字符串
 passengers\_info|乘客信息数组 |jsonarray |  Y |
-passenger\_info|乘客信息 |jsonobject | Y |
-passenger\_id |乘客id| string | Y |4567988645345
-name|姓名| string|  Y |张三
-mobile\_no|手机号码 |string | Y |17080187999
-identity\_no |身份号码| string |  Y |23456789098765
-identity\_type|身份证件类型| jsonobject|  Y |身份证
-ticket\_info |票信息| jsonobject |  Y |  
-seat\_type |席座类型| string | Y |二等座
-ticket\_price|票价| double|  Y |100
-seat\_location|坐席位置 |string | Y |08车厢,10B座
-ticket\_no |票号| string |  Y |E931804546
-can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
-ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码
-refund\_info |退票信息| jsonarray | Y |
-refund\_money|退票金额| double|  Y |
-refund\_fee|退票费 |double | Y |
-reason |退票原因| string |  Y |
-endorse\_info|改签信息| boolean|  Y |
-supplementary\_payment |改签生成新单的价格| double |  Y |  
-diff\_price|改签差价| double| Y |
-endorse\_fee |改签手续费| double | Y | 
-reason|改签原因| string| Y |
-ticket\_tips |票状态说明| string | Y | 
+passengers\_info.passenger\_info|乘客信息 |jsonobject | Y |
+passengers\_info.passenger\_info.passenger\_id |乘客id| string | Y |4567988645345
+passengers\_info.passenger\_info.name|姓名| string|  Y |张三
+passengers\_info.passenger\_info.mobile\_no|手机号码 |string | Y |17080187999
+passengers\_info.passenger\_info.identity\_no |身份号码| string |  Y |23456789098765
+passengers\_info.passenger\_info.identity\_type|身份证件类型| jsonobject|  Y |1:身份证
+passengers\_info.passenger\_info.identity\_type.key|身份证件id| integer|  Y |1
+passengers\_info.passenger\_info.identity\_type.value|身份证件类型| string|  Y |身份证
+passengers\_info.ticket\_info |票信息| jsonobject |  Y |  
+passengers\_info.ticket\_info.seat\_type |席座类型| string | Y |二等座
+passengers\_info.ticket\_info.ticket\_price|票价| double|  Y |100
+passengers\_info.ticket\_info.seat\_location|坐席位置 |string | Y |08车厢,10B座
+passengers\_info.ticket\_info.ticket\_no |票号| string |  Y |E931804546
+passengers\_info.ticket\_info.can\_group_change |批量改签| boolean |  Y | 非:高级软卧", "软卧", "硬卧 均可以批量改签 false
+passengers\_info.ticket\_info.ticket\_status|订单状态|jsonobject | Y |详细订单状态参照火车订单状态码
+passengers\_info.ticket\_info.ticket\_status.key|订单状态id|integer | Y |3801
+passengers\_info.ticket\_info.ticket\_status.value|订单状态信息|string | Y |退票成功
+passengers\_info.refund\_info |退票信息| jsonobject | Y |
+passengers\_info.refund\_info.refund\_money|退票金额| double|  Y |
+passengers\_info.refund\_info.refund\_fee|退票费 |double | Y |
+passengers\_info.refund\_info.reason |退票原因| string |  Y |
+passengers\_info.endorse\_info|改签信息| jsonobject|  Y |
+passengers\_info.endorse\_info.supplementary\_payment |改签生成新单的价格| double |  Y |  
+passengers\_info.endorse\_info.diff\_price|改签差价| double| Y |
+passengers\_info.endorse\_info.endorse\_fee |改签手续费| double | Y | 
+passengers\_info.endorse\_info.reason|改签原因| string| Y |
+passengers\_info.ticket\_tips |票状态说明| string | Y | 
 insurance\_info|保险信息 |jsonarray | Y |
 can\_process |是否可查看企业订单| boolean |  Y |
 cost\_attribution|费用归属| string|  Y |
 contact\_info |联系人信息| jsonobject | Y|  
-contact\_name|联系人姓名| string| Y |
-contact\_phone |联系人手机号| string | Y |
+contact\_info.contact\_name|联系人姓名| string| Y |
+contact\_info.contact\_phone |联系人手机号| string | Y |
 refund\_price\_info|退票信息| jsonobject|N|可能为空，为空不展示
 refund\_price |退订金额（票价单价)|double|N| 退订金额（票价）
 refund\_cost |退票手续费| double |N|退订费（扣除的钱）
