@@ -53,7 +53,7 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 -----|-----|----|----|----
 order_id|订单ID   |string |Y|5aaa513d279863768e83ff3b|
 create_time|创建时间 |string |Y|2018-04-01 00:00:00|
-total_price|订单价格 | integer |Y|负数为退票状态，退票返回金额|
+total_price|订单价格 | double |Y|负数为退票状态，退票返回金额|
 passenger_list| 乘客信息|jsonarray |Y||
 status| 订单状态信息|jsonobject|Y||
 status.key| 订单状态|integer|Y|详情参照状态码|
@@ -68,8 +68,7 @@ segment_info.destination_city|目的地城市名称| string |Y|上海市|
 segment_info.departure_timestamp|出发时间  |integer|Y|1522580110000|
 segment_info.arrived_timestamp|到达时间 | integer | Y |1522587319000|
 can_process|是否可以查看订单详情| boolean |Y| 分为企业订单和个人名单，个人不能查看企业订单详情|
-is_external_order|是否外采订单| integer |Y|0:非外采,1:外采
-|
+is_external_order|是否外采订单| integer |Y|0:非外采,1:外采|
 total_price_str|订单金额字符串| string |Y|"￥660.00"
 
 
@@ -85,32 +84,80 @@ total_price_str|订单金额字符串| string |Y|"￥660.00"
 
 {  "code": 0, 
    "msg": "success", 
-  "data": {   
-"results": [    
-{"order_id": "58e74c125d88db6664226ac8",     "remote_order_id": "112017040184019946",   
-"create_time": "2017-05-04 13:28:57",
-"total_price": -1948,
-"passenger_list": ["汪远"],
-"status": 1811,
-"status_info": "退票成功",
-"segment_info": { "flight_no": "CA1835",    "airline_name": "中国国航", 
-"starting_code": "PEK",
- "starting_city": "北京",
- "destination_code": "PVG",    
- "destination_city": "上海",
- "departure_timestamp": 1522580110000,  
- "arrived_timestamp": 1522587319000},
- "can_process": false
- is_external_order": 1,
- "total_price_str": "￥100.00"},    
-{"order_id": "58deb1975d88db0e98febc28",     
-"remote_order_id": "112017040184019935",    
- "create_time": 1490989482042,
- "total_price": 2160,
- "passenger_list": ["刘维中","汪远"],
-"status": 1211,
-"status_info": "已取消","segment_info": {"flight_no": "MF8518","airline_name": "厦门航空","starting_code": "SHA","starting_city": "上海","destination_code": "XMN", "destination_city": "厦门","departure_timestamp": 0,"arrived_timestamp": 0},"can_process": false}], 
- "total_count": 16  }}
+  "data": { 
+  
+    "results": [{
+			"order_id": "5aba358627986345c41943b4",
+			"remote_order_id": "9972987412701479279",
+			"create_time": "2018-04-27 00:00:00",
+			"total_price": 52,
+			"passenger_list": ["强仔"],
+			"status": {
+				"key": 1900,
+				"value": "有退改签"
+			},
+			"segment_info": {
+				"flight_no": "212312",
+				"airline_name": "南方航空",
+				"starting_code": "HAK",
+				"starting_city": "海口市",
+				"destination_code": "PEK",
+				"destination_city": "北京市",
+				"departure_timestamp": 1522152779328,
+				"arrived_timestamp": 1522163570507
+			},
+			"can_process": false,
+			"is_external_order": 1,
+			"total_price_str": "￥52.00"
+		}, {
+			"order_id": "5aaa513d279863768e83ff3b",
+			"remote_order_id": "323",
+			"create_time": "2018-04-01 00:00:00",
+			"total_price": 100,
+			"passenger_list": ["王健"],
+			"status": {
+				"key": 1821,
+				"value": "改签成功"
+			},
+			"segment_info": {
+				"flight_no": "123",
+				"airline_name": "上海航空",
+				"starting_code": "PEK",
+				"starting_city": "北京市",
+				"destination_code": "PVG",
+				"destination_city": "上海市",
+				"departure_timestamp": 1522580110000,
+				"arrived_timestamp": 1522587319000
+			},
+			"can_process": false,
+			"is_external_order": 1,
+			"total_price_str": "￥100.00"
+		}, {
+			"order_id": "5abb5f3127986354622e6b21",
+			"remote_order_id": "",
+			"create_time": "2018-03-28 17:24:07",
+			"total_price": 56,
+			"passenger_list": ["韩美美"],
+			"status": {
+				"key": 1700,
+				"value": "出票中"
+			},
+			"segment_info": {
+				"flight_no": "CZ6105",
+				"airline_name": "南方航空",
+				"starting_code": "SHE",
+				"starting_city": "沈阳",
+				"destination_code": "PEK",
+				"destination_city": "北京",
+				"departure_timestamp": 1524208800000,
+				"arrived_timestamp": 1524215100000
+			},
+			"can_process": false,
+			"is_external_order": 0,
+			"total_price_str": "￥56.00"
+		}  
+ }
+}
 
 
 ```
