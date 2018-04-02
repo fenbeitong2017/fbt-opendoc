@@ -30,13 +30,6 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 	"employee_type":1,
 	"data":{
 		"state":0,
-		"page_index":"1",
-		"data.page_size":"10",
-		"search_category":"0",
-		"order_ date_begin":"2017-01-01",
-		"order_ date_end":"2017-05-01",
-		"name_ or_phone":"123456",
-		"name_ or_ phone_type":"1"
 				
 	}
 }
