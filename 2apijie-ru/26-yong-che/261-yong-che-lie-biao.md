@@ -26,7 +26,7 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 	"employee_id":"59b74c1323445f2d54dd07922",
 	"employee_type":1,
 	"data":{
-		"state":"0"
+		"state":0
 	}
 }
 ```
