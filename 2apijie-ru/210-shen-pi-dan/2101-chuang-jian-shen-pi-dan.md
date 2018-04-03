@@ -8,7 +8,7 @@
 | sign | 签名 | string | Y | oihfnlyeofdh98 |
 | timestamp | 时间戳 | long | Y | 13位时间戳  1241243250000 |
 | employee\_id | 用户ID | string | Y | 分贝用户id或者第三方用户id |
-| employee\_type | 用户类型 | string | Y | 类型，0为分贝用户，1为第三方用户 |
+| employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y |
 | data.apply | 申请单内容 | jsonobject | Y|
 | data.apply.type| 申请单业务类型 | integer | Y | 1.差旅\(对应trip\_list下的type值为7、11、15\) 2.用车\(对应trip\_list下的type值为3\) 3.采购 |
