@@ -24,8 +24,8 @@ refund_fee|手续费|double|Y|退票产生的手续费
 begin_time|入住时间|string|Y|2018-01-01 00:00:00
 end_time|离店时间|string|Y|2018-01-06 00:00:00
 third_approve_id|申请单ID|string|Y||
-| create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
-| coupon_amount | 优惠券金额 | double | Y |10.25|
+create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
+coupon_amount | 优惠券金额 | double | Y |10.25|
 
 
 
