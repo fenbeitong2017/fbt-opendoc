@@ -24,6 +24,15 @@
 | refund\_amount | 金额 | double | Y | 供应商退给我们的钱 |
 | refund\_fee | 手续费 | double | Y | 退票产生的手续费 |
 | third\_approve\_id | 申请单ID | string | Y ||
+| create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
+| coupon_amount | 优惠券金额 | double | Y |10.25|
+
+
+
+
+
+
+
 
 数据格式:
 

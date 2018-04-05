@@ -30,8 +30,8 @@ refund_fee|手续费|double|Y||
 change_fee|改签费|double|Y||
 change_ticket_fee|改签差价手续费|double|Y||
 third_approve_id|申请单ID|string|Y||
-
-
+| create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
+| coupon_amount | 优惠券金额 | double | Y |10.25|
 
 
 
