@@ -17,6 +17,7 @@
     * [2.2.6 修改部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
     * [2.2.7 删除部门](2apijie-ru/21zu-zhi-jia-gou/215-shan-chu-bu-95e828-zhi-chi-pi-liang-shan-966429.md)
     * [2.2.8 查询部门\(暂不支持\)](2apijie-ru/21zu-zhi-jia-gou/212-cha-xun-bu-men.md)
+    * [2.2.9 绑定第三方用户ID](2apijie-ru/21zu-zhi-jia-gou/229-bang-ding-di-san-fang-yong-hu-id.md)
   * [2.3 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.3.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
     * [2.3.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
