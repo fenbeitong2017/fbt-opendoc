@@ -23,7 +23,7 @@ employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方�
 { "access_token": "xxx.xxx.xxx",
 "timestamp": 123456789,
 "data":
-{
+{\
 "bind_employee_list":[
 {
 "phone":"13718432812",
