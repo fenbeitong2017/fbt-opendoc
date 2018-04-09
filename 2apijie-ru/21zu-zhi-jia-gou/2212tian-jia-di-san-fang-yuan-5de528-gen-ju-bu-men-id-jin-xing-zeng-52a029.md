@@ -34,20 +34,20 @@ data.intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |fals
 data.intl_air_policy.air_rule_id |规则id| string | Y |false|
 data.intl_air_policy.exceed_buy_type | 限制非企业员工预定机票标识| integer | Y |integer|1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
 data.hotel_policy | 酒店权限 | jsonobject | Y ||
-data.hotel_policy.unemployee_hotel | 限制非企业员工预定机票标识| boolean | Y |false|
-data.hotel_policy.air_priv_flag | 限制非企业员工预定机票标识| boolean | Y |false|
-data.hotel_policy.air_verify_flag | 限制非企业员工预定机票标识| boolean | Y |false|
-data.hotel_policy.air_rule_limit_flag | 限制非企业员工预定机票标识| boolean | Y |false|
-data.hotel_policy.air_rule_id | 限制非企业员工预定机票标识| string | Y |575263e982f880a6d686ce11|
+data.hotel_policy.unemployee_hotel | 限制非企业员工预定酒店标识| boolean | Y |false|
+data.hotel_policy.hotel_priv_flag | 是否允许订酒店| boolean | Y |false|
+data.hotel_policy.hotel_verify_flag |是否需要审批| boolean | Y |false|
+data.hotel_policy.hotel_rule_limit_flag | 是否限制规则| boolean | Y |false|
+data.hotel_policy.hotel_rule_id | 规则id| string | Y |575263e982f880a6d686ce11
 data.hotel_policy.exceed_buy_type | 限制非企业员工预定机票标识| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 
 data.train_policy | 火车权限| jsonobject | Y |
 data.train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | Y |false|
-data.train_policy.train_priv_flag | 限制非企业员工预定机票标识| boolean | Y |false|
-data.train_policy.train_verify_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.train_policy.train_priv_flag | 是否允许订火车票| boolean | Y |false|
+data.train_policy.train_verify_flag | 是否需要审批| boolean | Y |false|
 data.train_policy.train_rule_limit_flag |是否限制规则| boolean | Y |false|
-data.train_policy.train_rule_id | 限制非企业员工预定机票标识| boolean | Y |false|
-data.train_policy.exceed_buy_type | 超规则下单| boolean | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+data.train_policy.train_rule_id | 规则id| string | Y |false|
+data.train_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 
 
 
