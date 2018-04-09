@@ -17,45 +17,39 @@
  data.employee\_list | 员工信息 | jsonarray | Y ||
  data.employee\_list.name | 员工姓名 | string | Y |张三|
  data.employee\_list.phone | 员工手机号 | string | Y |17902029298|
- data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  string | Y |lk98eow9jisdj87|
+ data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87|
  data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
  data.air_policy | 飞机权限 | jsonobject | Y ||
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
- | boolean | Y |false|
-data.air_policy.air_priv_flag | 是否允许订机票
- | boolean | Y |false|
-data.air_policy.air_verify_flag | 是否需要审批
-| boolean | Y |false|
-data.air_policy.air_rule_limit_flag | 是否限制规则
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
-data.air_policy.unemployee_air | 限制非企业员工预定机票标识
-| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
+data.air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
+data.air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
+data.air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |false|当为true时，规则ID为空。当为false时，规则ID空串
+data.air_policy.air_rule_id |规则id| string | Y |false|
+data.air_policy.exceed_buy_type | 限制非企业员工预定机票标识| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
+data.intl_air_policy | 国际飞机权限 | jsonobject | Y ||
+data.intl_air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean |Y|false|
+data.intl_air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
+data.intl_air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
+data.intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |false|当为true时，规则ID为空。当为false时，规则ID空串
+data.intl_air_policy.air_rule_id |规则id| string | Y |false|
+data.intl_air_policy.exceed_buy_type | 限制非企业员工预定机票标识| integer | Y |integer|1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
+data.hotel_policy | 酒店权限 | jsonobject | Y ||
+data.hotel_policy.unemployee_hotel | 限制非企业员工预定机票标识| boolean | Y |false|
+data.hotel_policy.air_priv_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.hotel_policy.air_verify_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.hotel_policy.air_rule_limit_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.hotel_policy.air_rule_id | 限制非企业员工预定机票标识| string | Y |575263e982f880a6d686ce11|
+data.hotel_policy.exceed_buy_type | 限制非企业员工预定机票标识| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+
+data.train_policy | 火车权限| jsonobject | Y |
+data.train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | Y |false|
+data.train_policy.train_priv_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.train_policy.train_verify_flag | 限制非企业员工预定机票标识| boolean | Y |false|
+data.train_policy.train_rule_limit_flag |是否限制规则| boolean | Y |false|
+data.train_policy.train_rule_id | 限制非企业员工预定机票标识| boolean | Y |false|
+data.train_policy.exceed_buy_type | 超规则下单| boolean | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+
+
 
 
 
