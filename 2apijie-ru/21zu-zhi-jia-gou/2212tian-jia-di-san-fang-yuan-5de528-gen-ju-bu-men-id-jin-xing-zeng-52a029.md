@@ -8,17 +8,58 @@
 
 请求参数
 
-| 字段 | 名称 | 类型 | 必填 | 描述 |
-| --- | --- | --- | --- | --- |
-| timestamp | 时间戳 | long | Y | 13位时间戳 |
-| access\_token | token | string | Y | 登录 token |
-| employee\_id | 操作人id | string | N | 操作人id,调用接口人 id |
-| data | 请求数据 | jsonstring | Y ||
-| data.employee\_list | 员工信息 | jsonarray | Y ||
-| data.employee\_list.name | 员工姓名 | string | Y |张三|
-| data.employee\_list.phone | 员工手机号 | string | Y |17902029298|
-| data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样 | string | Y |lk98eow9jisdj87|
- | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
+ 字段 | 名称 | 类型 | 必填 | 描述 |
+ --- | --- | --- | --- | --- |
+ timestamp | 时间戳 | long | Y | 13位时间戳 |
+ access\_token | token | string | Y | 登录 token |
+ employee\_id | 操作人id | string | N | 操作人id,调用接口人 id |
+ data | 请求数据 | jsonstring | Y ||
+ data.employee\_list | 员工信息 | jsonarray | Y ||
+ data.employee\_list.name | 员工姓名 | string | Y |张三|
+ data.employee\_list.phone | 员工手机号 | string | Y |17902029298|
+ data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  string | Y |lk98eow9jisdj87|
+ data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
+ data.air_policy | 飞机权限 | jsonobject | Y ||
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+ | boolean | Y |false|
+data.air_policy.air_priv_flag | 是否允许订机票
+ | boolean | Y |false|
+data.air_policy.air_verify_flag | 是否需要审批
+| boolean | Y |false|
+data.air_policy.air_rule_limit_flag | 是否限制规则
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+data.air_policy.unemployee_air | 限制非企业员工预定机票标识
+| boolean | Y |false|
+
+
+
+
 
 请求示例
 
