@@ -47,6 +47,23 @@ data.train_policy.train_verify_flag | 是否需要审批| boolean | Y |false|
 data.train_policy.train_rule_limit_flag |是否限制规则| boolean | Y |false|
 data.train_policy.train_rule_id | 规则id| string | Y |false|
 data.train_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+data.car_policy | 用车权限| jsonobject | Y |
+data.car_policy.car_priv_flag | 限制非企业员工用车权限标识| boolean | Y |false|
+data.car_policy.rule_limit_flag | 是否允许打车| boolean | Y |false|
+data.car_policy.rule_id | 规则id| integer | Y |45|
+data.car_policy.allowShuttle | 用车接送机权限| boolean | Y |false|
+data.car_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+data.mall_policy | 采购权限| jsonobject | Y |
+data.mall_policy.mall_priv_flag | 限制非企业员工采购标识| boolean | Y |false|
+data.mall_policy.rule_limit_flag | 是否允许采购| boolean | Y |false|
+data.mall_policy.rule_id | 规则id| string | Y |false|
+data.mall_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+data.dinner_policy | 用餐权限| jsonobject | Y |
+data.dinner_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | Y |false|
+data.dinner_policy.rule_limit_flag | 是否允许用餐| boolean | Y |false|
+data.dinner_policy.rule_id | 规则id| string | Y |false|
+data.dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+
 
 
 
