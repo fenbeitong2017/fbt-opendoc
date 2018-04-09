@@ -255,4 +255,24 @@ data.dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（
     }
 }
 
+
+
+
+{
+    "request_id": "FqVKD698g0SdA7sr6O5i",
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "companyId": "5747fbc10f0e60e0709d8d7d",
+                "phone": "13146894449",
+                "name": "杨六郎",
+                "thirdEmployeeId": "100991",
+                "errorMsg": "部门信息参数不正确"
+            }
+        ]
+    }
+}
+
 ```
