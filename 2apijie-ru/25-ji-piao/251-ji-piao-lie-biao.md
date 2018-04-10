@@ -57,8 +57,24 @@
 | can\_process | 是否可以查看订单详情 | boolean | Y | 分为企业订单和个人名单，个人不能查看企业订单详情 |
 | is\_external\_order | 是否外采订单 | integer | Y | 0:非外采,1:外采 |
 | total\_price\_str | 订单金额字符串 | string | Y | "￥660.00" |
+| employee_name | 下单人姓名 | string | Y | 张三|
+| employee_id | 下单人id | string | Y | uejk8489u78437893uuhd|
 
-\|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 {"request_id": "Ml4VL4moJ6VtKbG2vE83",
