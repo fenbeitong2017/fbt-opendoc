@@ -91,13 +91,13 @@
                 "starting_city": "海口市",
                 "destination_code": "PEK",
                 "destination_city": "北京市",
+                "seat_msg":"商务舱",
                 "departure_timestamp": 1522152779328,
                 "arrived_timestamp": 1522163570507
             },
             "can_process": false,
             "employee_name":"张三",
             "employee_id":"56768798765645",
-            "seat_msg":"商务舱",
             "is_external_order": 1,
             "total_price_str": "￥52.00"
         }, {
@@ -116,6 +116,7 @@
                 "starting_code": "PEK",
                 "starting_city": "北京市",
                 "destination_code": "PVG",
+                "seat_msg":"商务舱",
                 "destination_city": "上海市",
                 "departure_timestamp": 1522580110000,
                 "arrived_timestamp": 1522587319000
@@ -141,6 +142,7 @@
                 "airline_name": "南方航空",
                 "starting_code": "SHE",
                 "starting_city": "沈阳",
+                "seat_msg":"商务舱",
                 "destination_code": "PEK",
                 "destination_city": "北京",
                 "departure_timestamp": 1524208800000,
