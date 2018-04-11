@@ -70,6 +70,10 @@ data.results.driver_info.driver_name|		司机称呼	|string	 |N|张师傅
 data.results.driver_info.driver_avatar	|司机头像|string	|N  |神州专车没有司机头像，注意兼容
 data.results.wait_duration|等待时长|integer | Y | 根据叫车时间与系统当前时间比较的时间差，单位秒（客户端列表跳转到叫车界面使用）	
 data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
+data.results.employee_name | 下单人姓名 | string | Y | 张三|
+data.results.employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
+
+
 
 ```
 
@@ -104,6 +108,8 @@ data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
                 "spec_name": "快车",
                 "driver_info": {},
                 "wait_duration": 1183107,
+                "employee_name":"张三",
+                "employee_id":"56768798765645",
                 "total_price_str":"￥0.00"
             },
             {
@@ -130,6 +136,8 @@ data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
                 "arrival_lat": 39.926776,
                 "arrival_lng": 116.639717,
                 "spec_name": "快车",
+                "employee_name":"张三",
+                "employee_id":"56768798765645",
                 "driver_info": {}
             }
             

@@ -110,6 +110,7 @@ create_time | 下单时间 | integer | Y | |
                 "to_station_name": "上海虹桥",
                 "total_price": 563,
                 "can_process": true,
+                "seat_type":"一等座",
                 "is_external_order": 0,
                 "total_price_str": "￥563.00"
             },
