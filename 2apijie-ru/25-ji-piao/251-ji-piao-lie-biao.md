@@ -59,20 +59,7 @@
 | total\_price\_str | 订单金额字符串 | string | Y | "￥660.00" |
 | employee_name | 下单人姓名 | string | Y | 张三|
 | employee_id | 下单人id | string | Y | uejk8489u78437893uuhd|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| seat_msg | 仓位信息 | string | Y | 商务舱(头等舱),经济舱|
 
 
 

@@ -59,10 +59,9 @@ guests.name|入住人姓名| string |Y| 刘维中
 guests.phone_no|入住人手机号| string |Y| 18601016943
 is_external_order|是否外采订单| Integer |Y| 0  1:是,0:否 
 total_price_str|价格字符串| string |Y|￥41.00
-
-
-
-
+employee_name | 下单人姓名 | string | Y | 张三|
+employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
+create_time | 下单时间 | integer | Y | |
 
 
 响应数据：
