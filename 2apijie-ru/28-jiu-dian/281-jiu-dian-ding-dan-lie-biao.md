@@ -61,8 +61,7 @@ is_external_order|是否外采订单| Integer |Y| 0  1:是,0:否
 total_price_str|价格字符串| string |Y|￥41.00
 employee_name | 下单人姓名 | string | Y | 张三|
 employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
-create_time | 下单时间 | integer | Y | 1522294527444
-|
+create_time | 下单时间 | integer | Y | 1522294527444|
 
 
 响应数据：
