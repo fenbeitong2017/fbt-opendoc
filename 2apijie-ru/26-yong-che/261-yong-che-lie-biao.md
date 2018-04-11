@@ -47,7 +47,7 @@ data.results.departure_lat|出发地纬度|double |Y	|56.00
 data.results.status|订单状态|integer |Y|700
 data.results.status_info|订单状态描述|string|Y|	显示订单状态最好使用此字段，避免增加状态类型等不兼容问题 
 data.results.price|金额	|double	 |Y|45.99	 
-data.results.order_time|下单时间|string	|Y| 格式：yyyy-MM-dd HH:mm:ss
+data.results.order_time|下单时间|string	|Y| 格式：MM-dd HH:mm:ss
 data.results.schedule_time|用车时间|string|Y| 格式：yyyy-MM-dd HH:mm:ss
 data.results.spec|用车类型信息|	jsonobject| Y|	 
 data.results.spec.id|用车类型id|integer|Y| 100:舒适型；400：七座商务；200：豪华型；600:快车
