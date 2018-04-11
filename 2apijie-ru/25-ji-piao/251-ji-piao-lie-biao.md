@@ -124,7 +124,6 @@
             "can_process": false,
             "employee_name":"张三",
             "employee_id":"56768798765645",
-            "seat_msg":"商务舱",
             "is_external_order": 1,
             "total_price_str": "￥100.00"
         }, {
@@ -150,7 +149,6 @@
             },
             "can_process": false,
             "employee_name":"张三",
-            "seat_msg":"商务舱",
             "employee_id":"56768798765645",
             "is_external_order": 0,
             "total_price_str": "￥56.00"
