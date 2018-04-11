@@ -61,7 +61,8 @@ is_external_order|是否外采订单| Integer |Y| 0  1:是,0:否
 total_price_str|价格字符串| string |Y|￥41.00
 employee_name | 下单人姓名 | string | Y | 张三|
 employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
-create_time | 下单时间 | integer | Y | |
+create_time | 下单时间 | integer | Y | 1522294527444
+|
 
 
 响应数据：
@@ -83,6 +84,9 @@ results": [{
 			"hotel_phone": "010-53767110",
 			"city_name": "北京市",
 			"price": 41,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"can_process": false,
 			"guests": [{
 				"name": "刘维中",
@@ -105,6 +109,9 @@ results": [{
 			"city_name": "北京市",
 			"price": 41,
 			"can_process": false,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"guests": [{
 				"name": "施伟",
 				"phone_no": "18511371609"
@@ -124,6 +131,9 @@ results": [{
 			"city_name": "北京市",
 			"price": 343,
 			"can_process": false,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"guests": [{
 				"name": "强仔",
 				"phone_no": "18310480640"
@@ -143,6 +153,9 @@ results": [{
 			"city_name": "北京市",
 			"price": 343,
 			"can_process": false,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"guests": [{
 				"name": "强仔",
 				"phone_no": "18310480640"
@@ -164,6 +177,9 @@ results": [{
 			"city_name": "北京市",
 			"price": 41,
 			"can_process": false,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"guests": [{
 				"name": "刘维中",
 				"phone_no": "18601016943"
@@ -185,6 +201,9 @@ results": [{
 			"city_name": "北京市",
 			"price": 41,
 			"can_process": false,
+			"employee_name":"张三",
+               	 "employee_id":"56768798765645",
+               	 "create_time":1523533736260,
 			"guests": [{
 				"name": "施伟",
 				"phone_no": "18511371609"
