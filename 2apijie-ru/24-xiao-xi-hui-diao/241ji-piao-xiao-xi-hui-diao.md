@@ -2,7 +2,7 @@
 | --- | --- | --- | --- | --- |
 | company\_id | 公司id | string | Y | 5747fbc10f0e60e0709d8d89 |
 | company\_name | 公司名称 | string | Y | 分贝通 |
-| type\_pame | 订单类型名称 | string | Y | 机票 |
+| type\_name | 订单类型名称 | string | Y | 机票 |
 | type | 订单类型 | integer | Y | 机票:1 |
 | status | 订单状态 | integer | Y | 出票中:1700，出票成功:1800 |
 | apply\_name | 申请人姓名 | string | Y | 张三 |

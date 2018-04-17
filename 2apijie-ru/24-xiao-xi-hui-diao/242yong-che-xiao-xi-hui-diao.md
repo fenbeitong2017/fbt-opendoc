@@ -3,7 +3,7 @@
 ----|----|---|---|---
 company_id |公司id|string| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|string|Y|分贝通
-type_pame |订单类型名称 |string| Y |用车
+type_name |订单类型名称 |string| Y |用车
 type |订单类型| integer | Y |用车:2
 status |订单状态|integer| Y |已完成:700
 use_name |使用人姓名|string| Y |张三(用车无需审批)

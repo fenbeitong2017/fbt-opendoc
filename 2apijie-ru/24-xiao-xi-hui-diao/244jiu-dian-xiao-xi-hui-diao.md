@@ -2,7 +2,7 @@
 ----|----|---|---|---
 company_id |公司id|string| Y | 5747fbc10f0e60e0709d8d89
 company_name | 公司名称|string|Y|分贝通
-type_pame |订单类型名称 |string| Y |酒店
+type_name |订单类型名称 |string| Y |酒店
 type |订单类型| integer | Y |酒店:4
 status |订单状态|integer| Y |订房成功:2501
 apply_name|申请人姓名|string |Y|张三
