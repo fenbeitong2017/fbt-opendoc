@@ -17,6 +17,8 @@
 | third\_remark | 出差事由备注 | string | Y | 出差 |
 | order\_id | 订单id | string | Y | 9884hhkhfsk |
 | total\_price | 总价 | double | Y | 388.00 |
+|departure_place|出发地|string|Y|北京|
+|destination_place|目的地|string|Y|上海|
 |begin_time|航班起飞时间|string |Y|2018-01-01 10:04:30|
 |end_time|航班到达时间|string|Y|2018-01-01 10:55:30|
 | budget\_money | 预估费用总计 | double | Y | 单位：分 |
@@ -26,6 +28,16 @@
 | third\_approve\_id | 申请单ID | string | Y ||
 | create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
 | coupon_amount | 优惠券金额 | double | Y |10.25|
+| flight_no | 航班号 | string | Y |CA2808|
+| seat_msg |仓位信息 | string | Y |经济舱|
+
+
+
+
+
+
+
+
 
 
 
@@ -44,8 +56,8 @@
     "type":1,
     "status":1700,
     "apply_name":"张三",
-        "contact_phone":"13080899009",
-        "dept_name":"人事部",
+    "contact_phone":"13080899009",
+    "dept_name":"人事部",
     "monetary_unit":人民币,
     "third_remark":"搜索",
     "order_id":"hksf83ho93lsbvnos145",
@@ -56,7 +68,7 @@
     "begin_time":"2018-01-01",
     "end_time":"2018-01-01",
     "third_approve_id":"hksf83ho93lsbvnos145",
-
+    "create_time":"2018-04-05 13:13:34"
 
 
 
