@@ -56,13 +56,7 @@ bed_type |床类型| string |Y|
 room_code|房间code|string|Y| DR
 room_name|房间房型|string|Y| 大床房
 room_count|房间数量|integer| Y | 1
-plan_code|价格计划code| string | Y |573273659|6647611164||51661617
-per_room_night_prices|每间房每晚价格| double | Y |150
-bed_type |床类型| string |Y|
-room_code|房间code|string|Y| DR
-room_name|房间房型|string|Y| 大床房
-room_count|房间数量|integer| Y | 1
-plan_code|价格计划code| string | Y |573273659|6647611164||51661617
+plan_code|价格计划code| string | Y|  573273659/ 6647611164/51661617
 per_room_night_prices|每间房每晚价格| double | Y |150
 price_rule|价格|string| Y |订单确认后，如在北京时间2018-03-26 23:00:00 （含）点前取消，可全额退款！其它时间不可取消，不可变更。如未入住扣除全额房费
 plan_name|计划名称| string |Y|大床房
