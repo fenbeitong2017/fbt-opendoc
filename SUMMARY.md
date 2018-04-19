@@ -44,6 +44,7 @@
     * [2.10.1 创建审批单](2apijie-ru/210-shen-pi-dan/2101-chuang-jian-shen-pi-dan.md)
   * [2.11 用餐接口接入](2apijie-ru/211-yong-can-jie-kou-jie-ru.md)
     * [2.11.1 用餐订单列表接口](2apijie-ru/211-yong-can-jie-kou-jie-ru/2111-yong-can-ding-dan-lie-biao-jie-kou.md)
+    * [2.11.2 用餐订单详情](2apijie-ru/211-yong-can-jie-kou-jie-ru/2112-yong-can-ding-dan-xiang-qing.md)
 * [3.H5接口接入](3h5jie-ru.md)
   * [3.1 接入说明](3h5jie-ru/31-jie-ru-shuo-ming.md)
   * [3.2 鉴权接口，颁发Token](3h5jie-ru/32-jian-quan-jie-kou-ff0c-ban-fa-token.md)
