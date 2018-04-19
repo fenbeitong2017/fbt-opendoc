@@ -53,10 +53,10 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "5号便当(光华路soho店)",//门店名称
                 "contact_name": "刘维中",
-                "total_price_str": "￥0.01",//订单总价富川
+                "total_price_str": "￥0.01",//订单总价字符串
                 "total_price": 0.01,//订单总价
                 "create_time": "2018-02-27 10:15:41",//下单时间
-                "logo_url": null,//门店图片地址/
+                "logo_url": null,//门店图片地址
                 "shop_addr": "光华路22号1层127",//门店地址
                 "order_id": "5a94bf4de4b0d2bdb9c70578",//订单ID
                 "prudoct_id": "5a94bf4de4b0d2bdb9c70579",

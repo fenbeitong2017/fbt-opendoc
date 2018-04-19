@@ -63,4 +63,6 @@
   * [4.5 保险状态码](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma.md)
     * [4.5.1 保单订单状态码表](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma/451-bao-dan-ding-dan-zhuang-tai-ma-biao.md)
   * [4.6组织架构状态码](4zhuang-tai-ma/46zu-zhi-jia-gou-zhuang-tai-ma.md)
+  * [4.7 用餐状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma.md)
+    * [4.7.1 用餐订单状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma/471-yong-can-ding-dan-zhuang-tai-ma.md)
 
