@@ -53,6 +53,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "5号便当(光华路soho店)",//门店名称
                 "contact_name": "刘维中",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.01",//订单总价字符串
                 "total_price": 0.01,//订单总价
                 "create_time": "2018-02-27 10:15:41",//下单时间
@@ -69,6 +70,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "5号便当(光华路soho店)",
                 "contact_name": "刘维中",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.01",
                 "total_price": 0.01,
                 "create_time": "2018-02-07 11:27:04",
@@ -85,6 +87,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "5号便当(光华路soho店)",
                 "contact_name": "刘维中",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.01",
                 "total_price": 0.01,
                 "create_time": "2018-01-17 21:51:47",
@@ -101,6 +104,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "5号便当(光华路soho店)",
                 "contact_name": "刘维中",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.01",
                 "total_price": 0.01,
                 "create_time": "2018-01-17 21:33:07",
@@ -117,6 +121,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
                  {
                 "branch_shop_name": "独孤一盏灯(常营)",
                 "contact_name": "贾斌",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.00",
                 "total_price": 0,
                 "create_time": "2018-02-05 15:41:07",
@@ -133,6 +138,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "丸龟制面(世贸天阶店)",
                 "contact_name": "谷健波",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.00",
                 "total_price": 0,
                 "create_time": "2018-02-03 11:13:17",
@@ -150,6 +156,7 @@ data.page\_size|每页显示条数| integer| N |20(默认值)
             {
                 "branch_shop_name": "CALIFORKS(世贸天阶店)",
                 "contact_name": "刘维中",
+                "employee_id": "59ccbf2123445f570b8c83fe",//下单人ID
                 "total_price_str": "￥0.01",
                 "total_price": 0.01,
                 "create_time": "2018-01-17 18:12:32",
