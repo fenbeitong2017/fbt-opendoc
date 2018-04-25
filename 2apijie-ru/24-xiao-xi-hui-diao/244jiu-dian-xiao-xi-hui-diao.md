@@ -74,11 +74,11 @@ coupon_amount | 优惠券金额 | double | Y |10.25|
 ```
 
 {
-"data":
-{
-"code":"1", //1表示成功，其他表示失败
-"msg":"success"
+    "code":"1", //1表示成功，其他表示失败
+    "msg":"success"
 }
-}
+
+
+
 
 ```
