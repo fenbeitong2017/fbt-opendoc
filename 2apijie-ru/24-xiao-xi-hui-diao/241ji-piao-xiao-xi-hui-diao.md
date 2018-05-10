@@ -16,7 +16,7 @@
 | monetary\_unit | 货币单位 | string | Y | 人民币 |
 | third\_remark | 出差事由备注 | string | Y | 出差 |
 | order\_id | 订单id | string | Y | 9884hhkhfsk |
-| total\_price | 总价 | double | Y | 388.00 |
+| total\_price | 总价 | double | Y | 388.00 总价=票价+保险-优惠券|
 |departure_place|出发地|string|Y|北京|
 |destination_place|目的地|string|Y|上海|
 |begin_time|航班起飞时间|string |Y|2018-01-01 10:04:30|

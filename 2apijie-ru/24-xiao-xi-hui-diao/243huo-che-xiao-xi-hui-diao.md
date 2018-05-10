@@ -18,7 +18,7 @@ third_remark |三方备注|string|Y|需要进行备注的信息，可以当备�
 budget_money|预估费用总计|double |Y|单位：分
 estimated_amount|预估费用|double |Y|单位：分
 order_id |订单id|string| Y |9884hhkhfsk
-total_price |订单金额 | double| Y |302.90
+total_price |订单金额 | double| Y |302.90，总价=火车票票价+保险价格-优惠券价格
 train_code|车次|string|Y|
 departure_place|出发站|string|Y|北京站|
 destination_place|到达站|string|Y|上海站|

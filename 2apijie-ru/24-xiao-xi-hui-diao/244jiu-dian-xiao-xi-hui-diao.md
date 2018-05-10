@@ -16,7 +16,7 @@ dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
 third_remark|出差事由备注|string|Y|出差
 order_id |订单id|string| Y |9884hhkhfsk
-total_price |总价 | double| Y |388.00
+total_price |总价 | double| Y |388.00,总价=房间价格+保险价格-优惠券价格
 budget_money|预估费用总计|double |Y|单位：分
 estimated_amount|预估费用|double |Y|单位：分
 refund_amount| 金额|double|Y|供应商退给我们的钱
