@@ -1,6 +1,6 @@
 | 请求方式 | 请求地址 |
 | --- | --- |
-| POST | /open/api/common/company/rule |
+| POST | /open/api/third/company/rule |
 
 | 字段 | 名称 | 类型 | 必填 | 描述 |
 | --- | --- | --- | --- | --- |
