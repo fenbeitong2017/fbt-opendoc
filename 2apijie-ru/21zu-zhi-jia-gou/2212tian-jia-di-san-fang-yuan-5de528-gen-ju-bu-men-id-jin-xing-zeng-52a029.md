@@ -20,49 +20,48 @@
  data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87|
  data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
  employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
-employee\_list.air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
-employee\_list.air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
-employee\_list.air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
-employee\_list.air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
-employee\_list.air_policy.air_rule_id |规则id| string | Y |false|
-employee\_list.air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
+air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
+air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
+air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
+air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
+air_policy.air_rule_id |规则id| string | Y |false|
+air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
 employee\_list.intl_air_policy | 国际飞机权限 | jsonobject | Y ||
-employee\_list.intl_air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean |Y|false|
-employee\_list.intl_air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
-employee\_list.intl_air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
-employee\_list.intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
-employee\_list.intl_air_policy.air_rule_id |规则id| string | Y |false|
-employee\_list.intl_air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
+intl_air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean |Y|false|
+intl_air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
+intl_air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
+intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
+intl_air_policy.air_rule_id |规则id| string | Y |false|
+intl_air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
 employee\_list.hotel_policy | 酒店权限 | jsonobject | Y ||
-employee\_list.hotel_policy.unemployee_hotel | 限制非企业员工预定酒店标识| boolean | Y |false|
-employee\_list.hotel_policy.hotel_priv_flag | 是否允许订酒店| boolean | Y |false|
-employee\_list.hotel_policy.hotel_verify_flag |是否需要审批| boolean | Y |false|
-employee\_list.hotel_policy.hotel_rule_limit_flag | 是否限制规则| boolean | Y |false|
-employee\_list.hotel_policy.hotel_rule_id | 规则id| string | Y |575263e982f880a6d686ce11
-employee\_list.hotel_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+hotel_policy.unemployee_hotel | 限制非企业员工预定酒店标识| boolean | Y |false|
+hotel_policy.hotel_priv_flag | 是否允许订酒店| boolean | Y |false|
+hotel_policy.hotel_verify_flag |是否需要审批| boolean | Y |false|
+hotel_policy.hotel_rule_limit_flag | 是否限制规则| boolean | Y |false|
+hotel_policy.hotel_rule_id | 规则id| string | Y |575263e982f880a6d686ce11
+hotel_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 employee\_list.train_policy | 火车权限| jsonobject | Y |
-employee\_list.train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | Y |false|
-employee\_list.train_policy.train_priv_flag | 是否允许订火车票| boolean | Y |false|
-employee\_list.train_policy.train_verify_flag | 是否需要审批| boolean | Y |false|
-employee\_list.train_policy.train_rule_limit_flag |是否限制规则| boolean | Y |false|
-employee\_list.train_policy.train_rule_id | 规则id| string | Y |false|
-employee\_list.train_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | Y |false|
+train_policy.train_priv_flag | 是否允许订火车票| boolean | Y |false|
+train_policy.train_verify_flag | 是否需要审批| boolean | Y |false|
+train_policy.train_rule_limit_flag |是否限制规则| boolean | Y |false|
+train_policy.train_rule_id | 规则id| string | Y |false|
+train_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 employee\_list.car_policy | 用车权限| jsonobject | Y |
-employee\_list.car_policy.car_priv_flag | 限制非企业员工用车权限标识| boolean | Y |false|
-employee\_list.car_policy.rule_limit_flag | 是否允许打车| boolean | Y |false|
-employee\_list.car_policy.rule_id | 规则id| integer | Y |45|
-employee\_list.car_policy.allowShuttle | 用车接送机权限| boolean | Y |false|
-employee\_list.car_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+car_policy.car_priv_flag | 限制非企业员工用车权限标识| boolean | Y |false|
+car_policy.rule_limit_flag | 是否允许打车| boolean | Y |false|
+car_policy.rule_id | 规则id| integer | Y |45|
+car_policy.allowShuttle | 用车接送机权限| boolean | Y |false|
+car_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 employee\_list.mall_policy | 采购权限| jsonobject | Y |
-employee\_list.mall_policy.mall_priv_flag | 限制非企业员工采购标识| boolean | Y |false|
-employee\_list.mall_policy.rule_limit_flag | 是否允许采购| boolean | Y |false|
-employee\_list.mall_policy.rule_id | 规则id| string | Y |false|
-employee\_list.mall_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+mall_policy.mall_priv_flag | 限制非企业员工采购标识| boolean | Y |false|
+mall_policy.rule_limit_flag | 是否允许采购| boolean | Y |false|mall_policy.rule_id | 规则id| string | Y |false|
+mall_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 employee\_list.dinner_policy | 用餐权限| jsonobject | Y |
-employee\_list.dinner_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | Y |false|
-employee\_list.dinner_policy.rule_limit_flag | 是否允许用餐| boolean | Y |false|
-employee\_list.dinner_policy.rule_id | 规则id| string | Y |false|
-employee\_list.dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
+dinner_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | Y |false|
+dinner_policy.rule_limit_flag | 是否允许用餐| boolean | Y |false|
+dinner_policy.rule_id | 规则id| string | Y |false|
+dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)|
 
 
 
