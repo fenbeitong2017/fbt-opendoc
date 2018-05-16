@@ -1,25 +1,26 @@
-2.2.1.2 添加第三方员工（如果存在部门概念，保存到部门下面,采用部门ID进行添加）
-添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配)
+2.2.7 更新第三方员工（支持批量更新,该接口可以对用户的权限和规则进行更新）
 
-| 请求方式 | 请求地址 |
-| --- | --- |
-| POST | /open/api/auth/third/user/batch/org_save |
+请求方式|请求地址
+----|---
+POST|/open/api/third/employees/v2/update
 
 
 请求参数
 
- 字段 | 名称 | 类型 | 必填 | 描述 |
- --- | --- | --- | --- | --- |
- timestamp | 时间戳 | long | Y | 13位时间戳 |
- access\_token | token | string | Y | 登录 token |
- employee\_id | 操作人id | string | N | 操作人id,调用接口人 id |
- data | 请求数据 | jsonstring | Y ||
- data.employee\_list | 员工信息 | jsonarray | Y ||
- data.employee\_list.name | 员工姓名 | string | Y |张三|
- data.employee\_list.phone | 员工手机号 | string | Y |17902029298|
- data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87|
- data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
- employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
+字段 | 名称 | 类型 | 必填 | 描述 |
+--- | --- | --- | --- | --- |
+access_token|api鉴权Token|string|Y|
+sign|签名|string|Y||
+timestamp|时间戳 |long|Y|13位时间戳
+employee\_id| 用户ID|string|Y|第三方用户id
+employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
+data| 请求数据 | jsonstring | Y | |
+data.employee\_list | 员工信息 | jsonarray | Y ||
+data.employee\_list.name | 员工姓名 | string | Y |张三|
+data.employee\_list.phone | 员工手机号 | string | Y |16090190901|
+data.employee\_list.org\_unit\_name | 部门名称| string | Y |员工部门名称，分贝通科技有限公司/研发部/后端服务
+data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y ||
+employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
 employee\_list.air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
 employee\_list.air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
 employee\_list.air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
@@ -71,9 +72,13 @@ employee\_list.dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1�
 
 
 
+
+
 请求示例
 
 ```
+
+
 { "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
   "employee_id":784kuf873jf9834uiy98e"",
@@ -197,82 +202,41 @@ employee\_list.dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1�
     ]  
  }
 }
+
+
 ```
 
 返回结果
 
+
 ```
 {
-   "request_id": "LaZNvBntsBD20nJ7ekgn",
-   "code": 0,
-   "msg": "success"
+"request_id": "LaZNvBntsBD20nJ7ekgn",
+"code": 0,
+"msg": "success",
+"data": {
 }
-```
-
-```
-{
-    "request_id": "MzWkSvZ3sVC2FYg9bCLt",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "result": [
-            {
-                "companyId": "59ce56d02798633485e206a9",
-                "phone": "17080151661",
-                "name": "塞外-test",
-                "thirdEmployeeId": "ddd-test-A",
-                "errorMsg": "第三方用户ID已经被绑定"
-            }
-        ]
-    }
-}
-
-```
-
-
-```
-{
-    "request_id": "zgubWmjt4y9c5AWcOwgs",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "result": [
-            {
-                "companyId": "59df06662798635263b8414c",
-                "phone": "25777059211",
-                "name": "IDG-has888",
-                "thirdEmployeeId": "IDG-888s0lll",
-                "errorMsg": "手机号已经存在，请使用其他手机号"
-            },
-            {
-                "companyId": "59df06662798635263b8414c",
-                "phone": "18777198765",
-                "name": "IDG-h999009",
-                "thirdEmployeeId": "IDG-h99k4lll",
-                "errorMsg": "手机号已经存在，请使用其他手机号"
-            }
-        ]
-    }
 }
 
 
 
 
 {
-    "request_id": "FqVKD698g0SdA7sr6O5i",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "result": [
-            {
-                "companyId": "5747fbc10f0e60e0709d8d7d",
-                "phone": "13146894449",
-                "name": "杨六郎",
-                "thirdEmployeeId": "100991",
-                "errorMsg": "部门信息参数不正确"
-            }
-        ]
-    }
+"request_id": "LaZNvBntsBD20nJ7ekgn",
+"code": 0,
+"msg": "success",
+"data": {
+"result": [
+{
+"name": "张三(姓名)",
+"phone": "13718432817（手机号）",
+"companyId": "57ab054c2528226a805bd5e1(公司id)",
+"thirdEmployeeId": "57ab054c2528226a805bd5e1(第三方用户id)",
+"errorMsg": "手机号已存在"
 }
+]
+}
+}
+
 
 ```
