@@ -11,7 +11,7 @@
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y ||
 | data.company_id | 公司ID | string | Y |公司ID
-| data.type | 公司类型 | integer | Y |公司类型 1:分贝通公司的，2:第三方公司ID
+| data.type | 公司类型 | integer | Y |公司类型 1:分贝通公司ID，2:第三方公司ID
 
 
 
@@ -46,22 +46,19 @@
 
 ```
 
-
-
 {
     "request_id": "tiCXpikD7XXdsa2vfP32",
     "code": 0,
     "msg": "success",
     "data": {
         "airRule": false,//false:不允许,true:允许
-        "hotelRule": false,
-        "trainRule": false,
-        "taxiRule": false,
-        "mallRule": false,
-        "dinnerRule": false
+        "hotelRule": false,//false:不允许,true:允许
+        "trainRule": false,//false:不允许,true:允许
+        "taxiRule": false,//false:不允许,true:允许
+        "mallRule": false,//false:不允许,true:允许
+        "dinnerRule": false//false:不允许,true:允许
     }
 }
-
 
 
 ```
