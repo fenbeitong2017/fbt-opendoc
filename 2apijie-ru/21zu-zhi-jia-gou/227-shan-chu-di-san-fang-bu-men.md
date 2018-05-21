@@ -1,5 +1,4 @@
-修改企业部门
-请求方式|请求地址
+请求方式|请求地址
 ----|---
 POST|/open/api/third/departments/delete
 
