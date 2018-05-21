@@ -18,7 +18,7 @@
 | data.apply.budget | 申请单预算 | integer | Y | 预算总额\(为trip\_list中estimated\_amount的总和 \) |
 | data.trip\_list | 行程列表 | jsonarray | Y | 行程列表 |
 | data.trip\_list.type | 业务类型 | integer | Y | 行程类型 7.机票 11.酒店 15.火车 3.用车 |
-| data.trip\_list.start\_city\_id | 出发城市ID | string | Y | 出发城市ID |
+| data.trip\_list.start\_city\_id | 出发城市ID | string | Y | 在酒店业务中，start_city_id和arrival_city_id都传入目的地城市ID|
 | data.trip\_list.start\_time | 出发时间 | string | Y | 行程开始日期 2017-12-13
 | data.trip\_list.arrival\_city\_id | 目的地城市 | string | Y | 行程到达城市ID |
 | data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
