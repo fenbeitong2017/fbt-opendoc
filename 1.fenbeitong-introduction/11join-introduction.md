@@ -1,9 +1,10 @@
-# 1.分贝通接口环境说明
+##1.1. 接入说明
+- ###  1.1.1 接入方需要提供以下数据
+- ### 1.1.2 接入前准备
+- ### 1.1.3 接口环境说明
+- ### 1.1.4  接口接入步骤
 
-| 环境 | 域名 |
-| --- | --- |
-| 沙箱环境 | [https://open-sandbox.fenbeitong.com](https://open-sandbox.fenbeitong.com) |
-| 生产环境 | [https://open.fenbeitong.com](https://open.fenbeitong.com) |
+
 
 
 

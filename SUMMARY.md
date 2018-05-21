@@ -5,6 +5,8 @@
   * [1.1 接入说明](1.fenbeitong-introduction/11join-introduction.md)
     * [1.1.1 接入方需要提供以下数据](1.fenbeitong-introduction/11join-introduction/111provide-data.md)
     * [1.1.2 接入前准备](1.fenbeitong-introduction/11join-introduction/112prepare.md)
+    * [1.1.3 接口环境说明](1.fenbeitong-introduction/11join-introduction/110-jie-kou-huan-jing-shuo-ming.md)
+    * [1.1.4  接口接入步骤](1.fenbeitong-introduction/11join-introduction/113-jie-kou-jie-ru-bu-zou.md)
 * [2.API接口接入（调整中）](2apijie-ru.md)
   * [2.1 API 鉴权接口,颁发Token](2apijie-ru/23-jian-quan-jie-kou-ff0c-ban-fa-token.md)
   * [2.2 组织架构接口接入](2apijie-ru/21zu-zhi-jia-gou.md)
@@ -16,7 +18,7 @@
     * [2.2.3 删除第三方员工（支持批量删除）](2apijie-ru/21zu-zhi-jia-gou/229-shan-chu-yuan-gong.md)
     * [2.2.4 查询第三方员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
     * [2.2.5 添加第三方部门](2apijie-ru/21zu-zhi-jia-gou/213-tian-jia-bu-men.md)
-    * [2.2.6 修改第三方部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
+    * [2.2.6 更新第三方部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
     * 2.2.2.1 更新第三方员工信息
   * [2.3 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.3.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
@@ -66,6 +68,7 @@
   * [4.5 保险状态码](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma.md)
     * [4.5.1 保单订单状态码表](4zhuang-tai-ma/45-bao-xian-zhuang-tai-ma/451-bao-dan-ding-dan-zhuang-tai-ma-biao.md)
   * [4.6组织架构状态码](4zhuang-tai-ma/46zu-zhi-jia-gou-zhuang-tai-ma.md)
+    * [4.6.1组织架构状态码](4zhuang-tai-ma/46zu-zhi-jia-gou-zhuang-tai-ma/461zu-zhi-jia-gou-zhuang-tai-ma.md)
   * [4.7 用餐状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma.md)
     * [4.7.1 用餐订单状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma/471-yong-can-ding-dan-zhuang-tai-ma.md)
 
