@@ -19,7 +19,8 @@
     * [2.2.4 查询第三方员工信息\(不支持批量查询\)](2apijie-ru/21zu-zhi-jia-gou/218-cha-xun-yuan-gong-xin-606f28-bu-zhi-chi-pi-liang-cha-8be229.md)
     * [2.2.5 添加第三方部门](2apijie-ru/21zu-zhi-jia-gou/213-tian-jia-bu-men.md)
     * [2.2.6 更新第三方部门](2apijie-ru/21zu-zhi-jia-gou/214-xiu-gai-bu-men.md)
-    * 2.2.2.1 更新第三方员工信息
+    * [2.2.7 删除第三方部门](2apijie-ru/21zu-zhi-jia-gou/227-shan-chu-di-san-fang-bu-men.md)
+    * [2.2.8 绑定第三方用户ID](2apijie-ru/21zu-zhi-jia-gou/228-bang-ding-di-san-fang-yong-hu-id.md)
   * [2.3 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.3.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
     * [2.3.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
