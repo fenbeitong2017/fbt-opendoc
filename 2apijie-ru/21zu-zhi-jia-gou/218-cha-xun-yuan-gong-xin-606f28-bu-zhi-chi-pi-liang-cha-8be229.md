@@ -25,6 +25,7 @@ data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公
 "access_token": "xxx.xxx.xxx",	
 "timestamp": 123456789,
 "employee_id":12345678,
+"employee_type":"1",
 "sign": "jifejfwojelajflejf"
 "data":	{
 "employee_id":"faxxx12399004392293840274","type":1	
