@@ -104,8 +104,8 @@ data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公
         "employee_certificate_beans": [//证件相关
 
             {
-                "cert_type": 3,//证件类型
-                "cert_no": "DHIWh4ncl5sod"//护照
+                "cert_type": 3,//证件类型1:身份证 2:护照 3:回乡证 4:台胞证
+                "cert_no": "DHIWh4ncl5sod"
             }
         ]
     }
