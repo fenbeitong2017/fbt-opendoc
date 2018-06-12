@@ -12,7 +12,7 @@ sign|签名|string|Y|
 timestamp|时间戳 |long|Y|13位时间戳
 employee\_id| 用户ID|string|Y|第三方用户id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data |请求数据| jsonstring|Y||
+data |请求数据| jsonstring|Y|
 data.employee\_id|需要查询人的id | string |Y|需要查询人员对应的ID
 data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公司ID
 
