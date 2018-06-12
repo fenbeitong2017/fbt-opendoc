@@ -1,3 +1,5 @@
+2.2.5 添加第三方部门
+
 请求方式|请求地址
 ----|---
 POST|/open/api/third/departments/add

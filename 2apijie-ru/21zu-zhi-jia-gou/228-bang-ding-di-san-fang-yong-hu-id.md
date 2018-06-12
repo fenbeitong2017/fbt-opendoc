@@ -1,3 +1,5 @@
+2.2.8 绑定第三方用户ID
+
 请求方式|请求地址
 ----|---
 POST|/open/api/third/employees/bind
