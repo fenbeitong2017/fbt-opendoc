@@ -20,6 +20,7 @@ data.employee\_list.name | 员工姓名 | string | Y |张三|
 data.employee\_list.phone | 员工手机号 | string | Y |16090190901|
 data.employee\_list.org\_unit\_name | 部门名称| string | N |员工部门名称，分贝通科技有限公司/研发部/后端服务(可以不填)
 data.employee\_list.third\_org\_unit\_id | 部门ID| string | Y |员工部门ID,company_a123
+data.employee\_list.role |员工权限| integer | Y |员工权限,2:普通管理员 3:普通员工
 data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y ||
 employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
