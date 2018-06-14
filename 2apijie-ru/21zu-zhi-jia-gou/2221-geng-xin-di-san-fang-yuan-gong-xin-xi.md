@@ -91,6 +91,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如�
       "name":"张5s",
       "phone":"13718432812",
       "third_org_unit_id":"5747fbc10f0e60e0709d8d7d",
+      "role":3,
       "third_employee_id":"57ab054c2528226a805bd5e1",
       "air_policy": { //飞机权限
           "unemployee_air": false, //限制非企业员工预定机票标识
@@ -147,7 +148,8 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | Y |1：禁止（如�
       {
     "name":"张5",
     "phone":"13718432992",
-    "org_unit_id":"5747fbc10f0e60e0709d8d7d",
+    "third_org_unit_id":"5747fbc10f0e60e0709d8d7d",
+    "role":3,
     "third_employee_id":"57ab054c2528226a805bd500",
     "air_policy": { //飞机权限
           "unemployee_air": false, //限制非企业员工预定机票标识
