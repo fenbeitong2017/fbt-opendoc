@@ -18,7 +18,8 @@ data| 请求数据 | jsonstring | Y | |
 data.employee\_list | 员工信息 | jsonarray | Y ||
 data.employee\_list.name | 员工姓名 | string | Y |张三|
 data.employee\_list.phone | 员工手机号 | string | Y |16090190901|
-data.employee\_list.org\_unit\_name | 部门名称| string | Y |员工部门名称，分贝通科技有限公司/研发部/后端服务
+data.employee\_list.org\_unit\_name | 部门名称| string | N |员工部门名称，分贝通科技有限公司/研发部/后端服务(可以不填)
+data.employee\_list.third\_org\_unit\_id | 部门ID| string | Y |员工部门ID,company_a123
 data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y ||
 employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
