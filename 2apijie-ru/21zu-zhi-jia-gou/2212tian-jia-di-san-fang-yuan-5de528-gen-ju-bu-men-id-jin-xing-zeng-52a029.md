@@ -1,28 +1,31 @@
-2.2.1.2 添加第三方员工（如果存在部门概念，保存到部门下面,采用部门ID进行添加）
-添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配)
+2.2.1.2 添加第三方员工
+####接口说明
+- 1.**最新接口**
+- 2.如果存在部门概念，保存到部门下面,采用部门ID进行添加
+- 3.添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配
 
 | 请求方式 | 请求地址 |
 | --- | --- |
-| POST | /open/api/auth/third/user/batch/org_save |
+| POST | /open/api/auth/third/user/batch/org_save 
 
 
 请求参数
 
  字段 | 名称 | 类型 | 必填 | 描述 |
  --- | --- | --- | --- | --- |
- timestamp | 时间戳 | long | Y | 13位时间戳 |
- access\_token | token | string | Y | 登录 token |
- employee\_id | 操作人id | string | N | 操作人id,调用接口人 id |
- data | 请求数据 | jsonstring | Y ||
- data.employee\_list | 员工信息 | jsonarray | Y ||
- data.employee\_list.name | 员工姓名 | string | Y |张三|
- data.employee\_list.phone | 员工手机号 | string | Y |17902029298|
- data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87|
- data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej|
- employee\_list.air_policy | 飞机权限 | jsonobject | Y ||
-air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false|
-air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false|
-air_policy.air_verify_flag | 是否需要审批| boolean | Y |false|
+ timestamp | 时间戳 | long | Y | 13位时间戳 
+ access\_token | token | string | Y | 登录 token 
+ employee\_id | 操作人id | string | N | 操作人id,调用接口人 id 
+ data | 请求数据 | jsonstring | Y |
+ data.employee\_list | 员工信息 | jsonarray | Y |
+ data.employee\_list.name | 员工姓名 | string | Y |张三
+ data.employee\_list.phone | 员工手机号 | string | Y |17902029298
+ data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87
+ data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej
+ employee\_list.air_policy | 飞机权限 | jsonobject | Y |
+air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false
+air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false
+air_policy.air_verify_flag | 是否需要审批| boolean | Y |false
 air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
 air_policy.air_rule_id |规则id| string | Y |false|
 air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
