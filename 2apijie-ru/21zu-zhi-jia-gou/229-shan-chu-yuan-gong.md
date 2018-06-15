@@ -18,7 +18,7 @@ sign|签名|string|Y||
 timestamp|时间戳 |long|Y|13位时间戳
 employee\_id| 用户ID|string|Y|第三方用户id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data || jsonstring |Y|
+data || jsonstring |Y|请求数据
 data.third\_employee\_ids| 三方员工id|jsonarray|Y| 三方员工id 
  
 

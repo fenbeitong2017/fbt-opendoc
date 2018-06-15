@@ -13,11 +13,11 @@ POST|/open/api/third/departments/detail
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
 timestamp|时间戳 |long |Y|13位时间戳
-sign|签名 |string |Y|
+sign|签名 |string |Y|argfewfsvre345eg
 access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data || jsonstring |Y|请求数据
+data |请求数据| jsonstring |Y|请求数据
 data.company\_id|公司ID|string|Y|分贝通
 data.third\_org\_id|部门id| string |Y|第三方部门ID
 data.type|部门类型| string |Y|部门类型，1:分贝部门ID 2:第三方部门ID

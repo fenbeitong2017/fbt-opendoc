@@ -20,18 +20,18 @@ estimated_amount|预估费用|double |Y|单位：分
 order_id |订单id|string| Y |9884hhkhfsk
 total_price |订单金额 | double| Y |302.90，总价=火车票票价+保险价格-优惠券价格
 train_code|车次|string|Y|
-departure_place|出发站|string|Y|北京站|
-destination_place|到达站|string|Y|上海站|
-begin_time|火车出发时间|string |Y|2018-01-01 10:04:30|
-end_time|火车到达时间|string|Y|2018-01-01 10:04:30|
-premium|保险费|double|Y| |
-refund_amount|退票费|double|Y| |
-refund_fee|手续费|double|Y||
-change_fee|改签费|double|Y||
-change_ticket_fee|改签差价手续费|double|Y||
-third_approve_id|申请单ID|string|Y||
-create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
-coupon_amount | 优惠券金额 | double | Y |10.25|
+departure_place|出发站|string|Y|北京站
+destination_place|到达站|string|Y|上海站
+begin_time|火车出发时间|string |Y|2018-01-01 10:04:30
+end_time|火车到达时间|string|Y|2018-01-01 10:04:30
+premium|保险费|double|Y| 88.99
+refund_amount|退票费|double|Y| 78.33
+refund_fee|手续费|double|Y|9.00
+change_fee|改签费|double|Y|9.00
+change_ticket_fee|改签差价手续费|double|Y|1.22
+third_approve_id|申请单ID|string|Y|jljo8iewnfsl
+create_time | 下单时间 | string | Y |2018-04-05 13:13:34
+coupon_amount | 优惠券金额 | double | Y |10.25
 
 
 

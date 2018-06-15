@@ -13,17 +13,17 @@
 
 请求参数
 
-| 字段 | 名称 | 类型 | 必填 | 描述 |
-| --- | --- | --- | --- | --- |
-| timestamp | 时间戳 | long | Y | 13位时间戳 |
-| access\_token | token | string | Y | 登录 token |
-| employee\_id | 操作人id | string | N| 操作人id,调用接口人 id |
-|  data| 请求数据 | jsonstring | Y |  |
-| data.employee\_list | 员工信息 | jsonarray | Y ||
-| data.employee\_list.name | 员工姓名 | string | Y |张三|
-| data.employee\_list.phone | 员工手机号 | string | Y |13087947383|
+| 字段 | 名称 | 类型 | 必填 | 描述 
+| --- | --- | --- | --- | --- 
+| timestamp | 时间戳 | long | Y | 13位时间戳 
+| access\_token | token | string | Y | 登录 token 
+| employee\_id | 操作人id | string | N| 操作人id,调用接口人 id 
+|  data| 请求数据 | jsonstring | Y | 请求数据 
+| data.employee\_list | 员工信息 | jsonarray | Y |员工信息数据
+| data.employee\_list.name | 员工姓名 | string | Y |张三
+| data.employee\_list.phone | 员工手机号 | string | Y |13087947383
 | data.employee\_list.org\_unit\_name | 部门名称| string | Y |员工部门名称，分贝通科技有限公司/研发部/后端服务
-| data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |iedsf8438yhfd834|
+| data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |iedsf8438yhfd834
 
 请求示例
 

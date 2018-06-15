@@ -18,8 +18,8 @@ end_time|结束计费时间|string |Y|2018-01-01 11:10:10
 departure_place |出发地|string|Y|中关村
 destination_place|目的地|string |Y|北土城地铁站
 third_approve_id|审批单ID|string |Y|98898hjhkdh546kb
-create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
-coupon_amount | 优惠券金额 | double | Y |10.25|
+create_time | 下单时间 | string | Y |2018-04-05 13:13:34
+coupon_amount | 优惠券金额 | double | Y |10.25
 
 
 

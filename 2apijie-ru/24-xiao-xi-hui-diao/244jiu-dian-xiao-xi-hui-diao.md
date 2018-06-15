@@ -23,11 +23,11 @@ refund_amount| 金额|double|Y|供应商退给我们的钱
 refund_fee|手续费|double|Y|退票产生的手续费
 begin_time|入住时间|string|Y|2018-01-01 00:00:00
 end_time|离店时间|string|Y|2018-01-06 00:00:00
-third_approve_id|申请单ID|string|Y||
-hotel_name|酒店名称|string|Y||
-hotel_address|酒店地址|string|Y||
-create_time | 下单时间 | string | Y |2018-04-05 13:13:34|
-coupon_amount | 优惠券金额 | double | Y |10.25|
+third_approve_id|申请单ID|string|Y|4u3fosjls
+hotel_name|酒店名称|string|Y|如家
+hotel_address|酒店地址|string|Y|南京市北京路
+create_time | 下单时间 | string | Y |2018-04-05 13:13:34
+coupon_amount | 优惠券金额 | double | Y |10.25
 
 
 

@@ -12,8 +12,8 @@ sign|签名 |string |Y|
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data||jsonobject|Y||
-data.order_id |机票订单id|string|Y||
+data||jsonobject|Y|请求数据
+data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 
 请求示例：
 
