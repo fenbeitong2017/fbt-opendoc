@@ -113,7 +113,7 @@ create_time | 下单时间 | integer | Y | |
                 "arrival_time": 1523248740000,
                 "train_code": "G101",
                 "passenger_names": [
-                    "滚滚滚"
+                    "李四"
                 ],
                 "from_station_name": "北京南",
                 "to_station_name": "上海虹桥",
