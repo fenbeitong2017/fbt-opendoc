@@ -5,7 +5,7 @@
 
 ###2.2. 组织架构
 
-  #### [2.2.1 添加第三方员工](#http://docs.open.fenbeitong.com/open-api/2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.html)
+  #### [2.2.1 添加第三方员工](#./open-api/2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.html)
 - #### 2.2.1 添加第三方员工 
 
 - #### 2.2.1.1.添加第三方员工
