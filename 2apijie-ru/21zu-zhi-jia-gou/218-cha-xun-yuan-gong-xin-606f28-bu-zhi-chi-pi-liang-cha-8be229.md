@@ -53,7 +53,7 @@ data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公
             "status": 1,
             "birth_date": "2016-10-20 00:00:00",
             "gender": 1,
-            "pinyin": "han shu qi",
+            "pinyin": "zhang san ",
             "third_employee_id": "company_00003"//第三方用户ID
         },
         "air_policy": {//飞机权限

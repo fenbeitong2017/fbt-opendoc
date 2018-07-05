@@ -73,4 +73,5 @@
     * [4.6.1组织架构状态码](4zhuang-tai-ma/46zu-zhi-jia-gou-zhuang-tai-ma/461zu-zhi-jia-gou-zhuang-tai-ma.md)
   * [4.7 用餐状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma.md)
     * [4.7.1 用餐订单状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma/471-yong-can-ding-dan-zhuang-tai-ma.md)
+  * [4.8 证件类型对照表](4zhuang-tai-ma/48-zheng-jian-lei-xing-dui-zhao-biao.md)
 
