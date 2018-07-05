@@ -49,7 +49,7 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 
  字段|名称|类型|必填|描述
 -----|-----|----|----|----
-data.results.order_id|	订单id|string|Y	 
+data.results.order_id|	订单id|string|Y|48dfjlad984j8ssf 
 data.results.can_process|否有查看权限|boolean|Y|判断当前登录用户是否有查看权限	 
 data.results.vorder_id	|供应商id|string	|Y |注意：供应商id，不是供应商类型id		 
 data.results.departure_name|出发地名称|string|Y| 国贸
@@ -62,7 +62,7 @@ data.results.order_time|下单时间|string	|Y| 格式：MM-dd HH:mm:ss
 data.results.schedule_time|用车时间|string|Y| 格式：yyyy-MM-dd HH:mm:ss
 data.results.spec|用车类型信息|	jsonobject| Y|	 
 data.results.spec.id|用车类型id|integer|Y| 100:舒适型；400：七座商务；200：豪华型；600:快车
-data.results.spec.name	|用车类型名称|string|Y| 舒适型、七座商务、豪华型、快车|	 
+data.results.spec.name	|用车类型名称|string|Y| 舒适型、七座商务、豪华型、快车	 
 data.results.vendor_id	|供应商类型id|integer|Y | 1：滴滴；2：神州（注意：供应商类型id，不要与vorder_id弄混）
 data.results.vendor_name|供应商名|string|Y|   展示供应商名字的地方使用此字段
 data.results.type|用车类型|Integer|Y|  0：实时；1：预约；2：接机；3：送机		 
@@ -82,7 +82,7 @@ data.results.driver_info.driver_avatar	|司机头像|string	|N  |神州专车没
 data.results.wait_duration|等待时长|integer | Y | 根据叫车时间与系统当前时间比较的时间差，单位秒（客户端列表跳转到叫车界面使用）	
 data.results.total_price_str|	订单金额字符串|string |Y	|"￥660.00"
 data.results.employee_name | 下单人姓名 | string | Y | 张三|
-data.results.employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
+data.results.employee_id | 下单人id | string | Y | uejk8489u78078993u7848
 
 
 

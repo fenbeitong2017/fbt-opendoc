@@ -44,7 +44,7 @@ data.order_id| 用车订单id|string|Y|
 字段|名称|类型|必填|描述
 ----|---|---|---|---
 order_id |订单id| String | Y |23456y6uy
-vorder_id|供应商订单id| String |Y
+vorder_id|供应商订单id| String |Y|
 can_process |是否可查看订单| Boolean|Y|true,false
 em_name | 下单人| string | Y |例：韩冰
 em_tel |下单人手机号| string |Y|例：15070713001
@@ -66,7 +66,7 @@ schedule_time |用车时间| String | Y |yyyy-MM-dd HH:mm:ss
 remark_reason|备注| string|N|出差使用
 remark_detail|备注明细| string|N|北京出差使用
 exceeded |是否超标| Boolean | N |false
-exceed_info |超标信息| jsonobject | N 
+exceed_info |超标信息| jsonobject | N |超标信息
 exceed_info.reason |超标原因| string|N|没有原因
 exceed_info.comment |超标补充说明|string|N |超标
 cost_attribution |费用归属| string |Y|北京分贝通科技有限公司
@@ -81,7 +81,7 @@ driver_info|司机信息| jsonobject |N|可能为空数据
 driver_info.driver_name|司机姓名| string|N|王师傅
 driver_info.driver_phone|司机手机| string|N|17090900988
 driver_info.driver_card |车牌号	| string | N |京Q87899
-driver_info.driver\_car_type |车型号| string |N
+driver_info.driver\_car_type |车型号| string |N|
 driver_info.driver_level |司机评分| Double | N |5.0
 driver_info.driver\_order_count|接单数| Integer|N|3  可能为空（神州没有），注意兼容
 driver_info.driver_car_color|车辆颜色| string|N|红色
@@ -112,7 +112,7 @@ insurance_info.insurant_list.end_date |终止时间| String | N |2017-06-29
 insurance_info.insurant_list.status |状态信息| jsonobject | N |
 insurance_info.insurant_list.status.key |状态码| integer | N |
 insurance_info.insurant_list.status.value |状态名| String | N |投保中
-vendor|供应商信息| jsonobject | Y 
+vendor|供应商信息| jsonobject | Y |
 vendor.key |供应商id| Integer|Y|1：滴滴；2：神州 （此字段有修改，原来vendor_id废弃）
 vendor.value |供应商名称| String | Y |展示供应商名字的地方使用此字段（原来vendor_name废弃）
 customer_service_phone | 客服电话| String|Y|4008009090
@@ -124,7 +124,7 @@ personal_pay_price | 个人支付金额| Double|Y|8.2
 company_pay_price|企业支付金额|Double|Y| 60.22
 need_personal |是否需要个人支付| Integer | Y |0：否；1：是
 is_personal_paied |是否个人已支付| Integer |Y|0：否；1：是
-total_price_str | 订单金额字符串| String|Y
+total_price_str | 订单金额字符串| String|Y|
 status_description | 金额描述| String|Y|金额描述
 
 
