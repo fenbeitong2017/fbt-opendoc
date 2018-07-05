@@ -72,10 +72,10 @@ arrival_time |到达时间| integer |  Y |1509691260000
 train_code|火车车次| String|  Y |6026
 is\_external\_order |是否外采订单| integer |  Y |  1:是,0:否 
 total\_price\_str|订单金额字符串 |string |  Y |订单金额字符串 
-employee_name | 下单人姓名 | string | Y | 张三|
-employee_id | 下单人id | string | Y | uejk8489u78078993u7848|
-seat_type | 席座类型 | string | Y | 一等座，二等座|
-create_time | 下单时间 | integer | Y | |
+employee_name | 下单人姓名 | string | Y | 张三
+employee_id | 下单人id | string | Y | uejk8489u78078993u7848
+seat_type | 席座类型 | string | Y | 一等座，二等座
+create_time | 下单时间 | integer | Y | 
 
 
 
