@@ -19,7 +19,6 @@ use_phone|使用人联系电话|string|Y|18767909349
 use_depname|使用人部门名称|string|Y|人事部
 dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
-third_remark |三方备注|string|Y|需要进行备注的信息，可以当备用字段
 budget_money|预估费用总计|double |Y|单位：分
 estimated_amount|预估费用|double |Y|单位：分
 order_id |订单id|string| Y |9884hhkhfsk
@@ -34,7 +33,8 @@ refund_amount|退票费|double|Y| 78.33
 refund_fee|手续费|double|Y|9.00
 change_fee|改签费|double|Y|9.00
 change_ticket_fee|改签差价手续费|double|Y|1.20
-third_approve_id|申请单ID|string|Y|jl435j4o684i46e35w4n2f54sl
+third_approve_id|审批单ID|string |N|9d8hj84kfd5hf5g46kb(如果下单时选择了第三方推送的审批单)
+third_remark |三方备注|string|N|备注的信息(如果下单时选择了第三方推送的审批单)
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
 
@@ -74,6 +74,7 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 "refund_fee":0.0,
 "order_id":"5b4ef3245d88db70c6a5043b",
 "third_approve_id":"hksf83ho93lsbvnos145",
+"third_remark":"第三方审批备注",
 "status":3202}
 
 
