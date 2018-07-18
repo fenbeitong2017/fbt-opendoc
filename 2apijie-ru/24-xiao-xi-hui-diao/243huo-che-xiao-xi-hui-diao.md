@@ -28,8 +28,8 @@ premium|保险费|double|Y| 88.99
 refund_amount|退票费|double|Y| 78.33
 refund_fee|手续费|double|Y|9.00
 change_fee|改签费|double|Y|9.00
-change_ticket_fee|改签差价手续费|double|Y|1.22
-third_approve_id|申请单ID|string|Y|jljo8iewnfsl
+change_ticket_fee|改签差价手续费|double|Y|1.20
+third_approve_id|申请单ID|string|Y|jl435j4o684i46e35w4n2f54sl
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
 
@@ -41,35 +41,35 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 
 
 ```
-{
-"company_id":"5747fbc10f0e60e0709d8d89",
-"company_name":"分贝通",
-"type_name":"火车",
+
+{"type_name":"火车",
+"contact_phone":"17608978076",
+"destination_place":"北京西",
+"change_fee":0.0,
 "type":3,
-"status":3202,
-"apply_name":"李四",
-"contact_phone":"567689752",
-"dept_name":"人力部
-"monetary_unit":人民币,
-"third_remark":"搜索",
-"order_id":"hksf83ho93lsbvnos145",
-"total_price": 302,
-"budget_money":787.80,
-"train_code":"1024",
-"departure_place": "北京",
-"destination_place":"上海",
-"begin_time":"2018-01-01",
-"end_time":"2018-01-01",
-"premium":32.80,
-"refund_amount":333.80,
-"refund_fee":33.80,
-"change_fee": 302.80,
-"change_ticket_fee":343.80,
+"use_phone":"17608978076",
+"refund_amount":0.0,
+"use_depname":"办公室",
+"train_code":"G618",
+"change_ticket_fee":0.0,
+"use_name":"刘涛",
+"coupon_amount":0.0,
+"contact_name":"刘涛",
+"monetary_unit":"人民币",
+"company_id":"595c4c225f281a59eb295bb5",
+"create_time":"2018-07-18 15:58:30",
+"total_price":197.0,
+"end_time":"2018-07-22 17:41:00",
+"dept_name":"办公室",
+"begin_time":"2018-07-22 14:58:00",
+"apply_name":"刘涛",
+"departure_place":"太原南",
+"phone":"13901263247",
+"company_name":"北京分贝通科技有限公司",
+"refund_fee":0.0,
+"order_id":"5b4ef3245d88db70c6a5043b",
 "third_approve_id":"hksf83ho93lsbvnos145",
-
-
-
-}
+"status":3202}
 
 
 ```
