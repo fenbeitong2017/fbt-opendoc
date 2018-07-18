@@ -64,7 +64,7 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 "begin_time":"2018-07-22 14:58:00",
 "apply_name":"刘涛",
 "departure_place":"太原南",
-"phone":"13901263247",
+"phone":"17608978076",
 "company_name":"北京分贝通科技有限公司",
 "refund_fee":0.0,
 "order_id":"5b4ef3245d88db70c6a5043b",
