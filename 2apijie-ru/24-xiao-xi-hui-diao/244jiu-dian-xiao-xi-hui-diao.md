@@ -22,8 +22,6 @@ dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
 order_id |订单id|string| Y |9884hhkhfsk
 total_price |总价 | double| Y |388.00,总价=房间价格+保险价格-优惠券价格
-budget_money|预估费用总计|double |Y|单位：分
-estimated_amount|预估费用|double |Y|单位：分
 refund_amount| 金额|double|Y|供应商退给我们的钱
 refund_fee|手续费|double|Y|退票产生的手续费
 begin_time|入住时间|string|Y|2018-01-01 00:00:00
@@ -32,7 +30,8 @@ hotel_name|酒店名称|string|Y|如家
 hotel_address|酒店地址|string|Y|南京市北京路
 third_approve_id|审批单ID|string |N|9d8hj84kfd5hf5g46kb(如果下单时选择了第三方推送的审批单)
 third_remark |三方备注|string|N|备注的信息(如果下单时选择了第三方推送的审批单)
-
+budget_money|预估费用总计|double |N|单位：分(如果下单时选择了第三方推送的审批单)
+estimated_amount|预估费用|double |N|单位：分(如果下单时选择了第三方推送的审批单)
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
 
@@ -68,6 +67,8 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 "company_name":"北京分贝通科技有限公司",
 "refund_fee":0.00,
 "order_id":"5b4ef9225f281a392c61379f",
+"third_approve_id":"hksf83ho93lsbvnos145",
+"third_remark":"第三方审批备注",
 "status":2501}
 
 ```
