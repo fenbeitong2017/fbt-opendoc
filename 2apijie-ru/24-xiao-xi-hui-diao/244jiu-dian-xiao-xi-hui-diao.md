@@ -20,7 +20,6 @@ use_phone|使用人联系电话|string|Y|18767909349
 use_depname|使用人部门名称|string|Y|人事部
 dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
-third_remark|出差事由备注|string|Y|出差
 order_id |订单id|string| Y |9884hhkhfsk
 total_price |总价 | double| Y |388.00,总价=房间价格+保险价格-优惠券价格
 budget_money|预估费用总计|double |Y|单位：分
@@ -29,9 +28,11 @@ refund_amount| 金额|double|Y|供应商退给我们的钱
 refund_fee|手续费|double|Y|退票产生的手续费
 begin_time|入住时间|string|Y|2018-01-01 00:00:00
 end_time|离店时间|string|Y|2018-01-06 00:00:00
-third_approve_id|申请单ID|string|Y|4u3fosjls
 hotel_name|酒店名称|string|Y|如家
 hotel_address|酒店地址|string|Y|南京市北京路
+third_approve_id|审批单ID|string |N|9d8hj84kfd5hf5g46kb(如果下单时选择了第三方推送的审批单)
+third_remark |三方备注|string|N|备注的信息(如果下单时选择了第三方推送的审批单)
+
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
 
