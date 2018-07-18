@@ -43,34 +43,31 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 
 
 ```
-{
-"company_id":"5747fbc10f0e60e0709d8d89",
-"company_name":"分贝通",
-"type_name":"酒店",
+{"type_name":"酒店",
+"contact_phone":"15090897656",
+"hotel_address":"广元西路319号",
 "type":4,
-"status":2501,
-"apply_name":"李四",
-"contact_phone":"567689752",
-"dept_name":"人力部
-"monetary_unit":人民币,
-"third_remark":"搜索",
-"order_id":"hksf83ho93lsbvnos145",
-"total_price": 302,
-"budget_money":787.80,
-"begin_time":"2018-01-01",
-"end_time":"2018-01-01",
-"premium":32.80,
-"refund_amount":333.80,
-"refund_fee":33.80,
-"third_approve_id":"hksf83ho93lsbvnos145",
-
-
-
-}
-
-
-
-
+"use_phone":"15090897656",
+"premium":0.0,
+"refund_amount":0.00,
+"use_depname":"企业合作部",
+"use_name":"王栋",
+"coupon_amount":0.0,
+"contact_name":"王栋",
+"monetary_unit":"人民币",
+"company_id":"595c4c225f281a59eb295bb5",
+"create_time":"2018-07-18 16:24:02",
+"total_price":780.0,
+"end_time":"2018-07-22 00:00:00",
+"dept_name":"企业合作部",
+"begin_time":"2018-07-20 00:00:00",
+"apply_name":"王栋",
+"hotel_name":"锦江之星(上海徐家汇交大店)",
+"phone":"15090897656",
+"company_name":"北京分贝通科技有限公司",
+"refund_fee":0.00,
+"order_id":"5b4ef9225f281a392c61379f",
+"status":2501}
 
 ```
 
