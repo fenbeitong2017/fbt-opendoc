@@ -31,7 +31,6 @@ refund_amount|退票费|double|Y| 78.33(退票时返回)
 refund_fee|手续费|double|Y|9.00(退票时返回)
 change_fee|改签费|double|Y|9.00(改签时返回)
 change_ticket_fee|改签差价手续费|double|Y|1.20(改签时返回)
-
 third_approve_id|审批单ID|string |N|9d8hj84kfd5hf5g46kb(如果下单时选择了第三方推送的审批单)
 third_remark |三方备注|string|N|备注的信息(如果下单时选择了第三方推送的审批单)
 budget_money|预估费用总计|double |N|单位：分(如果下单时选择了第三方推送的审批单)
