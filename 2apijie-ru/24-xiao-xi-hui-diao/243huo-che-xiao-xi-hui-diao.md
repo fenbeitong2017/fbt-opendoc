@@ -19,8 +19,6 @@ use_phone|使用人联系电话|string|Y|18767909349
 use_depname|使用人部门名称|string|Y|人事部
 dept_name|申请人部门名称|string |Y|事业部
 monetary_unit|货币单位|string |Y|人民币
-budget_money|预估费用总计|double |Y|单位：分
-estimated_amount|预估费用|double |Y|单位：分
 order_id |订单id|string| Y |9884hhkhfsk
 total_price |订单金额 | double| Y |302.90，总价=火车票票价+保险价格-优惠券价格
 train_code|车次|string|Y|
@@ -29,12 +27,15 @@ destination_place|到达站|string|Y|上海站
 begin_time|火车出发时间|string |Y|2018-01-01 10:04:30
 end_time|火车到达时间|string|Y|2018-01-01 10:04:30
 premium|保险费|double|Y| 88.99
-refund_amount|退票费|double|Y| 78.33
-refund_fee|手续费|double|Y|9.00
-change_fee|改签费|double|Y|9.00
-change_ticket_fee|改签差价手续费|double|Y|1.20
+refund_amount|退票费|double|Y| 78.33(退票时返回)
+refund_fee|手续费|double|Y|9.00(退票时返回)
+change_fee|改签费|double|Y|9.00(改签时返回)
+change_ticket_fee|改签差价手续费|double|Y|1.20(改签时返回)
+
 third_approve_id|审批单ID|string |N|9d8hj84kfd5hf5g46kb(如果下单时选择了第三方推送的审批单)
 third_remark |三方备注|string|N|备注的信息(如果下单时选择了第三方推送的审批单)
+budget_money|预估费用总计|double |N|单位：分(如果下单时选择了第三方推送的审批单)
+estimated_amount|预估费用|double |N|单位：分(如果下单时选择了第三方推送的审批单)
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
 
