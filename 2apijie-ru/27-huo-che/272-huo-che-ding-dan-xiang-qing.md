@@ -96,7 +96,7 @@ endorse\_info.reason|改签原因| string| Y |时间紧张
 ticket\_tips |票状态说明| string | Y | 
 insurance\_info|保险信息 |jsonarray | Y |
 can\_process |是否可查看企业订单| boolean |  Y |false
-cost\_attribution|费用归属| string|  Y |北京分贝通科技有限公司
+cost\_attribution|费用归属| string|  Y |研发部//按部门费用归属;国开行项目:按项目
 contact\_info |联系人信息| jsonobject | Y|  
 contact\_info.contact\_name|联系人姓名| string| Y |强仔
 contact\_info.contact\_phone |联系人手机号| string | Y |13848420234
