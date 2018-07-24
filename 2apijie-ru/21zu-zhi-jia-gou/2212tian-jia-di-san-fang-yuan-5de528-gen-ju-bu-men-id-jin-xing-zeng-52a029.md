@@ -2,7 +2,8 @@
 ####接口说明
 - 1.**最新接口**
 - 2.如果存在部门概念，保存到部门下面,采用部门ID进行添加
-- 3.添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配
+- 3.支持批量添加
+- 4.添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配
 
 | 请求方式 | 请求地址 |
 | --- | --- |
@@ -20,7 +21,7 @@
  data.employee\_list | 员工信息 | jsonarray | Y |员工所有信息数据
  data.employee\_list.name | 员工姓名 | string | Y |张三
  data.employee\_list.phone | 员工手机号 | string | Y |17902029298
- data.employee\_list.third_org_unit_id | 员工组织ID，需要与公司ID一样  |string | Y |lk98eow9jisdj87
+ data.employee\_list.third_org_unit_id | 员工组织ID |string | Y |lk98eow9jisdj87
  data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej
  employee\_list.air_policy | 飞机权限 | jsonobject | Y |机票数据
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false

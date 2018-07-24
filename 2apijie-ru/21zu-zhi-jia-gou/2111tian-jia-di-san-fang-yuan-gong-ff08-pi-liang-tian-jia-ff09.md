@@ -21,7 +21,7 @@
 | data.employee\_list | 员工信息 | jsonarray | Y |员工请求数据
 | data.employee\_list.name | 员工姓名 | string | Y |张三
 | data.employee\_list.phone | 员工手机号 | string | Y |17902029298
-| data.employee\_list.org\_unit\_id | 员工组织ID，需要与公司ID一样 | string | Y |lk98eow9jisdj87
+| data.employee\_list.org\_unit\_id | 员工组织ID | string | Y |3455ui765609978675dj87;需要与公司ID一样
  | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej
 
 请求示例

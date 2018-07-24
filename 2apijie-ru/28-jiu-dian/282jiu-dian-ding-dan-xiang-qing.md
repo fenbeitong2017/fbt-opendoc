@@ -51,7 +51,7 @@ POST|/open/api/hotel/order/detail
  checkout\_date | 离店日期 | integer | Y | 1524585600000 
  create\_time | 创建时间 | integer | Y | 1522294527444 
  can\_process | 是否可以查看订单 | boolean | Y | false 
- cost\_attribution | 费用归属 | string | Y | X部门//按部门费用归属;国开行项目:按项目 
+ cost\_attribution | 费用归属 | string | Y | 研发部//按部门费用归属;国开行项目:按项目 
  order\_person | 下单人姓名 | string | Y | 刘维中 
  order\_person\_phone | 下单人手机号 | string | Y | 18601016943 
  city\_code | 城市编码 | string | Y | 0 1:是,0:否 
@@ -102,7 +102,7 @@ comment | 评论 | string | Y | 其他
         "status_name": "已取消",
         "create_time": 1519975963862,
         "can_process": true,
-        "cost_attribution": "X部门",
+        "cost_attribution": "研发部",
         "order_person": "韩冰",
         "order_person_phone": "17080151888",
         "checkin_date": 1522080000000,//入住时间
