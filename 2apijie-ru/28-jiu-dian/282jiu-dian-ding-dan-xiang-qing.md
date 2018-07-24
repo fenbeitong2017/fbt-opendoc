@@ -82,7 +82,7 @@ room\_code | 房间code | string | Y | DR
  check\_info | 订房提醒信息 | jsonarray | Y |订票提醒信息
  employee\_remark | 备注 | string | Y |备注信息
  has\_enterprise\_price | 是否企业协议价 | boolean | Y | false 
-other\_refund\_desc | 退房信息描述 | string | Y | 无 |
+other\_refund\_desc | 退房信息描述 | string | Y | 无 
 is\_can\_apply\_refund | 判断是否可取消 | boolean | Y | false 
 refund\_info | 退房信息 | jsonobject | Y |退票信息
 is\_has\_refund | 是否有退房 | boolean | Y | false 
