@@ -8,7 +8,7 @@
 
  请求方式 | 请求地址 
  --- | --- 
- POST | /open/api/hotel/order/detail 
+POST | /open/api/hotel/order/detail 
 
 请求参数，以application/x-www-form-urlencoded传递：
 
