@@ -5,10 +5,11 @@
 * 1.**最新接口**
 * 2.查询酒店订单详情接口
   通过该接口可以查询企业使用分贝通APP下的酒店订单详情信息
+ 
+ 请求方式|请求地址
+----|---
+POST|/open/api/hotel/order/detail
 
-  请求方式 | 请求地址 
-  ---- | --- 
- POST | /open/api/hotel/order/detail 
 
 请求参数，以application/x-www-form-urlencoded传递：
 
