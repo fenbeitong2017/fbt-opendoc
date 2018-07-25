@@ -23,7 +23,7 @@ data.company\_id|公司ID|string|Y|分贝通
 data.org\_unit\_name|部门名称|string |Y|审计部
 data.third\_parent\_id|直属部门id| string |Y|第三方直属部门ID
 data.third\_org\_id|部门id| string |Y|第三方机构部门ID
-data.operator_id|部门id| string |N|实际操作人ID
+data.operator_id|操作人id| string |N|实际操作人ID
 
 
 
@@ -39,7 +39,7 @@ data.operator_id|部门id| string |N|实际操作人ID
   "org_unit_name": "审计部",
   "third_parent_id": "第三方直属部门ID",
   "third_org_id": "第三方机构部门ID",
-  "operator_id": "57ab054c2528226a805bd523(当前用户id)"
+  "operator_id": "57ab054c2528226a805bd523"
 }
 
 }
