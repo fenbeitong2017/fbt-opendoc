@@ -21,7 +21,7 @@
  data.employee\_list | 员工信息 | jsonarray | Y |员工所有信息数据
  data.employee\_list.name | 员工姓名 | string | Y |张三
  data.employee\_list.phone | 员工手机号 | string | Y |17902029298
- data.employee\_list.third_org_unit_id | 员工组织ID |string | Y |lk98eow9jisdj87
+ data.employee\_list.third_org_unit_id | 员工组织ID |string | Y |若员工的部门为分贝通/产品研发部/研发部，则这个ID就是研发部的部门ID
  data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |jskngla87j7ei9ej
  employee\_list.air_policy | 飞机权限 | jsonobject | Y |机票数据
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false
