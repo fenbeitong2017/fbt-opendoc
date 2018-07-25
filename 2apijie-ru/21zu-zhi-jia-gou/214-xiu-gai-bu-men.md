@@ -21,10 +21,7 @@ data.company\_id|公司ID|string|Y|分贝通
 data.org\_unit\_name|部门名称|string |Y|审计部
 data.third\_parent\_id|直属部门id| string |Y|第三方直属部门ID
 data.third\_org\_id|部门id| string |Y|第三方机构部门ID
-
-
-
-
+data.operator_id|操作人id| string |N|实际操作人ID(同employee_id)
 
 
 
