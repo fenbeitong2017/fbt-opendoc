@@ -46,7 +46,7 @@ data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 ----|---|---|---|---
 total_price |订单金额| double|Y| 453
 status |订单状态	| jsonobject | Y |
-status. key |订单状态	| integer | Y |1900
+status. key |订单状态码	| integer | Y |1900(详情参照状态码)
 status. value |订单状态名称	| string | Y |有退改签
 order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
 order_owner  |预定人信息| jsonobject|Y| 
