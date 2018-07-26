@@ -45,7 +45,7 @@ POST|/open/api/hotel/order/detail
  字段 | 名称 | 类型 | 必填 | 描述 
  --- | --- | --- | --- | --- 
  order\_id | 订单ID | string | Y | 5abc5eff27986354622e6b94 
- status | 订单状态 | integer | Y | 2501 
+ status | 订单状态码 | integer | Y | 2501 
  status\_name | 订单状态名称 | string | Y | 订房成功 
  checkin\_date | 入住日期 | integer | Y | 1524499200000 
  checkout\_date | 离店日期 | integer | Y | 1524585600000 
