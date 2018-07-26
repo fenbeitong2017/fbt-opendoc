@@ -104,7 +104,7 @@ insurant_list.policy_number |保单编号| string|Y|10450061900247380997
 insurant_list.status.key |保单状态| Integer |Y|8:退保成功.详细请参照保险状态码
 insurant_list.insurant_name |被保人| string |Y|张胜男
 insurant_amount |数量| Integer | N |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
-employee_remark|用户备注| string |Y||
+employee_remark|用户备注| string |Y|出差使用
 
 
 
