@@ -18,11 +18,11 @@ POST|/open/api/dinner/order/list
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
 timestamp|时间戳 |long |Y|13位时间戳
-sign|签名 |string |Y|
+sign|签名 |string |Y|lw8osdfj983uh4
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data || jsonobject |Y|
+data |请求数据| jsonobject |Y|请求数据
 data.state| 查询状态|integer |Y|0全部
 data.search\_category |搜索维度| integer | N |1:企业，2:个人
 data.page\_index |页码| integer | N |1(默认值)
