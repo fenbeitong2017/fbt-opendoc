@@ -17,7 +17,7 @@
 | access\_token | token | string | Y | 登录 token |
 | employee\_id | 操作人id | string | Y | 操作人id,调用接口人 id |
 | employee\_type | 用户类型 | string | Y | 0为分贝用户，1为第三方用户 |
-|  | data | 请求数据 | jsonobject | Y |
+| data | 请求数据 | jsonobject | Y |请求数据|
 | data.name\_or\_phone | 乘机人/下单人姓名/手机 | string | N | 如 老王/13800 |
 | data.name\_or\_phone\_type | 乘机人/下单人姓名/手机号类型 | string | N | （0:全部\(默认值\) 1:乘机人 2:下单人） |
 | data.search\_category | 搜索维度 | integer | N | 1:企业 2:个人 |
