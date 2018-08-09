@@ -23,7 +23,7 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data| 请求数据| jsonobject |Y|请求数据
-data.order_id| 订单ID|string |Y|用餐订单ID
+data.orderId| 订单ID|string |Y|用餐订单ID
 
 
 
@@ -39,7 +39,7 @@ data.order_id| 订单ID|string |Y|用餐订单ID
 "employee_id":"59b74c1323445f2d54dd07922",
 "employee_type":1,
 "data":{
-"order_id":"784396yhf832d78f23y8fh932"
+"orderId":"784396yhf832d78f23y8fh932"
 }
 }
 
