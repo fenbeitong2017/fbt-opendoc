@@ -54,8 +54,8 @@ order_owner.name |预定人姓名| string|Y| "name": "辛植"
 order_owner.user_id |用户ID| string|Y| 59dc3c3323445f71ddcf56a8
 order_owner.phone |预定人手机号| string|Y| 18310480640
 order_owner.idType |身份类型| jsonobject|Y| 
-order_owner.idType.key |类型ID| integer|Y| 0.未知 1:身份证  2.护照 3.回乡证 4.台胞
-order_owner.idType.value |身份类型名称| string|Y| 身份证
+idType.key |类型ID| integer|Y| 0.未知 1:身份证  2.护照 3.回乡证 4.台胞
+idType.value |身份类型名称| string|Y| 身份证
 order_owner.idNumber |身份证件号码| string|Y| 230203198512240032
 create_time|订单创建时间|string|Y|2017-09-11 11:08:58
 cost_attribution |费用归属| string|Y|例：研发部
@@ -63,15 +63,15 @@ passenger_list |乘机人信息数组| jsonoarray |Y|
 passenger_list.passenger_info |乘机人信息| jsonobject |Y|乘机人信息 
 passenger_list.ticket_no |票号| string | Y | 784-2310286513
 passenger_list.status|订单状态信息| jsonobject |Y|订单状态信息 
-passenger_list.status.key|状态码| integer |Y| 订单状态码，详情参见状态码
-passenger_list.status.value|状态码信息| string |Y|状态码信息 
+status.key|状态码| integer |Y| 订单状态码，详情参见状态码
+status.value|状态码信息| string |Y|状态码信息 
 passenger_info.name |乘机人姓名| string |Y| 强仔
 passenger_info.id |乘机人姓名| string |Y| 59dd8df023445f08c579db7d
 passenger_info.type |乘机人类型| integer |Y| 0  0:成人,1:婴儿
 passenger_info.identity_type |身份类型| string  |Y|1 
-passenger_info.identity\_type_name |乘机人证件信息| jsonobject |Y| 乘机人证件信息
-passenger_info.identity\_type_name.key |乘机人证件类型ID| integer |Y| 1
-passenger_info.identity\_type_name.value |乘机人证件类型名称| string |Y| 身份证
+passenger_info.identity_type_name |乘机人证件信息| jsonobject |Y| 乘机人证件信息
+identity_type_name.key |乘机人证件类型ID| integer |Y| 1
+identity_type_name.value |乘机人证件类型名称| string |Y| 身份证
 passenger_info.identity_no |乘机人身份证号| string |Y| 230203198512240032
 passenger_info.phone |乘机人手机号| string |Y| 18310480640
 price_info.par_price|机票单价| integer |Y|3370
@@ -101,7 +101,7 @@ segment_info.arrived_time |到达时间|string| Y |2312(时分)
 insurance_info.category_code|险种| string|Y| 1:航意险，2：航延险
 insurance_info.unit_price|保费| integer |Y|
 insurant_list.policy_number |保单编号| string|Y|10450061900247380997
-insurant_list.status.key |保单状态| integer |Y|8:退保成功.详细请参照保险状态码
+status.key |保单状态| integer |Y|8:退保成功.详细请参照保险状态码
 insurant_list.insurant_name |被保人| string |Y|张胜男
 insurant_amount |数量| integer | N |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
 employee_remark|用户备注| string |Y|出差使用
