@@ -95,7 +95,7 @@ segment_info.airline_name |航空公司| string|Y|例：吉祥航空
 segment_info.flight_no |航班号	|string| Y |HO1252
 segment_info.cabin |仓位|string| Y |F
 segment_info.departure_date |出发日期|string| Y |2018-03-27(年月日)
-segment_info.departure_time |出发时间|string| Y 1812(时分)
+segment_info.departure_time |出发时间|string| Y |1812(时分)
 segment_info.arrived_date |到达日期|string| Y |2018-03-27(年月日)
 segment_info.arrived_time |到达时间|string| Y |2312(时分)
 insurance_info.category_code|险种| string|Y| 1:航意险，2：航延险
