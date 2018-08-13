@@ -43,11 +43,11 @@ data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 
 
 字段|名称|类型|必填|描述
-----|---|---|---|---
+-----|-----|----|----|----
 total_price |订单金额| double|Y| 453
 status |订单状态	| jsonobject | Y |
-status. key |订单状态码	| integer | Y |1900(详情参照状态码)
-status. value |订单状态名称	| string | Y |有退改签
+status.key |订单状态码	| integer | Y |1900(详情参照状态码)
+status.value |订单状态名称	| string | Y |有退改签
 order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
 order_owner  |预定人信息| jsonobject|Y| 
 order_owner.name |预定人姓名| string|Y| "name": "辛植"
@@ -60,17 +60,17 @@ order_owner.idNumber |身份证件号码| string|Y| 230203198512240032
 create_time|订单创建时间|string|Y|2017-09-11 11:08:58
 cost_attribution |费用归属| string|Y|例：研发部
 passenger_list |乘机人信息数组| jsonoarray |Y| 
-passenger_list.passenger_info |乘机人信息| jsonobject |Y| 
+passenger_list.passenger_info |乘机人信息| jsonobject |Y|乘机人信息 
 passenger_list.ticket_no |票号| string | Y | 784-2310286513
-passenger_list.status|乘机人信息| jsonobject |Y| 
+passenger_list.status|订单状态信息| jsonobject |Y|订单状态信息 
 passenger_list.status.key|状态码| integer |Y| 订单状态码，详情参见状态码
-passenger_list.status.value|状态码信息| String |Y|状态码信息 
+passenger_list.status.value|状态码信息| string |Y|状态码信息 
 passenger_list.passenger_info.name |乘机人姓名| String |Y| 强仔
 passenger_list.passenger_info.id |乘机人姓名| String |Y| 59dd8df023445f08c579db7d
 passenger_list.passenger_info.type |乘机人类型| integer |Y| 0  0:成人,1:婴儿
 passenger_list.passenger_info.identity_type |身份类型| string  |Y|1 
-passenger_list.passenger_info.identity\_type_name |乘机人信息| jsonobject |Y| 
-passenger_list.passenger_info.identity\_type_name.key |乘机人证件类型ID| integer |Y| 
+passenger_list.passenger_info.identity\_type_name |乘机人证件信息| jsonobject |Y| 乘机人证件信息
+passenger_list.passenger_info.identity\_type_name.key |乘机人证件类型ID| integer |Y| 1
 passenger_list.passenger_info.identity\_type_name.value |乘机人证件类型名称| string |Y| 身份证
 passenger_list.passenger_info.identity_no |乘机人身份证号| String |Y| 230203198512240032
 passenger_list.passenger_info.phone |乘机人手机号| String |Y| 18310480640
