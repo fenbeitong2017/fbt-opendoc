@@ -13,7 +13,7 @@
 | access\_token | 鉴权Token | string | Y | 5747fbc10f0e60e0709d8d722 |
 | sign | 签名 | string | Y | oihfnlyeofdh98 |
 | timestamp | 时间戳 | long | Y | 13位时间戳  1241243250000 |
-| employee\_id | 用户ID | string | Y | 分贝用户id或者第三方用户id |
+| employee\_id | 用户ID | string | Y | 分贝用户id或者第三方用户id,为创建人的ID|
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y |请求数据
 | data.apply | 申请单内容 | jsonobject | Y|申请单详细内容
