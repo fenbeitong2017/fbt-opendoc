@@ -75,6 +75,29 @@
 ]
 }
 }
+
+
+
+{
+    "request_id": "piVFVuQqyE0I9CFDWzY7",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "companyId": "5747fbc10f0e60e0709d8d7d",
+                "phone": "17080151666",
+                "name": "谷健波",
+                "thirdEmployeeId": "gujianbo-123",
+                "errorMsg": "授权负责人手机号不能修改"
+            }
+        ]
+    }
+}
+
+
+
 ```
 
 
