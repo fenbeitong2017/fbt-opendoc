@@ -4,6 +4,7 @@
 - 2.如果存在部门概念，保存到部门下面,采用部门ID进行添加
 - 3.支持批量添加
 - 4.添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配
+- 5.字段说明:air_rule_id:当air_priv_flag为true时,air_rule_id可以为空串也可以为指定规则ID,当为空串时则不限制规则，当为规则ID时则绑定相应的规则。当air_priv_flag为false时，air_rule_id为空，权限为关闭状态。其他业务线字段设置相同，参照机票规则即可
 
 | 请求方式 | 请求地址 |
 | --- | --- |
@@ -27,14 +28,14 @@
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | Y |false
 air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false
 air_policy.air_verify_flag | 是否需要审批| boolean | Y |false
-air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为字符串。当为false时，规则ID为空串（v1.2后进行联合限制）
+air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |true
 air_policy.air_rule_id |规则id| string | Y |575263e982f880a6d686ce11
 air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
 employee\_list.intl_air_policy | 国际飞机权限 | jsonobject | Y |国际机票数据
 intl_air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean |Y|false
 intl_air_policy.air_priv_flag | 是否允许订机票| boolean | Y |false
 intl_air_policy.air_verify_flag | 是否需要审批| boolean | Y |false
-intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |当为true时，规则ID为空。当为false时，规则ID空串
+intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | Y |true
 intl_air_policy.air_rule_id |规则id| string | Y |575263e982f880a6d686ce11
 intl_air_policy.exceed_buy_type | 超规则下单| integer | Y |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
 employee\_list.hotel_policy | 酒店权限 | jsonobject | Y |酒店数据
