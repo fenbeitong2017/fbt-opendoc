@@ -170,8 +170,8 @@ comment | 评论 | string | Y | 其他
         "remark_reason": "其他",
         "exceeded": true,
         "excced_info": {
-			"reason": "舱位没票了",
-			"comment": "仓位没票"
+			"reason": "酒店没房了",
+			"comment": "很重要"
 		},
 
         "insurance_info": [],

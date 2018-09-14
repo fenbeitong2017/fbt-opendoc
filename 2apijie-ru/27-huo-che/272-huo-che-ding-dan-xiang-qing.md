@@ -142,8 +142,8 @@ excced_info|超标理由备注 |jsonobject|N|超标理由备注
             "use_customer12306_account": false,
             "exceeded": true,
             "excced_info": {
-			"reason": "舱位没票了",
-			"comment": "仓位没票"
+			"reason": "座位没票了",
+			"comment": "很重要"
 		},
             "is_grab_order": false,                           //是否抢票订单
             "is_external_order": 1, // 是否是外采订单
