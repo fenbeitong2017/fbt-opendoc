@@ -52,7 +52,7 @@ order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
 apply_id |审批单ID| string | N|17948763419761f9209db83
 excced_info|超标信息 |jsonobject|N|超标信息
 excced_info.reason|超标理由 |string|N|超标理由
-excced_info|超标理由备注 |string|N|超标理由备注
+excced_info.comment|超标理由备注 |string|N|超标理由备注
 order_owner|预定人信息| jsonobject|Y|预订人信息
 order_owner.name |预定人姓名| string|Y| "name": "辛植"
 order_owner.user_id |用户ID| string|Y| 59dc3c3323445f71ddcf56a8
