@@ -115,133 +115,151 @@ employee_remark|用户备注| string |Y|出差使用
     "code": 0,
     "msg": "success",
     "data": {
-        "order_id": "5a30c48a279863762069cf8c",
-        "remote_order_id": "lalala",
-        "supplier_id": 104,
-        "create_time": "2017-12-13 00:00:00",
-        "can_process": false,
-        "cost_attribution": "嘟嘟搞测试",//按部门费用归属;国开行项目:按项目
-        "total_price": 160,
+        "order_id": "5b9b59bae4b0ffb767208b44",
         "apply_id": "5b61757323445f071a732860",
-        "passenger_list": [
-            {
-                "passenger_info": {
-                    "id": "59dd8df023445f08c579db7d",
-                    "name": "强仔",
-                    "type": 0,
-                    "identity_type": "1",
-                    "identity_type_name": {
-                        "key": 1,
-                        "value": "身份证"
-                    },
-                    "identity_no": "230203198512240032",
-                    "phone": "18310480640"
-                },
-                "ticket_no": "987654321",
-                "status": {
-                    "key": 1823,
-                    "value": "改签成功"
-                },
-                "product_id": "5a30c48a279863762069cf8d",
-                "ticket_tips": "",
-                "can_endorse": false,
-                "can_refund": false,
-                "change_info": {
-                    "upgrade_price": 60,
-                    "upgrade_price_msg": "改期成功",
-                    "change_fee": 100,
-                    "agency_fee": 80,
-                    "change_fee_msg": "改期成功"
-                }
-            }
-        ],
-        "status": {
-            "key": 1800,
-            "value": "出票成功"
-        },
-        "segment_info": {
-            "flight_no": "U12138",
-            "starting_code": "PEK",
-            "destination_code": "PVG",
-            "cabin": "J",
-            "starting_city": "北京市",
-            "starting_airport": "首都国际机场",
-            "starting_terminal": "T1",
-            "destination_city": "上海市",
-            "destination_airport": "浦东国际机场",
-            "destination_terminal": "T6",
-            "is_middle_stop": false,
-            "departure_date": "2017-12-21 14:10:25",
-            "departure_time": "2017-12-21 14:10:25",
-            "departure_timestamp": 1513836625000,
-            "arrived_time": "2017-12-21 20:10:30",
-            "arrived_timestamp": 1513858230000,
-            "arrived_date": "2017-12-08",
-            "airline_name": "国行",
-            "seat_msg": "",
-            "plane_type": ""
-        },
-        "price_info": {
-            "par_price": 312,
-            "discount": 0,
-            "fuel_tax": 4131,
-            "airport_tax": 0,
-            "settle_price": 3131,
-            "sale_price": 3123
-        },
-        "policy_info": {
-            "policy_id": ""
-        },
-        "stipulate_info": {
-            "refund_stipulate": "",
-            "modify_stipulate": "",
-            "change_stipulate": ""
-        },
-        "contact_name": "强仔",
-        "contact_phone": "18310480640",
-        "is_manual": true,
-        "order_owner": {
-            "user_id": "59dc3c3323445f71ddcf56a8",
-            "phone": "18310480640",
-            "name": "强仔",
-            "idType": {
-                "key": 2,
-                "value": "护照"
-            },
-            "idNumber": "89387437283",
-            "avatar_url": "",
-            "role": {
-                "key": 2,
-                "value": "普通管理员"
-            },
-            "status": {
-                "key": 1,
-                "value": "启用"
-            },
-            "email": "",
-            "fixed_phone": ""
-        },
-        "remark_reason": null,
-        "remark_detail": null,
-        "comment": "如需退票或改签请联系客服",
-        "insurance_info": [],
-        "check_info": [],
-        "is_external_order": 1,
-        "employee_remark": "",
-        "price_detail": null,
-        "total_price_str": "￥160.00",
-        "manual_remark": "无",
-        "custom_remark": [],
-        "has_endorse": false,
-        "refund_price_info": null,
-        "endorse_price_info": {
-            "endorse_price": 60,
-            "endorse_cost": 100,
-            "endorse_total_price": 160
-        },
-        "exceeded": false
+		"remote_order_id": "",
+		"supplier_id": 110,
+		"create_time": "2018-09-14 14:48:30",
+		"over_time": "15:03",
+		"can_process": true,
+		"cost_attribution": "X部门",
+		"total_price": 4685.00,
+		"passenger_list": [{
+			"passenger_info": {
+				"id": "59c3803423445f653d812a1c",
+				"name": "韩冰",
+				"type": 0,
+				"phone": "170****1667",
+				"gender": {
+					"key": 1,
+					"value": "男"
+				},
+				"identity_type": "2",
+				"identity_type_name": {
+					"key": 2,
+					"value": "护照"
+				},
+				"identity_no": "782********62",
+				"org_unit": "X部门",
+				"org_unit_id": "58c21a365f281a7e6f810ae6",
+				"company_id": "5747fbc10f0e60e0709d8d7d",
+				"company_name": "北京分贝金服科技有限公司",
+				"full_org_unit": "北京分贝金服科技有限公司/X部门",
+				"birth_date": "2016-10-20"
+			},
+			"status": {
+				"key": 1100,
+				"value": "待支付"
+			},
+			"product_id": "5b9b59bbe4b0ffb767208b45",
+			"ticket_tips": "",
+			"can_endorse": false,
+			"can_refund": false
+		}],
+		"status": {
+			"key": 1100,
+			"value": "待支付"
+		},
+		"segment_info": {
+			"cabin": "A",
+			"starting_airport": "首都机场",
+			"destination_terminal": "T2",
+			"code_share": false,
+			"share_num": "",
+			"is_official": false,
+			"flight_no": "CA1405",
+			"plane_type": "",
+			"starting_city": "北京市",
+			"departure_time": "0740",
+			"destination_airport": "双流机场",
+			"arrived_time": "1045",
+			"share_airline_name": "",
+			"arrived_timestamp": 1539744300000,
+			"departure_date": "2018-10-17",
+			"destination_code": "CTU",
+			"seat_msg": "头等舱/商务舱",
+			"starting_terminal": "T3",
+			"departure_timestamp": 1539733200000,
+			"starting_code": "PEK",
+			"airline_name": "中国国航",
+			"destination_city": "成都市"
+		},
+		"price_info": {
+			"discount": 2.5,
+			"price": 0,
+			"add_price": 50,
+			"airport_tax": 50,
+			"fuel_tax": 10,
+			"par_price": 4630,
+			"sale_price": 4630,
+			"settle_price": 4619,
+			"coupon_amount": 5
+		},
+		"policy_info": {
+			"policy_id": "QW_BB"
+		},
+		"stipulate_info": {
+			"cabin": "A",
+			"comment": "以航空公司规定为准",
+			"refund_stipulate": "起飞前，收取费用： 10%\n起飞后，收取费用： 20%\n*此规定仅供参考，最终以航空公司规定为准",
+			"modify_stipulate": "不允许\n*此规定仅供参考，最终以航空公司规定为准",
+			"change_stipulate": "改期：起飞前，收取费用： 5%\n起飞后，收取费用： 10%\n升舱：不允许\n*此规定仅供参考，最终以航空公司规定为准",
+			"par_price": 4630,
+			"stipulate_name": "退改签规则"
+		},
+		"contact_name": "韩冰",
+		"contact_phone": "170****1667",
+		"is_manual": false,
+		"order_owner": {
+			"user_id": "59bf74f423445f31bd64bc5c",
+			"name": "韩冰",
+			"phone": "17080151667",
+			"email": ""
+		},
+		"remark_reason": "学习培训",
+		"comment": "请在15:03前完成支付，超时订单将关闭",
+		"check_info": [],
+		"is_external_order": 0,
+		"price_detail": [{
+			"key": "票价",
+			"price": 4630.00,
+			"amount_desc": "1人",
+			"dc": 1
+		}, {
+			"key": "机建",
+			"price": 50.00,
+			"amount_desc": "1人",
+			"dc": 1
+		}, {
+			"key": "燃油",
+			"price": 10.00,
+			"amount_desc": "1人",
+			"dc": 1
+		}, {
+			"key": "优惠券",
+			"price": 5.00,
+			"amount_desc": "",
+			"dc": -1
+		}],
+		"total_price_str": "¥4685.00",
+		"manual_remark": "无",
+		"custom_remark": [],
+		"has_endorse": false,
+		"excced_info": {
+			"reason": "舱位没票了",
+			"comment": "仓位没票"
+		},
+		"trip_type": 0,
+		"order_type": 1,
+		"order_total_price": 4685.00
+
     }
 }
+
+
+
+
+
 
 
 ```
