@@ -49,6 +49,7 @@ status|订单状态	| jsonobject | Y |订单状态
 status.key |订单状态码	| integer | Y |1900(详情参照状态码)
 status.value |订单状态名称| string | Y |有退改签
 order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
+apply_id |审批单ID| string | N|17948763419761f9209db83
 order_owner|预定人信息| jsonobject|Y|预订人信息
 order_owner.name |预定人姓名| string|Y| "name": "辛植"
 order_owner.user_id |用户ID| string|Y| 59dc3c3323445f71ddcf56a8
@@ -121,6 +122,7 @@ employee_remark|用户备注| string |Y|出差使用
         "can_process": false,
         "cost_attribution": "嘟嘟搞测试",//按部门费用归属;国开行项目:按项目
         "total_price": 160,
+        "apply_id": "5b61757323445f071a732860",
         "passenger_list": [
             {
                 "passenger_info": {
@@ -154,8 +156,8 @@ employee_remark|用户备注| string |Y|出差使用
             }
         ],
         "status": {
-            "key": 1821,
-            "value": "改签成功"
+            "key": 1800,
+            "value": "出票成功"
         },
         "segment_info": {
             "flight_no": "U12138",

@@ -88,6 +88,7 @@ refund\_info | 退房信息 | jsonobject | Y |退票信息
 is\_has\_refund | 是否有退房 | boolean | Y | false 
 remark\_reason | 备注 | string | Y | 其他 
 exceeded | 是否超标 | boolean | Y | false 
+apply_id |审批单ID| string | N|17948763419761f9209db83
 insurance\_info | 保险信息 | jsonarray | N |保险信息
 comment | 评论 | string | Y | 其他 
 
@@ -104,6 +105,7 @@ comment | 评论 | string | Y | 其他
         "can_process": true,
         "cost_attribution": "研发部",
         "order_person": "韩冰",
+        "apply_id": "5b61757323445f071a732860",
         "order_person_phone": "17080151888",
         "checkin_date": 1522080000000,//入住时间
         "checkout_date": 1522166400000,//离店时间

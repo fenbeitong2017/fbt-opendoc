@@ -61,7 +61,8 @@ order_basic_info.order\_status.key |订单状态码| integer | Y |3400
 order_basic_info.order\_status.value |订单状态名称| String | Y |有退改记录
 comment |评论| String | Y |
 use\_customer12306\_account |是否使用12306账号| boolean | Y |false
-exceeded|是否超标| boolean|  Y |false
+exceeded|是否超标| boolean| N|false
+apply_id |审批单ID| string | N|17948763419761f9209db83
 is\_grab\_order|是否抢票订单 |boolean | Y |false
 is\_external\_order |是否外采订单| integer |  Y |1
 employee\_remark|用户备注| string|  Y |
@@ -125,6 +126,7 @@ grab\_info|抢票信息|jsonobject|N|
             "create_time": 1510916567259,
             "employee_name": "刘维中",
             "total_price": 34,
+            "apply_id": "5b61757323445f071a732860",
             "order_status": {
                 "key": 3400,
                 "value": "有退改记录"
