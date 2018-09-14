@@ -112,8 +112,8 @@ endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即
 dc| 正负|integer |N|如票价是正（1）、优惠券是负（-1
 grab\_info|抢票信息|jsonobject|N|
 excced_info|超标信息 |jsonobject|N|超标信息
-excced_info.reason|超标理由 |jsonobject|N|超标理由
-excced_info|超标理由备注 |jsonobject|N|超标理由备注
+excced_info.reason|超标理由 |string|N|超标理由
+excced_info|超标理由备注 |string|N|超标理由备注
 
 
 

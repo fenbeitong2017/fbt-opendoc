@@ -51,8 +51,8 @@ POST|/open/api/hotel/order/detail
  checkout\_date | 离店日期 | integer | Y | 1524585600000 
  create\_time | 创建时间 | integer | Y | 1522294527444 
  excced_info|超标信息 |jsonobject|N|超标信息
-excced_info.reason|超标理由 |jsonobject|N|超标理由
-excced_info|超标理由备注 |jsonobject|N|超标理由备注
+excced_info.reason|超标理由 |string|N|超标理由
+excced_info|超标理由备注 |string|N|超标理由备注
  can\_process | 是否可以查看订单 | boolean | Y | false 
  cost\_attribution | 费用归属 | string | Y | 研发部//按部门费用归属;国开行项目:按项目 
  order\_person | 下单人姓名 | string | Y | 刘维中 
