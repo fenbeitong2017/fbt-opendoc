@@ -111,6 +111,13 @@ endorse\_cost |改签手续费| double |  N | 改签费（改签费）
 endorse\_total\_price|改签总价| double| N |改签总额（改签总花费即差价+改签费)
 dc| 正负|integer |N|如票价是正（1）、优惠券是负（-1
 grab\_info|抢票信息|jsonobject|N|
+excced_info|超标信息 |jsonobject|N|超标信息
+excced_info.reason|超标理由 |jsonobject|N|超标理由
+excced_info|超标理由备注 |jsonobject|N|超标理由备注
+
+
+
+
 
 
 
@@ -133,7 +140,11 @@ grab\_info|抢票信息|jsonobject|N|
             },
             "comment": "",
             "use_customer12306_account": false,
-            "exceeded": false,
+            "exceeded": true,
+            "excced_info": {
+			"reason": "舱位没票了",
+			"comment": "仓位没票"
+		},
             "is_grab_order": false,                           //是否抢票订单
             "is_external_order": 1, // 是否是外采订单
             "employee_remark": "", // 用户备注

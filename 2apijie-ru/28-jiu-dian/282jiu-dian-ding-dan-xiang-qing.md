@@ -50,6 +50,9 @@ POST|/open/api/hotel/order/detail
  checkin\_date | 入住日期 | integer | Y | 1524499200000 
  checkout\_date | 离店日期 | integer | Y | 1524585600000 
  create\_time | 创建时间 | integer | Y | 1522294527444 
+ excced_info|超标信息 |jsonobject|N|超标信息
+excced_info.reason|超标理由 |jsonobject|N|超标理由
+excced_info|超标理由备注 |jsonobject|N|超标理由备注
  can\_process | 是否可以查看订单 | boolean | Y | false 
  cost\_attribution | 费用归属 | string | Y | 研发部//按部门费用归属;国开行项目:按项目 
  order\_person | 下单人姓名 | string | Y | 刘维中 
@@ -91,6 +94,10 @@ exceeded | 是否超标 | boolean | Y | false
 apply_id |审批单ID| string | N|17948763419761f9209db83
 insurance\_info | 保险信息 | jsonarray | N |保险信息
 comment | 评论 | string | Y | 其他 
+"excced_info": {
+"reason": "舱位没票了",
+"comment": "仓位没票"
+}
 
 ```
 {
@@ -161,7 +168,12 @@ comment | 评论 | string | Y | 其他
             "is_has_refund": false
         },
         "remark_reason": "其他",
-        "exceeded": false,
+        "exceeded": true,
+        "excced_info": {
+			"reason": "舱位没票了",
+			"comment": "仓位没票"
+		},
+
         "insurance_info": [],
         "comment": ""
     }
