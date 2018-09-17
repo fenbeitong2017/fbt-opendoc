@@ -21,7 +21,7 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data || jsonobject |Y|
-data.order_id| 查询状态|string |Y|5aab90ac279863130a86296f
+data.order_id| 火车订单ID|string |Y|5aab90ac279863130a86296f
 
 请求示例：
 
