@@ -16,10 +16,11 @@
 | timestamp | 时间戳 | long | Y | 13位时间戳  1241243250000 |
 | employee\_id | 用户ID | string | Y | 分贝用户id或者第三方用户id |
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
-| data |  请求数据 | jsonobject | Y |请求数据  {}
+| data |  请求数据 | jsonobject | Y |请求数据
 | data.company_id |公司ID| string | Y |
-| data |  请求数据 | string | Y |
-| data |  请求数据 | string | Y |
+| data.business |业务场景| string | Y |
+| data.third_employee_id |员工ID| string | N |
+
 
 
 
