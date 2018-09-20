@@ -19,7 +19,17 @@
 | data |  请求数据 | jsonobject | Y |请求数据
 | data.company_id |公司ID| string | Y |59b74c132344WASF83269
 | data.business |业务场景| string | Y |
-| data.third_employee_id |员工ID| string | N |
+| data.employee_id |员工ID| string | N |
+| data.mobile_phone |员工手机号| string | N |
+
+
+
+
+
+
+
+
+
 
 
 
@@ -40,7 +50,10 @@
     "sign":"oihfnlyeofdh98",
     "employee_id":"59b74c1323445f2d54dd07922",
     "employee_type":1,
-    "data":{            
+    "data":{  
+    "company_id":"59b74c132344WASF83269",
+    "business":"",
+    "":""          
      }
 }
 
