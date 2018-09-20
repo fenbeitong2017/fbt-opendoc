@@ -17,7 +17,8 @@
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y |请求数据
 | data.apply_id | 申请单内容 | string | Y|申请单id
-| data.third_type| 申请单业务类型 | integer | Y | 审批单类型
+| data.third_type| 申请单业务类型 | integer | Y | 审批单类型 1:分贝通审批单 2:第三方审批单
+
 
 请求示例：
 
@@ -30,7 +31,7 @@
     "employee_type":1,
     "data":{            
      "apply_id" : "111",
-     "third_type" : 1 //1:分贝通审批单 2:第三方审批单
+     "third_type" : 1 
 }
 }
 ```
@@ -47,6 +48,7 @@
     }
 }
 code为0代表成功，其他均为失败。失败情况msg为具体的错误信息
+
 ```
 
 
