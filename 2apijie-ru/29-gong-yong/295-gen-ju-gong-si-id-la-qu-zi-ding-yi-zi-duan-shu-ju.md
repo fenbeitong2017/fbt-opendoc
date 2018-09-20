@@ -18,25 +18,9 @@
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y |请求数据
 | data.company_id |公司ID| string | Y |59b74c132344WASF83269
-| data.business |业务场景| string | Y |
+| data.business |业务场景| int | Y |(3,"打车"),(7,"国内机票"),(40,"国际机票"),(11,"酒店"),(15,"火车"),(20,"采购"),(30,"用餐"）
 | data.employee_id |员工ID| string | N |
 | data.mobile_phone |员工手机号| string | N |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 请求示例：
@@ -52,8 +36,7 @@
     "employee_type":1,
     "data":{  
     "company_id":"59b74c132344WASF83269",
-    "business":"",
-    "":""          
+    "business":"40"        
      }
 }
 
@@ -71,66 +54,30 @@
     "code": 0,
     "msg": "success",
     "data": {
-       "airRuleList": [
-            {
-                "ruleId": "5926531f2798635d37d803a6",
-                "ruleName": "机票折扣"
-            },
-            {
-                "ruleId": "58c15ae25f281a2893a3c1a6",
-                "ruleName": "测试陈引"
-            }
-        ],
-        "dinnerRuleList": [
-            {
-                "ruleId": "59f2ad6923445f260057c464",
-                "ruleName": "345"
-            },
-            {
-                "ruleId": "59f08d0923445f4d896f53f5",
-                "ruleName": "rr00"
-            }
-        ],
-        "hotelRuleList": [
-            {
-                "ruleId": "58e614da5f281a15c9e08d2e",
-                "ruleName": "测试10"
-            },
-            {
-                "ruleId": "58bcf97f5f281a2f8c782d3e",
-                "ruleName": "wangchao"
-            }
-        ],
-        "mallRuleList": [
-            {
-                "ruleId": "59e833e123445f0e751ff0b2",
-                "ruleName": "看见了"
-            },
-            {
-                "ruleId": "5926945e23445f3a42ee9e2e",
-                "ruleName": "sdfsdf"
-            }
-        ],
-        "taxiRuleList": [
-            {
-                "ruleId": "145",
-                "ruleName": "ERIC"
-            },
-            {
-                "ruleId": "176",
-                "ruleName": "bwh测试"
-            }
-        ],
-        "trainRuleList": [
-            {
-                "ruleId": "57e0e6b7dec24c54de0b5484",
-                "ruleName": "机票只允许订经济舱"
-            },
-            {
-                "ruleId": "58c268565f281a67a8324d82",
-                "ruleName": "大饼"
-            }
-        ]
+    [
+        {
+        "attr_name":"cost_center",
+        "label":"成本中心",
+        "options":[{"1":"项目管控成本中心"},{"2":"成本核算中心"}],
+        "type":"select",
+        "placeholder":"请选择",//提示文本，默认就是请输入 请选择
+        "required":true,
+        "multiple":false,
+        "business":40,
+        "remote_address":"www.open.xxx.com/open/attr/select"  
+    },{
+        "attr_name":"expenses_classify",
+        "label":"费用归属",
+        "options":[{"1":"管理费用"},{"2":"经营费用"}],
+        "type":"select",
+        "placeholder":"请选择",//提示文本，默认就是请输入 请选择
+        "required":true,
+        "multiple":false,
+        "business":40,
+        "remote_address":"www.open.xxx.com/open/attr/select"
+    }
+]
+     
     }
 }
 
