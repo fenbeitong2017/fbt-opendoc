@@ -8,6 +8,7 @@
  --- | --- 
 POST | /open/api/approve/cancel 
 
+
  字段 | 名称 | 类型 | 必填 | 描述 
  --- | --- | --- | --- | --- 
  access\_token | 鉴权Token | string | Y |5747fbc10f0e60e0709d8d722 
