@@ -7,7 +7,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/train/order/list
+POST|/open/api/train/getTrainList
 
 
 字段|名称|类型|必填|描述
@@ -20,7 +20,7 @@ employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方�
 data |请求数据| jsonobject |Y|
 data.date|开始日期|string  |Y|2018-09-20
 data.fromcity| 出发城市code|string |N|JJG
-data.tocity| 目的城市|string |Y|WXN
+data.tocity| 目的城市code|string |Y|WXN
 data.sign| 签名|string |N|k88uewu98u382o8dssd32t43
 data.source| 订单来源|string |Y|A企业
 

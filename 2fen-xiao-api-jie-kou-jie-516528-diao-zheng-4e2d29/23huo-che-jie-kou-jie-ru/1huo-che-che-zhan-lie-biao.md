@@ -7,7 +7,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/train/order/list
+POST|/open/api/train/stationList
 
 
 字段|名称|类型|必填|描述
