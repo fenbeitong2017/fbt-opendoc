@@ -79,4 +79,17 @@
     * [4.7.1 用餐订单状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma/471-yong-can-ding-dan-zhuang-tai-ma.md)
   * [4.8 证件类型对照表](4zhuang-tai-ma/48-zheng-jian-lei-xing-dui-zhao-biao.md)
   * [4.9 乘机人类型对照表](4zhuang-tai-ma/49-cheng-ji-ren-lei-xing-dui-zhao-biao.md)
+* [1.分贝通分销接口文档说明](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming.md)
+  * [1.1接入说明](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming/11fen-xiao-jie-kou-shuo-ming.md)
+    * [1.1.1接入前准备](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming/11fen-xiao-jie-kou-shuo-ming/111jie-ru-qian-zhun-bei.md)
+    * [1.1.2接口环境说明](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming/11fen-xiao-jie-kou-shuo-ming/112jie-kou-huan-jing-shuo-ming.md)
+    * [1.1.2接口接入流程](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming/11fen-xiao-jie-kou-shuo-ming/112jie-kou-jie-ru-liu-cheng.md)
+  * [1.2文档版本说明](1fen-bei-tong-fen-xiao-jie-kou-wen-dang-shuo-ming/12wen-dang-ban-ben-shuo-ming.md)
+* [2.分销API接口接入\(调整中\)](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29.md)
+  * [2.1API鉴权接口,颁发token](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/21apijian-quan-jie-53e32c-ban-fa-token.md)
+  * [2.2API接入说明](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/22apijie-ru-shuo-ming.md)
+    * [2.2.1 签名算法](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/22apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
+  * [2.3火车接口接入](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/23huo-che-jie-kou-jie-ru.md)
+  * [2.4酒店接口接入](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/24jiu-dian-jie-kou-jie-ru.md)
+  * 2.5机票接口接入
 
