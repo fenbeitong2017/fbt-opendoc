@@ -91,8 +91,8 @@
     * [2.2.1 签名算法](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/22apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
   * [2.3火车接口接入](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/23huo-che-jie-kou-jie-ru.md)
     * [2.3.1.火车车站列表](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/23huo-che-jie-kou-jie-ru/1huo-che-che-zhan-lie-biao.md)
-    * 2.3.2火车车票查询
-    * 2.3.4创建火车票订单
+    * [2.3.2火车车票查询](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/23huo-che-jie-kou-jie-ru/232huo-che-che-piao-cha-xun.md)
+    * [2.3.3创建火车票订单](2fen-xiao-api-jie-kou-jie-516528-diao-zheng-4e2d29/23huo-che-jie-kou-jie-ru/234chuang-jian-huo-che-piao-ding-dan.md)
     * 2.3.4 火车票支付
     * 2.3.5火车票取消
     * 2.3.6火车票退票
