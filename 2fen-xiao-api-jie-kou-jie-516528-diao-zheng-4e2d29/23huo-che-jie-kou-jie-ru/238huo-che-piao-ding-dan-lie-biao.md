@@ -20,7 +20,7 @@ employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方�
 data |请求数据| jsonobject |Y|
 data.bdate|开始日期|string  |Y|2018-09-20
 data.edate| 结束日期|string |Y|2018-09-20
-data.orderno| 订单号|string |Y|Jljsfo98w8eoiewnlsdo
+data.orderno| 订单号|string |N|Jljsfo98w8eoiewnlsdo
 data.status| 状态|string |Y|1
 data.page| 首页|integer |Y|1
 data.pagesize| 显示个数|integer |Y|20
