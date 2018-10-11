@@ -26,7 +26,6 @@
 | data.order\_date\_end | 下单结束日期 | string | N | 格式为 yyyy-MM-dd 2017-05-01 |
 | data.starting_city | 出发城市 | string | N | 北京|
 | data.arrived_city | 目的城市 | string | N |上海|
-
 | data.page\_index | 页码 | integer | N | 1\(默认值\) |
 | data.page\_size | 每页显示条数 | integer | N | 10\(默认值\) |
 
