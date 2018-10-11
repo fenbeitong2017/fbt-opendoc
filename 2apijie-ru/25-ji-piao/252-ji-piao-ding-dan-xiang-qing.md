@@ -49,6 +49,7 @@ status|订单状态	| jsonobject | Y |订单状态
 status.key |订单状态码	| integer | Y |1900(详情参照状态码)
 status.value |订单状态名称| string | Y |有退改签
 order_id |订单号	| string | Y|59b5fe4a2798631761f29db8
+pre_order_id |原单号| string | N|59b5fe4a2798631761f29d098
 apply_id |审批单ID| string | N|17948763419761f9209db83
 excced_info|超标信息 |jsonobject|N|超标信息
 excced_info.reason|超标理由 |string|N|超标理由
@@ -119,6 +120,7 @@ employee_remark|用户备注| string |Y|出差使用
     "msg": "success",
     "data": {
         "order_id": "5b9b59bae4b0ffb767208b44",
+        "pre_order_id": "5ab8b626279863224fef078e",   // 关联订单ID
         "apply_id": "5b61757323445f071a732860",
 		"remote_order_id": "",
 		"supplier_id": 110,

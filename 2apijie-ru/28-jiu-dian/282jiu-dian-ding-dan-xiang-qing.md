@@ -47,6 +47,7 @@ POST|/open/api/hotel/order/detail
  字段 | 名称 | 类型 | 必填 | 描述 
  --- | --- | --- | --- | --- 
  order\_id | 订单ID | string | Y | 5abc5eff27986354622e6b94 
+ original_order_id| 原单ID | string | Y | 5abc5eff27986354622e6980
  status | 订单状态码 | integer | Y | 2501 
  status\_name | 订单状态名称 | string | Y | 订房成功 
  checkin\_date | 入住日期 | integer | Y | 1524499200000 
@@ -105,6 +106,7 @@ comment | 评论 | string | Y | 其他
     "msg": "success",
     "data": {
         "order_id": "5a98fe1b2798636ba9006f1e",
+        "original_order_id": "5a98fe1b2798636ba9006foi",
         "status": 2301,
         "status_name": "已取消",
         "create_time": 1519975963862,
