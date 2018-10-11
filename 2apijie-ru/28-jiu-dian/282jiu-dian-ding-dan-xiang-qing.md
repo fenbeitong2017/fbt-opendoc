@@ -28,6 +28,8 @@ POST|/open/api/hotel/order/detail
  data | 请求数据 | jsonobject | Y | 请求数据 
  data.order\_id | 订单号 | string | Y | 订单ID 
 
+
+
 请求示例：
 
 ```
@@ -171,8 +173,38 @@ comment | 评论 | string | Y | 其他
 			"comment": "很重要"
 		},
 
-        "insurance_info": [],
-        "comment": ""
+       "insuranceInfo":[
+    {
+      "category_code":5,
+      "category_name":"酒店取消险",
+      "desc":"如未入住，最高全额赔付。",
+      "desc_link":"https://static.fenbeitong.com/mobile/hotelCancelInsurance.html",
+      "unit_price":7.56,
+      "insurant_list":[
+        {
+        "insurant_name":"强zai",
+        "premium":7.56,
+        "status":{"key":5,"value":"投保成功"},
+        "policy_number":"10450061900247588251",
+        "start_date":"2018-11-15",
+        "end_date":"2018-11-16",
+        "insurance_link":{
+          "headers":[
+            {
+              "name":"Content-Type",
+              "value":"application/pdf"
+            },
+            {
+              "name":"X-Zxtx-Sign",
+              "value":"5A8EE545B24306552F67C6C0C4F140E7"
+            }
+          ],
+        "url":"http://fenbeitong.corpbeta.51zxtx.com/177705/policies/10450061900247588251"}
+           }
+      ]
+   }
+  ],
+ "comment": ""
     }
 }
 ```

@@ -56,6 +56,9 @@ order_basic_info.order\_id| 订单ID|string |Y|5aab90ac279863130a86296f
 order_basic_info.create\_time|订单创建时间 |integer |Y|1523533736260
 order_basic_info.employee\_name| 下单人姓名|string | Y |强仔
 order_basic_info.total\_price |总价| double | Y | 
+order_basic_info.employee\_name| 下单人姓名|string | Y |强仔
+order_basic_info.pre_order_id| 上级订单id|string | N |(退票单,改签的的原单id)
+order_basic_info.original_order_id| 最上级订单id|string | N |(改签后又进行退票操作,改签单的原单id)
 order_basic_info.order\_status |订单状态|jsonobject | Y |详细订单状态参照火车状态码
 order_basic_info.order\_status.key |订单状态码| integer | Y |3400
 order_basic_info.order\_status.value |订单状态名称| String | Y |有退改记录
@@ -145,9 +148,11 @@ excced_info.comment|超标理由备注 |string|N|超标理由备注
 			"reason": "座位没票了",
 			"comment": "很重要"
 		},
-            "is_grab_order": false,                           //是否抢票订单
+            "is_grab_order": false, //是否抢票订单
             "is_external_order": 1, // 是否是外采订单
             "employee_remark": "", // 用户备注
+            "pre_order_id":"5a0ec1d627986320cbdfd27f", 
+            "original_order_id":"5a0ec1d627986320cbdfd27f",
             "total_price_str": "￥34" // 订单金额字符串
         },
         "passengers_info": [
