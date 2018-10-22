@@ -60,10 +60,10 @@
         "attr_name":"cost_center",
         "label":"成本中心",
         "options":[{"1":"项目管控成本中心"},{"2":"成本核算中心"}],
-        "type":"select",
-        "placeholder":"请选择",//提示文本，默认就是请输入 请选择
-        "required":true,
-        "multiple":false,
+        "type":"select",input:文本输入,number:数字输入、select:下拉选择
+        "placeholder":"请选择",//提示文本:默认为请输入,请选择
+        "required":true,//是否为必填项
+        "multiple":false, //是否需要多选
         "business":40,
         "remote_address":"www.open.xxx.com/open/attr/select"  
     },{
