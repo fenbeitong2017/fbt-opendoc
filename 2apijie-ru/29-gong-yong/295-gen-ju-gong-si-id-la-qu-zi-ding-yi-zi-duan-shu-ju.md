@@ -54,7 +54,7 @@
     "request_id": "M5NrqkfNe4ifAni4dLlC",
     "code": 0,
     "msg": "success",
-    "data": {
+    "data": 
     [
         {
         "attr_name":"cost_center",
@@ -79,7 +79,7 @@
     }
 ]
      
-    }
+    
 }
 
 
