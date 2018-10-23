@@ -21,7 +21,7 @@
  data.company_id |公司ID| string | Y |59b74c132344WASF83269
  data.business |业务场景| Integer | Y |(3,"打车"),(7,"国内机票"),(40,"国际机票"),(11,"酒店"),(15,"火车"),(20,"采购"),(30,"用餐"）
  data.employee_id |员工ID| string | N |59b74c13234439kd89ws8ow
- data.mobile_phone |员工手机号| string | N |17080151666
+ data.mobile_phone |员工手机号| string | Y |17080151666
 
 
 
