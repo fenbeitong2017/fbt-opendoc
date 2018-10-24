@@ -110,6 +110,20 @@ status.key |保单状态| integer |Y|8:退保成功.详细请参照保险状态�
 insurant_list.insurant_name |被保人| string |Y|张胜男
 insurant_amount |数量| integer | N |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
 employee_remark|用户备注| string |Y|出差使用
+endorse_price|改签差价| double |Y|10
+endorse_cost|改签费| double |Y|30
+endorse_total_price|改签总价| double |Y|40
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -256,6 +270,11 @@ employee_remark|用户备注| string |Y|出差使用
 		},
 		"trip_type": 0,
 		"order_type": 1,
+		"endorse_price_info": {
+			"endorse_price": 10,//改签差价
+			"endorse_cost": 101,改签费
+			"endorse_total_price": 111
+		},
 		"order_total_price": 4685.00
 
     }
