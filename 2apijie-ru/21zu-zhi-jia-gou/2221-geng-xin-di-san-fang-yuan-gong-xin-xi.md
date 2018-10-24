@@ -86,8 +86,6 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
 请求示例
 
 ```
-
-
 { "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
   "employee_id":784kuf873jf9834uiy98e"",
@@ -95,13 +93,14 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
   {  
     "employee_list":[
     {
-      "name":"张三",
+      "name":"张5s",
       "phone":"13718432812",
       "third_org_unit_id":"5747fbc10f0e60e0709d8d7d",
-      "role":3,
       "third_employee_id":"57ab054c2528226a805bd5e1",
+      "role":3,
       "air_policy": { //飞机权限
           "unemployee_air": false, //限制非企业员工预定机票标识
+          "air_other_flag": false, //是否允许为其他员工订机票     // 2.0.1新增
           "air_priv_flag": false, //是否允许订机票
           "air_verify_flag": true, //是否需要审批
           "air_rule_limit_flag": true, //是否限制规则
@@ -110,14 +109,16 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
       },
       "intl_air_policy": { //国际飞机权限
           "unemployee_air":false,   //限制非企业员工预定机票标识
+          "air_other_flag": false, //是否允许为其他员工订机票     // 2.0.1新增
           "air_priv_flag": false, //是否允许订机票
           "air_verify_flag": true, //是否需要审批
           "air_rule_limit_flag": true, //是否限制规则
-          "air_rule_id": "575263e982f80987654321", //规则id
+          "air_rule_id": "575263e982f880a6d686ce11", //规则id
           "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
     },
     "hotel_policy": { //酒店权限
       "unemployee_hotel": false, //限制非企业员工预定酒店标识
+      "hotel_other_flag": true, //是否允许为其他员工预定酒店      // 2.0.1新增
       "hotel_priv_flag": true,
       "hotel_verify_flag": false,
       "hotel_rule_limit_flag": true, //是否限制规则
@@ -126,10 +127,11 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
     },
     "train_policy": { //火车权限
         "unemployee_train": false, //限制非企业员工预定火车标识
+        "train_other_flag": true, //是否允许为其他员工预定火车      // 2.0.1新增
         "train_priv_flag": true,
         "train_verify_flag": false,
         "train_rule_limit_flag": true, //是否限制规则
-        "train_rule_id": "575263e982f882134567", //规则id
+        "train_rule_id": "575263e982f880a6d686ce11", //规则id
         "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
     },
     "car_policy": { //用车权限，APP端添加员工时不能上送该key,修改时续上送
@@ -143,20 +145,20 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
           "mall_priv_flag": true,
           "rule_limit_flag": true,
           "rule_id": "ofaijwf", //规则id
+          "personal_pay" : true //个人支付开关 2.1.0 新增
           "exceed_buy_flag": false //是否可以超标下单
     },
     "dinner_policy": { //用餐权限，APP端添加员工时不能上送该key,修改时续上送
           "dinner_priv_flag": true,
           "rule_limit_flag": true,
-          "rule_id": "ofai9876787", //规则id
+          "rule_id": "ofaijwf", //规则id
           "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
     }
       },
       {
     "name":"张5",
     "phone":"13718432992",
-    "third_org_unit_id":"5747fbc10f0e60e0709d8d7d",
-    "role":3,
+    "org_unit_id":"5747fbc10f0e60e0709d8d7d",
     "third_employee_id":"57ab054c2528226a805bd500",
     "air_policy": { //飞机权限
           "unemployee_air": false, //限制非企业员工预定机票标识
@@ -206,16 +208,16 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
     "dinner_policy": { //用餐权限，APP端添加员工时不能上送该key,修改时续上送
           "dinner_priv_flag": true,
           "rule_limit_flag": true,
-          "rule_id": "ofaijwf", //规则id
+          "rule_id": "ofaisfasjwf", //规则id
           "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
     }
       }
     ]  
  }
 }
-
-
 ```
+
+
 
 返回结果
 
