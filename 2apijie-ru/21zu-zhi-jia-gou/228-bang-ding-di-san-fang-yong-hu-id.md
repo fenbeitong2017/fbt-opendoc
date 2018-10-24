@@ -20,7 +20,7 @@ employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
 data.phone|手机号|string|Y
-data.third\_employee\_id|部门id| string |Y|第三方人员ID
+data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
 
 
 

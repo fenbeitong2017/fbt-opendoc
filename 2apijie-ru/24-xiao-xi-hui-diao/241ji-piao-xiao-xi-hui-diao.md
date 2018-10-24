@@ -37,6 +37,9 @@ create_time | 下单时间 | string | Y |2018-06-21 09:17:58
 coupon_amount | 优惠券金额 | double | Y |10.25
 flight_no | 航班号 | string | Y |CA2808
 seat_msg |仓位信息 | string | Y |经济舱
+third_employee_id | 第三方用户id | string | Y |第三方用户ID
+
+
 
 
 请求数据格式:
@@ -71,6 +74,7 @@ seat_msg |仓位信息 | string | Y |经济舱
 "company_name":"北京分贝通科技有限公司",
 "refund_fee":0.0,
 "order_id":"5b2afcc13ce30d54dad0bc8c",
+"third_employee_id":"oule893883892iue38e8",
 "status":1800}
 ```
 

@@ -34,6 +34,7 @@ budget_money|预估费用总计|double |N|单位：分(如果下单时选择了�
 estimated_amount|预估费用|double |N|单位：分(如果下单时选择了第三方推送的审批单)
 create_time | 下单时间 | string | Y |2018-04-05 13:13:34
 coupon_amount | 优惠券金额 | double | Y |10.25
+third_employee_id | 第三方用户id | string | Y |第三方用户ID
 
 
 
@@ -69,6 +70,7 @@ coupon_amount | 优惠券金额 | double | Y |10.25
 "order_id":"5b4ef9225f281a392c61379f",
 "third_approve_id":"hksf83ho93lsbvnos145",
 "third_remark":"第三方审批备注",
+"third_employee_id":"oule893883892iue38e8",
 "status":2501}
 
 ```
