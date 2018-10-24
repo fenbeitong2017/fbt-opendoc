@@ -78,7 +78,18 @@
         "multiple":false,
         "business":40,
         "remote_address":"www.open.xxx.com/open/attr/select"
+    },{
+        "attr_name":"project_center",
+        "label":"项目中心",
+        "options":[{"1":"国航客户项目中心"},{"2":"中铁客户项目中心"}],
+        "type":"select",
+        "placeholder":"请选择",//提示文本，默认就是请输入,请选择
+        "required":true,
+        "multiple":false,
+        "business":40,
+        "remote_address":"www.open.xxx.com/open/attr/select"
     }
+
 ]
      
     
