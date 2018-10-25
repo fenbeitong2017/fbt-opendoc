@@ -280,10 +280,431 @@ endorse_total_price|改签总价| double |Y|40
     }
 }
 
-
-
-
+```
 
 
 
 ```
+退票成功数据结构:
+
+{
+    "request_id": "LYWoaylhD1AXfNuADWOe",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "order_id": "5bc2836ae4b0a94c804f4e42",
+        "pre_order_id": "5bc07049e4b0087ca188f84e",
+        "remote_order_id": "112018101287795441",
+        "supplier_id": 101,
+        "create_time": "2018-10-14 07:44:42",
+        "over_time": "07:59",
+        "can_process": false,
+        "cost_attribution": "嘟嘟搞测试",
+        "total_price": -950,
+        "passenger_list": [
+            {
+                "passenger_info": {
+                    "id": "5a09690923445f11ade39f7d",
+                    "name": "强Zai",
+                    "type": 0,
+                    "phone": "183****0640",
+                    "gender": {
+                        "key": 1,
+                        "value": "男"
+                    },
+                    "identity_type": "2",
+                    "identity_type_name": {
+                        "key": 2,
+                        "value": "护照"
+                    },
+                    "identity_no": "289**qs",
+                    "org_unit": "嘟嘟搞测试",
+                    "org_unit_id": "59a80dd92798630fd780babf",
+                    "company_id": "5747fbc10f0e60e0709d8d7d",
+                    "company_name": "北京分贝金服科技有限公司",
+                    "full_org_unit": "北京分贝金服科技有限公司/嘟嘟搞测试",
+                    "birth_date": "2010-10-13"
+                },
+                "ticket_no": "8762829733063",
+                "status": {
+                    "key": 1811,
+                    "value": "退票成功"
+                },
+                "product_id": "5bc2836ae4b0a94c804f4e43",
+                "ticket_tips": "",
+                "can_endorse": false,
+                "can_refund": false,
+                "refund_info": {
+                    "refund_amount": 998,
+                    "refund_amount_msg": "退票处理中",
+                    "refund_fee": 48,
+                    "refund_fee_msg": "退票处理中"
+                }
+            }
+        ],
+        "status": {
+            "key": 1811,
+            "value": "退票成功"
+        },
+        "segment_info": {
+            "cabin": "Y",
+            "middle_stop": false,
+            "starting_airport": "咸阳机场",
+            "destination_terminal": "T1",
+            "code_share": false,
+            "share_num": "",
+            "is_official": false,
+            "flight_no": "3U8379",
+            "plane_type": "321",
+            "starting_city": "西安市",
+            "departure_time": "0615",
+            "destination_airport": "双流机场",
+            "arrived_time": "0755",
+            "share_airline_name": "",
+            "arrived_timestamp": 1541634900000,
+            "departure_date": "2018-11-08",
+            "destination_code": "CTU",
+            "seat_msg": "经济舱",
+            "starting_terminal": "T3",
+            "departure_timestamp": 1541628900000,
+            "starting_code": "XIY",
+            "is_middle_stop": false,
+            "stop_info": "",
+            "airline_name": "四川航空",
+            "destination_city": "成都市"
+        },
+        "price_info": {
+            "discount": 0.98,
+            "add_price": 0,
+            "airport_tax": 50,
+            "fuel_tax": 20,
+            "par_price": 950,
+            "sale_price": 928,
+            "settle_price": 928
+        },
+        "policy_info": {
+            "policy_id": "229099290"
+        },
+        "stipulate_info": {
+            "cabin": "Y",
+            "comment": "以航空公司规定为准",
+            "refund_stipulate": "取消座位时间计算手续费；按照当前舱位票面价收取退票费；起飞前2.0小时（含）以外收取当前舱位票面价的5.0%退票费,起飞前2.0小时以内及起飞后收取当前舱位票面价的10.0%退票费；\n*此规定仅供参考，最终以航空公司规定为准",
+            "modify_stipulate": "不能签转；\n*此规定仅供参考，最终以航空公司规定为准",
+            "change_stipulate": "按照当前舱位票面价收取变更费；起飞前2.0小时（含）以外免收改期费,起飞前2.0小时以内及起飞后收取当前舱位票面价的5.0%改期费；\n*此规定仅供参考，最终以航空公司规定为准",
+            "par_price": 950,
+            "stipulate_name": "退改费低"
+        },
+        "contact_name": "强仔",
+        "contact_phone": "183****0640",
+        "is_manual": false,
+        "order_owner": {
+            "user_id": "59dc3c3323445f71ddcf56a8",
+            "name": "强Zai",
+            "phone": "18310480640"
+        },
+        "remark_reason": "学习培训",
+        "comment": "",
+        "check_info": [],
+        "is_external_order": 0,
+        "price_detail": [
+            {
+                "key": "票价",
+                "price": 928,
+                "amount_desc": "1人",
+                "dc": 1
+            },
+            {
+                "key": "机建",
+                "price": 50,
+                "amount_desc": "1人",
+                "dc": 1
+            },
+            {
+                "key": "燃油",
+                "price": 20,
+                "amount_desc": "1人",
+                "dc": 1
+            }
+        ],
+        "total_price_str": "-¥950.00",
+        "manual_remark": "无",
+        "custom_remark": [],
+        "has_endorse": false,
+        "refund_price_info": {
+            "refund_price": 998,
+            "refund_total_price": 950,
+            "refund_cost": 48
+        },
+        "excced_info": {},
+        "trip_type": 0,
+        "order_type": 1,
+        "order_total_price": -950
+    }
+}
+
+
+```
+
+```
+出票成功返回的数据结构:
+{
+    "request_id": "VLbTpyx6e4ycojRIoteB",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "order_id": "5bbc2a5b2798636cb1e8c6a0",
+        "pre_order_id": "5bbc2a5b2798636cb1e8c6a0",
+        "remote_order_id": "xc123456",
+        "supplier_id": 105,
+        "create_time": "2018-10-25 00:00:00",
+        "over_time": "00:15",
+        "can_process": false,
+        "cost_attribution": "北京分贝金服科技有限公司",
+        "total_price": 1417,
+        "passenger_list": [
+            {
+                "passenger_info": {
+                    "id": "59bf8abe23445f31bd64bc62",
+                    "name": "谷健波",
+                    "type": 0,
+                    "phone": "139****1353",
+                    "gender": {
+                        "key": 1,
+                        "value": "男"
+                    },
+                    "identity_type": "1",
+                    "identity_type_name": {
+                        "key": 1,
+                        "value": "身份证"
+                    },
+                    "identity_no": "110101**********19",
+                    "birth_date": "1984-12-24"
+                },
+                "ticket_no": "123456",
+                "status": {
+                    "key": 1800,
+                    "value": "出票成功"
+                },
+                "product_id": "5bbc2a5c2798636cb1e8c6a1",
+                "ticket_tips": "",
+                "can_endorse": false,
+                "can_refund": false
+            }
+        ],
+        "status": {
+            "key": 1800,
+            "value": "出票成功"
+        },
+        "segment_info": {
+            "cabin": "G",
+            "middle_stop": true,
+            "starting_airport": "首都机场",
+            "destination_terminal": "T2",
+            "flight_no": "CA1589",
+            "plane_type": "",
+            "starting_city": "北京市",
+            "departure_time": "2030",
+            "destination_airport": "虹桥机场",
+            "arrived_time": "2240",
+            "arrived_timestamp": 1540478400000,
+            "departure_date": "2018-10-25",
+            "destination_code": "SHA",
+            "seat_msg": "G",
+            "starting_terminal": "T3",
+            "departure_timestamp": 1540470600000,
+            "starting_code": "PEK",
+            "is_middle_stop": true,
+            "stop_info": "",
+            "airline_name": "中国国航",
+            "destination_city": "上海市"
+        },
+        "price_info": {
+            "discount": 0,
+            "airport_tax": 50,
+            "fuel_tax": 10,
+            "par_price": 1417,
+            "sale_price": 1357,
+            "settle_price": 1350,
+            "insurance_price": 0,
+            "insurance_cost": 0
+        },
+        "policy_info": {
+            "policy_id": ""
+        },
+        "stipulate_info": {
+            "cabin": "G",
+            "comment": "以航空公司规定为准",
+            "return_change_condition": "此规定仅供参考，最终以航空公司规定为准",
+            "par_price": 1417
+        },
+        "contact_name": "谷健波",
+        "contact_phone": "139****1353",
+        "is_manual": true,
+        "order_owner": {
+            "user_id": "59b8acf023445f70c3eaef80",
+            "name": "谷健波",
+            "phone": "13911381353"
+        },
+        "comment": "",
+        "check_info": [],
+        "is_external_order": 1,
+        "total_price_str": "¥1417.00",
+        "manual_remark": "无",
+        "custom_remark": [],
+        "has_endorse": false,
+        "apply_id": "",
+        "excced_info": {},
+        "trip_type": 0,
+        "order_type": 1,
+        "order_total_price": 1417
+    }
+}
+
+```
+
+
+
+```
+改签成功返回的数据结构:
+
+{
+    "request_id": "4orFjqF11oNPMwmPJiM7",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "order_id": "5bbd72352798637dc8f413ba",
+        "pre_order_id": "5bbd6d64e4b0ce69ca6eb5b9",
+        "remote_order_id": "测试2123124",
+        "supplier_id": 105,
+        "create_time": "2018-10-10 11:29:57",
+        "over_time": "11:44",
+        "can_process": false,
+        "cost_attribution": "嘟嘟搞测试",
+        "total_price": 15,
+        "passenger_list": [
+            {
+                "passenger_info": {
+                    "id": "5b598c2223445f0e4391d6c0",
+                    "name": "强仔QS",
+                    "type": 0,
+                    "phone": "123****8923",
+                    "gender": {
+                        "key": 1,
+                        "value": "男"
+                    },
+                    "identity_type": "4",
+                    "identity_type_name": {
+                        "key": 4,
+                        "value": "台胞证"
+                    },
+                    "identity_no": "243***76",
+                    "org_unit": "嘟嘟搞测试",
+                    "org_unit_id": "59a80dd92798630fd780babf",
+                    "company_id": "5747fbc10f0e60e0709d8d7d",
+                    "company_name": "北京分贝金服科技有限公司",
+                    "full_org_unit": "北京分贝金服科技有限公司/嘟嘟搞测试",
+                    "birth_date": "1916-07-26"
+                },
+                "ticket_no": "223523",
+                "status": {
+                    "key": 1823,
+                    "value": "改签成功"
+                },
+                "product_id": "5bbd72352798637dc8f413bb",
+                "ticket_tips": "",
+                "can_endorse": false,
+                "can_refund": false,
+                "change_info": {
+                    "upgrade_price": 5,
+                    "upgrade_price_msg": "改期成功",
+                    "change_fee": 4,
+                    "agency_fee": 6,
+                    "change_fee_msg": "改期成功"
+                }
+            }
+        ],
+        "status": {
+            "key": 1821,
+            "value": "改签成功"
+        },
+        "segment_info": {
+            "cabin": "Z",
+            "middle_stop": false,
+            "starting_airport": "首都机场",
+            "destination_terminal": "T2",
+            "code_share": false,
+            "share_num": "",
+            "is_official": false,
+            "flight_no": "CZ3288",
+            "plane_type": "73N",
+            "starting_city": "北京市",
+            "departure_time": "2018-11-09 21:05:00",
+            "destination_airport": "两江机场",
+            "arrived_time": "2018-11-10 00:30:00",
+            "share_airline_name": "",
+            "arrived_timestamp": 1541781000000,
+            "departure_date": "2018-11-09 21:05:00",
+            "destination_code": "KWL",
+            "seat_msg": "特价舱位",
+            "starting_terminal": "T2",
+            "departure_timestamp": 1541768700000,
+            "starting_code": "PEK",
+            "is_middle_stop": false,
+            "stop_info": "",
+            "airline_name": "南方航空",
+            "destination_city": "桂林市"
+        },
+        "price_info": {
+            "discount": 1,
+            "price": 0,
+            "add_price": 0,
+            "airport_tax": 50,
+            "fuel_tax": 30,
+            "par_price": 988,
+            "sale_price": 900,
+            "settle_price": 888,
+            "coupon_amount": 1
+        },
+        "policy_info": {
+            "policy_id": "229058079"
+        },
+        "stipulate_info": {
+            "cabin": "Z",
+            "comment": "以航空公司规定为准",
+            "return_change_condition": "退票：根据航空公司规定执行  退票3\n改签：根据航空公司规定执行 改签 3\n签转：签转 3\n\n此规定仅供参考，最终以航空公司规定为准",
+            "par_price": 988
+        },
+        "contact_name": "强仔",
+        "contact_phone": "183****0640",
+        "is_manual": true,
+        "order_owner": {
+            "user_id": "59dc3c3323445f71ddcf56a8",
+            "name": "强Zai",
+            "phone": "18310480640"
+        },
+        "comment": "如需退票或改签请联系客服",
+        "check_info": [],
+        "is_external_order": 1,
+        "total_price_str": "¥15.00",
+        "manual_remark": "无",
+        "custom_remark": [],
+        "has_endorse": false,
+        "endorse_price_info": {
+            "endorse_price": 5,
+            "endorse_cost": 10,
+            "endorse_total_price": 15
+        },
+        "excced_info": {},
+        "trip_type": 0,
+        "order_type": 1,
+        "order_total_price": 15
+    }
+}
+
+```
+
+
+
