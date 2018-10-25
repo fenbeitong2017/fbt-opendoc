@@ -14,12 +14,13 @@ POST|/open/api/flight/order/detail
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
-timestamp|时间戳 |long |Y|13位时间戳
-sign|签名 |string |Y|
+timestamp|时间戳 |long |
+Y|13位时间戳
+sign|签名 |string |Y|24iu7s23sdu2ewdj782dsjsdu
 access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data||jsonobject|Y|请求数据
+data|请求数据|jsonobject|Y|请求数据
 data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 
 请求示例：
@@ -103,184 +104,21 @@ segment_info.departure_date |出发日期|string| Y |2018-03-27(年月日)
 segment_info.departure_time |出发时间|string| Y |1812(时分)
 segment_info.arrived_date |到达日期|string| Y |2018-03-27(年月日)
 segment_info.arrived_time |到达时间|string| Y |2312(时分)
-insurance_info.category_code|险种| string|Y| 1:航意险，2：航延险
-insurance_info.unit_price|保费| integer |Y|
-insurant_list.policy_number |保单编号| string|Y|10450061900247380997
-status.key |保单状态| integer |Y|8:退保成功.详细请参照保险状态码
-insurant_list.insurant_name |被保人| string |Y|张胜男
+insurance_info.category_code|险种| string|N| 1:航意险，2：航延险
+insurance_info.unit_price|保费| integer |N|
+insurant_list.policy_number |保单编号| string|N|10450061900247380997
+status.key |保单状态| integer |N|8:退保成功.详细请参照保险状态码
+insurant_list.insurant_name |被保人| string |N|张胜男
 insurant_amount |数量| integer | N |保单数量，根据保单号来进行数量判断，每个保单号会有一个保单,定义为保留字段
-employee_remark|用户备注| string |Y|出差使用
-endorse_price|改签差价| double |Y|10
-endorse_cost|改签费| double |Y|30
-endorse_total_price|改签总价| double |Y|40
+employee_remark|用户备注| string |N|出差使用
+is_external_order|是否是回填| integer | Y |0:不是回填  1:回填
+stipulate_info|退改签规则信息| jsonobject |N|根据是否为回填单来进行获取数据
+endorse_price|改签差价| double |N|10
+endorse_cost|改签费| double |N|30
+endorse_total_price|改签总价| double |N|40
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-```
-{
-    "request_id": "sX9e4zRTBpY5emyUcwqO",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "order_id": "5b9b59bae4b0ffb767208b44",
-        "pre_order_id": "5ab8b626279863224fef078e",   // 关联订单ID
-        "apply_id": "5b61757323445f071a732860",
-		"remote_order_id": "",
-		"supplier_id": 110,
-		"create_time": "2018-09-14 14:48:30",
-		"over_time": "15:03",
-		"can_process": true,
-		"cost_attribution": "X部门",
-		"total_price": 4685.00,
-		"passenger_list": [{
-			"passenger_info": {
-				"id": "59c3803423445f653d812a1c",
-				"name": "韩冰",
-				"type": 0,
-				"phone": "170****1667",
-				"gender": {
-					"key": 1,
-					"value": "男"
-				},
-				"identity_type": "2",
-				"identity_type_name": {
-					"key": 2,
-					"value": "护照"
-				},
-				"identity_no": "782********62",
-				"org_unit": "X部门",
-				"org_unit_id": "58c21a365f281a7e6f810ae6",
-				"company_id": "5747fbc10f0e60e0709d8d7d",
-				"company_name": "北京分贝金服科技有限公司",
-				"full_org_unit": "北京分贝金服科技有限公司/X部门",
-				"birth_date": "2016-10-20"
-			},
-			"status": {
-				"key": 1100,
-				"value": "待支付"
-			},
-			"product_id": "5b9b59bbe4b0ffb767208b45",
-			"ticket_tips": "",
-			"can_endorse": false,
-			"can_refund": false
-		}],
-		"status": {
-			"key": 1100,
-			"value": "待支付"
-		},
-		"segment_info": {
-			"cabin": "A",
-			"starting_airport": "首都机场",
-			"destination_terminal": "T2",
-			"code_share": false,
-			"share_num": "",
-			"is_official": false,
-			"flight_no": "CA1405",
-			"plane_type": "",
-			"starting_city": "北京市",
-			"departure_time": "0740",
-			"destination_airport": "双流机场",
-			"arrived_time": "1045",
-			"share_airline_name": "",
-			"arrived_timestamp": 1539744300000,
-			"departure_date": "2018-10-17",
-			"destination_code": "CTU",
-			"seat_msg": "头等舱/商务舱",
-			"starting_terminal": "T3",
-			"departure_timestamp": 1539733200000,
-			"starting_code": "PEK",
-			"airline_name": "中国国航",
-			"destination_city": "成都市"
-		},
-		"price_info": {
-			"discount": 2.5,
-			"price": 0,
-			"add_price": 50,
-			"airport_tax": 50,
-			"fuel_tax": 10,
-			"par_price": 4630,
-			"sale_price": 4630,
-			"settle_price": 4619,
-			"coupon_amount": 5
-		},
-		"policy_info": {
-			"policy_id": "QW_BB"
-		},
-		"stipulate_info": {
-			"cabin": "A",
-			"comment": "以航空公司规定为准",
-			"refund_stipulate": "起飞前，收取费用： 10%\n起飞后，收取费用： 20%\n*此规定仅供参考，最终以航空公司规定为准",
-			"modify_stipulate": "不允许\n*此规定仅供参考，最终以航空公司规定为准",
-			"change_stipulate": "改期：起飞前，收取费用： 5%\n起飞后，收取费用： 10%\n升舱：不允许\n*此规定仅供参考，最终以航空公司规定为准",
-			"par_price": 4630,
-			"stipulate_name": "退改签规则"
-		},
-		"contact_name": "韩冰",
-		"contact_phone": "170****1667",
-		"is_manual": false,
-		"order_owner": {
-			"user_id": "59bf74f423445f31bd64bc5c",
-			"name": "韩冰",
-			"phone": "17080151667",
-			"email": ""
-		},
-		"remark_reason": "学习培训",
-		"comment": "请在15:03前完成支付，超时订单将关闭",
-		"check_info": [],
-		"is_external_order": 0,
-		"price_detail": [{
-			"key": "票价",
-			"price": 4630.00,
-			"amount_desc": "1人",
-			"dc": 1
-		}, {
-			"key": "机建",
-			"price": 50.00,
-			"amount_desc": "1人",
-			"dc": 1
-		}, {
-			"key": "燃油",
-			"price": 10.00,
-			"amount_desc": "1人",
-			"dc": 1
-		}, {
-			"key": "优惠券",
-			"price": 5.00,
-			"amount_desc": "",
-			"dc": -1
-		}],
-		"total_price_str": "¥4685.00",
-		"manual_remark": "无",
-		"custom_remark": [],
-		"has_endorse": false,
-		"excced_info": {
-			"reason": "舱位没票了",
-			"comment": "仓位没票"
-		},
-		"trip_type": 0,
-		"order_type": 1,
-		"endorse_price_info": {
-			"endorse_price": 10,//改签差价
-			"endorse_cost": 101,改签费
-			"endorse_total_price": 111
-		},
-		"order_total_price": 4685.00
-
-    }
-}
-
-```
 
 
 
@@ -387,12 +225,12 @@ endorse_total_price|改签总价| double |Y|40
             "policy_id": "229099290"
         },
         "stipulate_info": {
-            "cabin": "Y",
-            "comment": "以航空公司规定为准",
-            "refund_stipulate": "取消座位时间计算手续费；按照当前舱位票面价收取退票费；起飞前2.0小时（含）以外收取当前舱位票面价的5.0%退票费,起飞前2.0小时以内及起飞后收取当前舱位票面价的10.0%退票费；\n*此规定仅供参考，最终以航空公司规定为准",
-            "modify_stipulate": "不能签转；\n*此规定仅供参考，最终以航空公司规定为准",
-            "change_stipulate": "按照当前舱位票面价收取变更费；起飞前2.0小时（含）以外免收改期费,起飞前2.0小时以内及起飞后收取当前舱位票面价的5.0%改期费；\n*此规定仅供参考，最终以航空公司规定为准",
-            "par_price": 950,
+            "cabin": "Y",//仓位
+            "comment": "以航空公司规定为准",//特殊说明
+            "refund_stipulate": "取消座位时间计算手续费；按照当前舱位票面价收取退票费；起飞前2.0小时（含）以外收取当前舱位票面价的5.0%退票费,起飞前2.0小时以内及起飞后收取当前舱位票面价的10.0%退票费；\n*此规定仅供参考，最终以航空公司规定为准",//退票条件
+            "modify_stipulate": "不能签转；\n*此规定仅供参考，最终以航空公司规定为准",//签转
+            "change_stipulate": "按照当前舱位票面价收取变更费；起飞前2.0小时（含）以外免收改期费,起飞前2.0小时以内及起飞后收取当前舱位票面价的5.0%改期费；\n*此规定仅供参考，最终以航空公司规定为准",//改签条件
+            "par_price": 950,//票面价
             "stipulate_name": "退改费低"
         },
         "contact_name": "强仔",
