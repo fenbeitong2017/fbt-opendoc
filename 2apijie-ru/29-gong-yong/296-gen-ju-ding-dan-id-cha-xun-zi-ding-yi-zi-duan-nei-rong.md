@@ -49,18 +49,25 @@
 ```
 
 
-
 {
-    "request_id": "M5NrqkfNe4ifAni4dLlC",
+    "request_id": "p5pSgFroxrzL6pKBt59P",
     "code": 0,
+    "type": 0,
     "msg": "success",
-    "data": 
-    [   
-     {"cost_center":"项目核算成本中心"
-     },
-     {"project_center":"中铁项目中心"
-     }
- ]   
+    "data": [
+        {
+            "cost_center": [
+                "项目核算成本中心",
+                "客户预算成本中心"
+            ]
+        },
+        {
+            "project_center": [
+                "中铁项目中心",
+                "国航项目中心"
+            ]
+        }
+    ]
 }
 
 
