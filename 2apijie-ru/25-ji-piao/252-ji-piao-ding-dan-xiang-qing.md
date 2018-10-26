@@ -455,12 +455,12 @@ endorse_total_price|改签总价| double |N|40
                 "ticket_tips": "",
                 "can_endorse": false,
                 "can_refund": false,
-                "change_info": {
-                    "upgrade_price": 5,
-                    "upgrade_price_msg": "改期成功",
-                    "change_fee": 4,
-                    "agency_fee": 6,
-                    "change_fee_msg": "改期成功"
+                 "change_info": {
+                    "upgrade_price":5,//升舱费用
+                    "upgrade_price_msg":"升舱成功",//升舱说明
+                    "change_fee":4,//改期费用
+                    "agency_fee":6,//代理费用
+                    "change_fee_msg":"改期成功"//改期说明
                 }
             }
         ],
