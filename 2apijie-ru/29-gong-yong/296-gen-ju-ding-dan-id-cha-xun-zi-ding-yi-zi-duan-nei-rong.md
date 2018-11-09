@@ -56,17 +56,24 @@
     "msg": "success",
     "data": [
         {
-            "cost_center": [
-                "项目核算成本中心",
-                "客户预算成本中心"
+        "cost_center": [
+            {"cost_center_id":"1234","cost_center_name":"项目核算成本中心"},                
+            {"cost_center_id":"123465","cost_center_name":"客户预算成本中心"}
+                
             ]
         },
         {
-            "project_center": [
-                "中铁项目中心",
-                "国航项目中心"
+        "project_center": [
+            {"project_center_id":"JSHU","project_center_name":"中铁项目中心"},        
+            {project_center_id"":"国航项目中心","project_center_name":"国航项目中心"}
             ]
-        }
+        },
+        {
+     "expenses_classify": [
+           {"expenses_classify_id":"dSur","expenses_classify_name":"经营费用"}, 
+           {"expenses_classify_id":"LJSIE","expenses_classify_name":"管理费用"}
+]
+}
     ]
 }
 

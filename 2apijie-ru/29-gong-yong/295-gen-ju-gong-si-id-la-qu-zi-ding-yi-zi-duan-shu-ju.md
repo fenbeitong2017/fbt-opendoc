@@ -61,7 +61,9 @@
         {
         "attr_name":"cost_center",
         "label":"成本中心",
-        "options":[{"1":"项目管控成本中心"},{"2":"成本核算中心"}],
+        "options":[{"cost_center_id":"1234",
+        "cost_center_name":"项目管控成本中心"},{"cost_center_id":"00876",
+        "cost_center_name":"成本核算中心"}],
         "type":"select",input:文本输入,number:数字输入、select:下拉选择
         "placeholder":"请选择",//提示文本:默认为请输入,请选择
         "required":true,//是否为必填项
@@ -71,7 +73,7 @@
     },{
         "attr_name":"expenses_classify",
         "label":"费用归属",
-        "options":[{"1":"管理费用"},{"2":"经营费用"}],
+        "options":[{"expenses_classify_id":"ALIDEOCD""expenses_classify_name":"管理费用"},{"expenses_classify_id":"ALIDEOCD""expenses_classify_name":"经营费用"}],
         "type":"select",
         "placeholder":"请选择",//提示文本，默认就是请输入,请选择
         "required":true,
@@ -81,7 +83,7 @@
     },{
         "attr_name":"project_center",
         "label":"项目中心",
-        "options":[{"1":"国航客户项目中心"},{"2":"中铁客户项目中心"}],
+        "options":[{"project_center_id":"24455","project_center_name":"国航客户项目中心"},{"project_center_id":"24485","project_center_name":"中铁客户项目中心"}],
         "type":"select",
         "placeholder":"请选择",//提示文本，默认就是请输入,请选择
         "required":true,
