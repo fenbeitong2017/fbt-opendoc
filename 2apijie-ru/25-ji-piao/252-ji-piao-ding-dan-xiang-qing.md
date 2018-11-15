@@ -116,7 +116,11 @@ stipulate_info|退改签规则信息| jsonobject |N|根据是否为回填单来�
 endorse_price|改签差价| double |N|10
 endorse_cost|改签费| double |N|30
 endorse_total_price|改签总价| double |N|40
-
+third_org_id|第三方部门id|string|Y|OWKD8ED8JR4
+third_org_name|第三方部门名称|string|Y|服务端
+third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
+third_parent_org_name|第三方部门名称|string|Y|研发部
+company_name|公司名称|string|Y|北京分贝通科技有限公司
 
 
 
@@ -217,9 +221,7 @@ endorse_total_price|改签总价| double |N|40
             "add_price": 0,
             "airport_tax": 50,
             "fuel_tax": 20,
-            "par_price": 950,
-            "sale_price": 928,
-            "settle_price": 928
+            "par_price": 950
         },
         "policy_info": {
             "policy_id": "229099290"
@@ -277,6 +279,11 @@ endorse_total_price|改签总价| double |N|40
         "excced_info": {},
         "trip_type": 0,
         "order_type": 1,
+        "third_parent_org_id": "",
+        "third_org_name": "",
+        "third_parent_org_name": "",
+        "third_org_id": "OWKD8ED8JR4
+",
         "order_total_price": -950
     }
 }
@@ -363,8 +370,6 @@ endorse_total_price|改签总价| double |N|40
             "airport_tax": 50,
             "fuel_tax": 10,
             "par_price": 1417,
-            "sale_price": 1357,
-            "settle_price": 1350,
             "insurance_price": 0,
             "insurance_cost": 0
         },
@@ -396,6 +401,10 @@ endorse_total_price|改签总价| double |N|40
         "excced_info": {},
         "trip_type": 0,
         "order_type": 1,
+        "third_parent_org_id": "",
+        "third_org_name": "",
+        "third_parent_org_name": "",
+        "third_org_id": "",
         "order_total_price": 1417
     }
 }
@@ -502,8 +511,6 @@ endorse_total_price|改签总价| double |N|40
             "airport_tax": 50,
             "fuel_tax": 30,
             "par_price": 988,
-            "sale_price": 900,
-            "settle_price": 888,
             "coupon_amount": 1
         },
         "policy_info": {
