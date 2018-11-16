@@ -97,7 +97,11 @@ exceeded | 是否超标 | boolean | Y | false
 apply_id |审批单ID| string | N|17948763419761f9209db83
 insurance\_info | 保险信息 | jsonarray | N |保险信息
 comment | 评论 | string | Y | 其他 
-
+third_org_id|第三方部门id|string|Y|OWKD8ED8JR4
+third_org_name|第三方部门名称|string|Y|服务端
+third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
+third_parent_org_name|第三方部门名称|string|Y|研发部
+company_name|公司名称|string|Y|北京分贝金服科技有限公司
 
 ```
 {
@@ -107,6 +111,11 @@ comment | 评论 | string | Y | 其他
     "data": {
         "order_id": "5a98fe1b2798636ba9006f1e",
         "original_order_id": "5a98fe1b2798636ba9006foi",
+        "third_parent_org_id": "JD8E8J9EJD8",
+        "third_org_name": "服务端",
+        "third_parent_org_name": "研发部",
+        "third_org_id": "OWKD8ED8JR4",
+        "company_name":"北京分贝金服科技有限公司",
         "status": 2301,
         "status_name": "已取消",
         "create_time": 1519975963862,
