@@ -120,6 +120,7 @@ third_org_id|第三方部门id|string|Y|OWKD8ED8JR4
 third_org_name|第三方部门名称|string|Y|服务端
 third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
 third_parent_org_name|第三方父部门名称|string|Y|研发部
+third_employee_id|第三方员工ID|string|Y|8792794244
 company_name|公司名称|string|Y|北京分贝金服科技有限公司
 
 
@@ -283,6 +284,7 @@ company_name|公司名称|string|Y|北京分贝金服科技有限公司
         "third_org_name": "服务端",
         "third_parent_org_name": "研发部",
         "third_org_id": "OWKD8ED8JR4",
+        "third_employee_id":"8792794244",
         "company_name":"北京分贝金服科技有限公司",
         "order_total_price": -950
     }
@@ -405,6 +407,7 @@ company_name|公司名称|string|Y|北京分贝金服科技有限公司
         "third_org_name": "服务端",
         "third_parent_org_name": "研发部",
         "third_org_id": "OWKD8ED8JR4",
+        "third_employee_id":"8792794244",
         "company_name":"北京分贝金服科技有限公司",
         "order_total_price": 1417
     }
@@ -550,6 +553,7 @@ company_name|公司名称|string|Y|北京分贝金服科技有限公司
         "third_org_name": "服务端",
         "third_parent_org_name": "研发部",
         "third_org_id": "OWKD8ED8JR4",
+        "third_employee_id":"8792794244",
         "company_name":"北京分贝金服科技有限公司",
         "order_total_price": 15
     }
