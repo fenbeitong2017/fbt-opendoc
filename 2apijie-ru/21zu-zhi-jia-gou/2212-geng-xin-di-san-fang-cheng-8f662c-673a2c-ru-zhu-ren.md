@@ -1,4 +1,4 @@
- 2.2.5 添加第三方乘车，机，入住人
+ 2.2.12 更新第三方乘车，机，入住人
 ####接口说明
 - 1.**最新接口**
 - 2.不支持批量添加
@@ -6,7 +6,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/frequent/create
+POST|/open/api/third/frequent/update
 
 
 请求参数:
