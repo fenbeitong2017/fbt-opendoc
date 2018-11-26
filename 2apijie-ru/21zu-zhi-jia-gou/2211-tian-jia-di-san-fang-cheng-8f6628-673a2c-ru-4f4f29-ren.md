@@ -36,7 +36,7 @@ data.given_name|英文姓| string |N|frequent_type=2时必填，必须使用拼�
 data.cert_valid_date|证件有效期| string |N|2017-02-01 frequent_type=2时必填
 data.nationality|国籍|string |N|CN 根据获取国家列表接口查询
 data.nationality_name|国籍名称| string |N|中国  根据获取国家列表接口查询
-data.frequent_type|场景类型| string |Y|1:国内 2:国际 国际机票使用2
+data.frequent_type|场景类型| integer |Y|1:国内 2:国际 国际机票使用2
 data.company_id|公司ID| string |Y|58734b2e5f281a41b304181f
 data.owner_id|当前登录人| string |Y|为第三方用户ID
 data.use_type|因公因私标识| integer |Y|1：因公
