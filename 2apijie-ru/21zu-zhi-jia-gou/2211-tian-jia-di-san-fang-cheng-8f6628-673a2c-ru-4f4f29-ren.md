@@ -85,4 +85,18 @@ data.use_type|因公因私标识| integer |Y|1：因公
     }
 }
 
+
+{
+    "request_id": "cbXe80VZJvbIH3PQnsJ8",
+    "code": 600,
+    "msg": "该联系人信息已存在！40iojr576we7654"
+}
+
+
+{
+    "request_id": "6SAgFcefCXMh2GpqAYNw",
+    "code": 600,
+    "msg": "国内机票联系人类型错误！"
+}
+
 ```
