@@ -1,4 +1,4 @@
-2.2.5 添加第三方乘车，机，入住人
+ 2.2.5 添加第三方乘车，机，入住人
 ####接口说明
 - 1.**最新接口**
 - 2.不支持批量添加
@@ -20,7 +20,8 @@ employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
 data.type|公司类型|integer|Y|1:代表分贝公司, 2:代表第三方企业
-data.third_frequent_id|第三方联系人ID|string |Y|不可重复，更新/查询/删除操作使用
+data.frequent_id_type|第三方联系人ID类型|integer |Y|1:使用分贝联系人ID 2:第三方联系人ID
+data.id|第三方联系人ID|integer |Y|58734b2e5f281a41b304181f，添加时返回的为分贝通ID;添加时添加字段third_frequent_id为第三方ID
 data.name|姓名| string |Y|张三
 data.gender|性别| string |Y|1:男2:女 当idType为1时不需要传递，其他类型需要传递
 data.birth_date|出生年月| string |N|1990-02-02 当idType为1时不需要传递，其他类型需要传递
@@ -87,9 +88,9 @@ data.use_type|因公因私标识| integer |Y|1：因公
 
 
 {
-    "request_id": "NlJISjtZzEzADoYMT45H",
+    "request_id": "cbXe80VZJvbIH3PQnsJ8",
     "code": 600,
-    "msg": "该联系人信息不存在:40iojr576we7654"
+    "msg": "该联系人信息已存在！40iojr576we7654"
 }
 
 
