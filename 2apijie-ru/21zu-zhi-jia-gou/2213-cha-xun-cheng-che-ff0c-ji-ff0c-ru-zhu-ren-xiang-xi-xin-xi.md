@@ -1,4 +1,4 @@
-2.2.13 2.2.13 查询乘车,机,入住人详细信息
+2.2.13查询乘车,机,入住人详细信息
 ####接口说明
 - 1.**最新接口**
 - 2.不支持批量查询
@@ -42,12 +42,37 @@ data.owner_id|当前登录人| string |Y|为第三方用户ID
 
 ```
 {
-    "request_id": "9CRe5SOw2yQCaIBdxDyr",
+    "request_id": "sY252dO01Hbr7APzValC",
     "code": 0,
     "type": 0,
     "msg": "success",
     "data": {
-        "id": "5bfb899c23445f2558d934b8"
+        "gender": 1,
+        "frequentType": 2,
+        "unitName": "测试部门",
+        "orgnazationFlag": false,
+        "givenName": "hansins",
+        "nationalityName": "中国",
+        "selectedEmployeeId": "59bf74f423445f31bd64bc5c",
+        "phoneNum": "17800089999",
+        "ownerId": "59bf74f423445f31bd64bc5c",
+        "idNumber": "2305009876434",
+        "useType": 1,
+        "birthDate": "1990-02-02",
+        "employeeFlag": true,
+        "thirdFrequentId": "40iojr576we7654",
+        "nationality": "CN",
+        "useNum": 0,
+        "familyName": "dave",
+        "name": "张三",
+        "idTypeEntity": {
+            "value": "护照",
+            "key": 2
+        },
+        "certValidDate": "2117-02-01",
+        "id": "5bfb899c23445f2558d934b8",
+        "category": 40,
+        "email": ""
     }
 }
 
