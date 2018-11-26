@@ -1,12 +1,12 @@
- 2.2.5 添加第三方乘车，机，入住人
+ 2.2.12 更新第三方乘车，机，入住人
 ####接口说明
 - 1.**最新接口**
-- 2.不支持批量添加
+- 2.不支持批量更新
 
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/frequent/create
+POST|/open/api/third/frequent/update
 
 
 请求参数:
@@ -23,21 +23,21 @@ data.type|公司类型|integer|Y|1:代表分贝公司, 2:代表第三方企业
 data.frequent_id_type|第三方联系人ID类型|integer |Y|1:使用分贝联系人ID 2:第三方联系人ID
 data.id|第三方联系人ID|integer |Y|58734b2e5f281a41b304181f，添加时返回的为分贝通ID;添加时添加字段third_frequent_id为第三方ID
 data.name|姓名| string |Y|张三
-data.gender|性别| string |Y|1:男2:女 当idType为1时不需要传递，其他类型需要传递
-data.birth_date|出生年月| string |N|1990-02-02 当idType为1时不需要传递，其他类型需要传递
+data.gender|性别| string |N|1:男2:女 当id_type为1时不需要传递，其他类型需要传递
+data.birth_date|出生年月| string |N|1990-02-02 当id_type为1时不需要传递，其他类型需要传递
 data.email|邮箱| string |N|san.zhang@fenbeitong.com
 data.phone_num|手机号| string |Y|17089078090
-data.employee_flag|是否为企业员工| string |N|如果是从组织架构入口进入则为true,反之则为false
-data.selected_employee_id|实际选择的人|string |Y|//同行人在组织架构的id ，employeeFlag为false,不传递。为false时是从非组织架构选择添加的人员
+data.employee_flag|是否为企业员工| string |Y|如果是从组织架构入口进入则为true,反之则为false
+data.selected_employee_id|实际选择的人|string |Y|同行人在组织架构的id ，employee_flag为false,不传递。为false时是从非组织架构选择添加的人员
 data.id_number|身份证件号| string |Y|57689098
-data.id_type|证件类型| string |integer|1.身份证 2.护照 3.回乡证 4.台胞证 5.港澳通行证 6.大陆居民往来台湾通行证
-data.category|业务类型| integer |N|当frequentType为1时，酒店:11,其它:0,当frequentType为2时，国际机票传:40,不进行实际业务处理
-data.family_name|英文名| string |N|frequentType=2时必填，必须使用拼音或者英文
-data.given_name|英文姓| string |N|frequentType=2时必填，必须使用拼音或者英文
-data.cert_valid_date|证件有效期| string |N|2017-02-01 frequentType=2时必填
+data.id_type|证件类型| integer |Y|1.身份证 2.护照 3.回乡证 4.台胞证 5.港澳通行证 6.大陆居民往来台湾通行证
+data.category|业务类型| integer |Y|当frequent_type为1时，酒店:11,其它:0,当frequent_type为2时，国际机票传:40,不进行实际业务处理
+data.family_name|英文名| string |N|frequent_type=2时必填，必须使用拼音或者英文
+data.given_name|英文姓| string |N|frequent_type=2时必填，必须使用拼音或者英文
+data.cert_valid_date|证件有效期| string |N|2017-02-01 frequent_type=2时必填
 data.nationality|国籍|string |N|CN 根据获取国家列表接口查询
 data.nationality_name|国籍名称| string |N|中国  根据获取国家列表接口查询
-data.frequent_type|场景类型| string |Y|1:国内 2:国际 国际机票使用2
+data.frequent_type|场景类型| integer |Y|1:国内 2:国际 国际机票使用2
 data.company_id|公司ID| string |Y|58734b2e5f281a41b304181f
 data.owner_id|当前登录人| string |Y|为第三方用户ID
 data.use_type|因公因私标识| integer |Y|1：因公
@@ -48,7 +48,8 @@ data.use_type|因公因私标识| integer |Y|1：因公
  
  ```
 {"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": { "type" :2, 
-"third_frequent_id": "40iojr576we7654" , 
+"id":"58734b2e5f281a41b304181f",
+"frequent_id_type":1,
 "name":"张三",
 "gender":1 ,
 "birth_date":"1990-02-02",
