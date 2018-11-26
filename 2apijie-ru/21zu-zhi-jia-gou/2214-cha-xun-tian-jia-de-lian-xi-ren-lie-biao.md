@@ -19,7 +19,7 @@ employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
 data.type|公司类型|integer|Y|1:代表分贝公司, 2:代表第三方企业
-data.selected_employee_id|实际选择的人|string |Y|//同行人在组织架构的id ，employee_flag为false,不传递。为false时是从非组织架构选择添加的人员
+data.selected_employee_id|实际选择的人|string |Y|同行人在组织架构的id ，employee_flag为false,不传递。为false时是从非组织架构选择添加的人员
 data.frequent_type|场景类型| integer |Y|1:国内 2:国际 国际机票使用2
 data.company_id|公司ID| string |Y|58734b2e5f281a41b304181f
 data.owner_id|当前登录人| string |Y|为第三方用户ID

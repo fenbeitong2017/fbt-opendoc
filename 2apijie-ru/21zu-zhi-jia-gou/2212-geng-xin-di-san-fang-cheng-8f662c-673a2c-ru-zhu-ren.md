@@ -28,10 +28,10 @@ data.birth_date|出生年月| string |N|1990-02-02 当id_type为1时不需要传
 data.email|邮箱| string |N|san.zhang@fenbeitong.com
 data.phone_num|手机号| string |Y|17089078090
 data.employee_flag|是否为企业员工| string |Y|如果是从组织架构入口进入则为true,反之则为false
-data.selected_employee_id|实际选择的人|string |Y|//同行人在组织架构的id ，employee_flag为false,不传递。为false时是从非组织架构选择添加的人员
+data.selected_employee_id|实际选择的人|string |Y|同行人在组织架构的id ，employee_flag为false,不传递。为false时是从非组织架构选择添加的人员
 data.id_number|身份证件号| string |Y|57689098
-data.id_type|证件类型| string |integer|1.身份证 2.护照 3.回乡证 4.台胞证 5.港澳通行证 6.大陆居民往来台湾通行证
-data.category|业务类型| integer |Y|当frequent_type为1时，酒店:11,其它:0,当frequentType为2时，国际机票传:40,不进行实际业务处理
+data.id_type|证件类型| integer |Y|1.身份证 2.护照 3.回乡证 4.台胞证 5.港澳通行证 6.大陆居民往来台湾通行证
+data.category|业务类型| integer |Y|当frequent_type为1时，酒店:11,其它:0,当frequent_type为2时，国际机票传:40,不进行实际业务处理
 data.family_name|英文名| string |N|frequent_type=2时必填，必须使用拼音或者英文
 data.given_name|英文姓| string |N|frequent_type=2时必填，必须使用拼音或者英文
 data.cert_valid_date|证件有效期| string |N|2017-02-01 frequent_type=2时必填
