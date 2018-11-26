@@ -24,6 +24,7 @@
     * [2.2.8 绑定第三方用户ID](2apijie-ru/21zu-zhi-jia-gou/228-bang-ding-di-san-fang-yong-hu-id.md)
     * [2.2.9 根据第三方部门ID查询部门信息](2apijie-ru/21zu-zhi-jia-gou/229-gen-ju-bu-men-id-cha-xun-bu-men-xin-xi.md)
     * [2.2.10 根据公司ID查询公司的组织架构](2apijie-ru/21zu-zhi-jia-gou/2210-gen-ju-gong-si-id-cha-xun-gong-si-de-zu-zhi-jia-gou.md)
+    * [2.2.11 添加第三方乘车\(机,入住\)人](2apijie-ru/21zu-zhi-jia-gou/2211-tian-jia-di-san-fang-cheng-8f6628-673a2c-ru-4f4f29-ren.md)
   * [2.3 API接入说明](2apijie-ru/22-apijie-ru-shuo-ming.md)
     * [2.3.1 签名算法](2apijie-ru/22-apijie-ru-shuo-ming/221-qian-ming-suan-fa.md)
     * [2.3.2 消息回调说明](2apijie-ru/22-apijie-ru-shuo-ming/222-xiao-xi-hui-diao-shuo-ming.md)
