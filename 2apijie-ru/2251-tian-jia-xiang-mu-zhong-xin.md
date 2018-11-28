@@ -31,9 +31,9 @@ data.end_date|项目结束时间| string |Y|2019-04-21 10:00:00
 data.expired_state|是否过期自动停用| integer |Y|过期后是否自动停用 1：不停用 2：停
 data.usable_range|使用范围是否限制|integer |Y| 1不限2限制
 data.state|项目状态| integer |Y|项目状态  1启用 0停用
-data.manager|项目负责人| jsonarray |Y|项目负责人信息
+data.manager|项目负责人| jsonarray |Y|项目负责人信息，项目负责人默认会是项目成员
 data.manager.member_id|项目负责人人员ID| string |Y|third-hanbing
-data.manager.is_manager|是否为负责人| boolean |Y|
+data.manager.is_manager|是否为负责人| boolean |Y|true,false
 data.manager.member_type|员工部门标识| integer |Y|2:是部门3:是员工
 data.member|项目成员信息| jsonarray |Y|项目成员信息
 data.member.member_id|项目人员ID| string |Y|third-hanbing
@@ -42,11 +42,8 @@ data.member|项目成员信息| jsonarray |N|项目成员信息
 data.member.member_id|项目人员ID| string |N|third-hanbing
 data.member.is_manager|是否为负责人| boolean |N|true,false
 data.member_dept|项目部门信息| jsonarray |N|项目部门信息
-data.member.member_id|项目部门ID| string |N|third-dep-no
-data.member.is_manager|是否为负责人| boolean |N|true,false
-
-
-
+data.member_dept.member_id|项目部门ID| string |N|third-dep-no
+data.member_dept.is_manager|是否为负责人| boolean |N|true,false
 
 
 
@@ -87,7 +84,7 @@ data.member.is_manager|是否为负责人| boolean |N|true,false
     ],
     "member_dept": [
       {
-        "member_id": "000666",
+        "member_id": "third-dep-no",
         "is_manager": true
       }
     ]
@@ -106,6 +103,19 @@ data.member.is_manager|是否为负责人| boolean |N|true,false
     "data": {
         "id": "5bfdf24e23445f3863c1e66f"
     }
+}
+
+{
+    "request_id": "NJl5D8j3t3FXMv5fk65x",
+    "code": 1100004,
+    "msg": "项目编号已经存在"
+}
+
+
+{
+    "request_id": "puKC1Pab3g5JsG8uFugm",
+    "code": 1100010,
+    "msg": "第三方项目ID已存在"
 }
 
 ```
