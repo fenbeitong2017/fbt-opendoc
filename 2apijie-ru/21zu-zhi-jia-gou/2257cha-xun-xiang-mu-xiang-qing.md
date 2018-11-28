@@ -4,7 +4,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/project/createBatch
+POST|/open/api/third/project/get
 
 请求参数:
 

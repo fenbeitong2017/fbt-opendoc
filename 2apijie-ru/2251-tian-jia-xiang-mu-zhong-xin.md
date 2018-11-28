@@ -35,13 +35,13 @@ data.manager|项目负责人| jsonarray |Y|项目负责人信息，项目负责�
 data.manager.member_id|项目负责人人员ID| string |Y|third-hanbing
 data.manager.is_manager|是否为负责人| boolean |Y|true,false
 data.manager.member_type|员工部门标识| integer |Y|2:是部门3:是员工
-data.member|项目成员信息| jsonarray |Y|项目成员信息
+data.member|项目成员信息| jsonarray |Y|项目成员信息，不填写项目负责人就是项目成员
 data.member.member_id|项目人员ID| string |Y|third-hanbing
 data.member.is_manager|是否为负责人| boolean |Y|true,false
 data.member|项目成员信息| jsonarray |N|项目成员信息
 data.member.member_id|项目人员ID| string |N|third-hanbing
 data.member.is_manager|是否为负责人| boolean |N|true,false
-data.member_dept|项目部门信息| jsonarray |N|项目部门信息
+data.member_dept|项目部门信息| jsonarray |N|项目部门信息 不填写项目负责人就是项目成员
 data.member_dept.member_id|项目部门ID| string |N|third-dep-no
 data.member_dept.is_manager|是否为负责人| boolean |N|true,false
 
