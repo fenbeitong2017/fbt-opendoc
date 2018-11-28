@@ -1,12 +1,12 @@
-2.2.5.1 添加第三方项目中心
+2.2.5.2 更新第三方项目中心
 ####接口说明
 - 1.**最新接口**
-- 2.不支持批量添加
+- 2.不支持批量更新
 
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/project/create
+POST|/open/api/third/project/update
 
 
 请求参数:
@@ -105,17 +105,5 @@ data.member_dept.is_manager|是否为负责人| boolean |N|true,false
     }
 }
 
-{
-    "request_id": "NJl5D8j3t3FXMv5fk65x",
-    "code": 1100004,
-    "msg": "项目编号已经存在"
-}
-
-
-{
-    "request_id": "puKC1Pab3g5JsG8uFugm",
-    "code": 1100010,
-    "msg": "第三方项目ID已存在"
-}
 
 ```
