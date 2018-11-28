@@ -19,11 +19,36 @@ access\_token|token | string |Y|登录 token
 employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
-data.company_id|公司ID|string|Y|
-data.third_frequent_id|第三方联系人ID|string |Y|不可重复，更新/查询/删除操作使用
-data.name|姓名| string |Y|张三
-data.gender|性别| string |N|1:男2:女 当id_type为1时不需要传递，其他类型需要传递
-data.birth_date|出生年月| string |N|1990-02-02 当id_type为1时不需要传递，其他类型需要传递
+data.company_id|公司ID|string|Y|5747fbc10f0e60e0709d8d7d
+data.user_id|添加人ID|string |Y|hanbing
+data.type|人员和部门类型| integer |Y|1:分贝部门ID;  2:第三方ID
+data.third_cost_id|第三方项目ID| string |Y|35hfdd43UDJKF8 不可重复，唯一标识
+data.code|项目编号| string |Y|项目标号，不可重复
+data.name|项目名称|string |Y|国航项目
+data.description|项目描述| string |Y|项目描述
+data.begin_date|项目开始时间| string |Y|2019-04-20 10:00:00
+data.end_date|项目结束时间| string |Y|2019-04-21 10:00:00
+data.expired_state|是否过期自动停用| integer |Y|过期后是否自动停用 1：不停用 2：停
+data.usable_range|使用范围是否限制|integer |Y| 1不限2限制
+data.state|项目状态| integer |Y|项目状态  1启用 0停用
+data.manager|项目负责人| jsonarray |Y|项目负责人信息
+data.manager.member_id|项目负责人人员ID| string |Y|third-hanbing
+data.manager.is_manager|是否为负责人| boolean |Y|
+data.manager.member_type|员工部门标识| integer |Y|2:是部门3:是员工
+data.member|项目成员信息| jsonarray |Y|项目成员信息
+data.member.member_id|项目人员ID| string |Y|third-hanbing
+data.member.is_manager|是否为负责人| boolean |Y|true,false
+data.member|项目成员信息| jsonarray |N|项目成员信息
+data.member.member_id|项目人员ID| string |N|third-hanbing
+data.member.is_manager|是否为负责人| boolean |N|true,false
+data.member_dept|项目部门信息| jsonarray |N|项目部门信息
+data.member.member_id|项目部门ID| string |N|third-dep-no
+data.member.is_manager|是否为负责人| boolean |N|true,false
+
+
+
+
+
 
 
  请求示例:
@@ -36,7 +61,7 @@ data.birth_date|出生年月| string |N|1990-02-02 当id_type为1时不需要传
   "sign": "jifejfwojelajflejf",
   "data": {
     "company_id": "5747fbc10f0e60e0709d8d7d",
-    "user_id": "hanshuqi-H5-dev",
+    "user_id": "hanbing",
     "type": 2,
     "third_cost_id": "35hfdd43UDJKF8",
     "code": "36576232texce4694",
@@ -49,7 +74,7 @@ data.birth_date|出生年月| string |N|1990-02-02 当id_type为1时不需要传
     "state": 1,
     "manager": [
       {
-        "member_id": "third-fanqian",
+        "member_id": "third-hanbing",
         "is_manager": true,
         "member_type": 3
       }
