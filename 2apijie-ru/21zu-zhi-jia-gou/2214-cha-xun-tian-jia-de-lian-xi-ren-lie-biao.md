@@ -25,34 +25,22 @@ data.company_id|公司ID| string |Y|58734b2e5f281a41b304181f
 data.owner_id|当前登录人| string |Y|为第三方用户ID
 
 
-
-
  请求示例:
  
  ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": { "type" :2, 
-"third_frequent_id": "40iojr576we7654" , 
-"name":"张三",
-"gender":1 ,
-"birth_date":"1990-02-02",
-"email":"san.zhang@fenbeitong.com",
-"phone_num":"17800089098", 
-"employee_flag":true, 
-"selected_employee_id":"zhangsan-dev", 
-"id_number":"2305434", 
-"idType":2,
-"category":40, 
-"family_name":"dave",
-"given_name":"hansins", 
-"cert_valid_date":"2117-02-01",
-"nationality":"CN",
-"nationality_name":"中国",
-"frequent_type":2, 
-"company_id":"5747fbc10f0e60e0709d8d7d",  
-"owner_id":"zhangsan-dev",    
-"use_type":1 
-}
-
+{
+  "access_token": "xxx.xxx.xxx",
+  "timestamp": 123456789,
+  "employee_id": 12345678,
+  "sign": "jifejfwojelajflejf",
+  "data": {
+    "type": 2,
+    "employee_flag": true,
+    "selected_employee_id": "zhangsan-dev",
+    "frequent_type": 2,
+    "company_id": "5747fbc10f0e60e0709d8d7d",
+    "owner_id": "zhangsan-dev"
+  }
 }
 ```
 
