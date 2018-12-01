@@ -62,13 +62,23 @@ data.project_info.third_cost_id|第三方项目ID| string |Y|9843894927943
 
 ```
 {
-    "request_id": "xSm0lDkBo87t2x3nb3UP",
-    "code": 0,
-    "type": 0,
-    "msg": "success",
-    "data": {
-        "id": "5bfdf24e23445f3863c1e66f"
-    }
+  "request_id": "IqQMZJGG16Ns2EeUKi1J",
+  "code": 0,
+  "type": 0,
+  "msg": "success",
+  "data": [
+      {
+          "id":"5afa956523445f22dd04322",  //分贝ID
+          "thirdCostId":"123123"           //三方ID
+      },
+       {
+          "id":"5afa956523445f22dd0ww22",
+          "thirdCostId":"1234121"
+      }
+      
+      ]
+      
+  
 }
 
 
