@@ -6,7 +6,7 @@
 生产环境:https://webapp.fenbeitong.com
 /sso?token=ilsoiejfewdjkfjsfw84ur83kd&tp_user_id=201800989305&tp_mobile=17080151669 嵌入到第三方应用中;
 4)根据公司token和个人的第三方人员ID和手机号换取分贝通的个人token,分贝通会校验token的有效性，然后跳转到分贝通主页
-> 2.查询企业URL等信息，可以根据app_id和app_key进行查询;
+
 
 
 
