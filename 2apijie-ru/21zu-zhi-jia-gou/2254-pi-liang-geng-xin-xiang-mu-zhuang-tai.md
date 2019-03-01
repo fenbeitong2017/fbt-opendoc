@@ -19,7 +19,7 @@ employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
 data.company_id|公司ID|string|Y|5747fbc10f0e60e0709d8d7d
-data.id_type|第三方项目ID类型|integer |Y|分贝通项目IDI:1,第三方项目ID:2
+data.type|第三方项目ID类型|integer |Y|分贝通项目IDI:1,第三方项目ID:2
 data.state|项目状态| integer |Y| 1启用 0停用
 data.id_list|项目ID集合| jsonarray |Y| 项目ID集合
 
