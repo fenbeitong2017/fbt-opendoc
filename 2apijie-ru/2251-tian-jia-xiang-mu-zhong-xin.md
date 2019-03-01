@@ -33,6 +33,7 @@ data.usable_range|使用范围是否限制|integer |Y| 1不限2限制
 data.state|项目状态| integer |Y|项目状态  1启用 0停用
 data.manager|项目负责人| jsonarray |Y|项目负责人信息，项目负责人默认会是项目成员
 data.manager.member_id|项目负责人人员ID| string |Y|third-hanbing
+data.manager.member_name|项目负责人人员姓名| string |Y|韩冰
 data.manager.is_manager|是否为负责人| boolean |Y|true,false
 data.manager.member_type|员工部门标识| integer |Y|2:是部门3:是员工
 data.member|项目成员信息| jsonarray |Y|项目成员信息，不填写项目负责人就是项目成员
