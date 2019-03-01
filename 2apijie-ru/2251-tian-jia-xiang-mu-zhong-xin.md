@@ -73,6 +73,7 @@ data.member_dept.is_manager|是否为负责人| boolean |N|true,false
     "manager": [
       {
         "member_id": "third-hanbing",
+        "member_name":"韩冰",
         "is_manager": true,
         "member_type": 3
       }
