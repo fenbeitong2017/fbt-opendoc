@@ -57,38 +57,32 @@ data.member_dept.is_manager|是否为负责人| boolean |N|true,false
   "employee_id": 12345678,
   "sign": "jifejfwojelajflejf",
   "data": {
-    "company_id": "5747fbc10f0e60e0709d8d7d",
-    "user_id": "hanbing",
-    "type": 2,
-    "third_cost_id": "35hfdd43UDJKF8",
-    "code": "36576232texce4694",
-    "name": "国航项目",
-    "description": "国航项目很好",
-    "begin_date": "2019-04-20 10:00:00",
-    "end_date": "2019-04-21 10:00:00",
-    "expired_state": 2,
-    "usable_range": 2,
-    "state": 1,
-    "manager": [
-      {
-        "member_id": "third-hanbing",
-        "is_manager": true,
-        "member_type": 3
-      }
-    ],
-    "member": [
-      {
-        "member_id": "hanshuqi-H5-dev",
-        "is_manager": false
-      }
-    ],
-    "member_dept": [
-      {
-        "member_id": "third-dep-no",
-        "is_manager": true
-      }
-    ]
-  }
+  "code": "3657623562texce4694",
+  "type": 2,
+  "company_id": "5747fbc10f0e60e0709d8d7d",
+  "user_id": "third_hanshuqi",
+  "third_cost_id": "35hfdd4698943f63UDJKF8",
+  "name": "第三方项目中心测试001",
+  "description": "测试说明",
+  "begin_date": "2019-04-23 10:00:00",
+  "end_date": "2019-04-24 10:00:00",
+  "expired_state": 2,
+  "usable_range": 1,
+  "state": 1,
+  "manager": [
+    {
+      "member_id": "third_hanshuqi",
+      "is_manager": true,
+      "member_type": 3
+    }
+  ],
+  "member": [
+    {
+      "member_id": "third_hanshuqi",
+      "is_manager": false
+    }
+  ]
+}
 }
 ```
 
