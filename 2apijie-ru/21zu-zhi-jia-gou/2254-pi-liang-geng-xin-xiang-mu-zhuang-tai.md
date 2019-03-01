@@ -33,12 +33,12 @@ data.id_list|项目ID集合| jsonarray |Y| 项目ID集合
   "employee_id": 12345678,
   "sign": "hdi8492j828j37264q0dj8sh",
   "data": {
-  "company_id": "5747fbc10f0e60e0709d8d7d",
-  "state": 1,
-  "id_type": 1,
+  "state": 0, 
+  "type":2,
+"company_id":"5747fbc10f0e60e0709d8d7d",
   "id_list": [
-    "5bfdf24e23863c1e66f",
-    "5bfd199123445f10a33e1bb8"
+    "35hfdd4698943f63UDJKF8",
+    "35hfd6dgd469345672DJKF8"
   ]
 }
 }
