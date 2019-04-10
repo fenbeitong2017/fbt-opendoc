@@ -1,13 +1,13 @@
-2.12.2 更新预算接口
+2.12.3 查询预算详情
 
 ####接口说明
 - 1.**最新接口**
-- 2.更新预算接口可以更新预算相关数据
+- 2.查询预算详细信息
 
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/budget/update
+POST|/open/api/third/budget/detail
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
@@ -17,9 +17,17 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|请求数据
+data.id|预算种类|string |Y|预算ID
+
+
+
+响应方数据说明:
+
+字段|名称|类型|必填|描述
+-----|-----|----|----|----
 data.budget_type|预算种类|integer |Y|1:个人预算 2:部门预算 3:项目中心预算
 data.budget_name |预算名称| string | Y |不能重复
-data.id |预算ID| string | Y |为创建预算时填写的预算ID
+data.budget_thrid_id |第三方预算ID| string | Y |不能重复
 data.warn_percent1 |预警百分比1| integer | Y |30，较低值
 data.warn_percent2|预警百分比2| integer| Y |60，较高值
 data.execution_cycle|执行周期|integer |Y|1:自然月 2:自然季 3:自然年 4:项目周期 5:自定义
@@ -85,7 +93,7 @@ typeList.sort|业务类型显示排序 | integer| Y |1，2，3
       ]
     }
   ],
-  "id": "09780089767567657687898"
+  "budget_thrid_id": "09780089767567657687898"
  }
 }
 

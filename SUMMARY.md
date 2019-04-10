@@ -73,6 +73,7 @@
   * [2.12 预算接口接入](2apijie-ru/212-yu-suan-jie-kou-jie-ru.md)
     * [2.12.1 新增预算](2apijie-ru/212-yu-suan-jie-kou-jie-ru/2121-xin-zeng-yu-suan.md)
     * [2.12.2 更新预算](2apijie-ru/212-yu-suan-jie-kou-jie-ru/2122-geng-xin-yu-suan.md)
+    * [2.12.3 查询预算详情](2apijie-ru/212-yu-suan-jie-kou-jie-ru/2123-cha-xun-yu-suan-xiang-qing.md)
 * [3.H5接口接入](3h5jie-ru.md)
   * [3.1 老版本接入](3h5jie-ru/31-lao-ban-ben-jie-ru.md)
     * [3.1.1 接入说明](3h5jie-ru/31-lao-ban-ben-jie-ru/311-jie-ru-shuo-ming.md)
