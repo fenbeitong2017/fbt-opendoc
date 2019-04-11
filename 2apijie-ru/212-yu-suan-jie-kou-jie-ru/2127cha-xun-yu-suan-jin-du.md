@@ -22,7 +22,7 @@ data.employee_id|人员ID|string |N|人员ID
 data.cost_center_id|项目中心ID|string |N|  项目中心ID
 data.department_id|部门ID|string |N|部门ID
 data.company_id|公司ID|string |Y|公司ID
-data.type|类型|integer |Y|公司ID
+data.type|类型|integer |Y|  1:使用分贝ID，2使用第三方ID
 
 
 
