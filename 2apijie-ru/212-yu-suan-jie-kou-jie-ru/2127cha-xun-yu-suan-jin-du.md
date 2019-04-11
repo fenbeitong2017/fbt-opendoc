@@ -7,7 +7,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/third/budget/list
+POST|/open/api/third/budget/progress
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
