@@ -25,12 +25,9 @@ data.company_id|公司ID|string |Y|公司ID
 data.type|类型|integer |Y|  1:使用分贝ID，2使用第三方ID
 
 
-
-
 请求示例：
 
 ```
-
 
 {
 "access_token":"5747fbc10f0e60e0709d8d722",
@@ -47,11 +44,11 @@ data.type|类型|integer |Y|  1:使用分贝ID，2使用第三方ID
 }
 
 
+```
 
 响应数据：
 
 ```
-
 {
   "request_id": "z8t44CMWLIFpEBpvR1mg",
   "code": 0,
