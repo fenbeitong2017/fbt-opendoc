@@ -30,6 +30,15 @@
 | data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
 | data.trip\_list.estimated\_amount | 预估价格 | integer | Y | 100,单位分 |
 
+| data.air_rule_info | 国内机票规则 | jsonarray | Y | 机票规则相关信息
+| data.trip\_list.arrival\_city\_id | 目的地城市 | string | Y | 行程到达城市ID |
+| data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
+| data.trip\_list.estimated\_amount | 预估价格 | integer | Y | 100,单位分 |
+
+
+
+
+
 请求示例：
 
 ```
@@ -54,8 +63,78 @@
               "arrival_city_id":"1000001",
               "end_time":"2017-12-13",
              "estimated_amount":1
-             }]    
-
+             }],
+             "air_rule_info":[ 
+			{ "type":"air_type", 
+			  "value":[1] 
+		 	 },
+		  	{ "type":"price", 
+				"value":100 
+		 	 },
+		  	{ "type":"priv_day_min", 
+			"value":10 
+		  	},
+		 	{ "type":"priv_day_max", 
+			"value":10 
+		  	}
+	],
+	"intl_air_rule_info":[ 
+			{ "type":"air_type", 
+			  "value":[1] 
+		 	 },
+		  	{ "type":"price", 
+				"value":100 
+		 	 },
+		  	{ "type":"priv_day_min", 
+			"value":10 
+		  	},
+		 	{ "type":"priv_day_max", 
+			"value":10 
+		  	}
+	],
+	"hotel_rule_info":[ 
+			{ "type":"level", 
+			  "value":[1] 
+			},
+			{ "type":"price", 
+			  "value":100 
+			},
+			{ "type":"priv_day_min", 
+			  "value":10 
+			},
+			{ "type":"priv_day_max", 
+			  "value":10 
+			}
+	],
+	"train_rule_info":[ 
+    		{ "type":"common_train_seat_type", 
+    		  "value":[1] 
+    		},
+    		{ "type":"highspeed_train_seat_type", 
+    		  "value":[1] 
+    		},
+    		{"type":"price", 
+    		 "value":100
+    		},
+    		{ "type":"priv_day_min", 
+    		  "value":100
+    		},
+    		{ "type":"priv_day_max", 
+    		  "value":100
+    		},
+    		{ "type":"grap_limit", 
+    		  "value":20
+    		},
+    		{ "type":"is_same_seat", 
+    		  "value":true
+    		},
+    		{ "type":"grap_common_train_seat_type", 
+    		  "value":[12] 
+    		},
+    		{ "type":"grap_highspeed_train_seat_type", 
+    		  "value":[1] 
+    		}
+	] 
      }
 }
 ```
