@@ -28,10 +28,10 @@ data.owner_id|当前登录人| string |Y|为第三方用户ID
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
   "sign": "jifejfwojelajflejf",
   "data": {
     "type": 2,
@@ -41,7 +41,7 @@ data.owner_id|当前登录人| string |Y|为第三方用户ID
     "company_id": "5747fbc10f0e60e0709d8d7d",
     "owner_id": "zhangsan-dev"
   }
-}
+
 ```
 
 返回结果

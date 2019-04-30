@@ -27,10 +27,11 @@ data.id_list|项目ID集合| jsonarray |Y| 项目ID集合
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "hdi8492j828j37264q0dj8sh",
   "data": {
   "state": 0, 
@@ -41,7 +42,7 @@ data.id_list|项目ID集合| jsonarray |Y| 项目ID集合
     "35hfd6dgd469345672DJKF8"
   ]
 }
-}
+
 ```
 
 返回结果

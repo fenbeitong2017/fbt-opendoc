@@ -30,7 +30,7 @@ data.operator_id|操作人id| string |N|实际操作人ID(同employee_id)
 请求示例:
  
  ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": {
+"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":"12345678","sign": "jifejfwojelajflejf","data": {
   "company_id": "07ab0579u252456ya805bd567",
   "org_unit_name": "审计部",
   "third_parent_id": "第三方直属部门ID",
@@ -38,7 +38,6 @@ data.operator_id|操作人id| string |N|实际操作人ID(同employee_id)
   "operator_id": "57ab054c2528226a805bd523(当前用户id)"
 }
 
-}
 ```
 
 返回结果

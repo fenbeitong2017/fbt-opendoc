@@ -32,10 +32,11 @@ data.project_info.third_cost_id|第三方项目ID| string |Y|9843894927943
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "jifejfwojelajflejf",
   "data": {
   "type": 2,
@@ -55,7 +56,7 @@ data.project_info.third_cost_id|第三方项目ID| string |Y|9843894927943
     }
   ]
 }
-}
+
 ```
 
 返回结果

@@ -30,16 +30,17 @@ data.code|项目code| string |N| j93jkd983jjker
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "hdi8492j828j37264q0dj8sh",
   "data": {
   "company_id": "5747fbc10f0e60e0709d8d7d",
   "page_size": 100
   }
-}
+
 ```
 
 返回结果

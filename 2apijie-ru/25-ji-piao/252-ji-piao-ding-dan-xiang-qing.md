@@ -26,7 +26,7 @@ data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 请求示例：
 
 ```
-{
+
 	"access_token":"5747fbc10f0e60e0709d8d722",
 	"timestamp":124124325,
 	"sign":"oihfnlyeofdh98",
@@ -35,7 +35,7 @@ data.order_id |机票订单id|string|Y|523234c1323445f2d54dd0
 	"data":{
 		"order_id":"523234c1323445f2d54dd0"
 	}
-}
+
 
 ```
 

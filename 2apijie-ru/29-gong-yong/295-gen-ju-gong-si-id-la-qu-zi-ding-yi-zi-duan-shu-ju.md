@@ -31,17 +31,17 @@
 ```
 
 
-{
+
     "access_token":"5747fbc10f0e60e0709d8d722",
     "timestamp":124124325,
     "sign":"oihfnlyeofdh98",
     "employee_id":"59b74c1323445f2d54dd07922",
-    "employee_type":1,
+    "employee_type":"1",
     "data":{  
     "company_id":"59b74c132344WASF83269",
     "business":40        
      }
-}
+
 
 
 ```

@@ -29,19 +29,19 @@ data.type|类型|integer |Y|  1:使用分贝ID，2使用第三方ID
 
 ```
 
-{
+
 "access_token":"5747fbc10f0e60e0709d8d722",
 "sign":"oihfnlyeofdh98",
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
-"employee_type":1,
+"employee_type":"1",
 "data":{
   "budget_type": 3,
   "cost_center_id": "35h3346563UDJKF8",
   "type":2,
   "company_id": "5747fbc10f0e60e0709d8d7d"
 }
-}
+
 
 
 ```

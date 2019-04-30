@@ -41,12 +41,12 @@ typeList.sort|业务类型显示排序 | integer| Y |1，2，3
 ```
 
 
-{
+
 "access_token":"5747fbc10f0e60e0709d8d722",
 "sign":"oihfnlyeofdh98",
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
-"employee_type":1,
+"employee_type":"1",
 "data":{
   "budget_type": 3,
   "budget_name": "项目预算测试1",
@@ -87,7 +87,7 @@ typeList.sort|业务类型显示排序 | integer| Y |1，2，3
   ],
   "budget_thrid_id": "09780089767567657687898"
  }
-}
+
 
 
 

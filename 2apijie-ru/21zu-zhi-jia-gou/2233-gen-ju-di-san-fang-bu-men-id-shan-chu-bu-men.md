@@ -27,16 +27,16 @@ data.third\_org\_id|部门id| string |Y|第三方机构部门ID
 请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
   "sign": "jifejfwojelajflejf",
   "data": {
     "company_id": "57872y4ksdfh8732h78sd89",
     "third_org_id": "879938j7dj38d73jd8"
   }
-}
+
 ```
 
 返回结果

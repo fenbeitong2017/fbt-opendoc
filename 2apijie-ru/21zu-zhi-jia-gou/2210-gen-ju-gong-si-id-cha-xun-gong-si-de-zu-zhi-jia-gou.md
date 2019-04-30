@@ -25,15 +25,15 @@ data.company\_id|公司ID|string|Y|jl83j9ej873j38dje83jd9ee
 
 请求示例:
 ```
-{
+
 "access_token": "xxx.xxx.xxx",
 "timestamp": 123456789,
-"employee_id":12345678,
+"employee_id":"12345678",
 "sign": "jifejfwojelajflejf",
 "data": {
 "company_id":"5747fbc10f0e60e0709d8d7d",
 }
-}
+
 ```
 
 返回结果

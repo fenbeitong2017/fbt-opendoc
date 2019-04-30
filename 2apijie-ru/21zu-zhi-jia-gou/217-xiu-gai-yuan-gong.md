@@ -29,8 +29,11 @@
 请求示例
 
 ```
-{ "access_token": "xxx.xxx.xxx",
+ "access_token": "xxx.xxx.xxx",
+ "employee_id":"356765657687",
 "timestamp": 123456789,
+"sign":"09872uiols7823uuie",
+"employee_type":"0",
 "data":
 {
 "employee_list":[
@@ -42,7 +45,7 @@
 }
 ]
 }
-}
+
 ```
 
 返回结果

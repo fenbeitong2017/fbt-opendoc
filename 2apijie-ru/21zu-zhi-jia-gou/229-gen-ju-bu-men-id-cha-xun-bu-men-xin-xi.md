@@ -29,17 +29,17 @@ data.type|部门类型| string |Y|部门类型，1:分贝部门ID 2:第三方部
 
 请求示例:
 ```
-{
+
     "access_token": "xxx.xxx.xxx",
     "timestamp": 123456789,
-    "employee_id":12345678,
+    "employee_id":"12345678",
     "sign": "jifejfwojelajflejf",
     "data": {
         "company_id":"5747fbc10f0e60e0709d8d7d",
         "type":"1",
         "third_org_id":"5af424cb827986333fb1388b3"
         }
-    }
+    
 ```
 
 返回结果

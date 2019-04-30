@@ -22,16 +22,17 @@ data.third_cost_id|第三方项目ID| string |Y|9843894927943
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "jifejfwojelajflejf",
   "data": {
   "company_id": "5747fbc10f0e60e0709d8d7d",
   "third_cost_id": "35hfdd46563UDJKF8"
  }
-}
+
 ```
 
 返回结果

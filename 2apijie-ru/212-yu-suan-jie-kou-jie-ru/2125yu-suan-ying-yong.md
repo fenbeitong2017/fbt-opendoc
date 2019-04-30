@@ -28,12 +28,12 @@ data.id|预算ID|string |Y|预算ID
 ```
 
 
-{
+
 "access_token":"5747fbc10f0e60e0709d8d722",
 "sign":"oihfnlyeofdh98",
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
-"employee_type":1,
+"employee_type":"1",
 "data":{
   "budget_type": 3,
   "budget_id": 258,
@@ -42,7 +42,7 @@ data.id|预算ID|string |Y|预算ID
   ],
 "item_list_type":2
 }
-}
+
 
 
 

@@ -52,10 +52,11 @@ data.member_dept.is_manager|是否为负责人| boolean |N|true,false
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "jifejfwojelajflejf",
   "data": {
     "company_id": "5747fbc10f0e60e0709d8d7d",
@@ -91,7 +92,7 @@ data.member_dept.is_manager|是否为负责人| boolean |N|true,false
       }
     ]
   }
-}
+
 ```
 
 返回结果

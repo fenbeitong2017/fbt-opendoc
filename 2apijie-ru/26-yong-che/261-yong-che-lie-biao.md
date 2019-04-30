@@ -32,15 +32,15 @@ data.page\_size|每页显示条数| integer |N| 10(默认值)
 
 
 ```
-{	"access_token":"5747fbc10f0e60e0709d8d722",
+	"access_token":"5747fbc10f0e60e0709d8d722",
 	"sign":"oihfnlyeofdh98",
 	"timestamp":124124325,
 	"employee_id":"59b74c1323445f2d54dd07922",
-	"employee_type":1,
+	"employee_type":"1",
 	"data":{
 		"state":0
 	}
-}
+
 ```
 
 

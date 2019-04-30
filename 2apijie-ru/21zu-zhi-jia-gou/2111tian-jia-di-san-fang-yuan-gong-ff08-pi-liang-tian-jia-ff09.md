@@ -27,7 +27,7 @@
 请求示例
 
 ```
-{ "access_token": "xxx.xxx.xxx",
+ "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
   "data":
   {  
@@ -46,7 +46,7 @@
       }
     ]  
  }
-}
+
 ```
 
 返回结果

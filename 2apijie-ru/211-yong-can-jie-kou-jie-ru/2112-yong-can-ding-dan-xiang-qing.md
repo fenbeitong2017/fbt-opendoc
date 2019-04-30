@@ -32,16 +32,16 @@ data.orderId| 订单ID|string |Y|用餐订单ID
 ```
 
 
-{
+
 "access_token":"5747fbc10f0e60e0709d8d722",
 "sign":"oihfnlyeofdh98",
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
-"employee_type":1,
+"employee_type":"1",
 "data":{
 "orderId":"784396yhf832d78f23y8fh932"
 }
-}
+
 
 
 ```

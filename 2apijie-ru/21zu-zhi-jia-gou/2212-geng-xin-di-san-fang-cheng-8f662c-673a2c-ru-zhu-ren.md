@@ -47,7 +47,7 @@ data.use_type|因公因私标识| integer |Y|1：因公
  请求示例:
  
  ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": { "type" :2, 
+"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":"12345678","sign": "jifejfwojelajflejf","data": { "type" :2, 
 "id":"58734b2e5f281a41b304181f",
 "frequent_id_type":1,
 "name":"张三",
@@ -71,7 +71,7 @@ data.use_type|因公因私标识| integer |Y|1：因公
 "use_type":1 
 }
 
-}
+
 ```
 
 返回结果

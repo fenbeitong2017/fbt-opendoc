@@ -86,9 +86,9 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
 请求示例
 
 ```
-{ "access_token": "xxx.xxx.xxx",
+ "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id":784kuf873jf9834uiy98e"",
+  "employee_id":"784kuf873jf9834uiy98e",
   "data":
   {  
     "employee_list":[
@@ -214,7 +214,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
       }
     ]  
  }
-}
+
 ```
 
 

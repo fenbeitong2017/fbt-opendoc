@@ -30,7 +30,7 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
 
 请求示例:
 ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": {
+"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":"12345678","sign": "jifejfwojelajflejf","data": {
     "bind_employee_list":
     [
       {
@@ -39,7 +39,7 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
       }
     ]
   }
-}
+
 
 ```
 

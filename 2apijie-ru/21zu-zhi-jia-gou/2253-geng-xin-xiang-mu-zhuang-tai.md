@@ -28,17 +28,18 @@ data.state|项目状态| integer |Y| 1启用 0停用
  请求示例:
  
  ```
-{
+
   "access_token": "xxx.xxx.xxx",
   "timestamp": 123456789,
-  "employee_id": 12345678,
+  "employee_id": "12345678",
+  "employee_type":"0",
   "sign": "hdi8492j828j37264q0dj8sh",
   "data": {
   "company_id": "5747fbc10f0e60e0709d8d7d",
   "third_cost_id": "35368734574343UDJKF8",
   "state": 1
 }
-}
+
 ```
 
 返回结果

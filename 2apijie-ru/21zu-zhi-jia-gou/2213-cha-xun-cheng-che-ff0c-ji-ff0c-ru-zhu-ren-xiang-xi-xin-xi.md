@@ -28,14 +28,14 @@ data.owner_id|当前登录人| string |Y|为第三方用户ID
  请求示例:
  
  ```
-{"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":12345678,"sign": "jifejfwojelajflejf","data": { "type" :2, 
+"access_token": "xxx.xxx.xxx","timestamp": 123456789,"employee_id":"12345678","sign": "jifejfwojelajflejf","data": { "type" :2, 
 "frequent_id_type":2, 
 "company_id":"5747fbc10f0e60e0709d8d7d",  
 "owner_id":"zhangsan-dev",    
 "frequent_id":"zhangsan-dev"
 }
 
-}
+
 ```
 
 返回结果
