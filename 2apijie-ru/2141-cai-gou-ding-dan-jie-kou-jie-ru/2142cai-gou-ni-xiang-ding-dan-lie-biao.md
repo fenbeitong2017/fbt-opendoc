@@ -9,7 +9,7 @@
 
 请求方式|请求地址
 ----|---
-POST|/open/api/mall/order/forward/list
+POST|/open/api/mall/order/reverse/list
 
 字段|名称|类型|必填|描述
 -----|-----|----|----|----
@@ -63,9 +63,9 @@ customRemark|备注信息|jsonarray|Y|备注信息
 createTime|下单时间 |string |Y|2019-04-29 14:34:31
 department|部门信息 |jsonobject | Y |测试部
 freight|运费|double|Y|运费
-orderStatus|订单状态| jsonobject| Y |订单状态信息
-orderStatus.key|状态码| integer | Y |4701
-orderStatus.value|订单状态名称| string| Y |已取消
+status|订单状态| jsonobject| Y |订单状态信息
+status.key|状态码| integer | Y |4701
+status.value|订单状态名称| string| Y |已取消
 applicationTime|服务单申请时间|string|Y|服务单申请时间
 checkTime|审核时间|string|Y|审核时间
 checkResult|审核状态| jsonobject| Y |审核状态

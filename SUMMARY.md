@@ -86,8 +86,8 @@
   * [2.14 采购订单接口接入 ](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru.md)
     * [2.14.1采购正向订单列表](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2141cai-gou-zheng-xiang-ding-dan-lie-biao.md)
     * [2.14.2.采购逆向订单列表](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2142cai-gou-ni-xiang-ding-dan-lie-biao.md)
-    * 2.14.3 采购正向订单详情
-    * 2.14.4 采购逆向订单详情
+    * [2.14.3 采购正向订单详情](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2143-cai-gou-zheng-xiang-ding-dan-xiang-qing.md)
+    * [2.14.4 采购逆向订单详情](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2144-cai-gou-ni-xiang-ding-dan-xiang-qing.md)
 * [3.H5接口接入](3h5jie-ru.md)
   * [3.1 老版本接入](3h5jie-ru/31-lao-ban-ben-jie-ru.md)
     * [3.1.1 接入说明](3h5jie-ru/31-lao-ban-ben-jie-ru/311-jie-ru-shuo-ming.md)
