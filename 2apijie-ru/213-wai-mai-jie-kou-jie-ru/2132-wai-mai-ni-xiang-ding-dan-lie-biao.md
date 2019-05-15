@@ -85,7 +85,7 @@ restaurantInfo|餐馆信息| jsonobject| Y |鹿角巷
                     "value": "退款成功"
                 },
                 "userInfo": {
-                    "username": "测试环境蛋",
+                    "username": "测试环境",
                     "userPhone": "15601247725"
                 },
                 "paymentInfo": {
@@ -123,7 +123,7 @@ restaurantInfo|餐馆信息| jsonobject| Y |鹿角巷
                     "value": "退款成功"
                 },
                 "userInfo": {
-                    "username": "测试环境蛋",
+                    "username": "测试环境",
                     "userPhone": "15601247725"
                 },
                 "paymentInfo": {
@@ -237,7 +237,7 @@ restaurantInfo|餐馆信息| jsonobject| Y |鹿角巷
                     "value": "退款处理中"
                 },
                 "userInfo": {
-                    "username": "测试环境蛋",
+                    "username": "测试环境",
                     "userPhone": "15601247725"
                 },
                 "paymentInfo": {
