@@ -83,7 +83,7 @@
     * [2.13.2 外卖逆向订单列表](2apijie-ru/213-wai-mai-jie-kou-jie-ru/2132-wai-mai-ni-xiang-ding-dan-lie-biao.md)
     * [2.13.3 外卖正向订单详情](2apijie-ru/213-wai-mai-jie-kou-jie-ru/2133-wai-mai-zheng-xiang-ding-dan-xiang-qing.md)
     * [2.13.4 外卖逆向订单详情](2apijie-ru/213-wai-mai-jie-kou-jie-ru/2134-wai-mai-ni-xiang-ding-dan-xiang-qing.md)
-  * [2.14 采购订单接口接入 ](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru.md)
+  * [2.14 采购接口接入 ](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru.md)
     * [2.14.1采购正向订单列表](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2141cai-gou-zheng-xiang-ding-dan-lie-biao.md)
     * [2.14.2.采购逆向订单列表](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2142cai-gou-ni-xiang-ding-dan-lie-biao.md)
     * [2.14.3 采购正向订单详情](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2143-cai-gou-zheng-xiang-ding-dan-xiang-qing.md)
@@ -115,4 +115,8 @@
     * [4.7.1 用餐订单状态码](4zhuang-tai-ma/47-yong-can-zhuang-tai-ma/471-yong-can-ding-dan-zhuang-tai-ma.md)
   * [4.8 证件类型对照表](4zhuang-tai-ma/48-zheng-jian-lei-xing-dui-zhao-biao.md)
   * [4.9 乘机人类型对照表](4zhuang-tai-ma/49-cheng-ji-ren-lei-xing-dui-zhao-biao.md)
+  * [4.10 采购状态码](4zhuang-tai-ma/cai-gou-zhuang-tai-ma.md)
+    * [4.10.1 采购状态码](4zhuang-tai-ma/cai-gou-zhuang-tai-ma/4101-cai-gou-zhuang-tai-ma.md)
+  * 4.11 外卖状态码
+    * [4.11.1 外卖订单状态码](4zhuang-tai-ma/4111-wai-mai-ding-dan-zhuang-tai-ma.md)
 

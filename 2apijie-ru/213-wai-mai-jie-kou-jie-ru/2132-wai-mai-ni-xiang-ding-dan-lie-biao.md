@@ -58,7 +58,7 @@ orderStatus|订单状态| jsonobject| Y |订单状态信息
 orderStatus.key|状态码| integer | Y |80
 orderStatus.value|订单状态名称| string| Y |已完成
 userInfo|用户信息 |jsonobject | Y |张三
-paymentInfo |价格信息| jsonobject | Y |
+paymentInfo |价格信息| jsonobject | Y |价格信息
 restaurantInfo|餐馆信息| jsonobject| Y |鹿角巷
 
 
