@@ -294,9 +294,6 @@ third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，
 
 ```
 出票成功返回的数据结构:
-
-
-```
 {
   "request_id": "JFX6e3w5QFBjGeGeXtjU",
   "code": 0,
@@ -662,6 +659,11 @@ third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，
     "comment": "请在14:29前完成支付，超时订单将关闭"
   }
 }
+
+
+
+
+```
 
 
 ```
