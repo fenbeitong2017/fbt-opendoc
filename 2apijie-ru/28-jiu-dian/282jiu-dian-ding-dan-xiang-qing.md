@@ -103,8 +103,11 @@ third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
 third_parent_org_name|第三方父部门名称|string|Y|研发部
 third_employee_id|第三方员工ID|string|Y|8792794244
 company_name|公司名称|string|Y|北京分贝金服科技有限公司
-third_cost_attribution_id|第三方费用归属ID |79984672984398|
-third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
+third_cost_attribution_id|第三方费用归属ID |string|Y|79984672984398|
+third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，2项目
+
+
+
 
 
 

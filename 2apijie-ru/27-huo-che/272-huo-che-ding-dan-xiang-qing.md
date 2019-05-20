@@ -117,8 +117,11 @@ grab\_info|抢票信息|jsonobject|N|
 excced_info|超标信息 |jsonobject|N|超标信息
 excced_info.reason|超标理由 |string|N|超标理由
 excced_info.comment|超标理由备注 |string|N|超标理由备注
-third_cost_attribution_id|第三方费用归属ID |79984672984398|
-third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
+third_cost_attribution_id|第三方费用归属ID |string|Y|79984672984398|
+third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，2项目
+
+
+
 
 
 
