@@ -121,8 +121,8 @@ third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
 third_parent_org_name|第三方父部门名称|string|Y|研发部
 third_employee_id|第三方员工ID|string|Y|8792794244
 company_name|公司名称|string|Y|北京分贝金服科技有限公司
-
-
+third_cost_attribution_id|第三方费用归属ID |79984672984398|
+third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
 
 
 
@@ -294,126 +294,374 @@ company_name|公司名称|string|Y|北京分贝金服科技有限公司
 
 ```
 出票成功返回的数据结构:
-{
-    "request_id": "VLbTpyx6e4ycojRIoteB",
-    "code": 0,
-    "type": 0,
-    "msg": "success",
-    "data": {
-        "order_id": "5bbc2a5b2798636cb1e8c6a0",
-        "pre_order_id": "5bbc2a5b2798636cb1e8c6a0",
-        "remote_order_id": "xc123456",
-        "supplier_id": 105,
-        "create_time": "2018-10-25 00:00:00",
-        "over_time": "00:15",
-        "can_process": false,
-        "cost_attribution": "北京分贝金服科技有限公司",
-        "total_price": 1417,
-        "passenger_list": [
-            {
-                "passenger_info": {
-                    "id": "59bf8abe23445f31bd64bc62",
-                    "name": "谷健波",
-                    "type": 0,
-                    "phone": "139****1353",
-                    "gender": {
-                        "key": 1,
-                        "value": "男"
-                    },
-                    "identity_type": "1",
-                    "identity_type_name": {
-                        "key": 1,
-                        "value": "身份证"
-                    },
-                    "identity_no": "110101**********19",
-                    "birth_date": "1984-12-24"
-                },
-                "ticket_no": "123456",
-                "status": {
-                    "key": 1800,
-                    "value": "出票成功"
-                },
-                "product_id": "5bbc2a5c2798636cb1e8c6a1",
-                "ticket_tips": "",
-                "can_endorse": false,
-                "can_refund": false
-            }
-        ],
-        "status": {
-            "key": 1800,
-            "value": "出票成功"
-        },
-        "segment_info": {
-            "cabin": "G",
-            "middle_stop": true,
-            "starting_airport": "首都机场",
-            "destination_terminal": "T2",
-            "flight_no": "CA1589",
-            "plane_type": "",
-            "starting_city": "北京市",
-            "departure_time": "2030",
-            "destination_airport": "虹桥机场",
-            "arrived_time": "2240",
-            "arrived_timestamp": 1540478400000,
-            "departure_date": "2018-10-25",
-            "destination_code": "SHA",
-            "seat_msg": "G",
-            "starting_terminal": "T3",
-            "departure_timestamp": 1540470600000,
-            "starting_code": "PEK",
-            "is_middle_stop": true,
-            "stop_info": "",
-            "airline_name": "中国国航",
-            "destination_city": "上海市"
-        },
-        "price_info": {
-            "discount": 0,
-            "airport_tax": 50,
-            "fuel_tax": 10,
-            "par_price": 1417,
-            "insurance_price": 0,
-            "insurance_cost": 0
-        },
-        "policy_info": {
-            "policy_id": ""
-        },
-        "stipulate_info": {
-            "cabin": "G",
-            "comment": "以航空公司规定为准",
-            "return_change_condition": "此规定仅供参考，最终以航空公司规定为准",
-            "par_price": 1417
-        },
-        "contact_name": "谷健波",
-        "contact_phone": "139****1353",
-        "is_manual": true,
-        "order_owner": {
-            "user_id": "59b8acf023445f70c3eaef80",
-            "name": "谷健波",
-            "phone": "13911381353"
-        },
-        "comment": "",
-        "check_info": [],
-        "is_external_order": 1,
-        "total_price_str": "¥1417.00",
-        "manual_remark": "无",
-        "custom_remark": [],
-        "has_endorse": false,
-        "apply_id": "",
-        "excced_info": {},
-        "trip_type": 0,
-        "order_type": 1,
-       "third_parent_org_id": "JD8E8J9EJD8",
-        "third_org_name": "服务端",
-        "third_parent_org_name": "研发部",
-        "third_org_id": "OWKD8ED8JR4",
-        "third_employee_id":"8792794244",
-        "company_name":"北京分贝金服科技有限公司",
-        "order_total_price": 1417
-    }
-}
+
 
 ```
-
+{
+  "request_id": "JFX6e3w5QFBjGeGeXtjU",
+  "code": 0,
+  "type": 0,
+  "msg": "success",
+  "data": {
+    "third_org_name": "",
+    "excced_info": {},
+    "contact_phone": "139****1353",
+    "third_parent_org_name": "",
+    "org_unit_full_name": "北京分贝金服科技有限公司/农村工作小组/测试部门删除后返回数据",
+    "remark_reason": "其他",
+    "cost_attribution": "测试部门删除后返回数据",
+    "manual_remark": "无",
+    "attribution_id": "5cd515b923445f1800049463",
+    "check_info": [],
+    "policy_info": {
+      "policy_type": "0",
+      "policy_id": "0"
+    },
+    "exceed": false,
+    "order_total_price": 850,
+    "remote_order_id": "8543892",
+    "over_time": "14:29",
+    "order_type": 1,
+    "price_info": {
+      "coupon_amount": 0,
+      "settle_price": 800,
+      "add_price": 0,
+      "price": 800,
+      "airport_tax": 50,
+      "discount": 0.56,
+      "fuel_tax": 0,
+      "sale_price": 800,
+      "par_price": 800
+    },
+    "create_time": "2019-05-10 14:14:01",
+    "custom_remark": [],
+    "destination_city_use_car_authority": true,
+    "online_check": {
+      "online_check_url": "https://h5.133.cn/hangban/partner/fenbeitong/checkin",
+      "online_check_authority": true
+    },
+    "third_cost_attribution_type": 1,
+    "company_name": "",
+    "org_unit_id": "5cd515b923445f1800049463",
+    "order_id": "5cd516a9e4b02bcc50902fd1",
+    "supplier_id": 118,
+    "starting_city_use_car_authority": true,
+    "status": {
+      "value": "待支付",
+      "key": 1100
+    },
+    "pre_order_id": "5cd516a9e4b02bcc50902fd1",
+    "is_manual": false,
+    "can_process": true,
+    "is_external_order": 0,
+    "third_cost_attribution_id": "",
+    "price_detail": [
+      {
+        "amount_desc": "1人",
+        "price": 800,
+        "key": "票价",
+        "dc": 1
+      },
+      {
+        "amount_desc": "1人",
+        "price": 50,
+        "key": "机建",
+        "dc": 1
+      }
+    ],
+    "total_price_str": "¥850.00",
+    "trip_type": 0,
+    "starting_city_code": "1000001",
+    "destination_city_code": "2000002",
+    "passenger_list": [
+      {
+        "ticket_tips": "",
+        "product_id": "5cd516a9e4b02bcc50902fd2",
+        "passenger_info": {
+          "org_unit": "测试部门删除后返回数据",
+          "identity_type_name": {
+            "value": "身份证",
+            "key": 1
+          },
+          "gender": {
+            "value": "男",
+            "key": 1
+          },
+          "company_id": "5747fbc10f0e60e0709d8d7d",
+          "birth_date": "1984-12-24",
+          "type": 0,
+          "full_org_unit": "北京分贝金服科技有限公司/农村工作小组/测试部门删除后返回数据",
+          "phone": "139****1353",
+          "company_name": "北京分贝金服科技有限公司",
+          "name": "谷健波",
+          "org_unit_id": "5cd515b923445f1800049463",
+          "id": "59bf8abe23445f31bd64bc62",
+          "identity_no": "110101**********19",
+          "identity_type": "1",
+          "not_encryption": "13911381353"
+        },
+        "can_refund": false,
+        "can_endorse": false,
+        "status": {
+          "value": "待支付",
+          "key": 1100
+        }
+      }
+    ],
+    "stipulate_info": {
+      "stipulate_name": "退改签规则",
+      "refund_stipulate": "航班起飞前168小时之前，退票手续费为83元；航班起飞前48小时之前，退票手续费为166元；航班起飞前4小时之前，退票手续费为332元；航班起飞前4小时之后，退票手续费为415元\n*此规定仅供参考，最终以航空公司规定为准",
+      "modify_stipulate": "不可签转\n*此规定仅供参考，最终以航空公司规定为准",
+      "cabin": "V",
+      "change_stipulate": "航班起飞前168小时之前，改期手续费为42元；航班起飞前48小时之前，改期手续费为125元；航班起飞前4小时之前，改期手续费为249元；航班起飞前4小时之后，改期手续费为332元\n*此规定仅供参考，最终以航空公司规定为准",
+      "comment": "手提行李：1件，10KG，20×55×40CM；托运行李：20KG，40×60×100CM；婴儿票行李：无免费行李额，每个婴儿可免费托运婴儿手推车1辆。\n\n*此规定仅供参考，最终以航空公司规定为准",
+      "baggage_info": {
+        "baggage_name": "行李规定",
+        "baggage_context": "手提行李：1件，10KG，20×55×40CM；托运行李：20KG，40×60×100CM；婴儿票行李：无免费行李额，每个婴儿可免费托运婴儿手推车1辆。\n\n*此规定仅供参考，最终以航空公司规定为准",
+        "color": "#666666"
+      },
+      "par_price": 800
+    },
+    "segment_info": {
+      "bk_info": {
+        "bookingTag": "XNUWpgpYqKYAD6r8uFHIB/sXcMR2NIkPWH2q7A==",
+        "priceInfo": {
+          "ticketPrice": "0",
+          "childtof": "0",
+          "priceTag": {
+            "ADU": [
+              {
+                "barePrice": 800,
+                "originalBarePrice": 0,
+                "policyPrice": 0,
+                "packagePrice": 800,
+                "addPrice": 0,
+                "tag": "CXF1",
+                "viewPrice": 800,
+                "originalPackagePrice": 0
+              }
+            ],
+            "adu": [
+              {
+                "barePrice": 800,
+                "originalBarePrice": 0,
+                "policyPrice": 0,
+                "packagePrice": 800,
+                "addPrice": 0,
+                "tag": "CXF1",
+                "viewPrice": 800,
+                "originalPackagePrice": 0
+              }
+            ],
+            "chi": [
+              {
+                "barePrice": 680,
+                "originalBarePrice": 0,
+                "policyPrice": 0,
+                "packagePrice": 680,
+                "addPrice": 0,
+                "tag": "CHI1",
+                "viewPrice": 680,
+                "originalPackagePrice": 0
+              }
+            ],
+            "CHI": [
+              {
+                "barePrice": 680,
+                "originalBarePrice": 0,
+                "policyPrice": 0,
+                "packagePrice": 680,
+                "addPrice": 0,
+                "tag": "CHI1",
+                "viewPrice": 680,
+                "originalPackagePrice": 0
+              }
+            ]
+          },
+          "discount": "5.9",
+          "tof": "0",
+          "prdTag": "CXF",
+          "inventory": {
+            "all": "A",
+            "baby": "A",
+            "adult": "A",
+            "child": "A"
+          },
+          "babyTicketPrice": "0",
+          "babyServiceFee": "0",
+          "babyPrice": "0",
+          "cutMoney": "0",
+          "childTicketPrice": "0",
+          "arf": "50",
+          "price": "0",
+          "barePrice": "0",
+          "returnMoney": "0",
+          "childPrice": "0",
+          "dtTag": "CXF1",
+          "basePrice": "1360"
+        },
+        "ticketTime": "支付成功后1小时内出票",
+        "flightInfo": [
+          {
+            "arrDate": "2019-05-23",
+            "dptAirport": "首都机场",
+            "arrCity": "上海",
+            "cabin": "V",
+            "tof": "0",
+            "ccbcn": "全价经济舱",
+            "babyCabin": "Y",
+            "dptTime": "06:50",
+            "flightNum": "HO1252",
+            "arf": "50",
+            "carrierName": "上海吉祥航空公司",
+            "codeShare": false,
+            "actFlightNum": "",
+            "arrAirport": "虹桥机场",
+            "childCabin": "Y",
+            "arr": "SHA",
+            "dptCity": "北京",
+            "cbcn": "经济舱",
+            "ctof": "0",
+            "dptDate": "2019-05-23",
+            "flightTimes": "2小时15分钟",
+            "dpt": "PEK",
+            "dptTerminal": "T3",
+            "carrier": "HO",
+            "planeCode": "321",
+            "arrTerminal": "T2",
+            "stops": 0,
+            "arrTime": "09:05",
+            "bcbcn": "全价经济舱"
+          }
+        ],
+        "tgqShowData": {
+          "changeRule": "5-168-15-48-30-4-40",
+          "signText": "不可签转",
+          "tgqFrom": 0,
+          "canRefund": true,
+          "tgqPointCharges": [
+            {
+              "returnFee": 83,
+              "timeText": "2019年05月16日 06:50前",
+              "changeFee": 42,
+              "time": 168
+            },
+            {
+              "returnFee": 166,
+              "timeText": "2019年05月21日 06:50前",
+              "changeFee": 125,
+              "time": 48
+            },
+            {
+              "returnFee": 332,
+              "timeText": "2019年05月23日 02:50前",
+              "changeFee": 249,
+              "time": 4
+            },
+            {
+              "returnFee": 415,
+              "timeText": "2019年05月23日 02:50后",
+              "changeFee": 332,
+              "time": -2147483648
+            }
+          ],
+          "hasTime": true,
+          "returnText": "航班起飞前168小时之前，退票手续费为83元；航班起飞前48小时之前，退票手续费为166元；航班起飞前4小时之前，退票手续费为332元；航班起飞前4小时之后，退票手续费为415元",
+          "changeText": "航班起飞前168小时之前，改期手续费为42元；航班起飞前48小时之前，改期手续费为125元；航班起飞前4小时之前，改期手续费为249元；航班起飞前4小时之后，改期手续费为332元",
+          "tgqCabin": "V",
+          "airlineTgq": false,
+          "canCharge": true,
+          "viewType": 1,
+          "tgqText": "同舱更改条件：航班起飞前168小时之前，改期手续费为42元；航班起飞前48小时之前，改期手续费为125元；航班起飞前4小时之前，改期手续费为249元；航班起飞前4小时之后，改期手续费为332元<br />退票条件：航班起飞前168小时之前，退票手续费为83元；航班起飞前48小时之前，退票手续费为166元；航班起飞前4小时之前，退票手续费为332元；航班起飞前4小时之后，退票手续费为415元<br />签转条件：不可签转",
+          "basePrice": 830,
+          "allowChange": false,
+          "returnRule": "10-168-20-48-40-4-50"
+        },
+        "expressInfo": {
+          "receiverType": {
+            "2": "个人",
+            "3": "企业",
+            "4": "政府机关单位"
+          },
+          "price": 20,
+          "invoiceType": {
+            "2": "行程单和差额发票"
+          },
+          "id": 7
+        },
+        "errMsg": "",
+        "bookingStatus": "BOOKING_SUCCESS",
+        "extInfo": {
+          "bookingTime": "",
+          "qt": "3b63d505-899d-4555-b3f8-d93a56d5876c",
+          "clientId": "lah.trade.qunar.com",
+          "wrapperId": "ttsgndh3335",
+          "deptTime": "0650",
+          "cabin": "V",
+          "flightType": "1",
+          "flightNum": "HO1252",
+          "carrier": "",
+          "policyId": "0",
+          "barePrice": "800",
+          "price": "800",
+          "policyType": "0",
+          "ticketPirce": "800",
+          "from": "PEK",
+          "startTime": "2019-05-23",
+          "tag": "CXF1",
+          "to": "SHA",
+          "basePrice": "0"
+        }
+      },
+      "starting_terminal": "T3",
+      "departure_date": "2019-05-23",
+      "cabin": "V",
+      "business_ext": "Vma/KC3/v9FG2M3TO/nM1J8q60F104fP8XtXYneKfcTnhiX1ETA6C1fT/ZDPeJowjI+M4EGgZETp76y8qlBVE3Ib9/HiaQTf921EnclWemqNIm7VmtbthQgmJvY3j6C1Pyx/v+07sbZZ4TGOLL/Iqi4n7IFLXUkHovhJ6SlHdAF9IkHU8RA+h6yd4P8nKBU7bHHyqMLlKB80NDvSsTrx6iSyuT8liwxomZnmEyvfh1RqGnz1nGBFEd6RQIuT+mpSJ+mZBtzNMu4jaP5XtF3PPake+t0V9VDYnl9PMpQgoDuncmAGtsRVFS9db8c85LzPdY9rt7KueAr1/yG8icyLNn0spXMW6sDdwR7c9QZhio3edt3bpsWm+YMgE1HLmX6sev8egog4qqEUsfuqji4uUyTK4Ytys+4yDPuugS0ZXVqZGx9FNlU7sUN2swsY/nVsKfOEoQWpVSBpvbppWrCn/u80XkzdMObZNGCih7U1BOaP39eUuW1JoRTiOKH8mAY2EC9JCbZtbAxGp4kQTr+xMMAVDk9MnNicU2hfe7JoAw7zBNcg+g+w1uy7ZYLiLJxWPZv7u4DYYn7p5bzY20JJXYgVQ2NVMI274IhlmQN6sOKXYKuz2OD4loyOSqRIxGF/V5Wdq0HevCZjW/hy0ZX2u+scKIVI8Woj2XBbH9wl38UKJdgKwjFeSGXykq3GeyYgdqcawgkF1hTEQ6U8c8ls1UgmraqDhvkmMrnWd55Mdya+3X4C1zUqiPlWo8KNHkhQ4X//nQFJRi2Ic9HR74hFMbTyGC4szEZLu/QMCfpsqYVmmXXkmquX3mEsrwceim5HKfnSGjjlSPt2e535+Kc+7jn2q+4/uGpqQXsoquFgflTCrGUk4OG4hZ9heF+COMyotE7zRR+I3cUoQ0RWRGTOPC+fXlx+fHiwpqLcE1x9UyFfINCdQZCl3Ocoo3uJ78vsad+AOU/4IqgbAv52G7V01PteN36li6empqjLNpAmJ6JQ3X7j9VMOIzhZ7SY8JUZ+V71AWDj02U549WxEDR2sdl/3gScQEtRZhDeZFi3j0hiTXB6TSjaJSAV6Q9l4M5Dyn6Bom/UGs5pwYOR9zwZbpKl3vQUkZUWcDNWOL5Y2K0/WKezFd+SERIFeadamp6qkgJzzWhrChSCajkAcv5VxQyXyql82q1Dd7KyYAugnf7iirn8se5LRnCa3XPSW7vJU+WvquzOTr9qDF3U1iWR7kqyGu/8dKU6JFxd7BRegzAKIXqxtCp5h3VhyJawbiA+c/VvZbNW5pxKeUeXv0GuwOfJPymFUgTFS8g8saWMo2L7+M5F/UbnwjOS3tIWRwu4QgGxwIy0/kLW0GdvXu4Rh5DupDXzVtxl920Gzr90HyTBehZq0irRxR8w1O/m2TsMdkePIaY+VS+20HuOa2naRVItGuCfxiulw/Vi9RQPXHIpZ9es6RHCnX8YfKLhAejziU4SjM79jX/3aUX/mNDzrb1ENE1c5uDYEOriFXADW3AfxxfdOVWw+gCPta8GE0OYYbCS/gUzW1oSTzwhPWcqev7HC3rNICefOJXckU3iI7og59LItzC6DeUj/6YRiRjZx5qDtwPRX1bh5Bv0HoFryXg==",
+      "destination_terminal": "T2",
+      "wrapper_id": "ttsgndh3335",
+      "is_middle_stop": false,
+      "airline_logo_url": "http://image.fenbeitong.com/images/2018/06/13/air_icon/5b20dc7f5d88db354cd5d7ef.png",
+      "flight_no": "HO1252",
+      "seat_msg": "经济舱",
+      "client": "lah.trade.qunar.com",
+      "tag": "CXF1",
+      "departure_time": "0650",
+      "arrived_timestamp": 1558573500000,
+      "share_num": "",
+      "starting_airport": "首都机场",
+      "departure_timestamp": 1558565400000,
+      "starting_code": "PEK",
+      "starting_city": "北京市",
+      "share_airline_name": "",
+      "airline_name": "吉祥航空",
+      "destination_city": "上海市",
+      "destination_airport": "虹桥机场",
+      "destination_code": "SHA",
+      "stop_info": "",
+      "code_share": false,
+      "is_official": false,
+      "carrier": "HO",
+      "middle_stop": false,
+      "plane_type": "321",
+      "arrived_time": "0905"
+    },
+    "contact_name": "谷健波",
+    "has_endorse": false,
+    "third_parent_org_id": "",
+    "total_price": 850,
+    "order_owner": {
+      "user_id": "59b8acf023445f70c3eaef80",
+      "phone": "13911381353",
+      "name": "谷健波",
+      "email": ""
+    },
+    "third_employee_id": "third_jianren",
+    "third_org_id": "",
+    "attribution_category": 1,
+    "not_encryption_contact_phone": "13911381353",
+    "comment": "请在14:29前完成支付，超时订单将关闭"
+  }
+}
 
 
 ```

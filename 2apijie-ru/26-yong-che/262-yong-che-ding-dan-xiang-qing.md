@@ -126,6 +126,11 @@ need_personal |是否需要个人支付| Integer | Y |0：否；1：是
 is_personal_paied |是否个人已支付| Integer |Y|0：否；1：是
 total_price_str | 订单金额字符串| String|Y|
 status_description | 金额描述| String|Y|金额描述
+third_cost_attribution_id|第三方费用归属ID |79984672984398|
+third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
+
+
+
 
 
 ```
