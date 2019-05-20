@@ -136,105 +136,110 @@ third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
 ```
 
 
-{  "request_id": "IOCCucbNYCDEkCOOakDP",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "order_id": "595242ef1a671d2446d8dc82",
-        "vorder_id": "1031014486130567180",
-        "can_process": true,
-        "cost_attribution": "北京分贝金服科技有限公司",
-        "em_name": "常龙",
-        "em_tel": "18911681154",
-        "tel": "18911681154",
-        "status": 700,
-        "sub_status": 0,
-        "sub_status_name": "",
-        "status_info": "已完成",
-        "city": 1,
-        "city_name": "",
-        "type": 0,
-        "total_price": 23.56,
-        "price_detail": [
-            {
-                "name": "正常行驶距离费",
-                "amount": 0.16,
-                "type": "normal_fee"
-            },
-            {
-                "name": "快车时长费",
-                "amount": 22.4,
-                "type": "normal_time_fee"
-            },
-            {
-                "name": "企业实付金额",
-                "amount": 22.56,
-                "type": "company_real_pay"
-            },
-            {
-                "name": "企业应付金额",
-                "amount": 22.56,
-                "type": "company_pay"
-            },
-            {
-                "name": "短途意外险",
-                "amount": 1,
-                "type": "insurance"
-            }
-        ],
-        "coupon_amount": 0,
-        "driver_info": {},
-        "spec": {
-            "id": 600,
-            "name": "快车"
-        },
-        "distance": 0.1,
-        "order_time": "2017-06-27 19:35:23",
-        "schedule_time": "2017-06-27 19:35:23",
-        "departure_place": {
-            "name": "东大桥路24号楼",
-            "address": "北京市朝阳区光华路甲9号东大桥路",
-            "dlat": 39.9150390625,
-            "dlng": 116.4510498046875
-        },
-        "arrival_place": {
-            "name": "团结湖-地铁站",
-            "address": "地铁10号线",
-            "tlat": 39.933722,
-            "tlng": 116.461743
-        },
-        "is_complaint": false,
-        "comment": null,
-        "remark_reason": "出差",
-        "remark_detail": "去北京",
-        "insurance_info": [
-            {
-                "category_code": 4,
-                "category_name": "短途意外险",
-                "desc": "1元最高保障10万元",
-                "desc_link": "https://static.fenbeitong.com/mobile/carAccidentInsurance.html",
-                "unit_price": 1,
-                "insurant_list": [
-                    {
-                        "insurant_name": "常龙",
-                        "premium": 1,
-                        "status": {
-                            "key": 6,
-                            "value": "投保成功"
-                        },
-                        "policy_number": "",
-                        "start_date": "2017-06-27",
-                        "end_date": "2017-06-28",
-                        "insurance_link": {}
-                    }
-                ]
-            }
-        ],
-        "exceeded": false
-    }
+{
+  "request_id": "4pOh6uSWKXfSFM0UrSm6",
+  "code": 0,
+  "type": 0,
+  "msg": "success",
+  "data": {
+    "em_name": "谷健波",
+    "customer_service_phone": "400-000-0999",
+    "em_tel": "13911381353",
+    "status_info": "已完成",
+    "passenger_id": "59b8acf023445f70c3eaef80",
+    "order_time": "2019-03-07 09:40:24",
+    "type": 1,
+    "remark_reason": "加班",
+    "cost_attribution": "权限测试(勿删)",
+    "spec": {
+      "name": "出租车",
+      "id": 50
+    },
+    "begin_charge_time": "2019-03-07 09:54:26",
+    "can_comment": false,
+    "is_call_customer_service": false,
+    "tel": "13911381353",
+    "order_type": 1,
+    "can_complaint": true,
+    "exceeded": false,
+    "fb_employee_id": "59b8acf023445f70c3eaef80",
+    "custom_remark": [],
+    "departure_place": {
+      "address": "北京市朝阳区平房镇达美中心",
+      "dlat": 39.93638610839844,
+      "name": "达美中心T2",
+      "dlng": 116.51688385009766
+    },
+    "third_cost_attribution_type": 1,
+    "org_unit_id": "5bf2651123445f5335612351",
+    "order_id": "5c80768723445f0830149ea1",
+    "vorder_id": "3059933",
+    "cost_attribution_category": 1,
+    "status": 700,
+    "personal_pay_price": 0,
+    "distance": 0,
+    "city": "1000001",
+    "can_process": true,
+    "cost_attribution_id": "5bf2651123445f5335612351",
+    "third_cost_attribution_id": "third_privilege_test",
+    "price_detail": [
+      {
+        "amount": 15,
+        "name": "基础费用",
+        "type": "price"
+      },
+      {
+        "amount": 0,
+        "name": "调度费",
+        "type": "tipping"
+      },
+      {
+        "amount": 0,
+        "name": "高速费过桥费等额外费用",
+        "type": "extraFee"
+      }
+    ],
+    "city_name": "北京市",
+    "total_price_str": "¥15.00",
+    "need_personal": 0,
+    "driver_info": {
+      "driver_name": "分贝通师傅",
+      "driver_card": "京QqPSnr",
+      "driver_avatar": "https://www-ecs.didapinche.com/pics//g/20181024201715-ec0131cc.png",
+      "driver_car_type": "北京市通州海鸥出租汽车公司",
+      "driver_phone": "16000020021",
+      "driver_level": "5.0",
+      "driver_order_count": "150"
+    },
+    "vendor": {
+      "value": "嘀嗒",
+      "key": 4
+    },
+    "passager_org_unit": {
+      "passenger_org_unit_full_name": "北京分贝金服科技有限公司/权限测试(勿删)",
+      "passenger_org_unit_id": "5bf2651123445f5335612351",
+      "passenger_org_unit_name": "权限测试(勿删)"
+    },
+    "sub_status": 0,
+    "total_price": 15,
+    "finish_charge_time": "2019-03-07 09:57:08",
+    "passenger_name": "谷健波",
+    "arrival_place": {
+      "address": "北京市朝阳区平房镇达美中心",
+      "tlng": 116.495986,
+      "name": "四惠枢纽站-公交站",
+      "tlat": 39.907329
+    },
+    "schedule_time": "2019-03-07 10:15:00",
+    "complaint": true,
+    "company_pay_price": 15,
+    "comment": {
+      "score": 2,
+      "content": ""
+    },
+    "is_personal_paied": 1
+  }
 }
-
-
 
 ```
 
