@@ -132,171 +132,119 @@ third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
 ```
 
 {
-    "request_id": "gWwcHPzSZaY2oOaXkWY9",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "order_basic_info": {
-            "order_id": "5a0ec1d627986320cbdfd27f",
-            "create_time": 1510916567259,
-            "employee_name": "刘维中",
-            "total_price": 34,
-            "apply_id": "5b61757323445f071a732860",
-            "order_status": {
-                "key": 3400,
-                "value": "有退改记录"
-            },
-            "comment": "",
-            "use_customer12306_account": false,
-            "exceeded": true,
-            "excced_info": {
-			"reason": "座位没票了",
-			"comment": "很重要"
-		},
-            "is_grab_order": false, //是否抢票订单
-            "is_external_order": 1, // 是否是外采订单
-            "employee_remark": "", // 用户备注
-            "pre_order_id":"5a0ec1d627986320cbdfd27f", 
-            "original_order_id":"5a0ec1d627986320cbdfd27f",
-            "total_price_str": "￥34" // 订单金额字符串
-        },
-        "passengers_info": [
-            {
-                "passenger_info": {
-                    "passenger_id": "5a0ec1aa23445f2808a20323",
-                    "name": "徐璞",
-                    "mobile_no": "15311412713",
-                    "identity_no": "410581199212019110",
-                    "identity_type": {
-                        "key": 1,
-                        "value": "身份证"
-                    }
-                },
-                "ticket_info": {
-                    "seat_no": "O",
-                    "seat_type": "二等座",
-                    "ticket_price": 17,
-                    "seat_location": "08车厢,10B座",
-                    "ticket_no": "E931804546",
-                    "product_id": "5a0ec1d727986320cbdfd281",
-                    "can_group_change": true,
-                    "ticket_status": {
-                        "key": 3801,
-                        "value": "退票成功"
-                    }
-                },
-                "refund_info": {
-                    "refund_money": 17,
-                    "refund_fee": 0,
-                    "reason": ""
-                },
-                "endorse_info": {
-                    "supplementary_payment": 0,
-                    "diff_price": 0,
-                    "endorse_fee": 0,
-                    "reason": ""
-                },
-                "ticket_tips": ""// 票状态说明
-            },
-            {
-                "passenger_info": {
-                    "passenger_id": "5a0ec19d23445f2808a20322",
-                    "name": "贾斌",
-                    "mobile_no": "18500986085",
-                    "identity_no": "510823198905064717",
-                    "identity_type": {
-                        "key": 1,
-                        "value": "身份证"
-                    }
-                },
-                "ticket_info": {
-                    "seat_no": "O",
-                    "seat_type": "二等座",
-                    "ticket_price": 17,
-                    "seat_location": "08车厢,11A座",
-                    "ticket_no": "E931804546",
-                    "product_id": "5a0ec1d727986320cbdfd280",
-                    "can_group_change": true,
-                    "ticket_status": {
-                        "key": 3801,
-                        "value": "退票成功"
-                    }
-                },
-                "refund_info": {
-                    "refund_money": 17,
-                    "refund_fee": 0,
-                    "reason": ""
-                },
-                "endorse_info": {
-                    "supplementary_payment": 0,
-                    "diff_price": 0,
-                    "endorse_fee": 0,
-                    "reason": ""
-                },
-                "ticket_tips": ""// 票状态说明
-            }
-        ],
-        "contact_info": {
-            "contact_name": "刘维中",
-            "contact_phone": "18601016943"
-        },
-        "insurance_info": [],
-        "can_process": false,
-        "cost_attribution": "北京分贝金服科技有限公司",
-        "check_info": [
-            {
-                "title": "未提前2天预订火车票",
-                "reason": "陪客户出行",
-                "comment": ""
-            },
-            {
-                "title": "未选择推荐车次的理由",
-                "reason": "票数不够了",
-                "comment": ""
-            }
-        ],
-        "route_info": {
-            "train_code": "D379",
-            "train_no": "5l0000D37961",
-            "from_station_name": "上海虹桥",
-            "from_station_code": "AOH",
-            "to_station_name": "金山北",
-            "to_station_code": "EGH",
-            "start_time": "07:02",
-            "arrive_time": "07:20",
-            "run_time": "18",
-            "arrive_days": "0",
-            "train_start_date": "20171206",
-            "train_end_date": "20171206",
-            "choose_seat_msg": "指定座位余票不足，已为您随机申请座位"     //选座结果提示
-        },
-        "refund_price_info":{ // 可能为空，为空不展示
-            "refund_price": 600,  // 退订金额（票价）
-            "refund_cost": 80, // 退订费（扣除的钱）
-            "refund_total_price": 520, // 退款总额（到手的钱）
-        },
-        "endorse_price_info":{ // 可能为空，为空不展示
-            "endorse_price": 600,  // 改签差价（差价）
-            "endorse_cost": 80, // 改签费（改签费）
-            "endorse_total_price": 520, // 改签总额（改签总花费即差价+改签费）
-        },
-        "price_detail":[
-            {
-                "key":"", // 费用明细key，如“票价”
-                "price":"1500", // 费用明细金额
-                "amount_desc":"2人", // 数量描述，如2人
-                "dc":1 // 正负，如票价是正（1）、优惠券是负（-1）
-            },
-            ...
-        ],
-        "grab_info": {//抢票信息“待支付”“抢票中”“出票失败”“已取消”状态的抢票订单存在该信息
-            "train_code": "D379,D325",
-            "from_station_name": "上海虹桥",
-            "to_station_name": "金山北",
-            "seat_type": "二等座,一等座",
-            "train_start_date": "20171206"
-        }
-    }
+  "request_id": "wfviC57oPVKACDNOtP9i",
+  "code": 0,
+  "type": 0,
+  "msg": "success",
+  "data": {
+    "refund_price_info": {
+      "refund_total_price": 3,
+      "refund_price": 3,
+      "refund_cost": 0
+    },
+    "route_info": {
+      "from_station_name": "九江",
+      "run_time": "1:10",
+      "from_station_code": "JJG",
+      "arrive_days": "0",
+      "arrive_time": "14:35",
+      "start_time": "13:25",
+      "train_end_date": "20190514",
+      "to_station_code": "WXN",
+      "to_station_name": "武穴",
+      "train_no": "6026",
+      "choose_seat_msg": "",
+      "train_code": "6026",
+      "train_start_date": "20190514"
+    },
+    "can_process": true,
+    "contact_info": {
+      "contact_name": "谷健波",
+      "contact_phone": "13911381353"
+    },
+    "cost_attribution": "权限测试(勿删)",
+    "order_basic_info": {
+      "is_grab_order": false,
+      "batch_refund": false,
+      "pre_order_id": "5cbd87b1279863316374a71f",
+      "is_external_order": 0,
+      "employee_phone": "13911381353",
+      "order_status": {
+        "color": "#26CE77",
+        "value": "退票成功",
+        "key": 3801
+      },
+      "total_price_str": "-¥3.00",
+      "refund_offline": false,
+      "batch_endorse": false,
+      "apply_id": "5cbd865c23445f01c67bca86",
+      "over_time": "17:39",
+      "original_order_id": "5cbd87b1279863316374a71f",
+      "exceeded": false,
+      "create_time": 1556011452913,
+      "total_price": -3,
+      "company_id": "5747fbc10f0e60e0709d8d7d",
+      "custom_remark": [],
+      "employee_name": "谷健波",
+      "use_customer12306_account": false,
+      "vendor_id": 506,
+      "employee_id": "59b8acf023445f70c3eaef80",
+      "company_name": "北京分贝金服科技有限公司",
+      "org_unit_id": "5bf2651123445f5335612351",
+      "comment": "",
+      "order_id": "5cbed9bc279863612f3fcdcf"
+    },
+    "cost_attribution_id": "5bf2651123445f5335612351",
+    "third_cost_attribution_id": "third_privilege_test",
+    "check_info": [],
+    "third_cost_attribution_type": 1,
+    "insurance_info": [],
+    "order_type": 1,
+    "passengers_info": [
+      {
+        "endorse_info": {
+          "endorse_fee": 0,
+          "reason": "",
+          "supplementary_payment": 0,
+          "diff_price": 0
+        },
+        "ticket_tips": "",
+        "passenger_info": {
+          "is_employee": true,
+          "full_org_unit": "北京分贝金服科技有限公司/权限测试(勿删)",
+          "org_unit": "权限测试(勿删)",
+          "passenger_id": "59bf8abe23445f31bd64bc62",
+          "name": "谷健波",
+          "mobile_no": "13911381353",
+          "org_unit_id": "5bf2651123445f5335612351",
+          "identity_no": "110101198412242019",
+          "identity_type": {
+            "value": "身份证",
+            "key": 1
+          }
+        },
+        "refund_info": {
+          "reason": "",
+          "refund_fee": 0,
+          "refund_money": 3
+        },
+        "ticket_info": {
+          "seat_type": "硬座",
+          "ticket_status": {
+            "value": "退票成功",
+            "key": 3801
+          },
+          "ticket_price": 3,
+          "ticket_no": "EA43650281",
+          "product_id": "5cbed9bc279863612f3fcdd0",
+          "seat_no": "1",
+          "seat_location": "02车厢,008号",
+          "can_group_change": true
+        }
+      }
+    ],
+    "cost_attribution_category": 1
+  }
 }
 
 
