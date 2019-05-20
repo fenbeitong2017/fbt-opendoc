@@ -113,120 +113,138 @@ third_cost_attribution_type|第三方费用归属ID类型|Y|1，部门，2项目
 
 
 ```
-{
-    "request_id": "XGabUT2cyw4Y5IdrsXlS",
-    "code": 0,
-    "msg": "success",
-    "data": {
-        "order_id": "5a98fe1b2798636ba9006f1e",
-        "original_order_id": "5a98fe1b2798636ba9006foi",
-        "third_parent_org_id": "JD8E8J9EJD8",
-        "third_org_name": "服务端",
-        "third_parent_org_name": "研发部",
-        "third_org_id": "OWKD8ED8JR4",
-        "third_employee_id":"8792794244",
-        "company_name":"北京分贝金服科技有限公司",
-        "status": 2301,
-        "status_name": "已取消",
-        "create_time": 1519975963862,
-        "can_process": true,
-        "cost_attribution": "研发部",
-        "order_person": "韩冰",
-        "apply_id": "5b61757323445f071a732860",
-        "order_person_phone": "17080151888",
-        "checkin_date": 1522080000000,//入住时间
-        "checkout_date": 1522166400000,//离店时间
-        "city_code": "904",//城市编码
-        "hotel_name": "汉庭南京六合长江路酒店",//酒店名称
-        "hotel_lng": "118.837468",//酒店经度
-        "hotel_lat": "32.345671",//酒店维度
-        "hotel_address": "江苏省南京市六合区雄州街道棠城西路179号",//酒店地址
-        "hotel_code": "5a41ed51979d9663f8b4c5de",//酒店code
-        "city_name": "南京市",
-        "policy_code": "1",
-        "hotel_phone": "025-57508988",
-        "bed_type": "(null)",
-        "room_code": "DR",
-        "room_name": "大床房",
-        "room_count": 1,
-        "plan_code": "573273659|6647611164||51661617",
-        "per_room_night_prices": [
-            [
-                150
-            ]
-        ],
-        "price_rule": "订单确认后，如在北京时间2018-03-26 23:00:00 （含）点前取消，可全额退款！其它时间不可取消，不可变更。如未入住扣除全额房费。",
-        "plan_name": "大床房",
-        "price_rule_tag": "取消规则",
-        "price": 150,//价格
-        "contact_name": "韩树起",//联系人姓名
-        "contact_phone_no": "17080151667",//联系人手机号
-        "guest_type": 0,
-        "guests": [
-            {
-                "name": "韩美美",
-                "phone_no": "12989890909"
-            }
-        ],
-        "total_price_str": "￥150.00",
-        "is_external_order": 0,
-        "check_info": [{
-                "title": "未提前5天预订酒店",//事由标题
-                "reason": "陪客户出行",//事由
-                "comment": ""//事由补充说明
-            },
-            {
-                "title": "未选择推荐房型的理由",
-                "reason": "票数不够了",
-                "comment": ""
-            }],
-        "employee_remark": null,
-        "has_enterprise_price": false,
-        "other_refund_desc": "无",
-        "is_can_apply_refund": false,
-        "refund_info": {
-            "is_has_refund": false
-        },
-        "remark_reason": "其他",
-        "exceeded": true,
-        "excced_info": {
-			"reason": "酒店没房了",
-			"comment": "很重要"
-		},
 
-       "insuranceInfo":[
-    {
-      "category_code":5,
-      "category_name":"酒店取消险",
-      "desc":"如未入住，最高全额赔付。",
-      "desc_link":"https://static.fenbeitong.com/mobile/hotelCancelInsurance.html",
-      "unit_price":7.56,
-      "insurant_list":[
-        {
-        "insurant_name":"强zai",
-        "premium":7.56,
-        "status":{"key":5,"value":"投保成功"},
-        "policy_number":"10450061900247588251",
-        "start_date":"2018-11-15",
-        "end_date":"2018-11-16",
-        "insurance_link":{
-          "headers":[
-            {
-              "name":"Content-Type",
-              "value":"application/pdf"
-            },
-            {
-              "name":"X-Zxtx-Sign",
-              "value":"5A8EE545B24306552F67C6C0C4F140E7"
-            }
-          ],
-        "url":"http://fenbeitong.corpbeta.51zxtx.com/177705/policies/10450061900247588251"}
-           }
+{
+  "request_id": "14RmpTXcfW7azSY6WPim",
+  "code": 0,
+  "type": 0,
+  "msg": "success",
+  "data": {
+    "third_org_name": "权限测试(勿删)",
+    "exceed_info": {
+      "reason": ""
+    },
+    "SpecialRequests": {
+      "IsSupportSpecialInvoice": false,
+      "ReceiveTextRemark": false,
+      "context": "无"
+    },
+    "third_parent_org_name": "北京分贝金服科技有限公司",
+    "room_code": "18856203",
+    "window_type": "无窗",
+    "plan_code": "H756893|51973895|qiantao2|145657137",
+    "order_person_id": "59b8acf023445f70c3eaef80",
+    "hotel_address": "雅宝路7号",
+    "hotel_code": "5ab4e3fd979d9654fc46d938",
+    "remark_reason": "学习培训",
+    "cost_attribution": "刘悦小青蛙测试",
+    "member_rights": "",
+    "hotel_phone": "010-85621093",
+    "check_info": [],
+    "order_person_phone": "13911381353",
+    "price": 227,
+    "price_rule_tag": "不可取消",
+    "over_time": "14:54",
+    "order_type": 1,
+    "is_can_apply_refund": false,
+    "hotel_lng": "116.436630",
+    "exceeded": true,
+    "create_time": 1557469482022,
+    "last_cancel_time": "",
+    "total_pay_price": "¥227.00",
+    "bed_type": "大床",
+    "contact_phone_no": "13911381353",
+    "custom_remark": [],
+    "brand_name": "99旅馆",
+    "person_pay_flag": true,
+    "breakfast_pair": {
+      "value": "不含早餐",
+      "key": 0
+    },
+    "limit_price": 182,
+    "hotel_lat": "39.916085",
+    "plan_name": "普通大床房(公卫)(无窗)",
+    "hotel_name": "99优选酒店(北京雅宝路儿研所店)",
+    "room_name": "普通大床房",
+    "checkin_date": 1559059200000,
+    "third_cost_attribution_type": 2,
+    "company_name": "北京分贝金服科技有限公司",
+    "insurance_info": [],
+    "guest_type": 0,
+    "breakfast": "无早",
+    "order_id": "5cd519292798633b8a8fd10f",
+    "has_enterprise_price": false,
+    "star_rated": "经济型",
+    "status": 2301,
+    "order_person": "谷健波",
+    "personal_pay_price": "¥45.00",
+    "order_person_org_unit_id": "5bf2651123445f5335612351",
+    "order_person_org_unit_full_name": "北京分贝金服科技有限公司/权限测试(勿删)",
+    "can_process": true,
+    "city_code": "1000001",
+    "remark": "学习培训",
+    "checkout_date": 1559145600000,
+    "is_external_order": 0,
+    "cost_attribution_id": "5cd3e50223445f61f5a515e4",
+    "third_cost_attribution_id": "",
+    "price_detail": [],
+    "order_person_org_unit_name": "权限测试(勿删)",
+    "city_name": "北京市",
+    "total_price_str": "¥182.00",
+    "policy_code": "(null)",
+    "original_order_id": "5cd519292798633b8a8fd10f",
+    "contact_name": "谷健波",
+    "per_room_night_prices_raw": [
+      [
+        220
       ]
-   }
-  ],
- "comment": ""
-    }
+    ],
+    "third_parent_org_id": "dingding10",
+    "total_price": "¥182.00",
+    "status_name": "已取消",
+    "room_count": 1,
+    "areaList": [
+      "72",
+      "1000001",
+      "1"
+    ],
+    "third_employee_id": "third_jianren",
+    "refund_info": {
+      "is_has_refund": false
+    },
+    "third_org_id": "third_privilege_test",
+    "other_refund_desc": "无",
+    "campaign_info": [],
+    "per_room_night_prices": [
+      [
+        227
+      ]
+    ],
+    "cost_attribution_type": 2,
+    "guests": [
+      {
+        "is_employee": true,
+        "full_org_unit": "北京分贝金服科技有限公司/权限测试(勿删)",
+        "phone_no": "13911381353",
+        "org_unit": "权限测试(勿删)",
+        "gender": {
+          "value": "男",
+          "key": 1
+        },
+        "birth_date": "1984-12-24 00:00:00",
+        "name": "谷健波",
+        "org_unit_id": "5bf2651123445f5335612351",
+        "id": "59bf8abe23445f31bd64bc62",
+        "identity_no": "110101198412242019",
+        "identity_type": {
+          "value": "身份证",
+          "key": 1
+        }
+      }
+    ],
+    "comment": "",
+    "price_rule": "不可取消，未入住将扣除全部房费"
+  }
 }
 ```
 
