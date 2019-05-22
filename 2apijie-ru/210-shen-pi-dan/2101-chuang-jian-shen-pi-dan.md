@@ -44,94 +44,37 @@
     "sign":"oihfnlyeofdh98",
     "employee_id":"59b74c1323445f2d54dd07922",
     "employee_type":"1",
-    "data":{            
-           "apply":{
-               "type":1,
-              "flow_type":4, 
-               "budget":1,
-             "third_id":"59dc7fe62798635263b8414a",
-              "third_remark":"approve-openapi-test2"
-             },
-         "trip_list":[{
-               "type":7,  
-               "start_city_id":"2000002",        
-              "start_time":"2017-12-13",
-              "arrival_city_id":"1000001",
-              "end_time":"2017-12-13",
-             "estimated_amount":1
-             }],
-            "air_rule_info":[ //机票规则
-			{ "type":"air_type", //舱位等级
-			  "value":[1] //1:商务舱(头等舱), 3:经济舱
-		 	 },
-		  	{ "type":"price", //价格限制
-				"value":100 //单位元
-		 	 },
-		  	{ "type":"priv_day_min", //最小预订天数
-			"value":10 //单位天
-		  	},
-		 	{ "type":"priv_day_max", //最大预订天数
-			"value":10 //单位天
-		  	}
-	],
-	"intl_air_rule_info":[ //机票规则
-			{ "type":"air_type", //舱位等级
-			  "value":[1] //1:商务舱(头等舱), 3:经济舱
-		 	 },
-		  	{ "type":"price", //价格限制
-				"value":100 //单位元
-		 	 },
-		  	{ "type":"priv_day_min", //最小预订天数
-			"value":10 //单位天
-		  	},
-		 	{ "type":"priv_day_max", //最大预订天数
-			"value":10 //单位天
-		  	}
-	],
-	"hotel_rule_info":[ //酒店规则
-			{ "type":"level", //星级
-			  "value":[1] //0.二星及以下 1.三星 2.四星 3.五星
-			},
-			{ "type":"price", //平均每晚的上限
-			  "value":100 //单位元
-			},
-			{ "type":"priv_day_min", //最小预订天数
-			  "value":10 //单位天
-			},
-			{ "type":"priv_day_max", //最大预订天数
-			  "value":10 //单位天
-			}
-	],
-	"train_rule_info":[ //火车规则
-    		{ "type":"common_train_seat_type", // 普通列车席别限制
-    		  "value":[1] //11.高级软卧 12.软卧 13.硬卧 14.软座 15.硬座 16.无座
-    		},
-    		{ "type":"highspeed_train_seat_type", //高铁席别限制
-    		  "value":[1] //1.商务座 2.特等座 3.一等座 4.二等座 5.软卧 6.高铁无座 7.高级软卧 8.动卧 9.硬卧
-    		},
-    		{"type":"price", //价格限制
-    		 "value":100
-    		},
-    		{ "type":"priv_day_min", //最小预订天数
-    		  "value":100
-    		},
-    		{ "type":"priv_day_max", //最大预订天数
-    		  "value":100
-    		},
-    		{ "type":"grap_limit", //抢票限制  -1 禁止使用,10 快速，20 高速，40极速，50光速
-    		  "value":20
-    		},
-    		{ "type":"is_same_seat", //抢票可选席别是否与规则一致
-    		  "value":true
-    		},
-    		{ "type":"grap_common_train_seat_type", //抢票普通列车席别限制
-    		  "value":[12] //11.高级软卧 12.软卧 13.硬卧 14.软座 15.硬座 16.无座
-    		},
-    		{ "type":"grap_highspeed_train_seat_type", //抢票高铁席别限制
-    		  "value":[1] //1.商务座 2.特等座 3.一等座 4.二等座 5.软卧 6.高铁无座 7.高级软卧 8.动卧 9.硬卧
-    		}
-	]
-     }
+    "data":{
+  "apply": {
+    "type": 1,
+    "flow_type": 4,
+    "budget": 1,
+    "third_id": "59dc7fe62798635263b8414a",
+    "third_remark": "approve-openapi-test2"
+  },
+  "trip_list": [
+    {
+      "type": 7,
+      "start_city_id": "2000002",
+      "start_time": "2017-12-13",
+      "arrival_city_id": "1000001",
+      "end_time": "2017-12-13",
+      "estimated_amount": 1
+    }
+  ],
+  "air_rule_info": [
+    {
+      "type": "price",
+      "value": 100
+    }
+  ],
+  "hotel_rule_info": [
+    {
+      "type": "price",
+      "value": 100
+    }
+  ]
+}
 
 
 
