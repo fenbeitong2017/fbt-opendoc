@@ -19,10 +19,10 @@ employee\_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonstring |Y|请求数据
 data.companyId|公司ID|string|Y|354657j9ej873j30987654
-data.thirdOrgId|第三方机构部门ID|string|N|jl83j9ej873j38dje83jd9ee
+data.thirdOrgId|第三方机构部门ID|string|Y|jl83j9ej873j38dje83jd9ee
 data.operatorId|操作人ID|string|Y|dje83jd9ee345678，同employee_id
 data.type|绑定类型|integer|Y|1:根据分贝部门id绑定 2:根据部门全名称绑定
-data.orgId|分贝部门ID|string|Y|3456ej873j38dj
+data.orgId|分贝部门ID|string|N|3456ej873j38dj
 data.orgNameList|部门集合|string|N|按照部门名称从当前部门到公司顺序
 
 
