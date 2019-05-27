@@ -24,6 +24,7 @@
     * [2.2.3.3 删除第三方部门](2apijie-ru/21zu-zhi-jia-gou/2233-gen-ju-di-san-fang-bu-men-id-shan-chu-bu-men.md)
     * [2.2.3.4 查询第三方部门信息](2apijie-ru/21zu-zhi-jia-gou/229-gen-ju-bu-men-id-cha-xun-bu-men-xin-xi.md)
     * [2.2.3.5 根据公司ID查询公司的组织架构](2apijie-ru/21zu-zhi-jia-gou/2210-gen-ju-gong-si-id-cha-xun-gong-si-de-zu-zhi-jia-gou.md)
+    * [2.2.3.6 绑定第三方部门ID](2apijie-ru/21zu-zhi-jia-gou/2236-bang-ding-di-san-fang-bu-men-id.md)
     * [2.2.4.1 添加第三方乘车\(机,入住\)人](2apijie-ru/21zu-zhi-jia-gou/2211-tian-jia-di-san-fang-cheng-8f6628-673a2c-ru-4f4f29-ren.md)
     * [2.2.4.2 更新第三方乘车,机,入住人](2apijie-ru/21zu-zhi-jia-gou/2212-geng-xin-di-san-fang-cheng-8f662c-673a2c-ru-zhu-ren.md)
     * [2.2.4.3 查询乘车，机，入住人详细信息](2apijie-ru/21zu-zhi-jia-gou/2213-cha-xun-cheng-che-ff0c-ji-ff0c-ru-zhu-ren-xiang-xi-xin-xi.md)
