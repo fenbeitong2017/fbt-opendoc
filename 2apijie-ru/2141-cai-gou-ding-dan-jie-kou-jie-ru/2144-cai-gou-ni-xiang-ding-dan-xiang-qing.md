@@ -36,7 +36,7 @@ data.orderId|订单ID |string |Y|5cd92d6de4b03a7be84ea252
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
 "employee_type":"1",
-"data":"data":{"orderId":"5cd92d6de4b03a7be84ea252"}
+"data":{"orderId":"5cd92d6de4b03a7be84ea252"}
 
 
 
