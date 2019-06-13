@@ -19,13 +19,9 @@ access_token|token | string |Y|登录 token
 employee_id| 操作人id|string |Y|操作人id,调用接口人 id
 employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
 data |请求数据| jsonobject |Y|
-data.companyId|公司ID |string |Y|99o8878pw902436748
-data.pageIndex |页码| integer | Y |1(默认值)
-data.pageSize|每页显示条数| integer| Y |10(默认值)
-data.createBegin|开始时间|string | N |2018-04-05
-data.createEnd |结束时间| string | N |2019-05-29
-data.finishBegin|开始时间|string | N |2018-04-15
-data.finishEnd |结束时间| string | N |2019-05-19
+data.orderId|订单ID |string |Y|5cd92d6de4b03a7be84ea252
+
+
 
 
 
@@ -40,7 +36,8 @@ data.finishEnd |结束时间| string | N |2019-05-19
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
 "employee_type":"1",
-"data":{"companyId":"5747fbc10f0e60e0709d8d7d","pageSize":1000,"pageIndex":1,"createBegin":"2019-04-14","createEnd":"2019-05-14"}
+"data":"data":{"orderId":"5cd92d6de4b03a7be84ea252"}
+
 
 
 ```
