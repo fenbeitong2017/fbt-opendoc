@@ -4,7 +4,7 @@
 - 2.如果存在部门概念，保存到部门下面,采用部门ID进行添加
 - 3.支持批量添加
 - 4.添加时可以根据不同的需求进行权限的开关操作(包括机票，用车，火车，酒店，采购，用餐权限，可以进行差异化的权限分配
-- 5.字段说明:air_rule_id:当air_priv_flag为true时,air_rule_id可以为空串也可以为指定规则ID,当为空串时则不限制规则，当为规则ID时则绑定相应的规则。当air_priv_flag为false时，air_rule_id为空，权限为关闭状态。其他业务线字段设置相同，参照机票规则即可
+- 5.字段说明:air_rule_id:当air_priv_flag和air_rule_limit_flag为true时,air_rule_id必须指定规则ID,进行绑定相应的规则。当air_priv_flag为false时，代表业务权限关闭，其他字段都设置为相应的不可用状态即可。其他业务线字段设置相同，参照机票规则即可
 
 | 请求方式 | 请求地址 |
 | --- | --- |
@@ -254,14 +254,14 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1：禁止（如�
                 "companyId": "59df06662798635263b8414c",
                 "phone": "25777059211",
                 "name": "IDG-has888",
-                "thirdEmployeeId": "IDG-888s0lll",
+                "thirdEmployeeId": "888s0lll",
                 "errorMsg": "手机号已经存在，请使用其他手机号"
             },
             {
                 "companyId": "59df06662798635263b8414c",
                 "phone": "18777198765",
                 "name": "IDG-h999009",
-                "thirdEmployeeId": "IDG-h99k4lll",
+                "thirdEmployeeId": "h99k4lll",
                 "errorMsg": "手机号已经存在，请使用其他手机号"
             }
         ]
