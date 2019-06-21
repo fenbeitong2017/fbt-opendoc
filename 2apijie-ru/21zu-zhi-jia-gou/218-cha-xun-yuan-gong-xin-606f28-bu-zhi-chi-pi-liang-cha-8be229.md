@@ -15,10 +15,10 @@ access_token|api鉴权Token|string|Y|
 sign|签名|string|Y|
 timestamp|时间戳 |long|Y|13位时间戳
 employee\_id| 用户ID|string|Y|第三方用户id
-employee\_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
+employee\_type| 用户类型|string|Y|类型 1:为第三方用户(需要使用第三方类型，不能使用分贝类型)
 data |请求数据| jsonstring|Y|请求数据
 data.employee\_id|需要查询人的id | string |Y|需要查询人员对应的ID
-data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公司ID
+data.type|公司类型 | Integer |Y|公司类型,1:分贝公司ID 2:第三方公司ID（统一使用分贝公司ID，第三方公司ID暂未开放）
 
 
 
