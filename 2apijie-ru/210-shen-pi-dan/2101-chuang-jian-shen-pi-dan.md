@@ -30,6 +30,13 @@
 | data.trip\_list.arrival\_city\_id | 目的地城市 | string | Y | 行程到达城市ID |
 | data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
 | data.trip\_list.estimated\_amount | 预估价格 | integer | Y | 100,单位分 |
+| data.air_rule_info.air_type | 舱位等级 | array | N | 1:商务舱(头等舱), 3:经济舱 |
+| data.air_rule_info.price | 价格限制 | double | Y | 100 单位元
+| data.hotel_rule_info.level | 星级 | array | Y | /0.二星及以下 1.三星 2.四星 3.五星 |
+| data.hotel_rule_info.price | 平均每晚的上限| double | Y |100,单位元 |
+| data.train_rule_info.common_train_seat_type | 普通列车席别限制 | array | Y | 11.高级软卧 12.软卧 13.硬卧 14.软座 15.硬座 16.无座 |
+| data.train_rule_info.highspeed_train_seat_type | 高铁席别限制 | array | Y | 1.商务座 2.特等座 3.一等座 4.二等座 5.软卧 6.高铁无座 7.高级软卧 8.动卧 9.硬卧 |
+| data.train_rule_info.price | 价格限制 | double | Y | 100,单位元 |
 
 
 
@@ -64,11 +71,41 @@
   ],
   "air_rule_info": [
     {
+      "type": "air_type",
+      "value": [
+        1
+      ]
+    },
+    {
       "type": "price",
       "value": 100
     }
   ],
   "hotel_rule_info": [
+    {
+      "type": "level",
+      "value": [
+        1
+      ]
+    },
+    {
+      "type": "price",
+      "value": 100
+    }
+  ],
+  "train_rule_info": [
+    {
+      "type": "common_train_seat_type",
+      "value": [
+        1
+      ]
+    },
+    {
+      "type": "highspeed_train_seat_type",
+      "value": [
+        1
+      ]
+    },
     {
       "type": "price",
       "value": 100
