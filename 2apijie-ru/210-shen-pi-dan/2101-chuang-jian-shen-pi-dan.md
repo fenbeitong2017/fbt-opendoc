@@ -2,7 +2,7 @@
 ####接口说明
 - 1.**最新接口**
 - 2.如果有审批业务，则需要进行通过该接口创建审批单，在下单时可以选择创建的相应审批单
-- 3.如果审批单中包含相应的规则信息，则可以创建相应的规则
+- 3.如果审批单中包含相应的规则信息，则可以创建相应的规则,如果审批单不使用规则相关信息，则不需要传递
 
 
 | 请求方式 | 请求地址 |
@@ -31,12 +31,12 @@
 | data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
 | data.trip\_list.estimated\_amount | 预估价格 | integer | Y | 100,单位分 |
 |air_rule_info.air_type | 舱位等级 | array | N | 1:商务舱(头等舱), 3:经济舱 |
-|air_rule_info.price | 价格限制 | double | Y | 100 单位元
-|hotel_rule_info.level | 星级 | array | Y | /0.二星及以下 1.三星 2.四星 3.五星 |
-|hotel_rule_info.price | 平均每晚的上限| double | Y |100,单位元 |
-|train_rule_info.common_train_seat_type | 普通列车席别限制 | array | Y | 11.高级软卧 12.软卧 13.硬卧 14.软座 15.硬座 16.无座 |
-|train_rule_info.highspeed_train_seat_type | 高铁席别限制 | array | Y | 1.商务座 2.特等座 3.一等座 4.二等座 5.软卧 6.高铁无座 7.高级软卧 8.动卧 9.硬卧 |
-|train_rule_info.price | 价格限制 | double | Y | 100,单位元 |
+|air_rule_info.price | 价格限制 | double | N | 100 单位元
+|hotel_rule_info.level | 星级 | array | N | 0.二星及以下 1.三星 2.四星 3.五星 |
+|hotel_rule_info.price | 平均每晚的上限| double |N |100,单位元 |
+|train_rule_info.common_train_seat_type | 普通列车席别限制 | array | N | 11.高级软卧 12.软卧 13.硬卧 14.软座 15.硬座 16.无座 |
+|train_rule_info.highspeed_train_seat_type | 高铁席别限制 | array | N | 1.商务座 2.特等座 3.一等座 4.二等座 5.软卧 6.高铁无座 7.高级软卧 8.动卧 9.硬卧 |
+|train_rule_info.price | 价格限制 | double | N | 100,单位元 |
 
 
 
