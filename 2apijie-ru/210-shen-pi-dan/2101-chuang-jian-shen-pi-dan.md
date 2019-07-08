@@ -28,7 +28,7 @@
 | data.trip\_list.start\_city\_id | 出发城市ID | string | Y | 在酒店业务中，start_city_id和arrival_city_id都传入目的地城市ID|
 | data.trip\_list.start\_time | 出发时间 | string | Y | 行程开始日期 2017-12-13
 | data.trip\_list.arrival\_city\_id | 目的地城市 | string | Y | 行程到达城市ID |
-| data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23
+| data.trip\_list.end\_time | 结束时间 | string | Y | 行程结束日期 2017-12-23（不支持多天，如果是多天，则需要拆分为单天）
 | data.trip\_list.estimated\_amount | 预估价格 | integer | Y | 100,单位分 |
 |air_rule_info.air_type | 舱位等级 | array | N | 1:商务舱(头等舱), 3:经济舱 |
 |air_rule_info.price | 价格限制 | double | N | 100 单位元
@@ -67,7 +67,16 @@
       "arrival_city_id": "1000001",
       "end_time": "2017-12-13",
       "estimated_amount": 1
+    },
+    {
+      "type": 7,
+      "start_city_id": "2000002",
+      "start_time": "2017-12-14",
+      "arrival_city_id": "1000001",
+      "end_time": "2017-12-14",
+      "estimated_amount": 1
     }
+
   ],
   "air_rule_info": [
     {
