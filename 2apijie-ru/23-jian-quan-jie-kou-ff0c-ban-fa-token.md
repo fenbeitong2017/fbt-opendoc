@@ -1,5 +1,12 @@
 # 2.1 API 鉴权接口，颁发Token
 
+#### token说明:
+
+```
+token有效时间为2小时，如果失效需要重新获取
+
+```
+
 * ## 请求参数，统一以application/x-www-form-urlencoded传递
 
 | 请求方式 | 请求地址 |
@@ -27,7 +34,10 @@
     "request_id": "RqnwAR3En48ZbaMfa6Ub",
     "code": 0,
     "msg": "success",
-    "data":{"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0b2tlbiIsImFwcElkIjoiNTc0N2ZiYzEwZjBlNjBlMDcwOWQ4ZDdkIiwiaXNzIjoiYXBpIiwiZXhwIjoxNTA3NTE1ODQ5LCJqdGkiOiI1OWNkYWVjOTIyZTlmMTRlNmI0YTkwNTIifQ.oPgr-a_95RxyZqMj2pzeOBb4vfMCz0ACED2L-fWIdnU"}
+    "data":{"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.
+            eyJzdWIiOiJ0b2tlbiIsImFwcElkIjoiNTc0N2ZiYzEwZjBlNjBlMDcwOWQ4ZDdkIiwiaXN
+            zIjoiYXBpIiwiZXhwIjoxNTA3NTE1ODQ5LCJqdGkiOiI1OWNkYWVjOTIyZTlmMTRlNmI0Y
+            TkwNTIifQ.oPgr-a_95RxyZqMj2pzeOBb4vfMCz0ACED2L-fWIdnU"}
 }
 ```
 
