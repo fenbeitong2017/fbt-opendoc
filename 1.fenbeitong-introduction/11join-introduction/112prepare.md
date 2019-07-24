@@ -4,7 +4,7 @@
 ----|---|---
 app_id|Y|申请时分配的app_id|
 app_key|Y|申请时分配的app_key，与app_id一起用于认证授权
-sign_key|N|申请时分配的sign_key，用于接口签名
+sign_key|N|申请时分配的sign_key，用于接口签名，不作为参数传递
 
 
 
