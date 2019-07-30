@@ -46,7 +46,6 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
 返回结果
 
 ```
-单个人员绑定：
 
 {
     "request_id": "WBjFUT79f2ZK0WWcPEWS",
@@ -55,24 +54,6 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
     "msg": "success"
 }
 
-
-{
-    "request_id": "NsQqHh9wKsiV9Bp7yvzS",
-    "code": 0,
-    "type": 0,
-    "msg": "success",
-    "data": {
-        "result": [
-            {
-                "reason": "手机号不存在或者不在该公司下",
-                "code": 100001,
-                "thirdEmployeeId": "third_test_bind001"
-            }
-        ]
-    }
-}
-
-批量人员绑定：
 {
     "request_id": "8TPMPHGHJxMEXkKDdBpT",
     "code": 0,
