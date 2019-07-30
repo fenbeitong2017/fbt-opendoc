@@ -46,19 +46,65 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
 返回结果
 
 ```
+单个人员绑定：
 
-
-{"request_id": "LaZNvBntsBD20nJ7ekgn",  
- "code": 0,   
- "msg": "success" 
+{
+    "request_id": "WBjFUT79f2ZK0WWcPEWS",
+    "code": 0,
+    "type": 0,
+    "msg": "success"
 }
 
 
-{"request_id":"JBf1zsdKYCjUoEuQMEKN",
-"code":200002,
-"msg":"当前第三方用户手机号不存在"
+{
+    "request_id": "NsQqHh9wKsiV9Bp7yvzS",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "reason": "手机号不存在或者不在该公司下",
+                "code": 100001,
+                "thirdEmployeeId": "third_test_bind001"
+            }
+        ]
+    }
 }
 
+批量人员绑定：
+{
+    "request_id": "8TPMPHGHJxMEXkKDdBpT",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "reason": "第三方ID已经被其它用户绑定",
+                "code": 100006,
+                "thirdEmployeeId": "27321946242009231506"
+            }
+        ]
+    }
+}
+
+
+{
+    "request_id": "VGOTp4khfv72jcjQIn2v",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "result": [
+            {
+                "reason": "手机号不存在或者不在该公司下",
+                "code": 100001,
+                "thirdEmployeeId": "third_test_bind001"
+            }
+        ]
+    }
+}
 
 ```
 
