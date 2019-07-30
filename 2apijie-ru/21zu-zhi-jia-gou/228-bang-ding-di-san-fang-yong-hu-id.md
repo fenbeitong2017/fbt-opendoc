@@ -55,24 +55,7 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
 }
 
 {
-    "request_id": "8TPMPHGHJxMEXkKDdBpT",
-    "code": 0,
-    "type": 0,
-    "msg": "success",
-    "data": {
-        "result": [
-            {
-                "reason": "第三方ID已经被其它用户绑定",
-                "code": 100006,
-                "thirdEmployeeId": "27321946242009231506"
-            }
-        ]
-    }
-}
-
-
-{
-    "request_id": "VGOTp4khfv72jcjQIn2v",
+    "request_id": "5XGKPzb2XESpQ85ix4Df",
     "code": 0,
     "type": 0,
     "msg": "success",
@@ -81,6 +64,11 @@ data.third\_employee\_id|第三方用户id| string |Y|第三方人员ID
             {
                 "reason": "手机号不存在或者不在该公司下",
                 "code": 100001,
+                "thirdEmployeeId": "third_test_bind002"
+            },
+            {
+                "reason": "第三方ID已经被其它用户绑定",
+                "code": 100006,
                 "thirdEmployeeId": "third_test_bind001"
             }
         ]
