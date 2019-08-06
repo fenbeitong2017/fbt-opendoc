@@ -17,6 +17,7 @@
     * [2.2.1 添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
       * [2.2.1.1.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2111tian-jia-di-san-fang-yuan-gong-ff08-pi-liang-tian-jia-ff09.md)
     * [2.2.1.2.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2212tian-jia-di-san-fang-yuan-5de528-gen-ju-bu-men-id-jin-xing-zeng-52a029.md)
+    * [2.2.1.3.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2213tian-jia-di-san-fang-yuan-gong.md)
     * [2.2.2.1 更新第三方员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
     * [2.2.2.2 更新第三方员工](2apijie-ru/21zu-zhi-jia-gou/2221-geng-xin-di-san-fang-yuan-gong-xin-xi.md)
     * [2.2.2.3 删除第三方员工](2apijie-ru/21zu-zhi-jia-gou/229-shan-chu-yuan-gong.md)
@@ -39,7 +40,7 @@
     * [2.2.5.4 批量更新项目状态](2apijie-ru/21zu-zhi-jia-gou/2254-pi-liang-geng-xin-xiang-mu-zhuang-tai.md)
     * [2.2.5.5 获取公司项目列表](2apijie-ru/21zu-zhi-jia-gou/2255-huo-qu-gong-si-xiang-mu-lie-biao.md)
     * [2.2.5.6 批量添加项目](2apijie-ru/21zu-zhi-jia-gou/2256-pi-liang-chuang-jian-xiang-mu.md)
-    * [2.2.5.7查询项目详情](2apijie-ru/21zu-zhi-jia-gou/2257cha-xun-xiang-mu-xiang-qing.md)
+    * 2.2.1.3.添加第三方员工
   * [2.4 消息回调接口接入](2apijie-ru/24-xiao-xi-hui-diao.md)
     * [2.4.1机票消息回调](2apijie-ru/24-xiao-xi-hui-diao/241ji-piao-xiao-xi-hui-diao.md)
     * [2.4.2用车消息回调](2apijie-ru/24-xiao-xi-hui-diao/242yong-che-xiao-xi-hui-diao.md)
