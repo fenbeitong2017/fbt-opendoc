@@ -22,7 +22,7 @@
  data.employee\_list | 员工信息 | jsonarray | Y |员工所有信息数据
  data.employee\_list.name | 员工姓名 | string | Y |张三
  data.employee\_list.phone | 员工手机号 | string | Y |17902029298
- data.employee\_list.role | 员工权限 | integer | N |员工权限,2:普通管理员 3:普通员工(如果不填则默认为管理后台的普通员工权限)
+ data.employee\_list.role | 员工权限 | integer | N |员工权限,2:普通管理员 3:普通员工(若不填则默认为管理后台的普通员工权限)
  data.employee\_list.third_org_unit_id | 员工组织ID |string | N |部门ID,当部门为公司时，可以不填写。当为部门时则必填
  data.employee_list.org_unit_name|部门名称(公司名称)|string|N|当人员添加到公司下时必填，需填写公司名称
  data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y |确保唯一性，例如，员工工号，系统登录名
@@ -77,9 +77,9 @@ mall_policy.mall_priv_flag | 是否允许员工采购标识| boolean | N |false
 mall_policy.rule_limit_flag | 是否允许采购| boolean | N |false
 mall_policy.rule_id | 规则id| string | N |ofaijwf
 mall_policy.exceed_buy_flag | 超规则下单| integer | N |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 3：超规需要提交费用审批(如果有审批的概念)
-employee\_list.dinner_policy | 用餐权限| jsonobject | N|用餐数据 
+employee\_list.dinners_policy | 用餐权限| jsonobject | N|用餐数据 
 dinners_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | N |false
-dinners_policy.rule_limit_flag | 是否允许用餐| boolean | N |false
+dinners_policy.rule_limit_flag | 是否限制规则| boolean | N |false
 dinners_policy.rule_id | 规则id| string | N |ofaisfasjwf
 meishi_policy.exceed_buy_type | 超规则下单| integer | N |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由）
 meishi_policy.personal_pay | 个人支付开关| boolean | N |true,false
@@ -102,8 +102,8 @@ takeaway_policy.personal_pay | 个人支付开关| boolean | N | true,false
   "data":{
   "employee_list": [
     {
-      "name": "张5s",
-      "phone": "13718432812",
+      "name": "张三",
+      "phone": "17080151667",
       "third_org_unit_id": "5747fbc10f0e60e0709d8d7d",
       "third_employee_id": "57ab054c2528226a805bd5e1",
       "role": 3,
@@ -197,8 +197,8 @@ takeaway_policy.personal_pay | 个人支付开关| boolean | N | true,false
       }
     },
     {
-      "name": "张5s",
-      "phone": "13718432812",
+      "name": "李四",
+      "phone": "17080151667",
       "third_org_unit_id": "5747fbc10f0e60e0709d8d7d",
       "third_employee_id": "57ab054c2528226a805bd5e1",
       "role": 3,
@@ -266,8 +266,7 @@ takeaway_policy.personal_pay | 个人支付开关| boolean | N | true,false
           {
             "type": 2,
             "rule_id": [
-              5555,
-              6666
+              555
             ]
           }
         ],

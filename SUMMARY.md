@@ -17,7 +17,6 @@
     * [2.2.1 添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/211-tian-jia-di-san-fang-yuan-gong.md)
       * [2.2.1.1.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2111tian-jia-di-san-fang-yuan-gong-ff08-pi-liang-tian-jia-ff09.md)
     * [2.2.1.2.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2212tian-jia-di-san-fang-yuan-5de528-gen-ju-bu-men-id-jin-xing-zeng-52a029.md)
-    * [2.2.1.3.添加第三方员工](2apijie-ru/21zu-zhi-jia-gou/2213tian-jia-di-san-fang-yuan-gong.md)
     * [2.2.2.1 更新第三方员工](2apijie-ru/21zu-zhi-jia-gou/217-xiu-gai-yuan-gong.md)
     * [2.2.2.2 更新第三方员工](2apijie-ru/21zu-zhi-jia-gou/2221-geng-xin-di-san-fang-yuan-gong-xin-xi.md)
     * [2.2.2.3 删除第三方员工](2apijie-ru/21zu-zhi-jia-gou/229-shan-chu-yuan-gong.md)
