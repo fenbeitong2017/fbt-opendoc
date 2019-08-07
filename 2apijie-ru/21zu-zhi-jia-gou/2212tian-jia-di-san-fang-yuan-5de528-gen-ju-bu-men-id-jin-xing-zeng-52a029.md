@@ -81,8 +81,11 @@ employee\_list.dinners_policy | 用餐权限| jsonobject | N|用餐数据
 dinners_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | N |false
 dinners_policy.rule_limit_flag | 是否限制规则| boolean | N |false
 dinners_policy.rule_id | 规则id| string | N |ofaisfasjwf
+dinners_policy.meishi_policy | 用餐权限信息| jsonobject | N |用餐权限信息
 meishi_policy.exceed_buy_type | 超规则下单| integer | N |1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由）
 meishi_policy.personal_pay | 个人支付开关| boolean | N |true,false
+dinners_policy.dinner_policy | 用餐权限| jsonobject | N |用餐权限 固定值
+dinner_policy.exceed_buy_flag | 超规则下单| integer | N |固定值1
 employee\_list.takeaway_policy | 外卖权限| jsonobject | N |外卖数据
 takeaway_policy.takeaway_priv_flag | 是否允许员工外卖标识| boolean | N |false
 takeaway_policy.takeaway_rule_limit_flag | 是否限制规则| boolean | N |false
@@ -186,13 +189,16 @@ takeaway_policy.personal_pay | 个人支付开关| boolean | N | true,false
         "rule_id": "ofaijwf",
         "exceed_buy_flag": false
       },
-      "dinners_policy": {
+     "dinners_policy": {
         "rule_priv_flag": true,
         "rule_limit_flag": true,
-        "rule_id": "ofaijwf",
+        "rule_id": "5d492a7123445f227a77b830",
         "meishi_policy": {
           "exceed_buy_type": 1,
           "personal_pay": true
+        },
+        "dinner_policy": {
+          "exceed_buy_flag": 1
         }
       }
     },
@@ -283,10 +289,13 @@ takeaway_policy.personal_pay | 个人支付开关| boolean | N | true,false
       "dinners_policy": {
         "rule_priv_flag": true,
         "rule_limit_flag": true,
-        "rule_id": "ofaijwf",
+        "rule_id": "5d492a7123445f227a77b830",
         "meishi_policy": {
           "exceed_buy_type": 1,
           "personal_pay": true
+        },
+        "dinner_policy": {
+          "exceed_buy_flag": 1
         }
       }
     }
