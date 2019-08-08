@@ -84,10 +84,11 @@ third_employee_id | 第三方用户id | string | Y |第三方用户ID
 返回数据格式:
 
 ```
-
 {
-    "code":"1", //1表示成功，其他表示失败
-    "msg":"success"
+  "data": {
+    "code": "1",
+    "msg": "success"
+  }
 }
 
 
