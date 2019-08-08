@@ -126,6 +126,11 @@ need_personal |是否需要个人支付| Integer | Y |0：否；1：是
 is_personal_paied |是否个人已支付| Integer |Y|0：否；1：是
 total_price_str | 订单金额字符串| String|Y|
 status_description | 金额描述| String|Y|金额描述
+third_org_id|第三方部门id|string|Y|OWKD8ED8JR4
+third_org_name|第三方部门名称|string|Y|服务端
+third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
+third_parent_org_name|第三方父部门名称|string|Y|研发部
+third_employee_id|第三方员工ID|string|Y|8792794244
 third_cost_attribution_id|第三方费用归属ID |string|Y|79984672984398|
 third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，2项目
 
@@ -242,6 +247,90 @@ third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，
     },
     "is_personal_paied": 1
   }
+}
+
+
+
+
+{
+    "request_id": "bzrjeo6329O6xwajy8uc",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "third_org_name": "钉钉测试3.22",
+        "em_name": "一把就",
+        "customer_service_phone": "10101111",
+        "em_tel": "18911207670",
+        "third_parent_org_name": "钉钉测试3.22",
+        "status_info": "已取消",
+        "passenger_id": "5c65124e23445f483068b917",
+        "order_time": "2019-04-11 10:39:58",
+        "type": 2,
+        "remark_reason": "",
+        "cost_attribution": "钉钉测试3.22",
+        "spec": {
+            "name": "舒适型",
+            "id": 100
+        },
+        "can_comment": false,
+        "is_call_customer_service": true,
+        "tel": "18911207670",
+        "order_type": 1,
+        "can_complaint": false,
+        "exceeded": false,
+        "fb_employee_id": "5c65124e23445f483068b917",
+        "custom_remark": [],
+        "departure_place": {
+            "address": "北京首都国际机场T2航站楼",
+            "dlat": 40.07958,
+            "name": "首都国际机场",
+            "dlng": 116.59348
+        },
+        "third_cost_attribution_type": 1,
+        "company_name": "钉钉测试3.22",
+        "org_unit_id": "5c94844d23445f1dff51fac6",
+        "order_id": "5caea8fd23445f28ffc0f65b",
+        "vorder_id": "6678461106474319875",
+        "cost_attribution_category": 1,
+        "status": 610,
+        "personal_pay_price": 0,
+        "distance": 0,
+        "city": "1000001",
+        "can_process": false,
+        "cost_attribution_id": "5c94844d23445f1dff51fac6",
+        "third_cost_attribution_id": "ding284e8ddc05b1043135c2f4657eb6378f",
+        "price_detail": [],
+        "city_name": "北京市",
+        "total_price_str": "¥0.00",
+        "need_personal": 0,
+        "vendor": {
+            "value": "神州",
+            "key": 2
+        },
+        "passager_org_unit": {
+            "passenger_org_unit_full_name": "钉钉测试3.22",
+            "passenger_org_unit_id": "5c94844d23445f1dff51fac6",
+            "passenger_org_unit_name": "钉钉测试3.22"
+        },
+        "third_parent_org_id": "ding284e8ddc05b1043135c2f4657eb6378f",
+        "sub_status": 0,
+        "total_price": 0,
+        "remark_detail": "",
+        "third_employee_id": "manager2487",
+        "third_org_id": "ding284e8ddc05b1043135c2f4657eb6378f",
+        "passenger_name": "家家酒",
+        "arrival_place": {
+            "address": "北京首都国际机场T2航站楼",
+            "tlng": 116.397026,
+            "name": "故宫博物院",
+            "tlat": 39.918058
+        },
+        "schedule_time": "2019-04-11 10:45:00",
+        "complaint": false,
+        "company_pay_price": 0,
+        "is_personal_paied": 0
+    }
 }
 
 ```

@@ -117,6 +117,11 @@ grab\_info|抢票信息|jsonobject|N|抢票信息
 excced_info|超标信息 |jsonobject|N|超标信息
 excced_info.reason|超标理由 |string|N|超标理由
 excced_info.comment|超标理由备注 |string|N|超标理由备注
+third_org_id|第三方部门id|string|Y|OWKD8ED8JR4
+third_org_name|第三方部门名称|string|Y|服务端
+third_parent_org_id|第三方父部门id|string|Y|JD8E8J9EJD8
+third_parent_org_name|第三方父部门名称|string|Y|研发部
+third_employee_id|第三方员工ID|string|Y|8792794244
 third_cost_attribution_id|第三方费用归属ID |string|Y|79984672984398|
 third_cost_attribution_type|第三方费用归属ID类型|string|Y|1，部门，2项目|
 route_info.train_start_date|车次出发日期 |string|Y|20190722
@@ -268,6 +273,136 @@ route_info.run_time|火车运行时间|string|Y|1:4
   }
 }
 
+
+
+
+
+
+{
+    "request_id": "y91fyrnUXbbQRv18oVo4",
+    "code": 0,
+    "type": 0,
+    "msg": "success",
+    "data": {
+        "third_org_name": "子部门啊",
+        "third_parent_org_id": "ding284e8ddc05b1043135c2f4657eb6378f",
+        "route_info": {
+            "from_station_name": "北京南",
+            "run_time": "5:57",
+            "from_station_code": "BJP",
+            "arrive_days": "0",
+            "arrive_time": "12:40",
+            "start_time": "06:43",
+            "train_end_date": "20190611",
+            "to_station_code": "SHH",
+            "to_station_name": "上海虹桥",
+            "train_no": "G101",
+            "choose_seat_msg": "",
+            "train_code": "G101",
+            "train_start_date": "20190611"
+        },
+        "third_parent_org_name": "钉钉测试3.22",
+        "third_employee_id": "manager2487",
+        "third_org_id": "107890234",
+        "can_process": false,
+        "contact_info": {
+            "contact_name": "家家酒",
+            "contact_phone": "18911207670"
+        },
+        "cost_attribution": "钉钉测试3.22",
+        "order_basic_info": {
+            "is_grab_order": false,
+            "batch_refund": false,
+            "pre_order_id": "5cfe24b02798635fa639693b",
+            "is_external_order": 0,
+            "employee_phone": "18911207670",
+            "order_status": {
+                "color": "#CCCCCC",
+                "value": "已取消",
+                "key": 3101
+            },
+            "total_price_str": "¥933.00",
+            "refund_offline": false,
+            "batch_endorse": false,
+            "apply_id": "",
+            "over_time": "17:51",
+            "original_order_id": "5cfe24b02798635fa639693b",
+            "exceeded": false,
+            "create_time": 1560159408228,
+            "total_price": 933,
+            "company_id": "5c94844d23445f1dff51fac6",
+            "custom_remark": [],
+            "employee_name": "家家酒",
+            "use_customer12306_account": false,
+            "vendor_id": 506,
+            "employee_id": "5c65124e23445f483068b917",
+            "company_name": "钉钉测试3.22",
+            "org_unit_id": "5c94a69923445f1c7d8222bd",
+            "comment": "",
+            "order_id": "5cfe24b02798635fa639693b"
+        },
+        "cost_attribution_id": "5c94844d23445f1dff51fac6",
+        "third_cost_attribution_id": "ding284e8ddc05b1043135c2f4657eb6378f",
+        "price_detail": [
+            {
+                "amount_desc": "1人",
+                "price": "933.00",
+                "key": "票价",
+                "dc": 1
+            }
+        ],
+        "check_info": [],
+        "third_cost_attribution_type": 1,
+        "company_name": "钉钉测试3.22",
+        "insurance_info": [],
+        "order_type": 1,
+        "passengers_info": [
+            {
+                "endorse_info": {
+                    "endorse_fee": 0,
+                    "reason": "",
+                    "supplementary_payment": 0,
+                    "diff_price": 0
+                },
+                "ticket_tips": "",
+                "passenger_info": {
+                    "is_employee": true,
+                    "full_org_unit": "钉钉测试3.22/子部门啊",
+                    "org_unit": "子部门啊",
+                    "passenger_id": "5c94b57823445f1c7d822b82",
+                    "name": "家家酒",
+                    "mobile_no": "18911207670",
+                    "org_unit_id": "5c94a69923445f1c7d8222bd",
+                    "identity_no": "asdqw123",
+                    "identity_type": {
+                        "value": "护照",
+                        "key": 2
+                    }
+                },
+                "refund_info": {
+                    "reason": "",
+                    "refund_fee": 0,
+                    "refund_money": 0
+                },
+                "ticket_info": {
+                    "seat_type": "一等座",
+                    "ticket_status": {
+                        "value": "已取消",
+                        "key": 3101
+                    },
+                    "ticket_price": 933,
+                    "ticket_no": "",
+                    "product_id": "5cfe24b02798635fa639693c",
+                    "seat_no": "M",
+                    "ticket_gate": "",
+                    "seat_location": "",
+                    "can_group_change": true
+                }
+            }
+        ],
+        "cost_attribution_category": 1
+    }
+}
 
 ```
 
