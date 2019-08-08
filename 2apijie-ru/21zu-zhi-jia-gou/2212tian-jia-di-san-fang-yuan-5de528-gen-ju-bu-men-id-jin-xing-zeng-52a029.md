@@ -50,7 +50,7 @@ employee\_list.hotel_policy | 酒店权限 | jsonobject | N |酒店数据
 hotel_policy.unemployee_hotel | 限制非企业员工预定酒店标识| boolean | N |false
 hotel_policy.hotel_priv_flag | 是否允许订酒店| boolean | N |false
 hotel_policy.hotel_verify_flag |是否需要审批| boolean | N |false
-hotel_policy.hotel_other_flag | 是否允许为其他员工订机票| boolean | N |false
+hotel_policy.hotel_other_flag | 是否允许为其他员工订酒店| boolean | N |false
 hotel_policy.hotel_rule_limit_flag | 是否限制规则| boolean | N |false
 hotel_policy.refund_ticket_type | 退订控制| integer | N |0：不限制 1:填写原因 2:提交审批
 hotel_policy.hotel_rule_id | 规则id| string | N |575263e982f880a6d686ce11
@@ -59,7 +59,7 @@ employee\_list.train_policy | 火车权限| jsonobject | N |火车数据
 train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | N |false
 train_policy.train_priv_flag | 是否允许订火车票| boolean | N |false
 train_policy.train_verify_flag | 是否需要审批| boolean | N |false
-train_policy.train_other_flag | 是否允许为其他员工订机票| boolean | N |false
+train_policy.train_other_flag | 是否允许为其他员工订火车| boolean | N |false
 train_policy.train_rule_limit_flag |是否限制规则| boolean | N |false
 train_policy.refund_ticket_type | 退订控制| integer | N |0：不限制 1:填写原因 2:提交审批
 train_policy.changes_ticket_type | 改签控制| integer | N |0：不限制 1:填写原因 2:提交审批
