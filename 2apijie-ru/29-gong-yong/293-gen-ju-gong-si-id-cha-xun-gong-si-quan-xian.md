@@ -48,66 +48,92 @@
     "code": 0,
     "msg": "success",
     "data": {
-       "airRuleList": [
+       "airRuleList": [ //国内机票
+      {
+        "ruleId": "5a4356b623445f2a5bc94181",
+        "ruleName": "国内机票测试01"
+      },
+      {
+        "ruleId": "5a4dccc823445f54b36d30c0",
+        "ruleName": "国内机票测试02"
+      }
+    ],
+    "hotelRuleList": [ //酒店
+      {
+        "ruleId": "58c285065f281a76b49ed510",
+        "ruleName": "酒店测试01"
+      },
+      {
+        "ruleId": "58bcf97f5f281a2f8c782d3e",
+        "ruleName": "酒店测试02"
+      }
+    ],
+    "intlAirRuleList": [ //国际机票
+      {
+        "ruleId": "5b6168a923445f071a7321d2",
+        "ruleName": "国际机票测试01"
+      },
+      {
+        "ruleId": "5b31a69423445f615ee56cc2",
+        "ruleName": "国际机票测试02"
+      }
+    ],
+    "mallRuleList": [ //采购
+      {
+        "ruleId": "59e833e123445f0e751ff0b2",
+        "ruleName": "采购测试01"
+      },
+      {
+        "ruleId": "5926945e23445f3a42ee9e2e",
+        "ruleName": "采购测试02"
+      }
+    ],
+    "takeawayRuleList": [ //外卖
+      {
+        "ruleId": "125",
+        "ruleName": "外卖测试01"
+      },
+      {
+        "ruleId": "44",
+        "ruleName": "外卖测试02"
+      }
+    ],
+    "taxiRuleList": [ //用车
+      {
+        "ruleId": "373",
+        "ruleName": "用车测试01"
+      },
+      {
+        "ruleId": "417",
+        "ruleName": "用车测试02"
+      }
+    ],
+    "dinnerRuleList": [//用餐
             {
-                "ruleId": "5926531f2798635d37d803a6",
-                "ruleName": "机票折扣"
-            },
-            {
-                "ruleId": "58c15ae25f281a2893a3c1a6",
-                "ruleName": "高管机票规则"
+                "ruleId": "5d492a7123445f227a77b830",
+                "ruleName": "用餐测试01"
             }
         ],
-        "dinnerRuleList": [
-            {
-                "ruleId": "59f2ad6923445f260057c464",
-                "ruleName": "商务宴请规则"
-            },
-            {
-                "ruleId": "59f08d0923445f4d896f53f5",
-                "ruleName": "部门团建规则"
-            }
-        ],
-        "hotelRuleList": [
-            {
-                "ruleId": "58e614da5f281a15c9e08d2e",
-                "ruleName": "一线城市规则"
-            },
-            {
-                "ruleId": "58bcf97f5f281a2f8c782d3e",
-                "ruleName": "高管酒店预订规则"
-            }
-        ],
-        "mallRuleList": [
-            {
-                "ruleId": "59e833e123445f0e751ff0b2",
-                "ruleName": "集中采购规则"
-            },
-            {
-                "ruleId": "5926945e23445f3a42ee9e2e",
-                "ruleName": "公司设备采购规则"
-            }
-        ],
-        "taxiRuleList": [
-            {
-                "ruleId": "145",
-                "ruleName": "加班打车规则"
-            },
-            {
-                "ruleId": "176",
-                "ruleName": "为客户打车规则"
-            }
-        ],
-        "trainRuleList": [
-            {
-                "ruleId": "57e0e6b7dec24c54de0b5484",
-                "ruleName": "高管出差规则"
-            },
-            {
-                "ruleId": "58c268565f281a67a8324d82",
-                "ruleName": "普通员工出差规则"
-            }
-        ]
+    "trainRuleList": [ //火车
+      {
+        "ruleId": "5c7f9fd323445f744405665a",
+        "ruleName": "火车测试01"
+      },
+      {
+        "ruleId": "5c82537723445f22e5c84bd9",
+        "ruleName": "火车测试02"
+      }
+    ],
+    "taxiApproveRuleList": [ //申请用车规则
+      {
+        "ruleId": "770",
+        "ruleName": "申请用车测试01"
+      },
+      {
+        "ruleId": "742",
+        "ruleName": "申请用车测试02"
+      }
+    ]
     }
 }
 
