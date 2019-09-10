@@ -34,7 +34,7 @@ data.orgNameList|部门集合|string|N|按照部门名称从当前部门到公�
 "access_token": "xxx.xxx.xxx",
 "timestamp": 123456789,
 "employee_id":"third_jianyuan",
-"type":1,
+"employee_type":1,
 "sign": "09676i3j7d994783ujd893",
 "data": {
   "thirdOrgId": "third_jianyuanceshi",
