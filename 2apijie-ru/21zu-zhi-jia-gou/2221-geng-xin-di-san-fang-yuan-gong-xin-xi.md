@@ -30,6 +30,8 @@ data.employee\_list.third\_org\_unit\_id | 部门ID| string | Y |员工部门ID,
 data.employee\_list.org\_unit\_name | 部门名称| string | N |员工部门名称，分贝通科技有限公司/研发部/后端服务(可以不填)
 data.employee\_list.employee_number | 员工工号 | string | Y | fbttest00001 |
 data.employee\_list.role |员工权限| integer | N |员工权限,2:普通管理员 3:普通员工(如果不填则默认为管理后台的权限)
+| data.employee\_list.update_flag | 更新标识 | boolean | Y | 证件信息不传是否删除? 为true，则删除组织架构内的证件信息，以最新传递的数据为准，若为false，则组织架构内的身份信息为增量添加|
+| data.employee\_list.cert_list | 证件信息 | jsonarray | Y |1:身份证;2:护照;3:回乡证;4:台胞证;5:往来港澳通行证;6: 大陆居民往来台湾通行证 |
 employee\_list.air_policy | 飞机权限 | jsonobject | N |飞机请求数据(如果不填则默认为管理后台的权限)
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | N |false
 air_policy.air_priv_flag | 是否允许订机票| boolean | N |false
@@ -99,6 +101,11 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
       "third_org_unit_id":"5747fbc10f0e60e0709d8d7d",
       "third_employee_id":"57ab054c2528226a805bd5e1",
       "employee_number":"fbttest000001",
+      "update_flag":false,//证件信息不传是否删除? 为true，则删除组织架构内的证件信息，以最新传递的数据为准，若为false，则组织架构内的身份信息为增量添加
+       "cert_list": [{  
+        "cert_type": 1,
+        "cert_no": "2211239012r28351"
+    }],
       "role":3,
       "air_policy": { //飞机权限
           "unemployee_air": false, //限制非企业员工预定机票标识
