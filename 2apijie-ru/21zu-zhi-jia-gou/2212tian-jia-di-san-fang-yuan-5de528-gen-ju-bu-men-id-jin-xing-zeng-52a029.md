@@ -24,7 +24,7 @@
 | data.employee\_list.name | 员工姓名 | string | Y | 张三 |
 | data.employee\_list.phone | 员工手机号 | string | Y | 17902029298 |
 | data.employee\_list.role | 员工权限 | integer | N | 员工权限,2:普通管理员 3:普通员工\(若不填则默认为管理后台的普通员工权限\) |
-| data.employee\_list.third\_org\_unit\_id | 员工组织ID | string | N | 部门ID,当部门为公司时，可以不填写。当为部门时则必填 |
+| data.employee\_list.third\_org\_unit\_id | 员工部门ID | string | Y | 部门ID，部门时则必填 |
 | data.employee\_list.org\_unit\_name | 部门名称\(公司名称\) | string | N | 当人员添加到公司下时必填，需填写公司名称 |
 | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y | 确保唯一性，例如，员工工号，系统登录名 |
 | data.employee\_list.employee_number | 员工工号 | string | Y | fbttest00001 |
