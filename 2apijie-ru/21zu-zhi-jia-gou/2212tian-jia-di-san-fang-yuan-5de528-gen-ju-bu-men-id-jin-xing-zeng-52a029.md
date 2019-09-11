@@ -27,8 +27,8 @@
 | data.employee\_list.third\_org\_unit\_id | 员工部门ID | string | Y | 部门ID，部门时则必填 |
 | data.employee\_list.org\_unit\_name | 部门名称\(公司名称\) | string | N | 当人员添加到公司下时必填，需填写公司名称 |
 | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y | 确保唯一性，例如，员工工号，系统登录名 |
-| data.employee\_list.employee_number | 员工工号 | string | Y | fbttest00001 |
-| data.employee\_list.cert_list | 证件信息 | jsonarray | Y |1:身份证;2:护照;3:回乡证;4:台胞证;5:往来港澳通行证;6: 大陆居民往来台湾通行证 |
+| data.employee\_list.employee_number | 员工工号 | string | N | fbttest00001 |
+| data.employee\_list.cert_list | 证件信息 | jsonarray | N |1:身份证;2:护照;3:回乡证;4:台胞证;5:往来港澳通行证;6: 大陆居民往来台湾通行证 |
 | employee\_list.air\_policy | 飞机权限 | jsonobject | N | 机票数据 |
 | air\_policy.unemployee\_air | 限制非企业员工预定机票标识 | boolean | N | false |
 | air\_policy.air\_priv\_flag | 是否允许订机票 | boolean | N | false |
