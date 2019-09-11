@@ -36,6 +36,7 @@ employee\_list.air_policy | 飞机权限 | jsonobject | N |飞机请求数据(�
 air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean | N |false
 air_policy.air_priv_flag | 是否允许订机票| boolean | N |false
 air_policy.air_verify_flag | 是否需要审批| boolean | N |false
+air_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用
 air_policy.air_rule_limit_flag | 是否限制规则| boolean | N |true
 air_policy.air_rule_id |规则id| string | N |575263e982f880a6d686ce11
 air_policy.exceed_buy_type | 超规则下单| integer | N |1:禁止(如果超出规则,则不允许下单操作) 2:超规填写理由下单(当有规则限制时，如果超出规则 的规定可以需下单,但是需要填写超规下单的理由) 3:超规需要提交费用审批(如果有审批的概念)
@@ -43,6 +44,7 @@ employee\_list.intl_air_policy | 国际飞机权限 | jsonobject | N |国际机�
 intl_air_policy.unemployee_air | 限制非企业员工预定机票标识| boolean |N|false
 intl_air_policy.air_priv_flag | 是否允许订机票| boolean | N |false
 intl_air_policy.air_verify_flag | 是否需要审批| boolean | N |false
+intl_air_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用
 intl_air_policy.air_rule_limit_flag | 是否限制规则| boolean | N |true
 intl_air_policy.air_rule_id |规则id| string | N |575263e982f80987654321
 intl_air_policy.exceed_buy_type | 超规则下单| integer | N |1:禁止(如果超出规则,则不允许下单操作)2:超规填写理由下单(当有规则限制时,如果超出规则 的规定可以需下单,但是需要填写超规下单的理由)3:超规需要提交费用审批(如果有审批的概念)
@@ -50,12 +52,14 @@ employee\_list.hotel_policy | 酒店权限 | jsonobject | N |酒店请求数据 
 hotel_policy.unemployee_hotel | 限制非企业员工预定酒店标识| boolean | N |false
 hotel_policy.hotel_priv_flag | 是否允许订酒店| boolean | N |false
 hotel_policy.hotel_verify_flag |是否需要审批| boolean | N |false
+hotel_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用
 hotel_policy.hotel_rule_limit_flag | 是否限制规则| boolean | N |false
 hotel_policy.hotel_rule_id | 规则id| string | N |575263e982f880a6d686ce11
 hotel_policy.exceed_buy_type | 超规则下单| integer | N |1:禁止(如果超出规则,则不允许下单操作) 2:超规填写理由下单(当有规则限制时,如果超出规则 的规定可以需下单,但是需要填写超规下单的理由)3:超规需要提交费用审批(如果有审批的概念)
 employee\_list.train_policy | 火车权限| jsonobject | N |火车|火车请求数据 (如果不填则默认为管理后台的权限)
 train_policy.unemployee_train | 限制非企业员工预定火车标识| boolean | N |false
 train_policy.train_priv_flag | 是否允许订火车票| boolean | N |false
+train_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用
 train_policy.train_verify_flag | 是否需要审批| boolean | N |false
 train_policy.train_rule_limit_flag |是否限制规则| boolean | N |false
 train_policy.train_rule_id | 规则id| string | N |575263e982f882134567
