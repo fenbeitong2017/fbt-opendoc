@@ -116,6 +116,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
           "air_other_flag": false, //是否允许为其他员工订机票     // 2.0.1新增
           "air_priv_flag": false, //是否允许订机票
           "air_verify_flag": true, //是否需要审批
+           "oneself_limit":0,
           "air_rule_limit_flag": true, //是否限制规则
           "air_rule_id": "575263e982f880a6d686ce11", //规则id
           "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
@@ -125,6 +126,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
           "air_other_flag": false, //是否允许为其他员工订机票     // 2.0.1新增
           "air_priv_flag": false, //是否允许订机票
           "air_verify_flag": true, //是否需要审批
+           "oneself_limit":0,
           "air_rule_limit_flag": true, //是否限制规则
           "air_rule_id": "575263e982f880a6d686ce11", //规则id
           "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
@@ -134,6 +136,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
       "hotel_other_flag": true, //是否允许为其他员工预定酒店      // 2.0.1新增
       "hotel_priv_flag": true,
       "hotel_verify_flag": false,
+       "oneself_limit":0,
       "hotel_rule_limit_flag": true, //是否限制规则
       "hotel_rule_id": "575263e982f880a6d686ce11", //规则id
       "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
@@ -142,6 +145,7 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
         "unemployee_train": false, //限制非企业员工预定火车标识
         "train_other_flag": true, //是否允许为其他员工预定火车      // 2.0.1新增
         "train_priv_flag": true,
+         "oneself_limit":0,
         "train_verify_flag": false,
         "train_rule_limit_flag": true, //是否限制规则
         "train_rule_id": "575263e982f880a6d686ce11", //规则id

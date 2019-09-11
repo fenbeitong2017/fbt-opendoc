@@ -33,6 +33,7 @@
 | air\_policy.unemployee\_air | 限制非企业员工预定机票标识 | boolean | N | false |
 | air\_policy.air\_priv\_flag | 是否允许订机票 | boolean | N | false |
 | air\_policy.air\_verify\_flag | 是否需要审批 | boolean | N | false |
+|air_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用|
 | air\_policy.air\_other\_flag | 是否允许为其他员工订机票 | boolean | N | false |
 | air\_policy.air\_rule\_limit\_flag | 是否限制规则 | boolean | N | true |
 | air\_policy.refund\_ticket\_type | 退订控制 | integer | N | 0：不限制 1:填写原因 2:提交审批 |
@@ -43,6 +44,7 @@
 | intl\_air\_policy.unemployee\_air | 限制非企业员工预定机票标识 | boolean | N | false |
 | intl\_air\_policy.air\_priv\_flag | 是否允许订机票 | boolean | N | false |
 | intl\_air\_policy.air\_verify\_flag | 是否需要审批 | boolean | N | false |
+|intl\_air\_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用|
 | intl\_air\_policy.air\_other\_flag | 是否允许为其他员工订机票 | boolean | N | false |
 | intl\_air\_policy.air\_rule\_limit\_flag | 是否限制规则 | boolean | N | true |
 | intl\_air\_policy.refund\_ticket\_type | 退订控制 | integer | N | 0：不限制 1:填写原因 2:提交审批 |
@@ -53,6 +55,7 @@
 | hotel\_policy.unemployee\_hotel | 限制非企业员工预定酒店标识 | boolean | N | false |
 | hotel\_policy.hotel\_priv\_flag | 是否允许订酒店 | boolean | N | false |
 | hotel\_policy.hotel\_verify\_flag | 是否需要审批 | boolean | N | false |
+|hotel\_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用|
 | hotel\_policy.hotel\_other\_flag | 是否允许为其他员工订酒店 | boolean | N | false |
 | hotel\_policy.hotel\_rule\_limit\_flag | 是否限制规则 | boolean | N | false |
 | hotel\_policy.refund\_ticket\_type | 退订控制 | integer | N | 0：不限制 1:填写原因 2:提交审批 |
@@ -62,6 +65,7 @@
 | train\_policy.unemployee\_train | 限制非企业员工预定火车标识 | boolean | N | false |
 | train\_policy.train\_priv\_flag | 是否允许订火车票 | boolean | N | false |
 | train\_policy.train\_verify\_flag | 是否需要审批 | boolean | N | false |
+|train\_policy.oneself_limit|仅允许为本人预定|Integer|N|0 不限制，1 限制,新建差旅信息时做限制使用|
 | train\_policy.train\_other\_flag | 是否允许为其他员工订火车 | boolean | N | false |
 | train\_policy.train\_rule\_limit\_flag | 是否限制规则 | boolean | N | false |
 | train\_policy.refund\_ticket\_type | 退订控制 | integer | N | 0：不限制 1:填写原因 2:提交审批 |
@@ -123,6 +127,7 @@
         "air_priv_flag": false,
         "air_other_flag": false,//是否允许为其他员工订机票
         "air_verify_flag": true,
+         "oneself_limit":0,
         "air_rule_limit_flag": true,
         "air_rule_id": "575263e982f880a6d686ce11",
         "exceed_buy_type": 1,//1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
@@ -133,6 +138,7 @@
         "unemployee_air": false,
         "air_priv_flag": false,
         "air_other_flag": false,
+         "oneself_limit":0,
         "air_verify_flag": true,
         "air_rule_limit_flag": true,
         "air_rule_id": "575263e982f880a6d686ce11",
@@ -144,6 +150,7 @@
         "hotel_priv_flag": true,
         "hotel_other_flag": true,
         "hotel_verify_flag": false,
+         "oneself_limit":0,
         "hotel_rule_limit_flag": true,
         "hotel_rule_id": "575263e982f880a6d686ce11",
         "exceed_buy_type": 1,
@@ -155,6 +162,7 @@
         "train_priv_flag": true,
         "train_other_flag": true,
         "train_verify_flag": false,
+         "oneself_limit":0,
         "train_rule_limit_flag": true,
         "train_rule_id": "575263e982f880a6d686ce11",
         "exceed_buy_type": 1,
