@@ -18,7 +18,7 @@
 
 ```
 公司沙箱环境开通后会通过提供的邮箱以邮件的形式提供app_id,app_key,sign_key等鉴权相关信息
-app_id:申请时分配的app_id
+app_id:申请时分配的app_id,为公司ID
 app_key:申请时分配的app_key，与app_id一起用于认证授权
 sign_key：申请时分配的sign_key，用于接口签名，不作为参数传递
 
