@@ -40,7 +40,6 @@
     * [2.2.5.4 批量更新项目状态](2apijie-ru/21zu-zhi-jia-gou/2254-pi-liang-geng-xin-xiang-mu-zhuang-tai.md)
     * [2.2.5.5 获取公司项目列表](2apijie-ru/21zu-zhi-jia-gou/2255-huo-qu-gong-si-xiang-mu-lie-biao.md)
     * [2.2.5.6 批量添加项目](2apijie-ru/21zu-zhi-jia-gou/2256-pi-liang-chuang-jian-xiang-mu.md)
-    * 2.2.2.6 根据公司ID查询公司全量人员信息
   * [2.4 消息回调接口接入](2apijie-ru/24-xiao-xi-hui-diao.md)
     * [2.4.1机票消息回调](2apijie-ru/24-xiao-xi-hui-diao/241ji-piao-xiao-xi-hui-diao.md)
     * [2.4.2用车消息回调](2apijie-ru/24-xiao-xi-hui-diao/242yong-che-xiao-xi-hui-diao.md)
