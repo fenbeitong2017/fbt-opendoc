@@ -65,6 +65,7 @@
     * [2.9.5 根据公司ID拉取自定义字段数据](2apijie-ru/29-gong-yong/295-gen-ju-gong-si-id-la-qu-zi-ding-yi-zi-duan-shu-ju.md)
     * [2.9.6 根据订单ID查询自定义字段内容](2apijie-ru/29-gong-yong/296-gen-ju-ding-dan-id-cha-xun-zi-ding-yi-zi-duan-nei-rong.md)
     * [2.9.7 添加同行人获取国籍信息](2apijie-ru/21zu-zhi-jia-gou/2246-tian-jia-tong-xing-ren-huo-qu-guo-ji-xin-xi.md)
+    * [2.9.8 根据公司ID查询公司授权负责人信息](2apijie-ru/29-gong-yong/298-gen-ju-gong-si-id-cha-xun-gong-si-shou-quan-fu-ze-ren-xin-xi.md)
   * [2.10 审批单接口接入](2apijie-ru/210-shen-pi-dan.md)
     * [2.10.1 创建审批单](2apijie-ru/210-shen-pi-dan/2101-chuang-jian-shen-pi-dan.md)
     * [2.10.2 撤销审批单](2apijie-ru/210-shen-pi-dan/2102-che-xiao-shen-pi-dan.md)
