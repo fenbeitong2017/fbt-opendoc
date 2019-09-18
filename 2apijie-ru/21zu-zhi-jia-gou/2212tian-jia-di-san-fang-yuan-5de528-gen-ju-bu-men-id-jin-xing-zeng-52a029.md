@@ -100,6 +100,8 @@
 | takeaway\_policy.takeaway\_rule\_id | 规则id | integer | N | 111 |
 | takeaway\_policy.exceed\_buy\_type | 超规控制 | integer | N | \(1:禁止下单 2: 填写理由\) |
 | takeaway\_policy.personal\_pay | 个人支付开关 | boolean | N | true,false |
+| employee\_list.shansong_policy | 闪送权限 | jsonobject | N | 闪送数据 |
+| shansong_policy.shansong_priv_flag | 是否允许员工闪送标识 | boolean | N | false |
 
 请求示例
 
@@ -319,7 +321,10 @@
         "dinner_policy": {
           "exceed_buy_flag": 1
         }
-      }
+      },
+    "shansong_policy": { //闪送权限
+        "shansong_priv_flag": true //权限开关
+    }
     }
   ]
 }

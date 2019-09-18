@@ -76,18 +76,23 @@ mall_policy.mall_priv_flag | 限制非企业员工采购标识| boolean | N |fal
 mall_policy.rule_limit_flag | 是否允许采购| boolean | N |false
 mall_policy.rule_id | 规则id| string | N |ofaijwf
 mall_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超出规则,则不允许下单操作)2:超规填写理由下单(当有规则限制时,如果超出规则 的规定可以需下单,但是需要填写超规下单的理由)3:超规需要提交费用审批(如果有审批的概念)
-employee\_list.dinner_policy | 用餐权限| jsonobject | N |用餐请求数据 (如果不填则默认为管理后台的权限)
-dinner_policy.dinner_priv_flag | 限制非企业员工用餐标识| boolean | N |false
-dinner_policy.rule_limit_flag | 是否允许用餐| boolean | N |false
-dinner_policy.rule_id | 规则id| string | N |ofai9876787
-dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超出规则,则不允许下单操作)2:超规填写理由下单(当有规则限制时,如果超出规则 的规定可以需下单,但是需要填写超规下单的理由)3:超规需要提交费用审批(如果有审批的概念)
-
-
-
-
-
-
-
+ employee\_list.dinners\_policy | 用餐权限 | jsonobject | N | 用餐数据 
+ dinners\_policy.dinner\_priv\_flag | 限制非企业员工用餐标识 | boolean | N | false 
+ dinners\_policy.rule\_limit\_flag | 是否限制规则 | boolean | N | false 
+ dinners\_policy.rule\_id | 规则id | string | N | ofaisfasjwf 
+ dinners\_policy.meishi\_policy | 用餐权限信息 | jsonobject | N | 用餐权限信息 
+ meishi\_policy.exceed\_buy\_type | 超规则下单 | integer | N | 1：禁止（如果超出规则，则不允许下单操作） 2：超规填写理由下单（当有规则限制时，如果超出规则 的规定可以需下单，但是需要填写超规下单的理由） 
+ meishi\_policy.personal\_pay | 个人支付开关 | boolean | N | true,false 
+ dinners\_policy.dinner\_policy | 用餐权限 | jsonobject | N | 用餐权限 固定值 
+ dinner\_policy.exceed\_buy\_flag | 超规则下单 | integer | N | 固定值1 
+employee\_list.takeaway\_policy | 外卖权限 | jsonobject | N | 外卖数据 
+takeaway\_policy.takeaway\_priv\_flag | 是否允许员工外卖标识 | boolean | N | false 
+takeaway\_policy.takeaway\_rule\_limit\_flag | 是否限制规则 | boolean | N | false 
+takeaway\_policy.takeaway\_rule\_id | 规则id | integer | N | 111 
+takeaway\_policy.exceed\_buy\_type | 超规控制 | integer | N | \(1:禁止下单 2: 填写理由\) 
+takeaway\_policy.personal\_pay | 个人支付开关 | boolean | N | true,false 
+ employee\_list.shansong_policy | 闪送权限 | jsonobject | N | 闪送数据 
+ shansong_policy.shansong_priv_flag | 是否允许员工闪送标识 | boolean | N | false 
 
 
 
@@ -224,11 +229,21 @@ dinner_policy.exceed_buy_flag | 超规则下单| integer | N |1:禁止(如果超
           "rule_id": "ofaijwf", //规则id
           "exceed_buy_flag": false //是否可以超标下单
     },
-    "dinner_policy": { //用餐权限，APP端添加员工时不能上送该key,修改时续上送
-          "dinner_priv_flag": true,
-          "rule_limit_flag": true,
-          "rule_id": "ofaisfasjwf", //规则id
-          "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
+    "dinners_policy":{   //新版用餐权限  2.5.1新增（美团）
+        "rule_priv_flag": true, //是否开启权限
+        "rule_limit_flag": true, //是否限制规则
+        "rule_id": "ofaijwf", //规则id
+        "dinner_policy": { //口碑权限
+            "exceed_buy_flag": 1 //默认值为1， 1：禁止 2：超规填写理由下单 3：提交订单审批
+         },
+        "meishi_policy": { //美团权限 
+            "exceed_buy_type": 1, //是否可以超标下单 1：禁止下单 2：填写理由后允许下单
+            "personal_pay":true //个人支付开关
+        }
+    }
+    ,
+    "shansong_policy": { //闪送权限 
+        "shansong_priv_flag": true //权限开关
     }
       }
     ]  
