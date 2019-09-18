@@ -46,19 +46,19 @@
         "employee": {
             "id": "59b8acf023445f70c3eaef80",
             "thirdEmployeeId": "third_jianren",
-            "name": "谷大侠",
-            "email": "daxia.gu@fenbeitong.com",
-            "phone_num": "13911381353",
+            "name": "大仁",
+            "email": "ren.da@fenbeitong.com",
+            "phone_num": "13911381355",
             "avatar_url": "http://image.fenbeitong.com/employee/2019/03/18/59b8acf023445f70c3eaef80/5c8f504a979d960e2008f3c3.",
             "role": 6,
             "status": 1,
-            "birth_date": "1984-12-24 00:00:00",
+            "birth_date": "1985-12-22 00:00:00",
             "gender": 1,
             "pinyin": "gu jian bo",
             "org_unit_id": "5bf2651123445f5335612351",
             "third_org_id": "third_privilege_test",
-            "org_unit_name": "北京分贝金服科技有限公司/蛋部门",
-            "org_name": "蛋部门",
+            "org_unit_name": "北京分贝金服科技有限公司/部门",
+            "org_name": "部门",
             "employee_number": ""
         },
         "employeeCertificateBeans": [
@@ -75,7 +75,7 @@
             "air_rule_id": "5a967a1923445f638e570522",
             "unemployee_air": true,
             "exceed_buy_type": 3,
-            "air_rule_name": "蛋",
+            "air_rule_name": "机票规则",
             "oneself_limit": 0,
             "air_priv_type": 3,
             "switch_flag": true
@@ -120,7 +120,7 @@
             "rule_id": 211,
             "exceed_buy_flag": false,
             "exceed_buy_type": 1,
-            "taxi_rule_name": "宋宋用车",
+            "taxi_rule_name": "用车",
             "personal_pay": false,
             "rule_infos": [
                 {
@@ -131,7 +131,7 @@
                     "rule_info": [
                         {
                             "rule_id": "990",
-                            "rule_name": "吴冰测试用车的"
+                            "rule_name": "测试用车"
                         }
                     ]
                 },
@@ -143,7 +143,7 @@
                     "rule_info": [
                         {
                             "rule_id": "211",
-                            "rule_name": "宋宋用车"
+                            "rule_name": "用车"
                         }
                     ]
                 }
@@ -155,7 +155,7 @@
             "rule_limit_flag": true,
             "rule_id": "5b023e1923445f162fbf9b8f",
             "exceed_buy_flag": true,
-            "mall_rule_name": "测试自营商品"
+            "mall_rule_name": "测试商品"
         },
         "dinner_policy": {
             "dinner_priv_flag": true,

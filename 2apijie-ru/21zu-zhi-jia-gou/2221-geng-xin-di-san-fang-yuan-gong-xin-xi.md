@@ -172,12 +172,23 @@ takeaway\_policy.personal\_pay | 个人支付开关 | boolean | N | true,false
           "personal_pay" : true //个人支付开关 2.1.0 新增
           "exceed_buy_flag": false //是否可以超标下单
     },
-    "dinner_policy": { //用餐权限，APP端添加员工时不能上送该key,修改时续上送
-          "dinner_priv_flag": true,
-          "rule_limit_flag": true,
-          "rule_id": "ofaijwf", //规则id
-          "exceed_buy_type": 1 //1：禁止 2：超规填写理由下单 3：超规需要提交费用审批
+    "dinners_policy":{   //新版用餐权限  2.5.1新增（美团）
+        "rule_priv_flag": true, //是否开启权限
+        "rule_limit_flag": true, //是否限制规则
+        "rule_id": "ofaijwf", //规则id
+        "dinner_policy": { //口碑权限
+            "exceed_buy_flag": 1 //默认值为1， 1：禁止 2：超规填写理由下单 3：提交订单审批
+         },
+        "meishi_policy": { //美团权限 
+            "exceed_buy_type": 1, //是否可以超标下单 1：禁止下单 2：填写理由后允许下单
+            "personal_pay":true //个人支付开关
+        }
     }
+    ,
+    "shansong_policy": { //闪送权限 
+        "shansong_priv_flag": true //权限开关
+    }
+
       },
       {
     "name":"张5",
