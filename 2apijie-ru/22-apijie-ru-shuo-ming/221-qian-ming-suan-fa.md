@@ -19,8 +19,10 @@ java:
 
 import org.apache.commons.codec.digest.DigestUtils;
 public static String getSign(String timestamp, String jsonData, String signKey) {
-
-        String signStr = StrUtils.formatString("timestamp={0}&data={1}&sign_key={2}", timestamp, jsonData, signKey);
+        //使用相对应的方法进行字符串拼接,可以调用不同方法生成签名字符串
+        1.String signStr = StrUtils.formatString("timestamp={0}&data={1}&sign_key={2}", timestamp, jsonData, signKey);
+        2.String signStr = MessageFormat.format(timestamp, jsonData,signKey);
+        3.String signStr = "timestamp="+timestamp+"&data="+jsonData+"&sign_key="+signKey
         byte[] bytes;
         try {
             bytes = signStr.getBytes("utf-8");
