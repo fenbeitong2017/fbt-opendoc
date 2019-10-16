@@ -73,6 +73,8 @@
     * [2.10.1 创建审批单](2apijie-ru/210-shen-pi-dan/2101-chuang-jian-shen-pi-dan.md)
     * [2.10.2 撤销审批单](2apijie-ru/210-shen-pi-dan/2102-che-xiao-shen-pi-dan.md)
     * [2.10.3 创建审批用车申请单](2apijie-ru/210-shen-pi-dan/2103.md)
+    * [2.10.4 查询公司用车类型](2apijie-ru/210-shen-pi-dan/2103-gen-ju.md)
+    * [2.10.5 根据申请用车规则ID查询规则详情](2apijie-ru/210-shen-pi-dan/2105-cha-xun-gong-si-yong.md)
   * [2.11 用餐接口接入](2apijie-ru/211-yong-can-jie-kou-jie-ru.md)
     * [2.11.1 用餐订单列表](2apijie-ru/211-yong-can-jie-kou-jie-ru/2111-yong-can-ding-dan-lie-biao-jie-kou.md)
     * [2.11.2 用餐订单详情](2apijie-ru/211-yong-can-jie-kou-jie-ru/2112-yong-can-ding-dan-xiang-qing.md)

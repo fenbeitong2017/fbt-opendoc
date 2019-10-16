@@ -18,13 +18,13 @@
 | employee\_type | 用户类型 | string | Y |  类型，0为分贝用户，1为第三方用户 |
 | data |  请求数据 | jsonobject | Y |请求数据
 | data.apply | 申请单内容 | jsonobject | Y|申请单详细内容
-| data.apply.type| 申请单业务类型 | integer | Y | 1.差旅\(对应trip\_list下的type值为7、11、15\) 2.用车\(对应trip\_list下的type值为3\) 3.采购 |
+| data.apply.type| 申请单业务类型 | integer | Y | 1.差旅\(对应trip\_list下的type值为7、11、15\) 3.采购 |
 | data.apply.flow\_type | 审批类型 | integer | Y | 固定为4 |
 | data.apply.third\_id | 申请单id | string | Y | 第三方审批单id |
 | data.apply.third\_remark | 第三方备注 | string | Y |详细备注信息
 | data.apply.budget | 申请单预算 | integer | Y | 预算总额\(为trip\_list中estimated\_amount的总和 \) |
 | data.trip\_list | 行程列表 | jsonarray | Y | 行程列表 |
-| data.trip\_list.type | 业务类型 | integer | Y | 行程类型 7.机票 11.酒店 15.火车 3.用车 |
+| data.trip\_list.type | 业务类型 | integer | Y | 行程类型 7.机票 11.酒店 15.火车 |
 | data.trip\_list.start\_city\_id | 出发城市ID | string | Y | 在酒店业务中，start_city_id和arrival_city_id都传入目的地城市ID|
 | data.trip\_list.start\_time | 出发时间 | string | Y | 行程开始日期 2017-12-13
 | data.trip\_list.arrival\_city\_id | 目的地城市 | string | Y | 行程到达城市ID |
