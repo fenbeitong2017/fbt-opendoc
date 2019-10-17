@@ -23,6 +23,21 @@
 | data.apply.third\_id | 申请单id | string | Y | 第三方审批单id |
 | data.apply.third\_remark | 第三方备注 | string | Y |详细备注信息
 | data.apply.budget | 申请单预算 | integer | Y | 预算总额\(为trip\_list中estimated\_amount的总和 \) |
+| data.apply.apply_reason_desc | 申请事由补充说明 | string | Y | 补充事由说明，小于500|
+| data.apply.cost_attribution_id | 费用归属id | string | Y |部门ID或项目ID 
+| data.apply.cost_attribution_name | 费用归属name | string | Y | 部门名称或项目名称|
+| data.apply.cost_attribution_category | 费用归属类型 | integer | Y | 1.部门 2.项目|
+
+| data.guest_list | 出行联系人信息 | jsonarray | Y|出行联系人信息
+| data.guest_list.id | 出行联系人id | string | Y|出行联系人id(分贝用户ID)
+| data.guest_list.id | 出行联系人id | string | Y|出行联系人id
+
+
+
+
+
+
+
 | data.trip\_list | 行程列表 | jsonarray | Y | 行程列表 |
 | data.trip\_list.type | 业务类型 | integer | Y | 行程类型 7.机票 11.酒店 15.火车 |
 | data.trip\_list.start\_city\_id | 出发城市ID | string | Y | 在酒店业务中，start_city_id和arrival_city_id都传入目的地城市ID|
@@ -57,8 +72,26 @@
     "flow_type": 4,
     "budget": 1,
     "third_id": "59dc7fe62798635263b8414a",
-    "third_remark": "approve-openapi-test2"
+    "third_remark": "approve-openapi-test2", 
+    "apply_reason_desc": "不是出去玩",
+    "cost_attribution_id": "682984729i982489",
+    "cost_attribution_name": "测试费用归属",
+    "cost_attribution_category": 1
   },
+   "guest_list": [
+    {
+      "id": "58dca3035f281a5c225c4d84",
+      "is_employee": false,
+      "name": "韩美美",
+      "phone_num": "18518270668"
+    }
+  ],
+  "custom_fields": [
+    {
+      "type": "",
+      "value": ""
+    }
+  ]
   "trip_list": [
     {
       "type": 7,
