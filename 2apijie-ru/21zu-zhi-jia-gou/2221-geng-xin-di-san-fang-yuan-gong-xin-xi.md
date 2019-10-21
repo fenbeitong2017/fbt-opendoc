@@ -3,8 +3,8 @@
 ####接口说明
 - 1.**最新接口**
 - 2.企业授权负责人无法通过此接口进行更新操作
-- 2.支持批量更新,该接口可以对用户的权限和规则进行更新
-- 3.字段说明:air_rule_id:当air_priv_flag和air_rule_limit_flag为true时,air_rule_id必须指定规则ID,进行绑定相应的规则。当air_priv_flag为false时，代表业务权限关闭，其他字段都设置为相应的不可用状态即可。其他业务线字段设置相同，参照机票权限规则即可
+- 3.支持批量更新,该接口可以对用户的权限和规则进行更新
+- 4.字段说明:air_rule_id:当air_priv_flag和air_rule_limit_flag为true时,air_rule_id必须指定规则ID,进行绑定相应的规则。当air_priv_flag为false时，代表业务权限关闭，其他字段都设置为相应的不可用状态即可。其他业务线字段设置相同，参照机票权限规则即可
 
 
 
