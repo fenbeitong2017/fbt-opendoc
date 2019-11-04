@@ -30,7 +30,7 @@ data.budget_name |预算名称| string | Y |不能重复
 data.budget_thrid_id |第三方预算ID| string | Y |不能重复
 data.warn_percent1 |预警百分比1| integer | Y |30，较低值
 data.warn_percent2|预警百分比2| integer| Y |60，较高值
-data.execution_cycle|执行周期|integer |Y|1:自然月 2:自然季 3:自然年 4:项目周期 5:自定义
+data.execution_cycle|执行周期|integer |Y|1:自然月 2:自然季 3:自然年 
 data.manager_msg_warn |发送预警短信至部门主管/项目负责人| integer | Y |0-不发送 1-发送
 data.itemList |预算项| list | Y |预算项集合
 itemList.amount_limit|限制金额| integer| Y | -1：不限制，若限制，则填写具体数据

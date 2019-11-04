@@ -29,6 +29,8 @@
 | data.employee\_list.third\_employee\_id | 第三方员工ID | string | Y | 确保唯一性，例如，员工工号，系统登录名 |
 | data.employee\_list.employee_number | 员工工号 | string | N | fbttest00001 |
 | data.employee\_list.email | 员工邮箱 | string | N | fbttest@gmail.com |
+| data.employee\_list.gender | 性别 | integer | N | ：1:男 2:女 |
+| data.employee\_list.birth_date | 出生日期 | string | N | 格式:yyyyMMdd ,20191203|
 | data.employee\_list.cert_list | 证件信息 | jsonarray | N |1:身份证;2:护照;3:回乡证;4:台胞证;5:往来港澳通行证;6: 大陆居民往来台湾通行证 |
 | employee\_list.air\_policy | 飞机权限 | jsonobject | N | 机票数据 |
 | air\_policy.unemployee\_air | 限制非企业员工预定机票标识 | boolean | N | false |
