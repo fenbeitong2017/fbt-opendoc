@@ -47,6 +47,8 @@ data.company\_id|公司ID|string|Y|jl83j9ej873j38dje83jd9ee
         {
             "employeeCount": 0,
             "orgUnitFullName": "北京分贝通科技有限公司",
+            "orgThirdUnitId": "",//第三方部门ID
+            "orgThirdUnitParentId": "",//第三方父部门ID
             "orgUnitId": "5747fbc10f0e60e0709d8d7d",
             "orgUnitName": "北京分贝通科技有限公司",
             "orgUnitParentFullName": "",
@@ -58,6 +60,8 @@ data.company\_id|公司ID|string|Y|jl83j9ej873j38dje83jd9ee
             "orgUnitFullName": "北京分贝通科技有限公司/财务部",
             "orgUnitId": "5abdf19e27986373488a010f",
             "orgUnitName": "财务部",
+            "orgThirdUnitId": "",
+            "orgThirdUnitParentId": "",
             "orgUnitParentFullName": "北京分贝通科技有限公司",
             "orgUnitParentId": "5747fbc10f0e60e0709d8d7d",
             "orgUnitParentName": "北京分贝通科技有限公司"
@@ -66,6 +70,8 @@ data.company\_id|公司ID|string|Y|jl83j9ej873j38dje83jd9ee
             "employeeCount": 0,
             "orgUnitFullName":"北京分贝通科技有限公司/财务部/财务一部",
             "orgUnitId": "59e9bcc4279863398a0672eb",
+            "orgThirdUnitId": "",
+            "orgThirdUnitParentId": "",
             "orgUnitName": "财务一部",
             "orgUnitParentFullName": "北京分贝通科技有限公司/财务部",
             "orgUnitParentId": "5abdf19e27986373488a010f",
