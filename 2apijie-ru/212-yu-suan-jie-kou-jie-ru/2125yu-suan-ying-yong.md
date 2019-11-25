@@ -21,7 +21,6 @@ data.budget_id|预算ID|integer |Y|预算ID
 data.budget_type|业务类型|integer |Y|业务类型
 data.item_list|人员ID，部门ID，项目ID|string |Y|必须为同类型
 data.item_list_type|类型|string |Y|  1：分贝ID，2：第三方ID
-data.id|预算ID|string |Y|预算ID
 
 请求示例：
 
