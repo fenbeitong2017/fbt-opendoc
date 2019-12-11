@@ -118,26 +118,6 @@
                 "value":10
             }
         ],
-        "intl_air_rule_info":[
-            {
-                "type":"air_type",
-                "value":[
-                    1
-                ]
-            },
-            {
-                "type":"price",
-                "value":100
-            },
-            {
-                "type":"priv_day_min",
-                "value":10
-            },
-            {
-                "type":"priv_day_max",
-                "value":10
-            }
-        ],
         "hotel_rule_info":[
             {
                 "type":"level",
