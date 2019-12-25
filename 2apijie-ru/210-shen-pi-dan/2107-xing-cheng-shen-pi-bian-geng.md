@@ -25,7 +25,6 @@
 | data.apply.third\_remark | 第三方备注 | string | Y |详细备注信息
 | data.apply.budget | 申请单预算 | integer | Y | 预算总额\(为trip\_list中estimated\_amount的总和 \) |
 | data.apply.apply_reason_desc | 申请事由补充说明 | string | N | 补充事由说明，小于500|
-| data.apply.change_reason | 变更事由 | string | Y | 变更事由|
 | data.apply.change_reason_desc | 变更事由补充内容 | string | Y | 变更事由补充内容|
 | data.guest_list | 出行联系人信息 | jsonarray | N|出行联系人信息
 | data.guest_list.id | 出行联系人id | string | N|出行联系人id(分贝用户ID)，当is_employee为false时，不需要传递id，为true时必传
