@@ -5,11 +5,13 @@
 - 3.该接口为新接口，请求地址需要使用新的，参数及加密方式与原来的接口一致，详见下面的请求说明。
 
 
-| 请求方式 | 请求地址 |
+| 名称 | 描述 |
 | --- | --- |
 | 沙箱环境地址	 | https://open-plus-test.fenbeijinfu.com |
-| 生产环境 | https://open-plus.fenbeitong.com |
-| POST | /openapi/func/approve/change |
+| 生产环境地址 | https://open-plus.fenbeitong.com |
+| HTTP方法 | POST |
+| Content-Type | application/x-www-form-urlencoded |
+| method | /openapi/func/approve/change |
 
 | 字段 | 名称 | 类型 | 必填 | 描述 |
 | --- | --- | --- | --- | --- |
