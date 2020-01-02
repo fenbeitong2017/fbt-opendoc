@@ -8,7 +8,7 @@
 | 请求方式 | 请求地址 |
 | --- | --- |
 | 沙箱环境地址	 | https://open-plus-test.fenbeijinfu.com |
-| 生产环境 | https://open-plus.fenbeitong.com/ |
+| 生产环境 | https://open-plus.fenbeitong.com |
 | POST | /openapi/func/approve/change |
 
 | 字段 | 名称 | 类型 | 必填 | 描述 |
