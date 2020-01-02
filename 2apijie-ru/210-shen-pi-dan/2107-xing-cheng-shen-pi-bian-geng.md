@@ -24,7 +24,7 @@
 | data.third_type | 原审批单类型 | integer | Y|1:分贝通审批单 2:第三方审批单
 | data.apply_id | 原审批单id | string | Y|原审批单id
 | data.apply | 申请单内容 | jsonobject | N|申请单详细内容
-| data.apply.type| 申请单业务类型 | integer | Y | 1.差旅\(对应trip\_list下的type值为7、11、15\) 3.采购 |
+| data.apply.type| 申请单业务类型 | integer | Y | 1.差旅\(对应trip\_list下的type值为7、11、15\)  |
 | data.apply.flow\_type | 审批类型 | integer | Y | 固定为4 |
 | data.apply.third\_id | 申请单id | string | Y | 第三方审批单id |
 | data.apply.third\_remark | 第三方备注 | string | Y |详细备注信息
