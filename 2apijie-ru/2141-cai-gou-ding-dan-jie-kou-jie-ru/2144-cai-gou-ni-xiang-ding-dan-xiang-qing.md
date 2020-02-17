@@ -1,78 +1,64 @@
 2.14.4 采购逆向订单详情
 
-####接口说明
-- 1.**最新接口**
-- 2.查询采购逆向订单详情
+#### 接口说明
+
+* 1.**最新接口**
+* 2.查询采购逆向订单详情
   通过该接口可以查询企业使用分贝通产生的采购逆向订单信息
-- 3.该接口一次最多可查询1000条数据，如订单数超过1000，则需要分页查询
+* 3.该接口一次最多可查询1000条数据，如订单数超过1000，则需要分页查询
 
+| 请求方式 | 请求地址 |
+| --- | --- |
+| POST | /open/api/mall/order/reverse/detail |
 
-请求方式|请求地址
-----|---
-POST|/open/api/mall/order/reverse/detail
-
-字段|名称|类型|必填|描述
------|-----|----|----|----
-timestamp|时间戳 |long |Y|13位时间戳
-sign|签名 |string |Y|gaghegsgd535te3534
-access_token|token | string |Y|登录 token
-employee_id| 操作人id|string |Y|操作人id,调用接口人 id
-employee_type| 用户类型|string|Y|类型，0为分贝用户，1为第三方用户
-data |请求数据| jsonobject |Y|
-data.orderId|订单ID |string |Y|5cd92d6de4b03a7be84ea252
-
-
-
-
+| 字段 | 名称 | 类型 | 必填 | 描述 |
+| --- | --- | --- | --- | --- |
+| timestamp | 时间戳 | long | Y | 13位时间戳 |
+| sign | 签名 | string | Y | gaghegsgd535te3534 |
+| access\_token | token | string | Y | 登录 token |
+| employee\_id | 操作人id | string | Y | 操作人id,调用接口人 id |
+| employee\_type | 用户类型 | string | Y | 类型，0为分贝用户，1为第三方用户 |
+|  | data | 请求数据 | jsonobject | Y |
+| data.orderId | 订单ID | string | Y | 5cd92d6de4b03a7be84ea252 |
 
 请求示例：
 
 ```
-
-
-
 "access_token":"5747fbc10f0e60e0709d8d722",
 "sign":"oihfnlyeofdh98",
 "timestamp":124124325,
 "employee_id":"59b74c1323445f2d54dd07922",
 "employee_type":"1",
 "data":{"orderId":"5cd92d6de4b03a7be84ea252"}
-
-
-
 ```
-
 
 响应数据：
 
-字段|名称|类型|必填|描述
------|-----|----|----|----
-orderId| 订单ID|string |Y|订单ID
-serviceOrderId| 服务单id|string |Y|服务单id
-product |商品信息| jsonarray | Y |商品信息
-consigneeInfo |收货人信息| jsonobject | Y | 收货人信息
-orderTrack |物流跟踪信息| jsonobject | Y | 物流跟踪信息
-bookingPerson|预定人信息| jsonobject| Y |预订人信息
-priceInfo |价格信息| jsonobject | Y |价格信息
-company|公司信息| jsonobject| Y |分贝通
-department|部门信息 |jsonobject | Y |测试部
-customRemark|备注信息|jsonarray|Y|备注信息
-createTime|下单时间 |string |Y|2019-04-29 14:34:31
-department|部门信息 |jsonobject | Y |测试部
-freight|运费|double|Y|运费
-status|订单状态| jsonobject| Y |订单状态信息
-status.key|状态码| integer | Y |4701
-status.value|订单状态名称| string| Y |已取消
-applicationTime|服务单申请时间|string|Y|服务单申请时间
-checkTime|审核时间|string|Y|审核时间
-checkResult|审核状态| jsonobject| Y |审核状态
-step|售后单状态| jsonobject| Y |售后单状态
-thirdCostAttributionId|第三方费用归属ID|string|Y|费用归属ID
-thirdCostAttributionType|第三方费用归属类型|integer|Y|第三方费用归属类型
-costAttribution|费用归属名称|string|Y|费用归属名称
-
-
-
+| 字段 | 名称 | 类型 | 必填 | 描述 |
+| --- | --- | --- | --- | --- |
+| orderId | 订单ID | string | Y | 订单ID |
+| serviceOrderId | 服务单id | string | Y | 服务单id |
+| product | 商品信息 | jsonarray | Y | 商品信息 |
+| consigneeInfo | 收货人信息 | jsonobject | Y | 收货人信息 |
+| orderTrack | 物流跟踪信息 | jsonobject | Y | 物流跟踪信息 |
+| bookingPerson | 预定人信息 | jsonobject | Y | 预订人信息 |
+| priceInfo | 价格信息 | jsonobject | Y | 价格信息 |
+| company | 公司信息 | jsonobject | Y | 分贝通 |
+| department | 部门信息 | jsonobject | Y | 测试部 |
+| customRemark | 备注信息 | jsonarray | Y | 备注信息 |
+| createTime | 下单时间 | string | Y | 2019-04-29 14:34:31 |
+| department | 部门信息 | jsonobject | Y | 测试部 |
+| freight | 运费 | double | Y | 运费 |
+| status | 订单状态 | jsonobject | Y | 订单状态信息 |
+| status.key | 状态码 | integer | Y | 4701 |
+| status.value | 订单状态名称 | string | Y | 已取消 |
+| applicationTime | 服务单申请时间 | string | Y | 服务单申请时间 |
+| checkTime | 审核时间 | string | Y | 审核时间 |
+| checkResult | 审核状态 | jsonobject | Y | 审核状态 |
+| step | 售后单状态 | jsonobject | Y | 售后单状态 |
+| thirdCostAttributionId | 第三方费用归属ID | string | Y | 费用归属ID |
+| thirdCostAttributionType | 第三方费用归属类型 | integer | Y | 第三方费用归属类型 |
+| costAttribution | 费用归属名称 | string | Y | 费用归属名称 |
 
 ```
 {
@@ -154,7 +140,7 @@ costAttribution|费用归属名称|string|Y|费用归属名称
         }
     }
 }
-
 ```
+
 
 
