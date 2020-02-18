@@ -104,6 +104,7 @@
     * [2.15.2 查询账单消费明细](2apijie-ru/cha-xun-zhang-dan-xiao-fei-ming-xi-shu-ju.md)
     * [2.15.3 查询订单明细](2apijie-ru/2153cha-xun-ding-dan-ming-xi.md)
     * [2.15.4 查询账单明细列表](2apijie-ru/2154-cha-xun-zhang-dan-ming-xi-lie-biao.md)
+    * [2.15.5 分场景获取订单明细](2apijie-ru/2155-fen-chang-jing-huo-qu-ding-dan-ming-xi.md)
 * [4.状态码](4zhuang-tai-ma.md)
   * [4.1 机票状态码](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma.md)
     * [4.1.1 机票订单状态码表](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma/411-ji-piao-ding-dan-zhuang-tai-ma-biao.md)
