@@ -101,7 +101,7 @@
     * [2.14.4 采购逆向订单详情](2apijie-ru/2141-cai-gou-ding-dan-jie-kou-jie-ru/2144-cai-gou-ni-xiang-ding-dan-xiang-qing.md)
   * [2.15账单开放](2apijie-ru/215zhang-dan-kai-fang.md)
     * [2.15.1 查询账单编号](2apijie-ru/2151cha-xun-zhang-dan-bian-hao.md)
-    * [2.15.2 查询订单明细](2apijie-ru/2153cha-xun-ding-dan-ming-xi.md)
+    * [2.15.2 查询账单明细](2apijie-ru/2153cha-xun-ding-dan-ming-xi.md)
 * [4.状态码](4zhuang-tai-ma.md)
   * [4.1 机票状态码](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma.md)
     * [4.1.1 机票订单状态码表](4zhuang-tai-ma/41-ji-piao-zhuang-tai-ma/411-ji-piao-ding-dan-zhuang-tai-ma-biao.md)
