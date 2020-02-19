@@ -68,7 +68,7 @@
 | list.custom\_field2 | 自定义字段2 | string | Y | 自定义字段2 |
 | list.custom\_field3 | 自定义字段3 | string | Y | 自定义字段3 |
 | list.remark | 标签 | string | Y | 标签 |
-| 业务线 | integer | Y | 业务线，3:用车;7:机票;11:酒店;15:火车;20:采购;30:口碑用餐;40:机票;50:外卖;60:美团点评;126:分贝通虚拟卡;131:快递;130:闪送;911:其他订单 | Y |
+| list.order\_category | 业务线 | integer | Y | Y |
 | list.order\_id | 订单号 | string | Y | 订单号 |
 | list.source\_order\_id | 主订单号 | string | Y | 主订单号 |
 | list.order\_create\_time | 预订/退票/下单日期时间 | date | Y | 预订/退票/下单日期时间 |
