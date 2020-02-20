@@ -11,15 +11,13 @@
 | 生产环境地址 | [https://open-plus.fenbeitong.com](https://open-plus.fenbeitong.com) |
 | HTTP方法 | POST |
 | Content-Type | application/x-www-form-urlencoded |
-| method | /openapi/func/approve/create |
+| method | /openapi/func/bill/queryOrderDetail |
 
 | 字段 | 名称 | 类型 | 必填 | 描述 |
 | :--- | :--- | :--- | :--- | :--- |
 | access\_token | 鉴权Token | string | Y | 5747fbc10f0e60e0709d8d722 |
 | sign | 签名 | string | Y | oihfnlyeofdh98 |
 | timestamp | 时间戳 | long | Y | 13位时间戳 1241243250000 |
-| employee\_id | 用户ID | string | Y | 分贝用户id或者第三方用户id,为创建人的ID |
-| employee\_type | 用户类型 | string | Y | 类型，0为分贝用户，1为第三方用户 |
 | data | 请求数据 | jsonobject | Y | 请求数据 |
 | data.bill\_no | 账单编号 | string | Y | 账单编号 |
 | data.page\_index | 页码 | integer | N | 默认值1 |
@@ -31,8 +29,6 @@
 "access_token":"5747fbc10f0e60e0709d8d722",
 "timestamp":124124325,
 "sign":"oihfnlyeofdh98",
-"employee_id":"59b74c1323445f2d54dd07922",
-"employee_type":"1",
 "data":{
 "bill_no":"0000888820191225",
 "page_index":1,
