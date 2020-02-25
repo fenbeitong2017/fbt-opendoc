@@ -47,7 +47,7 @@
 | page\_info.total\_size | 数据总数 | integer | Y | 数据总数 |
 | list | 数据列表 | jsonarray | Y | 数据列表 |
 | list.reason | 事由 | string | Y | 事由 |
-| list.cost\_attribution\_category | 费用归属类型 | string | Y | 费用归属类型 |
+| list.cost\_attribution\_category | 费用归属类型 | string | Y | 费用归属类型，1.部门 2.项目 |
 | list.cost\_attribution\_name | 费用归属 | string | Y | 费用归属 |
 | list.project\_code | 项目编号 | string | Y | 项目编号 |
 | list.is\_need\_trip\_apply | 是否需要行程审批 | string | Y | 是否需要行程审批 |
