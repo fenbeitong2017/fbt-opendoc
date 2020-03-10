@@ -100,14 +100,14 @@
 | list.cost\_attribution\_category | 费用归属类型 | string | Y | 费用归属类型，1.部门 2.项目 |
 | list.cost\_attribution\_name | 费用归属 | string | Y | 费用归属 |
 | list.project\_code | 项目编号 | string | Y | 项目编号 |
-| list.is\_need\_trip\_apply | 是否需要行程审批 | string | Y | 是否需要行程审批 |
+| list.is\_need\_trip\_apply | 是否需要行程审批 | string | Y | 是否需要行程审批 1:是;2:否 |
 | list.trip\_apply\_id | 行程审批单号 | string | Y | 行程审批单号 |
-| list.is\_hyper\_gauge | 是否超规 | string | Y | 是否超规 |
+| list.is\_hyper\_gauge | 是否超规 | string | Y | 是否超规 1:是;2:否 |
 | list.hyper\_gauge\_reason | 超规理由 | string | Y | 超规理由 |
-| list.is\_need\_during\_apply | 是否需要订单审批 | string | Y | 是否需要订单审批 |
+| list.is\_need\_during\_apply | 是否需要订单审批 | string | Y | 是否需要订单审批 1:是;2:否 |
 | list.during\_apply\_id | 订单审批单号 | string | Y | 订单审批单号 |
 | list.hyper\_gauge\_info | 超规项 | string | Y | 超规项 |
-| list.is\_need\_re\_apply | 是否需要退改控制 | string | Y | 是否需要退改控制 |
+| list.is\_need\_re\_apply | 是否需要退改控制 | string | Y | 是否需要退改控制 1:是;0:否|
 | list.re\_apply\_id | 退改审批单号 | string | Y | 退改审批单号 |
 | list.re\_apply\_reason | 退改理由 | string | Y | 退改理由 |
 | list.custom\_field1 | 自定义字段1 | string | Y | 自定义字段1 |
