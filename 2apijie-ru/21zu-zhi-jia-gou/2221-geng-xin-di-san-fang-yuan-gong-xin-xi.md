@@ -31,7 +31,8 @@ data.employee\_list.third\_org\_unit\_id | 部门ID| string | Y |员工部门ID,
 data.employee\_list.org\_unit\_name | 部门名称| string | N |员工部门名称，分贝通科技有限公司/研发部/后端服务(可以不填)
 data.employee\_list.employee_number | 员工工号 | string | N | fbttest00001 |
 data.employee\_list.email | 员工邮箱 | string | N | fbttest@gmail.com |
-data.employee\_list.role |员工权限| integer | N |员工权限,2:普通管理员 3:普通员工(如果不填则默认为管理后台的权限)
+| data.employee\_list.role | 员工权限角色 | integer | N | 员工权限,2:普通管理员 3:普通员工\(若不填则默认为管理后台的普通员工权限角色\) |
+| data.employee\_list.role_type | 员工权限类型 | integer | N | 员工权限类型 |
 data.employee\_list.gender | 性别 | integer | N | 1:男 2:女 如果证件类型为身份证，则从身份证中获取。其他证件类型需传递该字段|
 data.employee\_list.birth_date | 出生日期 | string | N | 格式:yyyyMMdd ,20191203,如果证件类型为身份证，则从身份证中获取。其他证件类型需传递该字段|
 data.employee\_list.update_flag | 更新标识 | boolean | N | 证件信息不传是否删除? 为true，则删除组织架构内的证件信息，以最新传递的数据为准，若为false，则组织架构内的身份信息为增量添加|
